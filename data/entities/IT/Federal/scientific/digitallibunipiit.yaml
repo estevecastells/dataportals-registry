@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: IT
+      name: Italy
+    level: 20
+    macroregion:
+      id: 039
+      name: Southern Europe
+id: digitallibunipiit
+identifiers:
+- id: datacite
+  url: https://digitallib.unipi.it/
+  value: crui.unipi
+langs:
+- id: EN
+  name: English
+link: https://digitallib.unipi.it/
+name: Università degli Studi di Pisa
+owner:
+  location:
+    country:
+      id: IT
+      name: Italy
+    level: 20
+  name: Università degli Studi di Pisa
+  type: Academy
+  link: https://unipi.it
+properties:
+  dataset_count_reported: 112
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00013564
+description: Scientific data repository. managed by Università degli Studi di Pisa.
+  powered by Custom software. accessible at digitallib.unipi.it.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

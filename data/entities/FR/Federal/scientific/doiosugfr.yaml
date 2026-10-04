@@ -1,0 +1,64 @@
+access_mode:
+- open
+api: false
+api_status: inactive
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: FR
+      name: France
+    level: 20
+    macroregion:
+      id: '150'
+      name: Europe
+description: DOI service and data catalogue of the Grenoble Observatory for geoscience and environmental
+  research data.
+id: doiosugfr
+identifiers:
+- id: datacite
+  value: inist.osug
+langs:
+- id: FR
+  name: French
+- id: EN
+  name: English
+link: https://doi.osug.fr/
+name: OSUG DOI (Grenoble Observatory Data)
+owner:
+  link: https://www.osug.fr
+  location:
+    country:
+      id: FR
+      name: France
+    level: 20
+  name: Observatoire des Sciences de l'Univers de Grenoble (OSUG)
+  type: Academy
+properties:
+  has_doi: true
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- research data
+- doi
+- datacite
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013687

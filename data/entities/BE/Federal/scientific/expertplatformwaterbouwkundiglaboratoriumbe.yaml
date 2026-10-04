@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: BE
+      name: Belgium
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+id: expertplatformwaterbouwkundiglaboratoriumbe
+identifiers:
+- id: datacite
+  url: https://expertplatform.waterbouwkundiglaboratorium.be/
+  value: fatj.iwymve
+langs:
+- id: EN
+  name: English
+link: https://expertplatform.waterbouwkundiglaboratorium.be/
+name: Waterbouwkundig Laboratorium Expertplatform
+owner:
+  link: https://www.waterbouwkundiglaboratorium.be/
+  location:
+    country:
+      id: BE
+      name: Belgium
+    level: 20
+  name: Flanders Hydraulics
+  type: Central government
+properties:
+  dataset_count_reported: 22
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00008141
+description: Scientific data repository. managed by Flanders Hydraulics. powered by
+  Custom software. accessible at expertplatform.waterbouwkundiglaboratorium.be.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

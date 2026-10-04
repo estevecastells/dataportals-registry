@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+id: rdcslmpgde
+identifiers:
+- id: datacite
+  url: https://rd.csl.mpg.de/
+  value: bmlm.mpicsl
+langs:
+- id: EN
+  name: English
+link: https://rd.csl.mpg.de/
+name: Max Planck Institute for the Study of Crime, Security and Law
+owner:
+  location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+  name: Max Planck Information and Technology
+  type: Other
+  link: https://mpg.de
+properties:
+  dataset_count_reported: 13
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00011994
+description: Scientific data repository. managed by Max Planck Information and Technology.
+  powered by Custom software. accessible at rd.csl.mpg.de.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

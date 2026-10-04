@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: CH
+      name: Switzerland
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+id: lfich
+identifiers:
+- id: datacite
+  url: https://lfi.ch/
+  value: ethz.wsllfi
+langs:
+- id: EN
+  name: English
+link: https://lfi.ch/
+name: WSL Landesforstinventar
+owner:
+  location:
+    country:
+      id: CH
+      name: Switzerland
+    level: 20
+  name: Eidgen. Forschungsanstalt für Wald, Schnee und Landschaft
+  type: Other
+  link: https://lfi.ch
+properties:
+  dataset_count_reported: 801368
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00008149
+description: Scientific data repository. managed by Eidgen. Forschungsanstalt für
+  Wald, Schnee und Landschaft. powered by Custom software. accessible at lfi.ch.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

@@ -1,0 +1,57 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: IT
+      name: Italy
+    level: 20
+    macroregion:
+      id: 039
+      name: Southern Europe
+id: emissionisinaisprambienteit
+identifiers:
+- id: datacite
+  url: https://emissioni.sina.isprambiente.it/
+  value: wlym.val
+langs:
+- id: EN
+  name: English
+link: https://emissioni.sina.isprambiente.it/
+name: Istituto Superiore per la Protezione e la Ricerca Ambientale Scientific data
+  repository (VAL)
+owner:
+  link: https://www.isprambiente.gov.it/it
+  location:
+    country:
+      id: IT
+      name: Italy
+    level: 20
+  name: Istituto Superiore per la Protezione e la Ricerca Ambientale
+  type: Academy
+properties:
+  dataset_count_reported: 13
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00013568
+description: Scientific data repository. managed by Istituto Superiore per la Protezione
+  e la Ricerca Ambientale. powered by Custom software. accessible at emissioni.sina.isprambiente.it.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

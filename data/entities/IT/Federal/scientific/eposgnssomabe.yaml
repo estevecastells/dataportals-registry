@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: IT
+      name: Italy
+    level: 20
+    macroregion:
+      id: 039
+      name: Southern Europe
+id: eposgnssomabe
+identifiers:
+- id: datacite
+  url: https://epos-gnss.oma.be/
+  value: kjoy.mpxzii
+langs:
+- id: EN
+  name: English
+link: https://epos-gnss.oma.be/
+name: GNSS TCS
+owner:
+  location:
+    country:
+      id: IT
+      name: Italy
+    level: 20
+  name: EPOS ERIC
+  type: Academy
+  link: https://oma.be
+properties:
+  dataset_count_reported: 376
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00013569
+description: Scientific data repository. managed by EPOS ERIC. powered by Custom software.
+  accessible at epos-gnss.oma.be.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

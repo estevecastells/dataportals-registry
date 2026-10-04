@@ -35,6 +35,11 @@ software:
   id: custom
   name: Custom software
 status: active
-tags: []
-topics: []
+tags:
+- academic
+- united-kingdom
+topics:
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
 uid: cdi00011958

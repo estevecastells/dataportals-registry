@@ -1,0 +1,54 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: EC
+      name: Ecuador
+    level: 20
+    macroregion:
+      id: '005'
+      name: South America
+description: Ecuador environmental information system with national environmental
+  indicators and datasets. Source of datasets assessed in ODIN 2024/25.
+id: siniasambientegobec
+langs:
+- id: ES
+  name: Spanish
+link: https://sinias.ambiente.gob.ec/
+name: SINIAS - Sistema de Información Ambiental (Ecuador)
+owner:
+  link: https://www.ambiente.gob.ec
+  location:
+    country:
+      id: EC
+      name: Ecuador
+    level: 20
+  name: Ministerio del Ambiente y Agua del Ecuador
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- ecuador
+- environment
+- government
+- indicators
+- statistics
+topics:
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: ENVI
+  name: Environment
+  type: eudatatheme
+- id: Environment
+  name: Environment
+  type: iso19115
+uid: cdi00013627

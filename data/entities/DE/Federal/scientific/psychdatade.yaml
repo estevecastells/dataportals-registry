@@ -1,0 +1,63 @@
+access_mode:
+- open
+api: false
+api_status: inactive
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+    macroregion:
+      id: '150'
+      name: Europe
+description: 'PsychData: research data centre of ZPID for psychological studies and datasets.'
+id: psychdatade
+identifiers:
+- id: datacite
+  value: gesis.zpid
+langs:
+- id: DE
+  name: German
+- id: EN
+  name: English
+link: https://psychdata.de/
+name: PsychData (FDZ at ZPID)
+owner:
+  link: https://www.zpid.de
+  location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+  name: Leibniz Institute for Psychology (ZPID)
+  type: Academy
+properties:
+  has_doi: true
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- research data
+- doi
+- datacite
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013686

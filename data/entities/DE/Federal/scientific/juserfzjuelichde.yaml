@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+id: juserfzjuelichde
+identifiers:
+- id: datacite
+  url: https://juser.fz-juelich.de/
+  value: fzj.juser
+langs:
+- id: DE
+  name: German
+link: https://juser.fz-juelich.de/
+name: JuSER Publikationsportal
+owner:
+  link: https://www.fz-juelich.de
+  location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+  name: Forschungszentrum Jülich
+  type: Academy
+properties:
+  dataset_count_reported: 31
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00011980
+description: Scientific data repository. managed by Forschungszentrum Jülich. powered
+  by Custom software. accessible at juser.fz-juelich.de.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

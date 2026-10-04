@@ -1,0 +1,61 @@
+access_mode:
+- open
+api: false
+api_status: inactive
+catalog_type: API Catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: MV
+      name: Maldives
+    level: 20
+    macroregion:
+      id: '034'
+      name: Southern Asia
+description: 'National developer portal of the Maldives: common e-government platforms, APIs and tools
+  for agencies building digital services for citizens and businesses.'
+id: developergovmv
+langs:
+- id: EN
+  name: English
+link: https://developer.gov.mv/
+name: Maldives Government Developer Portal
+owner:
+  link: https://ncit.gov.mv
+  location:
+    country:
+      id: MV
+      name: Maldives
+    level: 20
+  name: National Centre for Information Technology (NCIT)
+  type: Central government
+properties:
+  has_doi: false
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- government
+- API
+- developer portal
+- egov
+- maldives
+topics:
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013674

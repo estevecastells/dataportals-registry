@@ -1,0 +1,59 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: AU
+      name: Australia
+    level: 20
+    macroregion:
+      id: '053'
+      name: Australia and New Zealand
+id: metadataphrnorgau
+identifiers:
+- id: datacite
+  url: https://metadata.phrn.org.au/
+  value: uniwa.repo3
+langs:
+- id: EN
+  name: English
+link: https://metadata.phrn.org.au/
+name: Population Health Research Network
+owner:
+  link: https://www.uwa.edu.au/
+  location:
+    country:
+      id: AU
+      name: Australia
+    level: 20
+  name: University of Western Australia
+  type: Academy
+properties:
+  dataset_count_reported: 29
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00008140
+description: Scientific data repository. managed by University of Western Australia.
+  powered by Custom software. accessible at metadata.phrn.org.au.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115
+- id: EDUC
+  name: Education, culture and sport
+  type: eudatatheme

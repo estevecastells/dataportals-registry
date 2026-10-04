@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: JP
+      name: Japan
+    level: 20
+    macroregion:
+      id: '030'
+      name: Eastern Asia
+id: nanonetgojp
+identifiers:
+- id: datacite
+  url: https://nanonet.go.jp/data_service/
+  value: oibk.izccka
+langs:
+- id: JA
+  name: Japanese
+link: https://nanonet.go.jp/data_service/
+name: ARIM Data Portal
+owner:
+  link: https://www.nims.go.jp
+  location:
+    country:
+      id: JP
+      name: Japan
+    level: 20
+  name: National Institute for Materials Science
+  type: Academy
+properties:
+  dataset_count_reported: 2399
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00013576
+description: Scientific data repository. managed by National Institute for Materials
+  Science. powered by Custom software. accessible at nanonet.go.jp.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

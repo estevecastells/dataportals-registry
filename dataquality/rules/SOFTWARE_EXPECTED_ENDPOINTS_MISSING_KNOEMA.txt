@@ -1,0 +1,74 @@
+DATA QUALITY REPORT - RULE: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_KNOEMA
+================================================================================
+Generated: 2026-10-04 12:31:49
+Issue Type: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_KNOEMA
+Priority: MEDIUM
+Total Issues Found: 6
+
+Rule: Identifies records using software.id='knoema' (API-capable per software definitions) that have no endpoints listed. Add at least one API endpoint for discovery and integration.
+
+=== SUMMARY BY COUNTRY ===
+
+SN: 3 issues
+TZ: 1 issue
+UG: 1 issue
+ZM: 1 issue
+
+=== SUMMARY BY RECORD ===
+
+cbzambiaopendataforafricaorg: 1 issue
+mofugandaopendataforafricaorg: 1 issue
+mofsenegalopendataforafricaorg: 1 issue
+cbsenegalopendataforafricaorg: 1 issue
+senegalopendataforafricaorg: 1 issue
+cbtanzaniaopendataforafricaorg: 1 issue
+
+=== ISSUES ===
+
+File: ZM/Federal/indicators/cbzambiaopendataforafricaorg.yaml
+Record ID: cbzambiaopendataforafricaorg
+Country: ZM
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_KNOEMA
+Field: endpoints
+Current Value: {"software_id": "knoema", "has_api": "Yes", "endpoints_count": 0}
+Suggested Action: Add at least one endpoint because software.id='knoema' is marked as API-capable in software definitions
+
+File: UG/Federal/indicators/mofugandaopendataforafricaorg.yaml
+Record ID: mofugandaopendataforafricaorg
+Country: UG
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_KNOEMA
+Field: endpoints
+Current Value: {"software_id": "knoema", "has_api": "Yes", "endpoints_count": 0}
+Suggested Action: Add at least one endpoint because software.id='knoema' is marked as API-capable in software definitions
+
+File: SN/Federal/indicators/mofsenegalopendataforafricaorg.yaml
+Record ID: mofsenegalopendataforafricaorg
+Country: SN
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_KNOEMA
+Field: endpoints
+Current Value: {"software_id": "knoema", "has_api": "Yes", "endpoints_count": 0}
+Suggested Action: Add at least one endpoint because software.id='knoema' is marked as API-capable in software definitions
+
+File: SN/Federal/indicators/cbsenegalopendataforafricaorg.yaml
+Record ID: cbsenegalopendataforafricaorg
+Country: SN
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_KNOEMA
+Field: endpoints
+Current Value: {"software_id": "knoema", "has_api": "Yes", "endpoints_count": 0}
+Suggested Action: Add at least one endpoint because software.id='knoema' is marked as API-capable in software definitions
+
+File: SN/Federal/indicators/senegalopendataforafricaorg.yaml
+Record ID: senegalopendataforafricaorg
+Country: SN
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_KNOEMA
+Field: endpoints
+Current Value: {"software_id": "knoema", "has_api": "Yes", "endpoints_count": 0}
+Suggested Action: Add at least one endpoint because software.id='knoema' is marked as API-capable in software definitions
+
+File: TZ/Federal/indicators/cbtanzaniaopendataforafricaorg.yaml
+Record ID: cbtanzaniaopendataforafricaorg
+Country: TZ
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_KNOEMA
+Field: endpoints
+Current Value: {"software_id": "knoema", "has_api": "Yes", "endpoints_count": 0}
+Suggested Action: Add at least one endpoint because software.id='knoema' is marked as API-capable in software definitions

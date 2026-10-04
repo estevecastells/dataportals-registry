@@ -32,6 +32,8 @@ owner:
     level: 20
   name: LX Korea Land and Geospatial Informatix Corporation
   type: Central government
+properties:
+  is_national: true
 rights:
   license_id: null
   license_name: null

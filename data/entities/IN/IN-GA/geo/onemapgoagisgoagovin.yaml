@@ -1,0 +1,57 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Geoportal
+content_types:
+- dataset
+- map_layer
+coverage:
+- location:
+    country:
+      id: IN
+      name: India
+    level: 30
+    subregion:
+      id: IN-GA
+      name: Goa
+    macroregion:
+      id: '034'
+      name: Southern Asia
+description: Integrated single-map platform for Goa with layers from 32 departments
+  and 273 datasets, offering public map viewing and plot information, launched in
+  December 2024.
+id: onemapgoagisgoagovin
+langs:
+- id: EN
+  name: English
+link: https://www.onemapgoagis.goa.gov.in
+name: One Map Goa GIS Portal
+owner:
+  link: https://www.goa.gov.in
+  location:
+    country:
+      id: IN
+      name: India
+    level: 30
+    subregion:
+      id: IN-GA
+      name: Goa
+  name: Department of Information Technology Government of Goa
+  type: Regional government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- geospatial
+- government
+- open data
+topics:
+- id: REGI
+  name: Regions and cities
+  type: eudatatheme
+- id: Location
+  name: Location
+  type: iso19115
+uid: cdi00013753

@@ -1,0 +1,54 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Metadata catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: GB
+      name: United Kingdom
+    level: 20
+    macroregion:
+      id: '154'
+      name: Northern Europe
+description: FAIRsharing is a community-driven resource with users and collaborators
+  across all disciplines. We work together with our stakeholders to enable the FAIR
+  Principles by promoting the value and the use of standards, databases and policies.
+id: fairsharingorg
+identifiers:
+- id: datacite
+  url: https://fairsharing.org/
+  value: ylyl.fair
+langs:
+- id: EN
+  name: English
+link: https://fairsharing.org/
+name: FAIRsharing
+owner:
+  link: https://ora.ox.ac.uk/
+  location:
+    country:
+      id: GB
+      name: United Kingdom
+    level: 20
+  name: University of Oxford
+  type: Academy
+properties:
+  dataset_count_reported: 5730
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00013243
+topics:
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme

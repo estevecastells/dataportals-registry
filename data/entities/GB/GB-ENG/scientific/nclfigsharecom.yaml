@@ -1,0 +1,68 @@
+access_mode:
+- open
+api: false
+api_status: inactive
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: GB
+      name: United Kingdom
+    level: 30
+    macroregion:
+      id: '150'
+      name: Europe
+    subregion:
+      id: GB-ENG
+      name: England
+description: 'Newcastle University research data repository on figshare: datasets, software and non-peer-reviewed
+  outputs with DOIs.'
+id: nclfigsharecom
+identifiers:
+- id: datacite
+  value: figshare.ncl
+langs:
+- id: EN
+  name: English
+link: https://ncl.figshare.com/
+name: Newcastle University Research Data
+owner:
+  link: https://www.ncl.ac.uk
+  location:
+    country:
+      id: GB
+      name: United Kingdom
+    level: 30
+    subregion:
+      id: GB-ENG
+      name: England
+  name: Newcastle University
+  type: Academy
+properties:
+  has_doi: true
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: figshare
+  name: Figshare
+status: active
+tags:
+- research data
+- doi
+- datacite
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013691

@@ -1,0 +1,63 @@
+access_mode:
+- open
+api: false
+api_status: inactive
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: JP
+      name: Japan
+    level: 20
+    macroregion:
+      id: '142'
+      name: Asia
+description: 'Brain Transcriptome Database (CDT-DB): gene-expression profiles of the developing cerebellum.'
+id: cdtdbneuroinfjp
+identifiers:
+- id: re3data
+  url: https://www.re3data.org/repository/r3d100011591
+  value: r3d100011591
+langs:
+- id: JA
+  name: Japanese
+- id: EN
+  name: English
+link: https://cdtdb.neuroinf.jp/
+name: Cerebellar Development Transcriptome Database (CDT-DB)
+owner:
+  link: https://www.riken.jp
+  location:
+    country:
+      id: JP
+      name: Japan
+    level: 20
+  name: RIKEN Center for Brain Science
+  type: Academy
+properties:
+  has_doi: false
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- neuroscience
+- transcriptome
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013720

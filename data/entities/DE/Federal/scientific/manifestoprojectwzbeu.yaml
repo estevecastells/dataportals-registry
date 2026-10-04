@@ -1,0 +1,62 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+description: Since its formation as the Manifesto Research Group/Comparative Manifestos
+  Project (MRG/CMP), the Manifesto Project has dealt with different aspects of party
+  performance as well as the structure and development of party systems. The project
+  is based on quantitative content analyses of parties’ election programmes from more
+  than 50 countries covering all free, democratic elections since 1945. In 20
+id: manifestoprojectwzbeu
+identifiers:
+- id: datacite
+  url: https://manifesto-project.wzb.eu/
+  value: gesis.wzb
+langs:
+- id: EN
+  name: English
+link: https://manifesto-project.wzb.eu/
+name: Wissenschaftszentrum Berlin für Sozialforschung
+owner:
+  location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+  name: WZB Berlin Social Science Center
+  type: Other
+  link: https://wzb.eu
+properties:
+  dataset_count_reported: 34
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00011989
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115
+- id: Elevation
+  name: Elevation
+  type: iso19115

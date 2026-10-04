@@ -1,0 +1,59 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Geoportal
+content_types:
+- dataset
+- map_layer
+coverage:
+- location:
+    country:
+      id: IN
+      name: India
+    level: 30
+    subregion:
+      id: IN-JH
+      name: Jhārkhand
+    macroregion:
+      id: '034'
+      name: Southern Asia
+description: JSAC geoportal listing about thirty web-GIS applications for election,
+  health, agriculture, minerals and census mapping plus a data cataloging and metadata
+  search module.
+id: gisjharkhandgovin
+langs:
+- id: EN
+  name: English
+- id: HI
+  name: Hindi
+link: https://gis.jharkhand.gov.in
+name: Jharkhand Geospatial Portal
+owner:
+  link: https://jsac.jharkhand.gov.in
+  location:
+    country:
+      id: IN
+      name: India
+    level: 30
+    subregion:
+      id: IN-JH
+      name: Jhārkhand
+  name: Jharkhand Space Applications Centre
+  type: Regional government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- geospatial
+- government
+- open data
+topics:
+- id: REGI
+  name: Regions and cities
+  type: eudatatheme
+- id: Location
+  name: Location
+  type: iso19115
+uid: cdi00013754

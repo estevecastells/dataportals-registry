@@ -28,7 +28,7 @@ langs:
 link: https://videoprocessing.ai/datasets/
 name: MSU Datasets Collection
 owner:
-  link: null
+  link: https://videoprocessing.ai
   location:
     country:
       id: RU
@@ -43,6 +43,11 @@ software:
   id: custom
   name: Custom software
 status: active
-tags: []
-topics: []
+tags:
+- academic
+- russian-federation
+topics:
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
 uid: cdi00011951

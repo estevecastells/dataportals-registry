@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: CH
+      name: Switzerland
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+id: gaffuriuscodicesch
+identifiers:
+- id: datacite
+  url: https://gaffurius-codices.ch/
+  value: wfos.gc
+langs:
+- id: EN
+  name: English
+link: https://gaffurius-codices.ch/
+name: Gaffurius Codices
+owner:
+  location:
+    country:
+      id: CH
+      name: Switzerland
+    level: 20
+  name: Fachhochschule Nordwestschweiz
+  type: Academy
+  link: https://gaffurius-codices.ch
+properties:
+  dataset_count_reported: 22
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00008148
+description: Scientific data repository. managed by Fachhochschule Nordwestschweiz.
+  powered by Custom software. accessible at gaffurius-codices.ch.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

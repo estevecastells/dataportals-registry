@@ -1,0 +1,52 @@
+access_mode:
+- open
+api: true
+api_status: active
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: CM
+      name: Cameroon
+    level: 20
+    macroregion:
+      id: '017'
+      name: Middle Africa
+description: Cameroon Ministry of Finance data portal on the Open Data for Africa
+  (Knoema) platform, hosting time series datasets and visualizations of public finances
+  and national accounts. Source of datasets assessed in ODIN 2024/25.
+id: mofcameroonopendataforafricaorg
+langs:
+- id: FR
+  name: French
+link: https://mof-cameroon.opendataforafrica.org/
+name: OpenData du Ministère des Finances du Cameroun
+owner:
+  link: https://www.minfi.cm
+  location:
+    country:
+      id: CM
+      name: Cameroon
+    level: 20
+  name: Ministry of Finance of Cameroon
+  type: Central government
+software:
+  id: knoema
+  name: Knoema
+status: active
+tags:
+- cameroon
+- government
+- indicators
+- statistics
+topics:
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+uid: cdi00013624
+endpoints:
+- type: knoema:search
+  url: https://mof-cameroon.opendataforafrica.org/api/1.0/search
+  version: '1.0'

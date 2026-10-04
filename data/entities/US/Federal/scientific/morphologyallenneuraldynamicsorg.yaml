@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    level: 20
+    macroregion:
+      id: '021'
+      name: Northern America
+id: morphologyallenneuraldynamicsorg
+identifiers:
+- id: datacite
+  url: https://morphology.allenneuraldynamics.org/
+  value: ohmd.aind
+langs:
+- id: EN
+  name: English
+link: https://morphology.allenneuraldynamics.org/
+name: Allen Institute for Neural Dynamics Morphology Data
+owner:
+  link: https://alleninstitute.org/
+  location:
+    country:
+      id: US
+      name: United States
+    level: 20
+  name: The Allen Institute (for Immunology)
+  type: Academy
+properties:
+  dataset_count_reported: 1018
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00013606
+description: Scientific data repository. managed by The Allen Institute (for Immunology).
+  powered by Custom software. accessible at morphology.allenneuraldynamics.org.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

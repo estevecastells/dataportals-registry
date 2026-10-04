@@ -35,6 +35,11 @@ software:
   id: custom
   name: Custom software
 status: active
-tags: []
-topics: []
+tags:
+- academic
+- united-states
+topics:
+- id: Elevation
+  name: Elevation
+  type: iso19115
 uid: cdi00043949

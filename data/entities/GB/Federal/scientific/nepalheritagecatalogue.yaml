@@ -24,7 +24,7 @@ langs:
 link: https://prazg.github.io/Nepal_Heritage_Catalogue/
 name: Nepalese Heritage in Collections Abroad — Open Catalogue
 owner:
-  link: null
+  link: https://github.io
   location:
     country:
       id: GB
@@ -35,6 +35,15 @@ software:
   id: custom
   name: Custom software
 status: active
-tags: []
-topics: []
+tags:
+- research
+- scientific
+- united-kingdom
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115
 uid: cdi00011931

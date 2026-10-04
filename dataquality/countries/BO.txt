@@ -1,22 +1,11 @@
 DATA QUALITY REPORT - COUNTRY: BO
 ================================================================================
-Generated: 2026-09-30 20:41:32
+Generated: 2026-10-04 12:31:49
 Country Code: BO
-Total Records with Issues: 3
-Total Issues Found: 6
+Total Records with Issues: 1
+Total Issues Found: 1
 
 === ISSUES BY TYPE ===
-
-[MISSING_OWNER_LINK]
-Count: 1
-Priority: LOW
-
-File: BO/Federal/opendata/datosbolivia.yaml
-Record ID: datosbolivia
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: None
-Suggested Action: Add owner organization website URL
 
 [MISSING_RIGHTS]
 Count: 1
@@ -29,56 +18,7 @@ Field: rights
 Current Value: {'license_id': None, 'license_name': None, 'license_url': None, 'privacy_policy_url': None, 'rights_type': 'granular', 'tos_url': None}
 Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
 
-[MISSING_TAGS]
-Count: 2
-Priority: LOW
-
-File: BO/Federal/opendata/datosbolivia.yaml
-Record ID: datosbolivia
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: BO/Federal/geo/boliviawatchgeoportal.yaml
-Record ID: boliviawatchgeoportal
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-[MISSING_TOPICS]
-Count: 2
-Priority: LOW
-
-File: BO/Federal/opendata/datosbolivia.yaml
-Record ID: datosbolivia
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: BO/Federal/geo/boliviawatchgeoportal.yaml
-Record ID: boliviawatchgeoportal
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
 
 === SUMMARY BY ISSUE TYPE ===
 
-MISSING_OWNER_LINK: 1 issue
 MISSING_RIGHTS: 1 issue
-MISSING_TAGS: 2 issues
-MISSING_TOPICS: 2 issues
-
-=== RECORDS WITH MULTIPLE ISSUES (3+) ===
-
-Record ID: datosbolivia
-File: BO/Federal/opendata/datosbolivia.yaml
-Issue Count: 3
-Issues:
-  - MISSING_TOPICS: topics
-  - MISSING_TAGS: tags
-  - MISSING_OWNER_LINK: owner.link

@@ -1,0 +1,68 @@
+access_mode:
+- open
+api: false
+api_status: inactive
+catalog_type: API Catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: CA
+      name: Canada
+    level: 30
+    macroregion:
+      id: 019
+      name: Americas
+    subregion:
+      id: CA-BC
+      name: British Columbia
+description: 'British Columbia government DevHub: developer portal documenting provincial APIs, common
+  components and integration services; complements the BC Data Catalogue (cataloguedatagovbcca).'
+id: developergovbcca
+langs:
+- id: EN
+  name: English
+link: https://developer.gov.bc.ca/
+name: B.C. Government DevHub
+owner:
+  link: https://www.gov.bc.ca
+  location:
+    country:
+      id: CA
+      name: Canada
+    level: 30
+    subregion:
+      id: CA-BC
+      name: British Columbia
+  name: Government of British Columbia (Office of the Chief Information Officer)
+  type: Regional government
+properties:
+  has_doi: false
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- government
+- API
+- developer portal
+- egov
+- british columbia
+- canada
+topics:
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013673

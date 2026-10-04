@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: 'NO'
+      name: Norway
+    level: 20
+    macroregion:
+      id: '154'
+      name: Northern Europe
+id: datasintefno
+identifiers:
+- id: datacite
+  url: https://data.sintef.no/
+  value: imyd.icaygo
+langs:
+- id: EN
+  name: English
+link: https://data.sintef.no/
+name: SINTEF Data
+owner:
+  location:
+    country:
+      id: 'NO'
+      name: Norway
+    level: 20
+  name: SINTEF
+  type: Academy
+  link: https://sintef.no
+properties:
+  dataset_count_reported: 15
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00013582
+description: Scientific data repository. managed by SINTEF. powered by Custom software.
+  accessible at data.sintef.no.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

@@ -21,7 +21,7 @@ langs:
 - id: EN
   name: English
 link: https://healthsites.io/
-name: Healthsites.io
+name: Global Healthsites Mapping Project
 owner:
   link: https://healthsites.io/
   location:
@@ -34,6 +34,15 @@ software:
   id: custom
   name: Custom software
 status: active
-tags: []
-topics: []
+tags:
+- health
+- open data
+- south-africa
+topics:
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
+- id: HEAL
+  name: Health
+  type: eudatatheme
 uid: cdi00011967

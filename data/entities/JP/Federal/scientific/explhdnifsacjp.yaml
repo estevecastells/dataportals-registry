@@ -1,0 +1,55 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: JP
+      name: Japan
+    level: 20
+    macroregion:
+      id: '030'
+      name: Eastern Asia
+description: Research Data Repository of National Institute for Fusion Science (NIFS)
+id: explhdnifsacjp
+identifiers:
+- id: datacite
+  url: https://exp.lhd.nifs.ac.jp/
+  value: rpht.nifs
+langs:
+- id: EN
+  name: English
+link: https://exp.lhd.nifs.ac.jp/
+name: NIFS LHD Experiment Database
+owner:
+  link: https://www.nifs.ac.jp/
+  location:
+    country:
+      id: JP
+      name: Japan
+    level: 20
+  name: National Institute for Fusion Science (NIFS)
+  type: Academy
+properties:
+  dataset_count_reported: 41330169
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00013575
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

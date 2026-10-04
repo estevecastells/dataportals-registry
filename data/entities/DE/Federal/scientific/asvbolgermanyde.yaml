@@ -1,0 +1,59 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+id: asvbolgermanyde
+identifiers:
+- id: datacite
+  url: https://asv.bolgermany.de/
+  value: zbmed.zfmk
+langs:
+- id: EN
+  name: English
+link: https://asv.bolgermany.de/
+name: Zoologisches Forschungsmuseum Alexander Koenig - Leibniz-Institut für Biodiversität
+  der Tiere
+owner:
+  location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+  name: Zoologisches Forschungsmuseum Alexander Koenig - Leibniz-Institut für Biodiversität
+    der Tiere
+  type: Academy
+  link: https://bolgermany.de
+properties:
+  dataset_count_reported: 127
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00008154
+description: Scientific data repository. managed by Zoologisches Forschungsmuseum
+  Alexander Koenig - Leibniz-Institut für Biodiversität der Tiere. powered by Custom
+  software. accessible at asv.bolgermany.de.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

@@ -18,7 +18,9 @@ coverage:
 description: National geospatial data supply of the Danish Agency for Climate Data
   (Klimadatastyrelsen). Provides access to more than 100 geographic datasets as maps,
   downloads, web applications, and OGC web services (WMS, WMTS, WFS, WCS), including
-  base maps, height models, addresses, and climate-related products.
+  base maps, height models, addresses, and climate-related products. It is the national
+  spatial data infrastructure geoportal of Denmark, operated by the national geospatial
+  authority.
 endpoints:
 - type: rest
   url: https://api.dataforsyningen.dk/adresser
@@ -45,7 +47,7 @@ owner:
   type: Central government
 properties:
   has_doi: false
-  is_national: false
+  is_national: true
 rights:
   license_id: CC-BY-4.0
   license_name: Creative Commons Attribution 4.0 International

@@ -1,0 +1,64 @@
+access_mode:
+- open
+api: false
+api_status: inactive
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+    macroregion:
+      id: '150'
+      name: Europe
+description: 'Robert Koch Institute repository (DSpace): publications and research data from German public-health
+  institute work.'
+id: edocrkide
+identifiers:
+- id: datacite
+  value: tib.hu-rki
+langs:
+- id: DE
+  name: German
+- id: EN
+  name: English
+link: https://edoc.rki.de/
+name: RKI edoc Repository
+owner:
+  link: https://www.rki.de
+  location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+  name: Robert Koch Institute
+  type: Central government
+properties:
+  has_doi: true
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: dspace
+  name: DSpace
+status: active
+tags:
+- research data
+- doi
+- datacite
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013684

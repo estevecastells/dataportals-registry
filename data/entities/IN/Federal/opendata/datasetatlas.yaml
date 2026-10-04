@@ -24,7 +24,7 @@ langs:
 link: https://santoshshinde2012.github.io/dataset-atlas/
 name: The Dataset Atlas
 owner:
-  link: null
+  link: https://github.io
   location:
     country:
       id: IN
@@ -35,6 +35,10 @@ software:
   id: custom
   name: Custom software
 status: active
-tags: []
-topics: []
+tags:
+- india
+topics:
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
 uid: cdi00011971

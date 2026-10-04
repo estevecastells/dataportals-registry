@@ -19,6 +19,8 @@ coverage:
 description: National geospatial metadata catalogue of Malaysia's MyGDI programme.
   Search and discover datasets, map services, documents and related GIS resources
   published by government agencies, with an interactive map viewer and OGC CSW access.
+  It is the national spatial data infrastructure catalogue of Malaysia under the MyGDI
+  programme.
 endpoints:
 - type: csw202
   url: https://mygdix.mygeoportal.gov.my/csw?service=CSW&version=2.0.2&request=GetCapabilities
@@ -45,6 +47,7 @@ owner:
   type: Central government
 properties:
   has_doi: false
+  is_national: true
 rights:
   license_id: null
   license_name: null

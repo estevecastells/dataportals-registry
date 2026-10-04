@@ -1,0 +1,62 @@
+access_mode:
+- open
+api: false
+api_status: inactive
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    level: 20
+    macroregion:
+      id: 019
+      name: Americas
+description: 'dictyBase: model organism database for Dictyostelid amoebae (genomics, phenotypes, strain
+  catalog).'
+id: dictybaseorg
+identifiers:
+- id: re3data
+  url: https://www.re3data.org/repository/r3d100010586
+  value: r3d100010586
+langs:
+- id: EN
+  name: English
+link: https://dictybase.org/
+name: dictyBase
+owner:
+  link: https://www.uchicago.edu
+  location:
+    country:
+      id: US
+      name: United States
+    level: 20
+  name: Center for Genomic Sciences (University of Chicago)
+  type: Academy
+properties:
+  has_doi: false
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- model organism
+- genomics
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013727

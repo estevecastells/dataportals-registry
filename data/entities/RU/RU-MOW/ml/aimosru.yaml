@@ -28,7 +28,7 @@ langs:
 link: https://ai.mos.ru/datasets
 name: Moscow AI Datasets
 owner:
-  link: null
+  link: https://mos.ru
   location:
     country:
       id: RU
@@ -43,6 +43,12 @@ software:
   id: custom
   name: Custom software
 status: active
-tags: []
-topics: []
+tags:
+- government
+- population
+- russian-federation
+topics:
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
 uid: cdi00011949

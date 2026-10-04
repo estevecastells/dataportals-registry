@@ -1,0 +1,58 @@
+DATA QUALITY REPORT - COUNTRY: NG
+================================================================================
+Generated: 2026-10-04 12:31:49
+Country Code: NG
+Total Records with Issues: 1
+Total Issues Found: 3
+
+=== ISSUES BY TYPE ===
+
+[MISSING_DESCRIPTION]
+Count: 1
+Priority: MEDIUM
+
+File: NG/NG-KD/indicators/ghskdbsng.yaml
+Record ID: ghskdbsng
+Issue: MISSING_DESCRIPTION
+Field: description
+Current Value: This is a temporary record with some data collected but it should be updated befor adding to the index
+Suggested Action: Add meaningful description based on portal content and purpose
+
+[MISSING_TAGS]
+Count: 1
+Priority: LOW
+
+File: NG/NG-KD/indicators/ghskdbsng.yaml
+Record ID: ghskdbsng
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+[MISSING_TOPICS]
+Count: 1
+Priority: LOW
+
+File: NG/NG-KD/indicators/ghskdbsng.yaml
+Record ID: ghskdbsng
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+
+=== SUMMARY BY ISSUE TYPE ===
+
+MISSING_DESCRIPTION: 1 issue
+MISSING_TAGS: 1 issue
+MISSING_TOPICS: 1 issue
+
+=== RECORDS WITH MULTIPLE ISSUES (3+) ===
+
+Record ID: ghskdbsng
+File: NG/NG-KD/indicators/ghskdbsng.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_DESCRIPTION: description

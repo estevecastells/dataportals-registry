@@ -16,7 +16,8 @@ coverage:
       id: '155'
       name: Western Europe
 description: geo.be is the official Belgian geodata portal, providing spatial data
-  and services related to Belgium.
+  and services related to Belgium. It is the national geoportal of Belgium, operated
+  by the National Geographic Institute.
 endpoints:
 - type: rest
   url: https://www.geo.be/metadataServices/rest/catalogs/1/resources/
@@ -43,6 +44,8 @@ owner:
     level: 20
   name: Belgian National Geographic Institute
   type: Central government
+properties:
+  is_national: true
 rights:
   license_id: null
   license_name: null

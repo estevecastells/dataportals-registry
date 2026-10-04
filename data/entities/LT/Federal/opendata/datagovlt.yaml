@@ -14,8 +14,8 @@ coverage:
     macroregion:
       id: '154'
       name: Northern Europe
-description: Vieningas prieigos taškas prie visų Lietuvoje atvertų duomenų rinkinių ir suteikiantis technologines
-  priemones atvirų duomenų rinkimui
+description: Vieningas prieigos taškas prie visų Lietuvoje atvertų duomenų rinkinių
+  ir suteikiantis technologines priemones atvirų duomenų rinkimui
 endpoints:
 - type: dcatap21
   url: https://data.gov.lt/edp/dcat-ap.rdf
@@ -51,8 +51,8 @@ properties:
   is_national: true
 rights:
   license_id: null
-  license_name: null
-  license_url: null
+  license_name: Varies by dataset
+  license_url: https://data.gov.lt/datasets/
   privacy_policy_url: null
   rights_type: granular
   tos_url: null

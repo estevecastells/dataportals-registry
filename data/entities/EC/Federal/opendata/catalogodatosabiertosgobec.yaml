@@ -14,8 +14,9 @@ coverage:
     macroregion:
       id: '005'
       name: South America
-description: National open data catalog of Ecuador (CKAN), publishing datasets from central
-  government institutions. The public site is often behind a WAF (HTTP 403 to automated clients).
+description: National open data catalog of Ecuador (CKAN), publishing datasets from
+  central government institutions. The public site is often behind a WAF (HTTP 403
+  to automated clients).
 endpoints:
 - type: ckan
   url: https://datosabiertos.gob.ec/api/3
@@ -53,8 +54,8 @@ properties:
   is_national: true
 rights:
   license_id: null
-  license_name: null
-  license_url: null
+  license_name: Varies by dataset
+  license_url: https://www.datosabiertos.gob.ec/dataset
   privacy_policy_url: null
   rights_type: granular
   tos_url: null

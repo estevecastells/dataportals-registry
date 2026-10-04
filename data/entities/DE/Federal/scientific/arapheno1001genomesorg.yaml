@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+id: arapheno1001genomesorg
+identifiers:
+- id: datacite
+  url: https://arapheno.1001genomes.org/
+  value: zbmed.jmuw
+langs:
+- id: EN
+  name: English
+link: https://arapheno.1001genomes.org/
+name: Universität Würzburg
+owner:
+  location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+  name: Universität Würzburg
+  type: Academy
+  link: https://1001genomes.org
+properties:
+  dataset_count_reported: 880
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00008153
+description: Scientific data repository. managed by Universität Würzburg. powered
+  by Custom software. accessible at arapheno.1001genomes.org.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

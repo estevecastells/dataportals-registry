@@ -1,0 +1,59 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Geoportal
+content_types:
+- dataset
+- map_layer
+coverage:
+- location:
+    country:
+      id: IN
+      name: India
+    level: 30
+    subregion:
+      id: IN-CH
+      name: Chandīgarh
+    macroregion:
+      id: '034'
+      name: Southern Asia
+description: LiDAR-surveyed GIS utilities map viewer for the Chandigarh Union Territory
+  with underground utility and city infrastructure layers hosted by the Chandigarh
+  Administration.
+id: chandigarhmapchdgovin
+langs:
+- id: EN
+  name: English
+- id: HI
+  name: Hindi
+link: https://chandigarhmap.chd.gov.in/
+name: Chandigarh GIS Utilities Map
+owner:
+  link: https://chandigarh.gov.in
+  location:
+    country:
+      id: IN
+      name: India
+    level: 30
+    subregion:
+      id: IN-CH
+      name: Chandīgarh
+  name: Chandigarh Administration
+  type: Regional government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- geospatial
+- government
+- open data
+topics:
+- id: REGI
+  name: Regions and cities
+  type: eudatatheme
+- id: Location
+  name: Location
+  type: iso19115
+uid: cdi00013752

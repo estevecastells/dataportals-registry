@@ -1,0 +1,59 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    level: 20
+    macroregion:
+      id: '021'
+      name: Northern America
+description: The mission of the Influenza Research Database (IRD) is to provide a
+  resource for the influenza virus research community that will facilitate an understanding
+  of the influenza virus and how it interacts with the host organism, leading to new
+  treatments and preventive actions. This resource will contain avian and non-human
+  mammalian influenza surveillance data, human clinical data associated with v
+id: fludborg
+identifiers:
+- id: datacite
+  url: https://www.fludb.org/brc/home.spg?decorator=influenza
+  value: jcvi.gxpwaq
+langs:
+- id: EN
+  name: English
+link: https://www.fludb.org/brc/home.spg?decorator=influenza
+name: Influenza Research Database
+owner:
+  link: https://www.jcvi.org
+  location:
+    country:
+      id: US
+      name: United States
+    level: 20
+  name: J. Craig Venter Institute
+  type: Academy
+properties:
+  dataset_count_reported: 44
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00013599
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

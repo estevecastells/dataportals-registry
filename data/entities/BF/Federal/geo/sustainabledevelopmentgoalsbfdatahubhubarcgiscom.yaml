@@ -1,0 +1,51 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Geoportal
+content_types:
+- dataset
+- map_layer
+coverage:
+- location:
+    country:
+      id: BF
+      name: Burkina Faso
+    level: 20
+    macroregion:
+      id: '011'
+      name: Western Africa
+description: ArcGIS Hub geospatial platform for Sustainable Development Goals monitoring
+  in Burkina Faso, linked from the Institut Geographique du Burkina website and serving
+  SDG indicator map layers.
+id: sustainabledevelopmentgoalsbfdatahubhubarcgiscom
+langs:
+- id: FR
+  name: French
+link: https://sustainable-development-goals-bfdatahub.hub.arcgis.com
+name: SDG Data Hub Burkina Faso
+owner:
+  link: https://www.igb.bf
+  location:
+    country:
+      id: BF
+      name: Burkina Faso
+    level: 20
+  name: Institut Geographique du Burkina
+  type: Central government
+software:
+  id: arcgishub
+  name: ArcGIS Hub
+status: active
+tags:
+- geospatial
+- government
+- open data
+topics:
+- id: REGI
+  name: Regions and cities
+  type: eudatatheme
+- id: Location
+  name: Location
+  type: iso19115
+uid: cdi00013750

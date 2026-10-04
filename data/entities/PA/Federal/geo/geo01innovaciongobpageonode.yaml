@@ -17,7 +17,9 @@ coverage:
       name: Central America
 description: National GeoNode geoportal of Panama's Autoridad Nacional para la Innovación
   Gubernamental (AIG) at geo-01.innovacion.gob.pa, publishing SDI layers, documents,
-  and OGC services for the Infraestructura Panameña de Datos Espaciales (IPDE).
+  and OGC services for the Infraestructura Panameña de Datos Espaciales (IPDE). It
+  is the national spatial data infrastructure geoportal of Panama, forming the Infraestructura
+  Panameña de Datos Espaciales.
 endpoints:
 - type: geonode:layers
   url: https://geo-01.innovacion.gob.pa/api/layers/
@@ -99,6 +101,7 @@ owner:
   type: Central government
 properties:
   has_doi: false
+  is_national: true
 rights:
   license_id: null
   license_name: null

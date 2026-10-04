@@ -1,25 +1,20 @@
 DATA QUALITY REPORT - RULE: MISSING_RIGHTS
 ================================================================================
-Generated: 2026-09-30 20:41:32
+Generated: 2026-10-04 12:31:49
 Issue Type: MISSING_RIGHTS
 Priority: LOW
-Total Issues Found: 16
+Total Issues Found: 11
 
 === SUMMARY BY COUNTRY ===
 
 AL: 1 issue
-BD: 1 issue
 BO: 1 issue
 BT: 1 issue
-EC: 1 issue
 IQ: 1 issue
 IR: 1 issue
+JP: 1 issue
+KE: 1 issue
 KZ: 1 issue
-LK: 1 issue
-LT: 1 issue
-MK: 1 issue
-MN: 1 issue
-PA: 1 issue
 RU: 1 issue
 UZ: 1 issue
 VE: 1 issue
@@ -27,21 +22,16 @@ VE: 1 issue
 === SUMMARY BY RECORD ===
 
 dataegovuz: 1 issue
-ogdnewsdggovbd: 1 issue
+opendatagoke: 1 issue
 opendatagoval: 1 issue
-opendatagovmn: 1 issue
 catalogdatagovir: 1 issue
-datagovlk: 1 issue
-catalogodatosabiertosgobec: 1 issue
 datagovru: 1 issue
 datosgobve: 1 issue
-datosabiertosgobpa: 1 issue
 datosgobbo: 1 issue
-datagovmk: 1 issue
 datagovbt: 1 issue
 dataegovkz: 1 issue
 nogpgoviq: 1 issue
-datagovlt: 1 issue
+dataegogovjp: 1 issue
 
 === ISSUES ===
 
@@ -53,12 +43,12 @@ Field: rights
 Current Value: {"license_id": null, "license_name": null, "license_url": null, "privacy_policy_url": null, "rights_type": "unknown", "tos_url": null}
 Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
 
-File: BD/Federal/opendata/ogdnewsdggovbd.yaml
-Record ID: ogdnewsdggovbd
-Country: BD
+File: KE/Federal/opendata/opendatagoke.yaml
+Record ID: opendatagoke
+Country: KE
 Issue: MISSING_RIGHTS
 Field: rights
-Current Value: {"license_id": null, "license_name": null, "license_url": null, "privacy_policy_url": "https://ogdnew.sdg.gov.bd/privacy-policy", "rights_type": "unknown", "tos_url": "https://ogdnew.sdg.gov.bd/terms-of-use"}
+Current Value: {"license_id": null, "license_name": null, "license_url": null, "privacy_policy_url": null, "rights_type": "unknown", "tos_url": null}
 Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
 
 File: AL/Federal/opendata/opendatagoval.yaml
@@ -69,36 +59,12 @@ Field: rights
 Current Value: {"license_id": null, "license_name": null, "license_url": null, "privacy_policy_url": null, "rights_type": "unknown", "tos_url": null}
 Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
 
-File: MN/Federal/opendata/opendatagovmn.yaml
-Record ID: opendatagovmn
-Country: MN
-Issue: MISSING_RIGHTS
-Field: rights
-Current Value: {"license_id": null, "license_name": null, "license_url": null, "privacy_policy_url": null, "rights_type": "granular", "tos_url": null}
-Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
-
 File: IR/Federal/opendata/catalogdatagovir.yaml
 Record ID: catalogdatagovir
 Country: IR
 Issue: MISSING_RIGHTS
 Field: rights
 Current Value: {"license_id": null, "license_name": null, "license_url": null, "privacy_policy_url": null, "rights_type": "unknown", "tos_url": null}
-Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
-
-File: LK/Federal/opendata/datagovlk.yaml
-Record ID: datagovlk
-Country: LK
-Issue: MISSING_RIGHTS
-Field: rights
-Current Value: {"license_id": null, "license_name": null, "license_url": null, "privacy_policy_url": null, "rights_type": "granular", "tos_url": null}
-Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
-
-File: EC/Federal/opendata/catalogodatosabiertosgobec.yaml
-Record ID: catalogodatosabiertosgobec
-Country: EC
-Issue: MISSING_RIGHTS
-Field: rights
-Current Value: {"license_id": null, "license_name": null, "license_url": null, "privacy_policy_url": null, "rights_type": "granular", "tos_url": null}
 Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
 
 File: RU/Federal/opendata/datagovru.yaml
@@ -117,25 +83,9 @@ Field: rights
 Current Value: {"license_id": null, "license_name": null, "license_url": null, "privacy_policy_url": null, "rights_type": "granular", "tos_url": null}
 Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
 
-File: PA/Federal/opendata/datosabiertosgobpa.yaml
-Record ID: datosabiertosgobpa
-Country: PA
-Issue: MISSING_RIGHTS
-Field: rights
-Current Value: {"license_id": null, "license_name": null, "license_url": null, "privacy_policy_url": null, "rights_type": "granular", "tos_url": null}
-Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
-
 File: BO/Federal/opendata/datosgobbo.yaml
 Record ID: datosgobbo
 Country: BO
-Issue: MISSING_RIGHTS
-Field: rights
-Current Value: {"license_id": null, "license_name": null, "license_url": null, "privacy_policy_url": null, "rights_type": "granular", "tos_url": null}
-Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
-
-File: MK/Federal/opendata/datagovmk.yaml
-Record ID: datagovmk
-Country: MK
 Issue: MISSING_RIGHTS
 Field: rights
 Current Value: {"license_id": null, "license_name": null, "license_url": null, "privacy_policy_url": null, "rights_type": "granular", "tos_url": null}
@@ -165,10 +115,10 @@ Field: rights
 Current Value: {"license_id": null, "license_name": null, "license_url": null, "privacy_policy_url": null, "rights_type": "global", "tos_url": "https://nogp.gov.iq/POLICIES.aspx"}
 Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
 
-File: LT/Federal/opendata/datagovlt.yaml
-Record ID: datagovlt
-Country: LT
+File: JP/Federal/opendata/dataegogovjp.yaml
+Record ID: dataegogovjp
+Country: JP
 Issue: MISSING_RIGHTS
 Field: rights
-Current Value: {"license_id": null, "license_name": null, "license_url": null, "privacy_policy_url": null, "rights_type": "granular", "tos_url": null}
+Current Value: {"license_id": null, "license_name": null, "license_url": null, "privacy_policy_url": null, "rights_type": "unknown", "tos_url": null}
 Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.

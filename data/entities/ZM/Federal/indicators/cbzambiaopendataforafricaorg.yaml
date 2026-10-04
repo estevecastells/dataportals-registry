@@ -1,0 +1,48 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: ZM
+      name: Zambia
+    level: 20
+    macroregion:
+      id: '014'
+      name: Eastern Africa
+description: Bank of Zambia data portal on the Open Data for Africa (Knoema) platform
+  with a data catalog and time series datasets. Source of datasets assessed in ODIN
+  2024/25.
+id: cbzambiaopendataforafricaorg
+langs:
+- id: EN
+  name: English
+link: https://cb-zambia.opendataforafrica.org/
+name: OpenData for the Bank of Zambia
+owner:
+  link: https://www.boz.zm
+  location:
+    country:
+      id: ZM
+      name: Zambia
+    level: 20
+  name: Bank of Zambia
+  type: Central government
+software:
+  id: knoema
+  name: Knoema
+status: active
+tags:
+- government
+- indicators
+- statistics
+- zambia
+topics:
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+uid: cdi00013658

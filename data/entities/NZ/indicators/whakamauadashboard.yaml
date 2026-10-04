@@ -35,6 +35,17 @@ software:
   id: shiny
   name: R Shiny
 status: active
-tags: []
-topics: []
+tags:
+- government
+- health
+- indicators
+- new-zealand
+- statistics
+topics:
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: HEAL
+  name: Health
+  type: eudatatheme
 uid: cdi00008126

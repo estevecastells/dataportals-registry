@@ -1,0 +1,63 @@
+access_mode:
+- open
+api: false
+api_status: inactive
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    level: 20
+    macroregion:
+      id: 019
+      name: Americas
+description: 'NIMH Data Archive: NIH repository for human clinical and genomic research data (including
+  clinical trials collections).'
+id: dataarchivenimhnihgov
+identifiers:
+- id: re3data
+  url: https://www.re3data.org/repository/r3d100012481
+  value: r3d100012481
+langs:
+- id: EN
+  name: English
+link: https://data-archive.nimh.nih.gov/
+name: NIMH Data Archive (NDA)
+owner:
+  link: https://www.nimh.nih.gov
+  location:
+    country:
+      id: US
+      name: United States
+    level: 20
+  name: National Institute of Mental Health (NIH)
+  type: Central government
+properties:
+  has_doi: false
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- health
+- nih
+- clinical
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013726

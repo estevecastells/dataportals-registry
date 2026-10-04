@@ -1,0 +1,77 @@
+access_mode:
+- open
+api: true
+api_status: active
+catalog_type: Open data portal
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: BE
+      name: Belgium
+    level: 30
+    macroregion:
+      id: '150'
+      name: Europe
+    subregion:
+      id: BE-BRU
+      name: Bruxelles-Capitale, Région de
+description: Regional open data portal of the Brussels-Capital Region, relaunched on the Huwise platform,
+  publishing datasets from Brussels regional and municipal institutions.
+endpoints:
+- type: opendatasoft:v2.1
+  url: https://opendata.brussels.be/api/explore/v2.1/catalog/datasets
+  version: '2.1'
+id: opendatabrusselsbe
+identifiers:
+- id: wikidata
+  url: https://www.wikidata.org/wiki/Q97104298
+  value: Q97104298
+langs:
+- id: EN
+  name: English
+- id: FR
+  name: French
+- id: NL
+  name: Dutch
+link: https://opendata.brussels.be/
+name: Brussels Open Data Portal
+owner:
+  link: https://circ.brussels
+  location:
+    country:
+      id: BE
+      name: Belgium
+    level: 30
+    subregion:
+      id: BE-BRU
+      name: Bruxelles-Capitale, Région de
+  name: CIRB-CIBG (Brussels Regional Informatics Centre)
+  type: Regional government
+properties:
+  has_doi: false
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: opendatasoft
+  name: OpenDataSoft
+status: active
+tags:
+- government
+- brussels
+- regional
+topics:
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013611

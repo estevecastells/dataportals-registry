@@ -1,0 +1,65 @@
+access_mode:
+- open
+api: false
+api_status: inactive
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: CN
+      name: China
+    level: 20
+    macroregion:
+      id: '142'
+      name: Asia
+description: '载人航天工程数据生态平台: data ecosystem platform for China Manned Space Engineering mission and payload
+  data.'
+id: msadccn
+identifiers:
+- id: re3data
+  url: https://www.re3data.org/repository/r3d100014948
+  value: r3d100014948
+langs:
+- id: ZH
+  name: Chinese
+- id: EN
+  name: English
+link: https://msadc.cn/
+name: China Manned Space Data Ecosystem Platform (MSADC)
+owner:
+  link: https://www.csu.cas.cn
+  location:
+    country:
+      id: CN
+      name: China
+    level: 20
+  name: Technology and Engineering Center for Space Utilization (CAS)
+  type: Academy
+properties:
+  has_doi: false
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- space
+- china
+- earth observation
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013715

@@ -1,0 +1,59 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: CZ
+      name: Czech Republic
+    level: 20
+    macroregion:
+      id: '151'
+      name: Eastern Europe
+id: eurovegorg
+identifiers:
+- id: datacite
+  url: http://euroveg.org/eva-database
+  value: gcnc.tlueni
+langs:
+- id: EN
+  name: English
+link: http://euroveg.org/eva-database
+name: European Vegetation Archive
+owner:
+  location:
+    country:
+      id: CZ
+      name: Czech Republic
+    level: 20
+  name: Masaryk University
+  type: Academy
+  link: https://euroveg.org
+properties:
+  dataset_count_reported: 120
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00008152
+description: Scientific data repository. managed by Masaryk University. powered by
+  Custom software. accessible at euroveg.org.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115
+- id: EDUC
+  name: Education, culture and sport
+  type: eudatatheme

@@ -17,7 +17,8 @@ coverage:
       name: South-eastern Asia
 description: Ina-Geoportal (tanahair.indonesia.go.id) is Indonesia's national One
   Map geospatial catalog operated by Badan Informasi Geospasial, providing discovery
-  of national geospatial datasets and map services.
+  of national geospatial datasets and map services. It is the national spatial data
+  infrastructure geoportal of Indonesia under the One Map policy.
 id: tanahairindonesiagoid
 langs:
 - id: ID
@@ -36,7 +37,7 @@ owner:
   name: Badan Informasi Geospasial
   type: Central government
 properties:
-  is_national: false
+  is_national: true
 rights:
   license_id: null
   license_name: null

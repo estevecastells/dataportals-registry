@@ -1,0 +1,63 @@
+access_mode:
+- restricted
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: GB
+      name: United Kingdom
+    level: 20
+    macroregion:
+      id: '154'
+      name: Northern Europe
+description: UK Longitudinal Linkage Collaboration (UK LLC) is the national Trusted
+  Research Environment (TRE) for the UK’s longitudinal research community, supporting
+  the UK’s unparalleled collection of Longitudinal Population Studies (LPS).
+id: guidebookukllcacuk
+identifiers:
+- id: datacite
+  url: https://guidebook.ukllc.ac.uk/
+  value: vhfs.ukllc
+langs:
+- id: EN
+  name: English
+link: https://guidebook.ukllc.ac.uk/
+name: UK LLC
+owner:
+  link: https://data.bris.ac.uk/
+  location:
+    country:
+      id: GB
+      name: United Kingdom
+    level: 20
+  name: University of Bristol
+  type: Academy
+properties:
+  dataset_count_reported: 633
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00013555
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115
+- id: ENVI
+  name: Environment
+  type: eudatatheme
+- id: Environment
+  name: Environment
+  type: iso19115

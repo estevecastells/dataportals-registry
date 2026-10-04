@@ -1,22 +1,100 @@
 DATA QUALITY REPORT - COUNTRY: FR
 ================================================================================
-Generated: 2026-09-30 20:41:32
+Generated: 2026-10-04 12:31:49
 Country Code: FR
-Total Records with Issues: 10
-Total Issues Found: 10
+Total Records with Issues: 13
+Total Issues Found: 18
 
 === ISSUES BY TYPE ===
 
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_BIODIV]
+[MISSING_TAGS]
+Count: 5
+Priority: LOW
+
+File: FR/Federal/scientific/wwwcatdsfr.yaml
+Record ID: wwwcatdsfr
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: FR/Federal/scientific/campagnesflotteoceanographiquefr.yaml
+Record ID: campagnesflotteoceanographiquefr
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: FR/Federal/scientific/envlitifremerfr.yaml
+Record ID: envlitifremerfr
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: FR/Federal/scientific/sihifremerfr.yaml
+Record ID: sihifremerfr
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: FR/Federal/scientific/quadrigeeaufrancefr.yaml
+Record ID: quadrigeeaufrancefr
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+[MISSING_TOPICS]
+Count: 5
+Priority: LOW
+
+File: FR/Federal/scientific/wwwcatdsfr.yaml
+Record ID: wwwcatdsfr
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: FR/Federal/scientific/campagnesflotteoceanographiquefr.yaml
+Record ID: campagnesflotteoceanographiquefr
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: FR/Federal/scientific/envlitifremerfr.yaml
+Record ID: envlitifremerfr
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: FR/Federal/scientific/sihifremerfr.yaml
+Record ID: sihifremerfr
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: FR/Federal/scientific/quadrigeeaufrancefr.yaml
+Record ID: quadrigeeaufrancefr
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DATAVERSE]
 Count: 1
 Priority: MEDIUM
 
-File: FR/Federal/scientific/portalwiktroporg.yaml
-Record ID: portalwiktroporg
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_BIODIV
+File: FR/Federal/scientific/dataversecallistocalmipunivtoulousefr.yaml
+Record ID: dataversecallistocalmipunivtoulousefr
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DATAVERSE
 Field: endpoints
-Current Value: {'software_id': 'biodiv', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='biodiv' is marked as API-capable in software definitions
+Current Value: {'software_id': 'dataverse', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='dataverse' is marked as API-capable in software definitions
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL]
 Count: 3
@@ -42,24 +120,6 @@ Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL
 Field: endpoints
 Current Value: {'software_id': 'drupal', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='drupal' is marked as API-capable in software definitions
-
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GIGWA]
-Count: 2
-Priority: MEDIUM
-
-File: FR/Federal/scientific/gigwasouthgreenfr.yaml
-Record ID: gigwasouthgreenfr
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GIGWA
-Field: endpoints
-Current Value: {'software_id': 'gigwa', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='gigwa' is marked as API-capable in software definitions
-
-File: FR/Federal/scientific/gigwairdfr.yaml
-Record ID: gigwairdfr
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GIGWA
-Field: endpoints
-Current Value: {'software_id': 'gigwa', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='gigwa' is marked as API-capable in software definitions
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_LIZMAP]
 Count: 1
@@ -104,9 +164,10 @@ Suggested Action: Add at least one endpoint because software.id='wordpress' is m
 
 === SUMMARY BY ISSUE TYPE ===
 
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_BIODIV: 1 issue
+MISSING_TAGS: 5 issues
+MISSING_TOPICS: 5 issues
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DATAVERSE: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL: 3 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GIGWA: 2 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_LIZMAP: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_MAPSTORE: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS: 2 issues

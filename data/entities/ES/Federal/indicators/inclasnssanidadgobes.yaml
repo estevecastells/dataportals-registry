@@ -1,0 +1,53 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: ES
+      name: Spain
+    level: 20
+    macroregion:
+      id: 039
+      name: Southern Europe
+description: Key indicators system of the Spanish National Health System (INCLASNS)
+  with interactive indicator datasets on population, mortality, lifestyles and health
+  services. Source of datasets assessed in ODIN 2024/25.
+id: inclasnssanidadgobes
+langs:
+- id: ES
+  name: Spanish
+link: https://inclasns.sanidad.gob.es/
+name: INCLASNS - Indicadores Clave del Sistema Nacional de Salud
+owner:
+  link: https://www.sanidad.gob.es
+  location:
+    country:
+      id: ES
+      name: Spain
+    level: 20
+  name: Ministerio de Sanidad de España
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- government
+- health
+- indicators
+- population
+- spain
+- statistics
+topics:
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: HEAL
+  name: Health
+  type: eudatatheme
+uid: cdi00013630

@@ -1,0 +1,61 @@
+access_mode:
+- open
+api: false
+api_status: inactive
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: AU
+      name: Australia
+    level: 20
+    macroregion:
+      id: 009
+      name: Oceania
+description: 'TAO: All-Sky Virtual Observatory service for theoretical galaxy simulation data (Swinburne).'
+id: taoasvoorgau
+identifiers:
+- id: datacite
+  value: swin.repo1
+langs:
+- id: EN
+  name: English
+link: https://tao.asvo.org.au/
+name: Theoretical Astrophysical Observatory (TAO)
+owner:
+  link: https://asvo.org.au
+  location:
+    country:
+      id: AU
+      name: Australia
+    level: 20
+  name: Centre for Astrophysics and Supercomputing, Swinburne University
+  type: Academy
+properties:
+  has_doi: true
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- research data
+- doi
+- datacite
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013680

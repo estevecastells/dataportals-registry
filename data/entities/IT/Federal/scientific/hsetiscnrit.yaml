@@ -1,0 +1,58 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: IT
+      name: Italy
+    level: 20
+    macroregion:
+      id: 039
+      name: Southern Europe
+description: The H-SeTIS database serves as a comprehensive hub for systematically
+  surveying and describing various semantic artefacts and tools relevant to the Heritage
+  domain. A 'semantic artifact' is a knowledge management system designed to organize
+  and present information in a human- and machine-readable format.
+id: hsetiscnrit
+identifiers:
+- id: datacite
+  url: https://h-setis.cnr.it/
+  value: rpak.nhdmpx
+langs:
+- id: EN
+  name: English
+link: https://h-setis.cnr.it/
+name: Heritage - Semantic Tools and Interoperability Survey
+owner:
+  link: https://www.cnr.it
+  location:
+    country:
+      id: IT
+      name: Italy
+    level: 20
+  name: Consiglio Nazionale delle Ricerche
+  type: Academy
+properties:
+  dataset_count_reported: 273
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00013570
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

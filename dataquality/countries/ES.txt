@@ -1,47 +1,11 @@
 DATA QUALITY REPORT - COUNTRY: ES
 ================================================================================
-Generated: 2026-09-30 20:41:32
+Generated: 2026-10-04 12:31:49
 Country Code: ES
-Total Records with Issues: 16
-Total Issues Found: 18
+Total Records with Issues: 14
+Total Issues Found: 14
 
 === ISSUES BY TYPE ===
-
-[MISSING_TAGS]
-Count: 2
-Priority: LOW
-
-File: ES/Federal/metadata/edintcatalogoontologias.yaml
-Record ID: edintcatalogoontologias
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: ES/Federal/scientific/openresearchdatasetsdelaserna.yaml
-Record ID: openresearchdatasetsdelaserna
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-[MISSING_TOPICS]
-Count: 2
-Priority: LOW
-
-File: ES/Federal/metadata/edintcatalogoontologias.yaml
-Record ID: edintcatalogoontologias
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: ES/Federal/scientific/openresearchdatasetsdelaserna.yaml
-Record ID: openresearchdatasetsdelaserna
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN]
 Count: 4
@@ -156,8 +120,6 @@ Suggested Action: Add at least one endpoint because software.id='wordpress' is m
 
 === SUMMARY BY ISSUE TYPE ===
 
-MISSING_TAGS: 2 issues
-MISSING_TOPICS: 2 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN: 4 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL: 8 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS: 2 issues

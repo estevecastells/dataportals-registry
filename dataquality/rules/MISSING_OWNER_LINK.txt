@@ -1,242 +1,53 @@
 DATA QUALITY REPORT - RULE: MISSING_OWNER_LINK
 ================================================================================
-Generated: 2026-09-30 20:41:32
+Generated: 2026-10-04 12:31:49
 Issue Type: MISSING_OWNER_LINK
 Priority: LOW
-Total Issues Found: 24
+Total Issues Found: 4
 
 === SUMMARY BY COUNTRY ===
 
-AT: 1 issue
-BO: 1 issue
-CA: 1 issue
-CL: 1 issue
 CZ: 1 issue
-GB: 1 issue
-HK: 1 issue
-IN: 2 issues
-KR: 3 issues
-MK: 1 issue
-NO: 1 issue
-RU: 6 issues
-US: 4 issues
+DE: 1 issue
+PK: 1 issue
+RU: 1 issue
 
 === SUMMARY BY RECORD ===
 
-poliscireplicationindex: 1 issue
-posttrainingdataatlas: 1 issue
-banglanlphub: 1 issue
-clinicaldataatlas: 1 issue
-hkopendatacatalogue: 1 issue
-finnnorskegeodata: 1 issue
-datasetatlas: 1 issue
-indiageodata: 1 issue
-parliamentstreams: 1 issue
-dataatlasczech: 1 issue
-aimosru: 1 issue
-researchyandexcom: 1 issue
-videoprocessingai: 1 issue
-dftoru: 1 issue
-datamartsroskaznaru: 1 issue
-forcitizensru: 1 issue
-datosbolivia: 1 issue
-chinesehfdatasetscatalog: 1 issue
-koreanhfdatasetscatalog: 1 issue
-japanesehfdatasetscatalog: 1 issue
-opencorpusregistry: 1 issue
-nepalheritagecatalogue: 1 issue
-openfootball: 1 issue
-catalogoocupacioneschile: 1 issue
+sedgobpk: 1 issue
+hrbitovtstreboncz: 1 issue
+budgetnnru: 1 issue
+odlinfobfsde: 1 issue
 
 === ISSUES ===
 
-File: US/US-WA/opendata/poliscireplicationindex.yaml
-Record ID: poliscireplicationindex
-Country: US
+File: PK/PK-BA/opendata/sedgobpk.yaml
+Record ID: sedgobpk
+Country: PK
 Issue: MISSING_OWNER_LINK
 Field: owner.link
 Current Value: 
 Suggested Action: Add owner organization website URL
 
-File: US/US-CA/ml/posttrainingdataatlas.yaml
-Record ID: posttrainingdataatlas
-Country: US
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: 
-Suggested Action: Add owner organization website URL
-
-File: US/Federal/ml/banglanlphub.yaml
-Record ID: banglanlphub
-Country: US
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: 
-Suggested Action: Add owner organization website URL
-
-File: US/US-MA/opendata/clinicaldataatlas.yaml
-Record ID: clinicaldataatlas
-Country: US
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: 
-Suggested Action: Add owner organization website URL
-
-File: HK/Federal/opendata/hkopendatacatalogue.yaml
-Record ID: hkopendatacatalogue
-Country: HK
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: 
-Suggested Action: Add owner organization website URL
-
-File: NO/Federal/search/finnnorskegeodata.yaml
-Record ID: finnnorskegeodata
-Country: NO
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: 
-Suggested Action: Add owner organization website URL
-
-File: IN/Federal/opendata/datasetatlas.yaml
-Record ID: datasetatlas
-Country: IN
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: 
-Suggested Action: Add owner organization website URL
-
-File: IN/Federal/opendata/indiageodata.yaml
-Record ID: indiageodata
-Country: IN
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: 
-Suggested Action: Add owner organization website URL
-
-File: CA/CA-QC/opendata/parliamentstreams.yaml
-Record ID: parliamentstreams
-Country: CA
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: 
-Suggested Action: Add owner organization website URL
-
-File: CZ/Federal/opendata/dataatlasczech.yaml
-Record ID: dataatlasczech
+File: CZ/CZ-31/geo/hrbitovtstreboncz.yaml
+Record ID: hrbitovtstreboncz
 Country: CZ
 Issue: MISSING_OWNER_LINK
 Field: owner.link
 Current Value: 
 Suggested Action: Add owner organization website URL
 
-File: RU/RU-MOW/ml/aimosru.yaml
-Record ID: aimosru
+File: RU/RU-NIZ/indicators/budgetnnru.yaml
+Record ID: budgetnnru
 Country: RU
 Issue: MISSING_OWNER_LINK
 Field: owner.link
 Current Value: 
 Suggested Action: Add owner organization website URL
 
-File: RU/RU-MOW/ml/researchyandexcom.yaml
-Record ID: researchyandexcom
-Country: RU
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: 
-Suggested Action: Add owner organization website URL
-
-File: RU/RU-MOW/ml/videoprocessingai.yaml
-Record ID: videoprocessingai
-Country: RU
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: 
-Suggested Action: Add owner organization website URL
-
-File: RU/RU-TUL/indicators/dftoru.yaml
-Record ID: dftoru
-Country: RU
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: 
-Suggested Action: Add owner organization website URL
-
-File: RU/Federal/indicators/datamartsroskaznaru.yaml
-Record ID: datamartsroskaznaru
-Country: RU
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: 
-Suggested Action: Add owner organization website URL
-
-File: RU/RU-CE/indicators/forcitizensru.yaml
-Record ID: forcitizensru
-Country: RU
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: 
-Suggested Action: Add owner organization website URL
-
-File: BO/Federal/opendata/datosbolivia.yaml
-Record ID: datosbolivia
-Country: BO
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: 
-Suggested Action: Add owner organization website URL
-
-File: KR/Federal/ml/chinesehfdatasetscatalog.yaml
-Record ID: chinesehfdatasetscatalog
-Country: KR
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: 
-Suggested Action: Add owner organization website URL
-
-File: KR/Federal/ml/koreanhfdatasetscatalog.yaml
-Record ID: koreanhfdatasetscatalog
-Country: KR
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: 
-Suggested Action: Add owner organization website URL
-
-File: KR/Federal/ml/japanesehfdatasetscatalog.yaml
-Record ID: japanesehfdatasetscatalog
-Country: KR
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: 
-Suggested Action: Add owner organization website URL
-
-File: MK/Federal/ml/opencorpusregistry.yaml
-Record ID: opencorpusregistry
-Country: MK
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: 
-Suggested Action: Add owner organization website URL
-
-File: GB/Federal/scientific/nepalheritagecatalogue.yaml
-Record ID: nepalheritagecatalogue
-Country: GB
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: 
-Suggested Action: Add owner organization website URL
-
-File: AT/Federal/opendata/openfootball.yaml
-Record ID: openfootball
-Country: AT
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: 
-Suggested Action: Add owner organization website URL
-
-File: CL/Federal/opendata/catalogoocupacioneschile.yaml
-Record ID: catalogoocupacioneschile
-Country: CL
+File: DE/Federal/indicators/odlinfobfsde.yaml
+Record ID: odlinfobfsde
+Country: DE
 Issue: MISSING_OWNER_LINK
 Field: owner.link
 Current Value: 

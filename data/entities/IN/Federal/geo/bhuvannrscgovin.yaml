@@ -19,7 +19,8 @@ description: Bhuvan is the geoportal of ISRO in public domain, providing a data 
   of geospatial datasets including satellite imagery, base and thematic layers, and
   project-specific data for India. It hosts systematic geographical databases with
   PAN-India coverage, enabling visualization, governance, and disaster management
-  applications.
+  applications. It is the national geoportal of India for geospatial datasets and
+  satellite-derived map services.
 endpoints:
 - type: csw202
   url: https://bhuvan.nrsc.gov.in/geonetwork/srv/eng/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetCapabilities
@@ -44,6 +45,7 @@ owner:
   type: Central government
 properties:
   has_doi: true
+  is_national: true
 rights:
   license_id: null
   license_name: null

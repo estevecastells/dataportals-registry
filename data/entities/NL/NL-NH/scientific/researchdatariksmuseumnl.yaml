@@ -1,0 +1,70 @@
+access_mode:
+- open
+api: false
+api_status: inactive
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: NL
+      name: Netherlands
+    level: 30
+    macroregion:
+      id: '150'
+      name: Europe
+    subregion:
+      id: NL-NH
+      name: Noord-Holland
+description: 'Research data repository of the Rijksmuseum: datasets from collection research and conservation
+  science.'
+id: researchdatariksmuseumnl
+identifiers:
+- id: datacite
+  value: opvj.biieix
+langs:
+- id: NL
+  name: Dutch
+- id: EN
+  name: English
+link: https://researchdata.rijksmuseum.nl/
+name: Rijksmuseum Research Data Repository
+owner:
+  link: https://www.rijksmuseum.nl
+  location:
+    country:
+      id: NL
+      name: Netherlands
+    level: 30
+    subregion:
+      id: NL-NH
+      name: Noord-Holland
+  name: Rijksmuseum
+  type: Civil society
+properties:
+  has_doi: true
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- research data
+- doi
+- datacite
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013702

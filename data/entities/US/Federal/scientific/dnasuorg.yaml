@@ -1,0 +1,61 @@
+access_mode:
+- open
+api: false
+api_status: inactive
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    level: 20
+    macroregion:
+      id: 019
+      name: Americas
+description: 'DNASU: plasmid repository database with sequence and clone data for the research community.'
+id: dnasuorg
+identifiers:
+- id: re3data
+  url: https://www.re3data.org/repository/r3d100012354
+  value: r3d100012354
+langs:
+- id: EN
+  name: English
+link: https://dnasu.org/
+name: DNASU Plasmid Repository
+owner:
+  link: https://biodesign.asu.edu
+  location:
+    country:
+      id: US
+      name: United States
+    level: 20
+  name: Arizona State University, Biodesign Institute
+  type: Academy
+properties:
+  has_doi: false
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- plasmids
+- genomics
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013728

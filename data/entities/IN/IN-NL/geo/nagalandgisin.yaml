@@ -1,0 +1,57 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Geoportal
+content_types:
+- dataset
+- map_layer
+coverage:
+- location:
+    country:
+      id: IN
+      name: India
+    level: 30
+    subregion:
+      id: IN-NL
+      name: Nāgāland
+    macroregion:
+      id: '034'
+      name: Southern Asia
+description: State geospatial nodal agency portal with a public map catalog offering
+  free district and block level thematic geospatial map downloads including the Geospatial
+  Base Map series.
+id: nagalandgisin
+langs:
+- id: EN
+  name: English
+link: https://nagalandgis.in
+name: Nagaland GIS and Remote Sensing Centre Portal
+owner:
+  link: https://planning.nagaland.gov.in
+  location:
+    country:
+      id: IN
+      name: India
+    level: 30
+    subregion:
+      id: IN-NL
+      name: Nāgāland
+  name: Nagaland GIS and Remote Sensing Centre
+  type: Regional government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- geospatial
+- government
+- open data
+topics:
+- id: REGI
+  name: Regions and cities
+  type: eudatatheme
+- id: Location
+  name: Location
+  type: iso19115
+uid: cdi00013756

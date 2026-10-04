@@ -15,9 +15,10 @@ coverage:
     macroregion:
       id: '154'
       name: Northern Europe
-description: National Lithuanian spatial information portal (geoportal.lt) for discovering, viewing, and
-  downloading state geographic datasets. The former GeoNetwork metadata catalogue at /geonetwork is no
-  longer published; INSPIRE discovery remains on inspire-geoportal.lt.
+description: National Lithuanian spatial information portal (geoportal.lt) for discovering,
+  viewing, and downloading state geographic datasets. The former GeoNetwork metadata
+  catalogue at /geonetwork is no longer published; INSPIRE discovery remains on inspire-geoportal.lt.
+  It is the national spatial data infrastructure geoportal of Lithuania.
 id: wwwgeoportallt
 langs:
 - id: LT
@@ -37,7 +38,7 @@ owner:
   type: Central government
 properties:
   has_doi: true
-  is_national: false
+  is_national: true
 rights:
   license_id: null
   license_name: null

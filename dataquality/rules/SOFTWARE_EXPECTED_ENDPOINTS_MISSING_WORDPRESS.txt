@@ -1,9 +1,9 @@
 DATA QUALITY REPORT - RULE: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS
 ================================================================================
-Generated: 2026-09-30 20:41:32
+Generated: 2026-10-04 12:31:49
 Issue Type: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS
 Priority: MEDIUM
-Total Issues Found: 52
+Total Issues Found: 50
 
 Rule: Identifies records using software.id='wordpress' (API-capable per software definitions) that have no endpoints listed. Add at least one API endpoint for discovery and integration.
 
@@ -25,8 +25,7 @@ MY: 1 issue
 PH: 1 issue
 PK: 4 issues
 PL: 1 issue
-PT: 1 issue
-RU: 11 issues
+RU: 10 issues
 SE: 1 issue
 SV: 1 issue
 US: 11 issues
@@ -59,7 +58,6 @@ mzkchrru: 1 issue
 verhnekalinovomoru: 1 issue
 wwwlevadarurindikatory: 1 issue
 mtseingru: 1 issue
-geo12rfatlas: 1 issue
 datamartsroskaznaru: 1 issue
 fishgovru: 1 issue
 baikalgisrudeltagis: 1 issue
@@ -69,7 +67,6 @@ opendatasamregionru: 1 issue
 emberenergyorg: 1 issue
 repositorytopdownproteomicsorg: 1 issue
 dataaseanstatsorg: 1 issue
-sreaazoresgovpt: 1 issue
 mapsdswdgovph: 1 issue
 cpedbmardigovmy: 1 issue
 mapadigitalmichoacangobmxindicador: 1 issue
@@ -289,14 +286,6 @@ Field: endpoints
 Current Value: {"software_id": "wordpress", "has_api": "Yes", "endpoints_count": 0}
 Suggested Action: Add at least one endpoint because software.id='wordpress' is marked as API-capable in software definitions
 
-File: RU/RU-ME/geo/geo12rfatlas.yaml
-Record ID: geo12rfatlas
-Country: RU
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS
-Field: endpoints
-Current Value: {"software_id": "wordpress", "has_api": "Yes", "endpoints_count": 0}
-Suggested Action: Add at least one endpoint because software.id='wordpress' is marked as API-capable in software definitions
-
 File: RU/Federal/indicators/datamartsroskaznaru.yaml
 Record ID: datamartsroskaznaru
 Country: RU
@@ -364,14 +353,6 @@ Suggested Action: Add at least one endpoint because software.id='wordpress' is m
 File: ASEAN/indicators/dataaseanstatsorg.yaml
 Record ID: dataaseanstatsorg
 Country: ASEAN
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS
-Field: endpoints
-Current Value: {"software_id": "wordpress", "has_api": "Yes", "endpoints_count": 0}
-Suggested Action: Add at least one endpoint because software.id='wordpress' is marked as API-capable in software definitions
-
-File: PT/PT-20/indicators/sreaazoresgovpt.yaml
-Record ID: sreaazoresgovpt
-Country: PT
 Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS
 Field: endpoints
 Current Value: {"software_id": "wordpress", "has_api": "Yes", "endpoints_count": 0}

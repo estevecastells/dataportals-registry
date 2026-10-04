@@ -1,0 +1,64 @@
+access_mode:
+- open
+api: false
+api_status: inactive
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: CZ
+      name: Czech Republic
+    level: 20
+    macroregion:
+      id: '150'
+      name: Europe
+description: 'ArchaeoVault: Czech repository of archaeological research data (field documentation, finds,
+  analytical data).'
+id: archaeovaultcz
+identifiers:
+- id: re3data
+  url: https://www.re3data.org/repository/r3d100014899
+  value: r3d100014899
+langs:
+- id: CS
+  name: Czech
+- id: EN
+  name: English
+link: https://archaeo-vault.cz/
+name: ArchaeoVault
+owner:
+  link: https://www.muni.cz
+  location:
+    country:
+      id: CZ
+      name: Czech Republic
+    level: 20
+  name: Masaryk University
+  type: Academy
+properties:
+  has_doi: false
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- archaeology
+- czech republic
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013716

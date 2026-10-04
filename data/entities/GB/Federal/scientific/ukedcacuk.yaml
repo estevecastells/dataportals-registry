@@ -1,0 +1,61 @@
+access_mode:
+- open
+api: false
+api_status: inactive
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: GB
+      name: United Kingdom
+    level: 20
+    macroregion:
+      id: '150'
+      name: Europe
+description: 'UK Energy Data Centre: curated collection of UK energy research datasets operated by STFC.'
+id: ukedcacuk
+identifiers:
+- id: datacite
+  value: duqf.dztpij
+langs:
+- id: EN
+  name: English
+link: https://ukedc.ac.uk/
+name: UK Energy Data Centre (UKEDC)
+owner:
+  link: https://ukedc.ac.uk
+  location:
+    country:
+      id: GB
+      name: United Kingdom
+    level: 20
+  name: UK Energy Data Centre (STFC)
+  type: Academy
+properties:
+  has_doi: true
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- research data
+- doi
+- datacite
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013689

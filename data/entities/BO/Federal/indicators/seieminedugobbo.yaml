@@ -1,0 +1,52 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: BO
+      name: Bolivia
+    level: 20
+    macroregion:
+      id: '005'
+      name: South America
+description: Bolivian Ministry of Education education statistics system (SEIE) with
+  datasets on enrolment, teachers and education spending. Source of datasets assessed
+  in ODIN 2024/25.
+id: seieminedugobbo
+langs:
+- id: ES
+  name: Spanish
+link: https://seie.minedu.gob.bo/
+name: SEIE - Sistema de Estadística Educativa (Bolivia)
+owner:
+  link: https://www.minedu.gob.bo
+  location:
+    country:
+      id: BO
+      name: Bolivia
+    level: 20
+  name: Ministerio de Educación de Bolivia
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- bolivia
+- education
+- government
+- indicators
+- statistics
+topics:
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: EDUC
+  name: Education, culture and sport
+  type: eudatatheme
+uid: cdi00013622

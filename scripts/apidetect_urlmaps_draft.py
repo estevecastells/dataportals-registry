@@ -1070,6 +1070,19 @@ WSO2APIMANAGER_URLMAP = [
     },
 ]
 
+# Gravitee APIM developer portals serve every route (including /environments/
+# DEFAULT and portal JSON paths) as an SPA shell that starts with the 2015
+# Gravitee team copyright comment (verified on developer.gov.pf).
+GRAVITEE_URLMAP = [
+    {
+        "id": "gravitee:portal",
+        "url": "/environments/DEFAULT",
+        "expected_mime": HTML_MIMETYPES,
+        "is_json": False,
+        "version": None,
+    },
+]
+
 # Gigwa 2.x (genotyping data manager) exposes its REST API under {app}/rest/;
 # the Swagger UI page is the only stable anonymous GET (verified on
 # gigwa.cgiar.org instances, gigwa.rosaceae.org, gigwa.cottongen.org).
@@ -3334,6 +3347,7 @@ DRAFT_CATALOGS_URLMAP = {
     "smartmetserver": SMARTMET_URLMAP,
     "glass": GLASS_URLMAP,
     "wso2apimanager": WSO2APIMANAGER_URLMAP,
+    "gravitee": GRAVITEE_URLMAP,
 }
 
 # Software reviewed for auto-fill: do not invent relative API paths.

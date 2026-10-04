@@ -1,0 +1,48 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: SN
+      name: Senegal
+    level: 20
+    macroregion:
+      id: '011'
+      name: Western Africa
+description: Senegal national data portal on the Open Data for Africa (Knoema) platform
+  with datasets, dashboards and key statistical indicators. Source of datasets assessed
+  in ODIN 2024/25.
+id: senegalopendataforafricaorg
+langs:
+- id: FR
+  name: French
+link: https://senegal.opendataforafrica.org/
+name: Senegal Data Portal (Open Data for Africa)
+owner:
+  link: https://www.ansd.sn
+  location:
+    country:
+      id: SN
+      name: Senegal
+    level: 20
+  name: Agence Nationale de la Statistique et de la Démographie (ANSD)
+  type: Central government
+software:
+  id: knoema
+  name: Knoema
+status: active
+tags:
+- government
+- indicators
+- senegal
+- statistics
+topics:
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+uid: cdi00013646

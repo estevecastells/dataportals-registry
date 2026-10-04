@@ -1,0 +1,60 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: FR
+      name: France
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+description: 'Le GANIL, Grand Accélérateur National d’Ions Lourds, est aujourd’hui
+  l’un des grands laboratoires internationaux pour la recherche avec des faisceaux
+  d’ions : physique du noyau, de l’atome, de la matière condensée, astrophysique,
+  radiobiologie… Grâce au caractère unique de ses installations, il est classé parmi
+  les Très Grandes Infrastructures de Recherche (TGIR), au service d’une communauté
+  scien'
+id: dataganilspiral2eu
+identifiers:
+- id: datacite
+  url: https://data.ganil-spiral2.eu/
+  value: inist.ganil
+langs:
+- id: EN
+  name: English
+link: https://data.ganil-spiral2.eu/
+name: Grand Accélérateur National d’Ions Lourds
+owner:
+  link: https://www.cnrs.fr/
+  location:
+    country:
+      id: FR
+      name: France
+    level: 20
+  name: Centre National de la Recherche Scientifique
+  type: Academy
+properties:
+  dataset_count_reported: 38
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00012252
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

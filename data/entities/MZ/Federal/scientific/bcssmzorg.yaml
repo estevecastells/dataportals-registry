@@ -1,0 +1,65 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: MZ
+      name: Mozambique
+    level: 20
+    macroregion:
+      id: '014'
+      name: Eastern Africa
+description: BCSS is an innovative platform hosting the first permanent Ocean Observatory
+  focused on multi-ecosystem time series research in Africa. We aim to use our strategic
+  location and data to support environmental management at a local level, facilitate
+  regional collaboration, and contribute to international scientific programs. Our
+  founding principles are to monitor, facilitate, and guarantee marine sci
+id: bcssmzorg
+identifiers:
+- id: datacite
+  url: https://bcssmz.org/
+  value: xdda.lkoxba
+langs:
+- id: EN
+  name: English
+link: https://bcssmz.org/
+name: BCSS Ocean Observatory - Bazaruto Archipelago (Mozambique)
+owner:
+  link: https://www.bcssmz.org/
+  location:
+    country:
+      id: MZ
+      name: Mozambique
+    level: 20
+  name: Bazaruto Center for Scientific Studies (BCSS)
+  type: Academy
+properties:
+  dataset_count_reported: 21
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00013579
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115
+- id: ENVI
+  name: Environment
+  type: eudatatheme
+- id: Environment
+  name: Environment
+  type: iso19115

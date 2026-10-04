@@ -1,0 +1,64 @@
+access_mode:
+- open
+api: false
+api_status: inactive
+catalog_type: Datasets list
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: World
+      name: World
+    level: 20
+    macroregion:
+      id: '001'
+      name: World
+description: 'Community catalog of datasets curated for Google Earth Engine: Earth-observation and geospatial
+  community assets with metadata and access pointers (formerly Awesome GEE Community Catalog).'
+id: geecommunitycatalogorg
+identifiers:
+- id: wikidata
+  url: https://www.wikidata.org/wiki/Q136779289
+  value: Q136779289
+langs:
+- id: EN
+  name: English
+link: https://gee-community-catalog.org/
+name: GEE Community Catalog
+owner:
+  link: https://gee-community-catalog.org
+  location:
+    country:
+      id: World
+      name: World
+    level: 20
+  name: GEE Community Catalog project
+  type: Community
+properties:
+  has_doi: false
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- earth observation
+- geospatial
+- community
+- catalog
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Geoscientific Information
+  name: Geoscientific Information
+  type: iso19115
+uid: cdi00013672

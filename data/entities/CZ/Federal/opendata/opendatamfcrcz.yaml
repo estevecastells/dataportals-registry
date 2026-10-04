@@ -14,8 +14,8 @@ coverage:
     macroregion:
       id: '151'
       name: Eastern Europe
-description: Data Catalog provides access to transactional data and code lists in
-  csv and xml formats for third-party systems.
+description: Data Catalog provides access to transactional data and code lists in csv and xml formats
+  for third-party systems.
 id: opendatamfcrcz
 langs:
 - id: CS

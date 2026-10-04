@@ -1,29 +1,11 @@
 DATA QUALITY REPORT - COUNTRY: ID
 ================================================================================
-Generated: 2026-09-30 20:41:32
+Generated: 2026-10-04 12:31:49
 Country Code: ID
-Total Records with Issues: 5
-Total Issues Found: 5
+Total Records with Issues: 3
+Total Issues Found: 3
 
 === ISSUES BY TYPE ===
-
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CENTURION]
-Count: 2
-Priority: MEDIUM
-
-File: ID/Federal/opendata/datapolrigoid.yaml
-Record ID: datapolrigoid
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CENTURION
-Field: endpoints
-Current Value: {'software_id': 'centurion', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='centurion' is marked as API-capable in software definitions
-
-File: ID/ID-SU/opendata/sadainasumutprovgoid.yaml
-Record ID: sadainasumutprovgoid
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CENTURION
-Field: endpoints
-Current Value: {'software_id': 'centurion', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='centurion' is marked as API-capable in software definitions
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PALAPA]
 Count: 3
@@ -53,5 +35,4 @@ Suggested Action: Add at least one endpoint because software.id='palapa' is mark
 
 === SUMMARY BY ISSUE TYPE ===
 
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CENTURION: 2 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PALAPA: 3 issues

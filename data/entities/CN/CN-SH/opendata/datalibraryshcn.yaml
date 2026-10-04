@@ -1,0 +1,70 @@
+access_mode:
+- open
+api: false
+api_status: inactive
+catalog_type: Open data portal
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: CN
+      name: China
+    level: 30
+    macroregion:
+      id: '150'
+      name: Europe
+    subregion:
+      id: CN-SH
+      name: Shanghai Shi
+description: Shanghai Library's open data platform releasing the library's cultural and bibliographic
+  datasets (ancient books, genealogy, manuscripts) for public reuse.
+id: datalibraryshcn
+identifiers:
+- id: wikidata
+  url: https://www.wikidata.org/wiki/Q123592429
+  value: Q123592429
+langs:
+- id: ZH
+  name: Chinese
+link: https://data.library.sh.cn/
+name: Shanghai Library Open Data Platform (上海图书馆开放数据平台)
+owner:
+  link: https://www.library.sh.cn
+  location:
+    country:
+      id: CN
+      name: China
+    level: 30
+    subregion:
+      id: CN-SH
+      name: Shanghai Shi
+  name: Shanghai Library (上海图书馆)
+  type: Local government
+properties:
+  has_doi: false
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- library
+- cultural heritage
+- china
+- open data
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013661

@@ -1,0 +1,67 @@
+access_mode:
+- open
+api: false
+api_status: inactive
+catalog_type: Open data portal
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: AU
+      name: Australia
+    level: 30
+    macroregion:
+      id: '053'
+      name: Australia and New Zealand
+    subregion:
+      id: AU-NSW
+      name: New South Wales
+description: 'SEED: NSW central environmental data portal for datasets about air, water, land and biodiversity.'
+id: dataenvironmentnswgovau
+identifiers:
+- id: datacite
+  value: ardcx.oeh
+langs:
+- id: EN
+  name: English
+link: https://data.environment.nsw.gov.au/
+name: SEED - Sharing and Enabling Environmental Data (NSW)
+owner:
+  link: https://www.nsw.gov.au/departments-and-agencies/dpie
+  location:
+    country:
+      id: AU
+      name: Australia
+    level: 30
+    subregion:
+      id: AU-NSW
+      name: New South Wales
+  name: NSW Department of Planning and Environment
+  type: Regional government
+properties:
+  has_doi: true
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: ckan
+  name: CKAN
+status: active
+tags:
+- environment
+- australia
+- nsw
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013679

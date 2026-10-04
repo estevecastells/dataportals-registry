@@ -1,0 +1,32 @@
+[
+ {
+  "base_id": "6836",
+  "coll": "ftumelbournefig",
+  "country": "au",
+  "docs": 4683,
+  "link": "https://melbourne.figshare.com/",
+  "name": "University of Melbourne: Figshare",
+  "system": "Figshare",
+  "type": "Datasets"
+ },
+ {
+  "base_id": "6547",
+  "coll": "crf1000",
+  "country": "uk",
+  "docs": 248110,
+  "link": "https://f1000research.com/",
+  "name": "F1000Research",
+  "system": "CrossRef",
+  "type": "Publications"
+ },
+ {
+  "base_id": "9802",
+  "coll": "croecdcr",
+  "country": "org",
+  "docs": 202977,
+  "link": "https://www.oecd-ilibrary.org/",
+  "name": "OECD iLibrary",
+  "system": "CrossRef",
+  "type": "Publications"
+ }
+]

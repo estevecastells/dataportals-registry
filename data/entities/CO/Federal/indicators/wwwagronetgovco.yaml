@@ -1,0 +1,51 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: CO
+      name: Colombia
+    level: 20
+    macroregion:
+      id: '005'
+      name: South America
+description: Colombian rural and agricultural information observatory (AgroNET) with
+  statistical datasets on crops, livestock and rural affairs. Source of datasets assessed
+  in ODIN 2024/25.
+id: wwwagronetgovco
+langs:
+- id: ES
+  name: Spanish
+link: https://www.agronet.gov.co/
+name: AgroNET - Observatorio de Información Rural y Agropecuaria (Colombia)
+owner:
+  link: https://www.minagricultura.gov.co
+  location:
+    country:
+      id: CO
+      name: Colombia
+    level: 20
+  name: Ministerio de Agricultura y Desarrollo Rural (Colombia)
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- colombia
+- government
+- indicators
+- statistics
+topics:
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: AGRI
+  name: Agriculture, fisheries, forestry and food
+  type: eudatatheme
+uid: cdi00013625

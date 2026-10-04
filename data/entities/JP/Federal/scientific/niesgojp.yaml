@@ -1,0 +1,64 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: JP
+      name: Japan
+    level: 20
+    macroregion:
+      id: '030'
+      name: Eastern Asia
+id: niesgojp
+identifiers:
+- id: datacite
+  url: https://www.nies.go.jp/
+  value: nies.nies
+langs:
+- id: JA
+  name: Japanese
+- id: EN
+  name: English
+link: https://www.nies.go.jp/
+name: NIES research data publications
+owner:
+  link: https://www.nies.go.jp
+  location:
+    country:
+      id: JP
+      name: Japan
+    level: 20
+  name: National Institute for Environmental Studies
+  type: Academy
+properties:
+  dataset_count_reported: 111
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00013577
+description: Scientific data repository. managed by National Institute for Environmental
+  Studies. powered by Custom software. accessible at www.nies.go.jp.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115
+- id: ENVI
+  name: Environment
+  type: eudatatheme
+- id: Environment
+  name: Environment
+  type: iso19115

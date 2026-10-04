@@ -1,0 +1,55 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: CH
+      name: Switzerland
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+description: Data sets and reports of the Swiss Permafrost Monitoring Network PERMOS
+id: permosch
+identifiers:
+- id: datacite
+  url: https://www.permos.ch/data-portal/data-publications-doi
+  value: ethz.permos
+langs:
+- id: EN
+  name: English
+link: https://www.permos.ch/data-portal/data-publications-doi
+name: PERMOS
+owner:
+  location:
+    country:
+      id: CH
+      name: Switzerland
+    level: 20
+  name: Eidgen. Forschungsanstalt für Wald, Schnee und Landschaft
+  type: Other
+  link: https://permos.ch
+properties:
+  dataset_count_reported: 10
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00008150
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

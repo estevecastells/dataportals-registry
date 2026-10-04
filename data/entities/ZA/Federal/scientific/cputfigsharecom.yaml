@@ -1,0 +1,61 @@
+access_mode:
+- open
+api: false
+api_status: inactive
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: ZA
+      name: South Africa
+    level: 20
+    macroregion:
+      id: 018
+      name: Southern Africa
+description: Institutional research repository of CPUT on figshare with DataCite DOIs.
+id: cputfigsharecom
+identifiers:
+- id: datacite
+  value: figshare.cput
+langs:
+- id: EN
+  name: English
+link: https://cput.figshare.com/
+name: Cape Peninsula University of Technology figshare
+owner:
+  link: https://www.cput.ac.za
+  location:
+    country:
+      id: ZA
+      name: South Africa
+    level: 20
+  name: Cape Peninsula University of Technology
+  type: Academy
+properties:
+  has_doi: true
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: figshare
+  name: Figshare
+status: active
+tags:
+- research data
+- doi
+- datacite
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013707

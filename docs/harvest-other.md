@@ -139,6 +139,19 @@ GET https://host/devportal/apis
 Unauthenticated `/devportal` REST endpoints vary by version — stop on `401`
 rather than probing admin APIs.
 
+## Gravitee API Management (`gravitee`) {#gravitee}
+
+Harvest the developer portal's API list. One portal is one catalog.
+
+```text
+GET https://host/environments/DEFAULT/apis
+```
+
+**Keep:** APIs listed in the developer portal (name, description, documentation URL, publisher).
+**Drop:** subscription keys, application registrations, and user profiles. Some installs
+(e.g. developer.gov.pf) serve every route — including JSON paths — as the SPA HTML shell;
+when the portal API is exposed anonymously, read it instead of parsing HTML. Stop on `401`.
+
 ## Data marketplaces
 
 Public catalog of datasets for sale or license. Harvest **public** listing APIs only (dataset id, title, landing URL). Stop on paywalls and `401`. Do not scrape prices, buyer lists, or sample files into this repository. `access_mode` on the **catalog** record is often `restricted` — still harvest metadata if it is public.

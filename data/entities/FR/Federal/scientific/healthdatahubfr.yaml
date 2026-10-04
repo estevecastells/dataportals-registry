@@ -1,0 +1,59 @@
+access_mode:
+- restricted
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: FR
+      name: France
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+id: healthdatahubfr
+identifiers:
+- id: datacite
+  url: https://health-data-hub.fr/
+  value: hdh.prod
+langs:
+- id: EN
+  name: English
+link: https://health-data-hub.fr/
+name: Health Data Hub
+owner:
+  location:
+    country:
+      id: FR
+      name: France
+    level: 20
+  name: Health Data Hub
+  type: Other
+  link: https://health-data-hub.fr
+properties:
+  dataset_count_reported: 16
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00012779
+description: Scientific data repository. managed by Health Data Hub. powered by Custom
+  software. accessible at health-data-hub.fr.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115
+- id: HEAL
+  name: Health
+  type: eudatatheme

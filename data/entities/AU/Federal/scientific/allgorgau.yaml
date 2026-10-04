@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: AU
+      name: Australia
+    level: 20
+    macroregion:
+      id: '053'
+      name: Australia and New Zealand
+id: allgorgau
+identifiers:
+- id: datacite
+  url: https://allg.org.au/
+  value: cctg.allg
+langs:
+- id: EN
+  name: English
+link: https://allg.org.au/
+name: Australasian Leukaemia and Lymphoma Group
+owner:
+  location:
+    country:
+      id: AU
+      name: Australia
+    level: 20
+  name: Australasian Leukaemia and Lymphoma Group
+  type: Academy
+  link: https://org.au
+properties:
+  dataset_count_reported: 41
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00008133
+description: Scientific data repository. managed by Australasian Leukaemia and Lymphoma
+  Group. powered by Custom software. accessible at allg.org.au.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

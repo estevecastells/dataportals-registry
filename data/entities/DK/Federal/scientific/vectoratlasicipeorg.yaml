@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: DK
+      name: Denmark
+    level: 20
+    macroregion:
+      id: '154'
+      name: Northern Europe
+id: vectoratlasicipeorg
+identifiers:
+- id: datacite
+  url: https://vectoratlas.icipe.org/
+  value: gbif.icipe
+langs:
+- id: EN
+  name: English
+link: https://vectoratlas.icipe.org/
+name: International Centre for Insect Physiology and Ecology
+owner:
+  link: https://www.gbif.org
+  location:
+    country:
+      id: DK
+      name: Denmark
+    level: 20
+  name: GBIF | Global Biodiversity Information Facility
+  type: Academy
+properties:
+  dataset_count_reported: 101
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00011999
+description: Scientific data repository. managed by GBIF | Global Biodiversity Information
+  Facility. powered by Custom software. accessible at vectoratlas.icipe.org.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

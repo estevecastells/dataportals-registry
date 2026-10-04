@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: HU
+      name: Hungary
+    level: 20
+    macroregion:
+      id: '151'
+      name: 'Eastern Europe '
+id: dbztihu
+identifiers:
+- id: datacite
+  url: https://db.zti.hu/
+  value: mtakik.mtabtkzi
+langs:
+- id: EN
+  name: English
+link: https://db.zti.hu/
+name: MTA BTK Zenetudományi Intézet (adatbázisok)
+owner:
+  location:
+    country:
+      id: HU
+      name: Hungary
+    level: 20
+  name: MTA BTK Zenetudományi Intézet (adatbázisok)
+  type: Other
+  link: https://zti.hu
+properties:
+  dataset_count_reported: 22
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00013561
+description: Scientific data repository. managed by MTA BTK Zenetudományi Intézet
+  (adatbázisok). powered by Custom software. accessible at db.zti.hu.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

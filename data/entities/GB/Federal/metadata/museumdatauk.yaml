@@ -1,0 +1,64 @@
+access_mode:
+- open
+api: false
+api_status: inactive
+catalog_type: Metadata catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: GB
+      name: United Kingdom
+    level: 20
+    macroregion:
+      id: '150'
+      name: Europe
+description: National aggregator of UK museum collection records, launched in 2024 by Art UK, Collections
+  Trust and the University of Southampton for research and reuse.
+id: museumdatauk
+identifiers:
+- id: wikidata
+  url: https://www.wikidata.org/wiki/Q130303042
+  value: Q130303042
+langs:
+- id: EN
+  name: English
+link: https://museumdata.uk/
+name: Museum Data Service
+owner:
+  link: https://museumdata.uk
+  location:
+    country:
+      id: GB
+      name: United Kingdom
+    level: 20
+  name: Museum Data Service (Art UK, Collections Trust, University of Southampton)
+  type: Civil society
+properties:
+  has_doi: false
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- museums
+- cultural heritage
+- united kingdom
+- aggregator
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013664

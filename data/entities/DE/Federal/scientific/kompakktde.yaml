@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+id: kompakktde
+identifiers:
+- id: datacite
+  url: https://kompakkt.de/
+  value: wuua.rnkbbo
+langs:
+- id: EN
+  name: English
+link: https://kompakkt.de/
+name: Kompakkt
+owner:
+  link: https://www.tib.eu
+  location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+  name: Technische Informationsbibliothek (TIB)
+  type: Academy
+properties:
+  dataset_count_reported: 71
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00011988
+description: Scientific data repository. managed by Technische Informationsbibliothek
+  (TIB). powered by Custom software. accessible at kompakkt.de.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

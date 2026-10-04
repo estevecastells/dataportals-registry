@@ -52,6 +52,7 @@ owner:
   name: Direção-Geral do Território (DGT)
   type: Central government
 properties:
+  is_national: true
   has_doi: true
 rights:
   license_id: null

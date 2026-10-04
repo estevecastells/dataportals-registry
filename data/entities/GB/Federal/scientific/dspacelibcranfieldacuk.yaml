@@ -1,0 +1,59 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: GB
+      name: United Kingdom
+    level: 20
+    macroregion:
+      id: '154'
+      name: Northern Europe
+description: CERES is the Institutional Repository for Cranfield University consisting
+  of staff journal articles and papers as well as PhD and Conference papers and Proceedings
+id: dspacelibcranfieldacuk
+identifiers:
+- id: datacite
+  url: https://dspace.lib.cranfield.ac.uk/
+  value: eqnn.ceres
+langs:
+- id: EN
+  name: English
+link: https://dspace.lib.cranfield.ac.uk/
+name: CERES
+owner:
+  link: https://www.cranfield.ac.uk/
+  location:
+    country:
+      id: GB
+      name: United Kingdom
+    level: 20
+  name: Cranfield University
+  type: Academy
+properties:
+  dataset_count_reported: 129
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00013064
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115
+- id: EDUC
+  name: Education, culture and sport
+  type: eudatatheme

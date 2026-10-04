@@ -42,6 +42,12 @@ software:
   id: gosweb
   name: Gosweb
 status: active
-tags: []
-topics: []
+tags:
+- government
+- open data
+- russian-federation
+topics:
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
 uid: cdi00011795

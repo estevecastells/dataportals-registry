@@ -23,7 +23,7 @@ langs:
 link: https://angusf777.github.io/hk-open-data/
 name: HK Open Data
 owner:
-  link: null
+  link: https://github.io
   location:
     country:
       id: HK
@@ -34,6 +34,10 @@ software:
   id: custom
   name: Custom software
 status: active
-tags: []
-topics: []
+tags:
+- hong-kong
+topics:
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
 uid: cdi00011932

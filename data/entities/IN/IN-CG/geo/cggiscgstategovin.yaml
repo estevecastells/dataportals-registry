@@ -1,0 +1,58 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Geoportal
+content_types:
+- dataset
+- map_layer
+coverage:
+- location:
+    country:
+      id: IN
+      name: India
+    level: 30
+    subregion:
+      id: IN-CG
+      name: Chhattīsgarh
+    macroregion:
+      id: '034'
+      name: Southern Asia
+description: Interactive state GIS for Chhattisgarh with department layers and decision-support
+  analytics covering all 33 districts, operated by CHiPS and the State Centre of Geo-Informatics.
+id: cggiscgstategovin
+langs:
+- id: EN
+  name: English
+- id: HI
+  name: Hindi
+link: https://cggis.cgstate.gov.in/geocg
+name: Chhattisgarh State Geospatial Portal
+owner:
+  link: https://chips.gov.in
+  location:
+    country:
+      id: IN
+      name: India
+    level: 30
+    subregion:
+      id: IN-CG
+      name: Chhattīsgarh
+  name: Chhattisgarh Infotech Promotion Society
+  type: Regional government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- geospatial
+- government
+- open data
+topics:
+- id: REGI
+  name: Regions and cities
+  type: eudatatheme
+- id: Location
+  name: Location
+  type: iso19115
+uid: cdi00013751

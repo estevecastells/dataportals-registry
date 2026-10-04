@@ -1,0 +1,60 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: FR
+      name: France
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+description: 'Créé en 1994, le mésocentre est devenu une Unité Mixte de Service du
+  CNRS (UMS CNRS 3667) en 2014. Au coeur du site Toulouse Aerospace, CALMIP est hébergé
+  à l’Espace Clément Ader, dans une salle de calcul spécialisée qu’il partage avec
+  Météo-France. Il bénéficie ainsi d’un environnement technologique de premier plan
+  : sécurisation des accès et de l’alimentation électrique, réseau de récupération
+  d'
+id: dataversecallistocalmipunivtoulousefr
+identifiers:
+- id: datacite
+  url: https://dataverse.callisto.calmip.univ-toulouse.fr/
+  value: jbru.calmip
+langs:
+- id: EN
+  name: English
+link: https://dataverse.callisto.calmip.univ-toulouse.fr/
+name: Calcul en Midi-Pyrénées
+owner:
+  link: https://www.cnrs.fr/
+  location:
+    country:
+      id: FR
+      name: France
+    level: 20
+  name: Centre National de la Recherche Scientifique
+  type: Academy
+properties:
+  dataset_count_reported: 845
+  has_doi: true
+  is_national: false
+software:
+  id: dataverse
+  name: Dataverse
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00012700
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

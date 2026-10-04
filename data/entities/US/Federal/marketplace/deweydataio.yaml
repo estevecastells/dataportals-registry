@@ -1,0 +1,53 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Data marketplace
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    level: 20
+    macroregion:
+      id: '021'
+      name: Northern America
+id: deweydataio
+identifiers:
+- id: datacite
+  url: https://deweydata.io/
+  value: udmb.vxvelf
+langs:
+- id: EN
+  name: English
+link: https://deweydata.io/
+name: Dewey Data
+owner:
+  link: https://www.deweydata.io/
+  location:
+    country:
+      id: US
+      name: United States
+    level: 20
+  name: Dewey Data Inc.
+  type: Other
+properties:
+  dataset_count_reported: 493
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00013595
+description: Data marketplace. managed by Dewey Data Inc. powered by Custom software.
+  accessible at deweydata.io.
+topics:
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme

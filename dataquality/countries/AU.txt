@@ -1,33 +1,22 @@
 DATA QUALITY REPORT - COUNTRY: AU
 ================================================================================
-Generated: 2026-09-30 20:41:32
+Generated: 2026-10-04 12:31:49
 Country Code: AU
-Total Records with Issues: 12
-Total Issues Found: 13
+Total Records with Issues: 4
+Total Issues Found: 4
 
 === ISSUES BY TYPE ===
 
-[MISSING_TAGS]
+[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN]
 Count: 1
-Priority: LOW
+Priority: MEDIUM
 
-File: AU/Federal/scientific/accessnricatalogue.yaml
-Record ID: accessnricatalogue
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-[MISSING_TOPICS]
-Count: 1
-Priority: LOW
-
-File: AU/Federal/scientific/accessnricatalogue.yaml
-Record ID: accessnricatalogue
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
+File: AU/AU-NSW/opendata/dataenvironmentnswgovau.yaml
+Record ID: dataenvironmentnswgovau
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN
+Field: endpoints
+Current Value: {'software_id': 'ckan', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='ckan' is marked as API-capable in software definitions
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL]
 Count: 2
@@ -47,66 +36,6 @@ Field: endpoints
 Current Value: {'software_id': 'drupal', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='drupal' is marked as API-capable in software definitions
 
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_REDBOX]
-Count: 8
-Priority: MEDIUM
-
-File: AU/Federal/scientific/rdmpndeduau.yaml
-Record ID: rdmpndeduau
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_REDBOX
-Field: endpoints
-Current Value: {'software_id': 'redbox', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='redbox' is marked as API-capable in software definitions
-
-File: AU/Federal/scientific/redboxcanberraeduau.yaml
-Record ID: redboxcanberraeduau
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_REDBOX
-Field: endpoints
-Current Value: {'software_id': 'redbox', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='redbox' is marked as API-capable in software definitions
-
-File: AU/Federal/scientific/datamanagercqueduau.yaml
-Record ID: datamanagercqueduau
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_REDBOX
-Field: endpoints
-Current Value: {'software_id': 'redbox', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='redbox' is marked as API-capable in software definitions
-
-File: AU/Federal/scientific/tropicaldatahuborg.yaml
-Record ID: tropicaldatahuborg
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_REDBOX
-Field: endpoints
-Current Value: {'software_id': 'redbox', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='redbox' is marked as API-capable in software definitions
-
-File: AU/Federal/scientific/researchdataplannerdeakineduau.yaml
-Record ID: researchdataplannerdeakineduau
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_REDBOX
-Field: endpoints
-Current Value: {'software_id': 'redbox', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='redbox' is marked as API-capable in software definitions
-
-File: AU/Federal/scientific/researchdatahubuwaeduau.yaml
-Record ID: researchdatahubuwaeduau
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_REDBOX
-Field: endpoints
-Current Value: {'software_id': 'redbox', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='redbox' is marked as API-capable in software definitions
-
-File: AU/Federal/scientific/dmnewcastleeduau.yaml
-Record ID: dmnewcastleeduau
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_REDBOX
-Field: endpoints
-Current Value: {'software_id': 'redbox', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='redbox' is marked as API-capable in software definitions
-
-File: AU/Federal/scientific/researchjcueduau.yaml
-Record ID: researchjcueduau
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_REDBOX
-Field: endpoints
-Current Value: {'software_id': 'redbox', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='redbox' is marked as API-capable in software definitions
-
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_TRIPAL]
 Count: 1
 Priority: MEDIUM
@@ -121,8 +50,6 @@ Suggested Action: Add at least one endpoint because software.id='tripal' is mark
 
 === SUMMARY BY ISSUE TYPE ===
 
-MISSING_TAGS: 1 issue
-MISSING_TOPICS: 1 issue
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL: 2 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_REDBOX: 8 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_TRIPAL: 1 issue

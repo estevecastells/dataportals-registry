@@ -1,0 +1,60 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: DK
+      name: Denmark
+    level: 20
+    macroregion:
+      id: '154'
+      name: Northern Europe
+description: Københavns Stadsarkiv er Københavns Kommunes arkiv. Arkivet indsamler
+  og bevarer arkivmateriale både fysisk og digitalt fra kommunens forvaltninger og
+  institutioner og stiller materialet til rådighed for borgere og forskere. Arkivets
+  samlinger består af ca. 45 hyldekilometer papirarkivalier og en hastigt stigende
+  mængde digitalt skabte data. Samlingerne omhandler overordnet Københavns udvikling
+  og
+id: arkivfinderdk
+identifiers:
+- id: datacite
+  url: https://arkivfinder.dk/kbharkiv
+  value: doip.ksa
+langs:
+- id: DA
+  name: Danish
+link: https://arkivfinder.dk/kbharkiv
+name: Københavns Stadsarkiv
+owner:
+  link: https://kbharkiv.dk/
+  location:
+    country:
+      id: DK
+      name: Denmark
+    level: 20
+  name: Københavns Stadsarkiv
+  type: Other
+properties:
+  dataset_count_reported: 146
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00011996
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

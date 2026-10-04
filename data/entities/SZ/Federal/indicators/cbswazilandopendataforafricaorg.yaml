@@ -1,0 +1,51 @@
+access_mode:
+- open
+api: true
+api_status: active
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: SZ
+      name: Eswatini
+    level: 20
+    macroregion:
+      id: 018
+      name: Southern Africa
+description: Central Bank of Eswatini data portal on the Open Data for Africa (Knoema)
+  platform with monetary and financial time series datasets. Source of datasets assessed
+  in ODIN 2024/25.
+id: cbswazilandopendataforafricaorg
+langs:
+- id: EN
+  name: English
+link: https://cb-swaziland.opendataforafrica.org/
+name: OpenData for the Central Bank of Eswatini
+owner:
+  link: https://www.centralbank.org.sz
+  location:
+    country:
+      id: SZ
+      name: Eswatini
+    level: 20
+  name: Central Bank of Eswatini
+  type: Central government
+software:
+  id: knoema
+  name: Knoema
+status: active
+tags:
+- eswatini
+- government
+- indicators
+- statistics
+topics:
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+uid: cdi00013647
+endpoints:
+- type: opensearch
+  url: https://cb-swaziland.opendataforafrica.org/OpenSearch.xml

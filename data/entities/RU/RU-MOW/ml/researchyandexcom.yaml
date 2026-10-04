@@ -27,7 +27,7 @@ langs:
 link: https://research.yandex.com/datasets
 name: Yandex Research Datasets
 owner:
-  link: null
+  link: https://yandex.com
   location:
     country:
       id: RU
@@ -42,6 +42,11 @@ software:
   id: custom
   name: Custom software
 status: active
-tags: []
-topics: []
+tags:
+- commercial
+- russian-federation
+topics:
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
 uid: cdi00011950

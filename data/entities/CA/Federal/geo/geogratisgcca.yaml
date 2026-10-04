@@ -15,7 +15,8 @@ coverage:
     macroregion:
       id: '021'
       name: Northern America
-description: Geospatial data catalog hosted via GeoServer.
+description: Geospatial data catalog hosted via GeoServer. It is the federal geospatial
+  data platform of Canada and a core node of the national spatial data infrastructure.
 endpoints:
 - type: wms111
   url: http://geogratis.gc.ca:80/geoserver/ows?service=WMS&version=1.1.1&request=GetCapabilities
@@ -76,6 +77,7 @@ owner:
   type: Central government
 properties:
   has_doi: false
+  is_national: true
 rights:
   license_id: null
   license_name: null

@@ -1,0 +1,46 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country: &id001
+      id: VE
+      name: Venezuela (Bolivarian Republic of)
+    level: 20
+    macroregion:
+      id: '005'
+      name: South America
+description: Venezuelan National Statistics Institute platform for monitoring Sustainable
+  Development Goal indicators with national datasets. Source of datasets assessed
+  in ODIN 2024/25.
+id: monitoreoindicadoresodsinegobve
+langs:
+- id: ES
+  name: Spanish
+link: http://monitoreo-indicadores-ods.ine.gob.ve/www/index.php
+name: Monitoreo de Indicadores ODS (INE Venezuela)
+owner:
+  link: https://www.ine.gob.ve
+  location:
+    country: *id001
+    level: 20
+  name: Instituto Nacional de Estadística de Venezuela
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- government
+- indicators
+- statistics
+- venezuela-(bolivarian-republic-of)
+topics:
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+uid: cdi00013656

@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: AU
+      name: Australia
+    level: 20
+    macroregion:
+      id: '053'
+      name: Australia and New Zealand
+id: dataiardpinswgovau
+identifiers:
+- id: datacite
+  url: https://data.iar.dpi.nsw.gov.au/
+  value: nswdpi.repo
+langs:
+- id: EN
+  name: English
+link: https://data.iar.dpi.nsw.gov.au/
+name: New South Wales Department of Primary Industries
+owner:
+  location:
+    country:
+      id: AU
+      name: Australia
+    level: 20
+  name: New South Wales Department of Primary Industries
+  type: Central government
+  link: https://gov.au
+properties:
+  dataset_count_reported: 1155
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00008138
+description: Scientific data repository. managed by New South Wales Department of
+  Primary Industries. powered by Custom software. accessible at data.iar.dpi.nsw.gov.au.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

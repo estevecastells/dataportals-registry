@@ -1,0 +1,54 @@
+access_mode:
+- open
+api: true
+api_status: active
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: SZ
+      name: Eswatini
+    level: 20
+    macroregion:
+      id: 018
+      name: Southern Africa
+description: Eswatini Central Statistical Office data portal on the Open Data for
+  Africa (Knoema) platform with a data catalog of national statistical time series.
+  Source of datasets assessed in ODIN 2024/25.
+id: nsoswazilandopendataforafricaorg
+langs:
+- id: EN
+  name: English
+link: https://nso-swaziland.opendataforafrica.org/
+name: OpenData for the Central Statistics Office, Eswatini
+owner:
+  link: https://www.gov.sz
+  location:
+    country:
+      id: SZ
+      name: Eswatini
+    level: 20
+  name: Central Statistical Office of Eswatini
+  type: Central government
+software:
+  id: knoema
+  name: Knoema
+status: active
+tags:
+- eswatini
+- government
+- indicators
+- statistics
+topics:
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+uid: cdi00013648
+endpoints:
+- type: sdmx:datastructure
+  url: https://nso-swaziland.opendataforafrica.org/api/1.0/sdmx
+  version: '2.0'
+- type: opensearch
+  url: https://nso-swaziland.opendataforafrica.org/OpenSearch.xml

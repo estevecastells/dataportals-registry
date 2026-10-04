@@ -35,6 +35,8 @@ owner:
     level: 20
   name: Estonian Land and Spatial Development Board
   type: Central government
+properties:
+  is_national: true
 software:
   id: custom
   name: Custom software

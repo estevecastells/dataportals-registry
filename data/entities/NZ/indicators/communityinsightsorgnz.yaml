@@ -35,6 +35,24 @@ software:
   id: tableau
   name: Tableau
 status: active
-tags: []
-topics: []
+tags:
+- demographics
+- education
+- health
+- indicators
+- new-zealand
+- statistics
+topics:
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: HEAL
+  name: Health
+  type: eudatatheme
+- id: EDUC
+  name: Education, culture and sport
+  type: eudatatheme
+- id: Elevation
+  name: Elevation
+  type: iso19115
 uid: cdi00008129

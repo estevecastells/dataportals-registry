@@ -1,0 +1,64 @@
+access_mode:
+- open
+api: false
+api_status: inactive
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+    macroregion:
+      id: '150'
+      name: Europe
+description: 'NFDI4Health Community Study Hub: portal for German epidemiological and public-health study
+  data.'
+id: cshnfdi4healthde
+identifiers:
+- id: datacite
+  value: kydj.rnntqi
+langs:
+- id: DE
+  name: German
+- id: EN
+  name: English
+link: https://csh.nfdi4health.de/
+name: NFDI4Health Health Study Hub
+owner:
+  link: https://www.nfdi4health.de
+  location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+  name: NFDI4Health Consortium
+  type: Academy
+properties:
+  has_doi: true
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- research data
+- doi
+- datacite
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013683

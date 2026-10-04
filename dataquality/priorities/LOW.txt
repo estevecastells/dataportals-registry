@@ -1,208 +1,48 @@
 DATA QUALITY REPORT - PRIORITY: LOW
 ================================================================================
-Generated: 2026-09-30 20:41:32
+Generated: 2026-10-04 12:31:49
 Priority Level: LOW
-Total Issues Found: 985
+Total Issues Found: 41
 
 === ISSUES BY TYPE ===
 
 [MISSING_OWNER_LINK]
-Count: 24
+Count: 4
 
-File: US/US-WA/opendata/poliscireplicationindex.yaml
-Record ID: poliscireplicationindex
-Country: US
+File: PK/PK-BA/opendata/sedgobpk.yaml
+Record ID: sedgobpk
+Country: PK
 Issue: MISSING_OWNER_LINK
 Field: owner.link
 Current Value: None
 Suggested Action: Add owner organization website URL
 
-File: US/US-CA/ml/posttrainingdataatlas.yaml
-Record ID: posttrainingdataatlas
-Country: US
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: None
-Suggested Action: Add owner organization website URL
-
-File: US/Federal/ml/banglanlphub.yaml
-Record ID: banglanlphub
-Country: US
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: None
-Suggested Action: Add owner organization website URL
-
-File: US/US-MA/opendata/clinicaldataatlas.yaml
-Record ID: clinicaldataatlas
-Country: US
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: None
-Suggested Action: Add owner organization website URL
-
-File: HK/Federal/opendata/hkopendatacatalogue.yaml
-Record ID: hkopendatacatalogue
-Country: HK
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: None
-Suggested Action: Add owner organization website URL
-
-File: NO/Federal/search/finnnorskegeodata.yaml
-Record ID: finnnorskegeodata
-Country: NO
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: None
-Suggested Action: Add owner organization website URL
-
-File: IN/Federal/opendata/datasetatlas.yaml
-Record ID: datasetatlas
-Country: IN
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: None
-Suggested Action: Add owner organization website URL
-
-File: IN/Federal/opendata/indiageodata.yaml
-Record ID: indiageodata
-Country: IN
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: None
-Suggested Action: Add owner organization website URL
-
-File: CA/CA-QC/opendata/parliamentstreams.yaml
-Record ID: parliamentstreams
-Country: CA
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: None
-Suggested Action: Add owner organization website URL
-
-File: CZ/Federal/opendata/dataatlasczech.yaml
-Record ID: dataatlasczech
+File: CZ/CZ-31/geo/hrbitovtstreboncz.yaml
+Record ID: hrbitovtstreboncz
 Country: CZ
 Issue: MISSING_OWNER_LINK
 Field: owner.link
 Current Value: None
 Suggested Action: Add owner organization website URL
 
-File: RU/RU-MOW/ml/aimosru.yaml
-Record ID: aimosru
+File: RU/RU-NIZ/indicators/budgetnnru.yaml
+Record ID: budgetnnru
 Country: RU
 Issue: MISSING_OWNER_LINK
 Field: owner.link
 Current Value: None
 Suggested Action: Add owner organization website URL
 
-File: RU/RU-MOW/ml/researchyandexcom.yaml
-Record ID: researchyandexcom
-Country: RU
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: None
-Suggested Action: Add owner organization website URL
-
-File: RU/RU-MOW/ml/videoprocessingai.yaml
-Record ID: videoprocessingai
-Country: RU
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: None
-Suggested Action: Add owner organization website URL
-
-File: RU/RU-TUL/indicators/dftoru.yaml
-Record ID: dftoru
-Country: RU
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: None
-Suggested Action: Add owner organization website URL
-
-File: RU/Federal/indicators/datamartsroskaznaru.yaml
-Record ID: datamartsroskaznaru
-Country: RU
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: None
-Suggested Action: Add owner organization website URL
-
-File: RU/RU-CE/indicators/forcitizensru.yaml
-Record ID: forcitizensru
-Country: RU
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: None
-Suggested Action: Add owner organization website URL
-
-File: BO/Federal/opendata/datosbolivia.yaml
-Record ID: datosbolivia
-Country: BO
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: None
-Suggested Action: Add owner organization website URL
-
-File: KR/Federal/ml/chinesehfdatasetscatalog.yaml
-Record ID: chinesehfdatasetscatalog
-Country: KR
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: None
-Suggested Action: Add owner organization website URL
-
-File: KR/Federal/ml/koreanhfdatasetscatalog.yaml
-Record ID: koreanhfdatasetscatalog
-Country: KR
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: None
-Suggested Action: Add owner organization website URL
-
-File: KR/Federal/ml/japanesehfdatasetscatalog.yaml
-Record ID: japanesehfdatasetscatalog
-Country: KR
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: None
-Suggested Action: Add owner organization website URL
-
-File: MK/Federal/ml/opencorpusregistry.yaml
-Record ID: opencorpusregistry
-Country: MK
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: None
-Suggested Action: Add owner organization website URL
-
-File: GB/Federal/scientific/nepalheritagecatalogue.yaml
-Record ID: nepalheritagecatalogue
-Country: GB
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: None
-Suggested Action: Add owner organization website URL
-
-File: AT/Federal/opendata/openfootball.yaml
-Record ID: openfootball
-Country: AT
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: None
-Suggested Action: Add owner organization website URL
-
-File: CL/Federal/opendata/catalogoocupacioneschile.yaml
-Record ID: catalogoocupacioneschile
-Country: CL
+File: DE/Federal/indicators/odlinfobfsde.yaml
+Record ID: odlinfobfsde
+Country: DE
 Issue: MISSING_OWNER_LINK
 Field: owner.link
 Current Value: None
 Suggested Action: Add owner organization website URL
 
 [MISSING_RIGHTS]
-Count: 16
+Count: 11
 
 File: UZ/Federal/opendata/dataegovuz.yaml
 Record ID: dataegovuz
@@ -212,12 +52,12 @@ Field: rights
 Current Value: {'license_id': None, 'license_name': None, 'license_url': None, 'privacy_policy_url': None, 'rights_type': 'unknown', 'tos_url': None}
 Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
 
-File: BD/Federal/opendata/ogdnewsdggovbd.yaml
-Record ID: ogdnewsdggovbd
-Country: BD
+File: KE/Federal/opendata/opendatagoke.yaml
+Record ID: opendatagoke
+Country: KE
 Issue: MISSING_RIGHTS
 Field: rights
-Current Value: {'license_id': None, 'license_name': None, 'license_url': None, 'privacy_policy_url': 'https://ogdnew.sdg.gov.bd/privacy-policy', 'rights_type': 'unknown', 'tos_url': 'https://ogdnew.sdg.gov.bd/terms-of-use'}
+Current Value: {'license_id': None, 'license_name': None, 'license_url': None, 'privacy_policy_url': None, 'rights_type': 'unknown', 'tos_url': None}
 Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
 
 File: AL/Federal/opendata/opendatagoval.yaml
@@ -228,36 +68,12 @@ Field: rights
 Current Value: {'license_id': None, 'license_name': None, 'license_url': None, 'privacy_policy_url': None, 'rights_type': 'unknown', 'tos_url': None}
 Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
 
-File: MN/Federal/opendata/opendatagovmn.yaml
-Record ID: opendatagovmn
-Country: MN
-Issue: MISSING_RIGHTS
-Field: rights
-Current Value: {'license_id': None, 'license_name': None, 'license_url': None, 'privacy_policy_url': None, 'rights_type': 'granular', 'tos_url': None}
-Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
-
 File: IR/Federal/opendata/catalogdatagovir.yaml
 Record ID: catalogdatagovir
 Country: IR
 Issue: MISSING_RIGHTS
 Field: rights
 Current Value: {'license_id': None, 'license_name': None, 'license_url': None, 'privacy_policy_url': None, 'rights_type': 'unknown', 'tos_url': None}
-Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
-
-File: LK/Federal/opendata/datagovlk.yaml
-Record ID: datagovlk
-Country: LK
-Issue: MISSING_RIGHTS
-Field: rights
-Current Value: {'license_id': None, 'license_name': None, 'license_url': None, 'privacy_policy_url': None, 'rights_type': 'granular', 'tos_url': None}
-Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
-
-File: EC/Federal/opendata/catalogodatosabiertosgobec.yaml
-Record ID: catalogodatosabiertosgobec
-Country: EC
-Issue: MISSING_RIGHTS
-Field: rights
-Current Value: {'license_id': None, 'license_name': None, 'license_url': None, 'privacy_policy_url': None, 'rights_type': 'granular', 'tos_url': None}
 Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
 
 File: RU/Federal/opendata/datagovru.yaml
@@ -276,25 +92,9 @@ Field: rights
 Current Value: {'license_id': None, 'license_name': None, 'license_url': None, 'privacy_policy_url': None, 'rights_type': 'granular', 'tos_url': None}
 Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
 
-File: PA/Federal/opendata/datosabiertosgobpa.yaml
-Record ID: datosabiertosgobpa
-Country: PA
-Issue: MISSING_RIGHTS
-Field: rights
-Current Value: {'license_id': None, 'license_name': None, 'license_url': None, 'privacy_policy_url': None, 'rights_type': 'granular', 'tos_url': None}
-Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
-
 File: BO/Federal/opendata/datosgobbo.yaml
 Record ID: datosgobbo
 Country: BO
-Issue: MISSING_RIGHTS
-Field: rights
-Current Value: {'license_id': None, 'license_name': None, 'license_url': None, 'privacy_policy_url': None, 'rights_type': 'granular', 'tos_url': None}
-Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
-
-File: MK/Federal/opendata/datagovmk.yaml
-Record ID: datagovmk
-Country: MK
 Issue: MISSING_RIGHTS
 Field: rights
 Current Value: {'license_id': None, 'license_name': None, 'license_url': None, 'privacy_policy_url': None, 'rights_type': 'granular', 'tos_url': None}
@@ -324,1667 +124,253 @@ Field: rights
 Current Value: {'license_id': None, 'license_name': None, 'license_url': None, 'privacy_policy_url': None, 'rights_type': 'global', 'tos_url': 'https://nogp.gov.iq/POLICIES.aspx'}
 Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
 
-File: LT/Federal/opendata/datagovlt.yaml
-Record ID: datagovlt
-Country: LT
+File: JP/Federal/opendata/dataegogovjp.yaml
+Record ID: dataegogovjp
+Country: JP
 Issue: MISSING_RIGHTS
 Field: rights
-Current Value: {'license_id': None, 'license_name': None, 'license_url': None, 'privacy_policy_url': None, 'rights_type': 'granular', 'tos_url': None}
+Current Value: {'license_id': None, 'license_name': None, 'license_url': None, 'privacy_policy_url': None, 'rights_type': 'unknown', 'tos_url': None}
 Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
 
 [MISSING_TAGS]
-Count: 472
+Count: 13
 
-File: US/US-IL/opendata/cehinationalgisdatacatalog.yaml
-Record ID: cehinationalgisdatacatalog
+File: PK/PK-BA/opendata/sedgobpk.yaml
+Record ID: sedgobpk
+Country: PK
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: US/Federal/scientific/opendatavectorsurvorg.yaml
+Record ID: opendatavectorsurvorg
 Country: US
 Issue: MISSING_TAGS
 Field: tags
 Current Value: []
 Suggested Action: Extract tags from description and catalog_type
 
-File: US/US-WA/opendata/poliscireplicationindex.yaml
-Record ID: poliscireplicationindex
+File: US/Federal/scientific/mapsvectorsurvorg.yaml
+Record ID: mapsvectorsurvorg
 Country: US
 Issue: MISSING_TAGS
 Field: tags
 Current Value: []
 Suggested Action: Extract tags from description and catalog_type
 
-File: US/US-PA/opendata/rainfall3rww.yaml
-Record ID: rainfall3rww
-Country: US
+File: NG/NG-KD/indicators/ghskdbsng.yaml
+Record ID: ghskdbsng
+Country: NG
 Issue: MISSING_TAGS
 Field: tags
 Current Value: []
 Suggested Action: Extract tags from description and catalog_type
 
-File: US/US-NY/scientific/tcelldysfunctiondataportal.yaml
-Record ID: tcelldysfunctiondataportal
-Country: US
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: US/US-CA/ml/posttrainingdataatlas.yaml
-Record ID: posttrainingdataatlas
-Country: US
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: US/US-CA/scientific/scansio.yaml
-Record ID: scansio
-Country: US
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: US/US-CA/scientific/ibdomicsexplorer.yaml
-Record ID: ibdomicsexplorer
-Country: US
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: US/Federal/opendata/microsoftdataforsociety.yaml
-Record ID: microsoftdataforsociety
-Country: US
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: US/Federal/opendata/gridstatusio.yaml
-Record ID: gridstatusio
-Country: US
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: US/Federal/ml/banglanlphub.yaml
-Record ID: banglanlphub
-Country: US
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: US/Federal/ml/imageomicscatalog.yaml
-Record ID: imageomicscatalog
-Country: US
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: US/Federal/api/registrymodelcontextprotocolio.yaml
-Record ID: registrymodelcontextprotocolio
-Country: US
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: US/Federal/metadata/mdcdatasetschemaregistry.yaml
-Record ID: mdcdatasetschemaregistry
-Country: US
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: US/Federal/scientific/aedinio.yaml
-Record ID: aedinio
-Country: US
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: US/Federal/scientific/opencogdata.yaml
-Record ID: opencogdata
-Country: US
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: US/US-VT/indicators/ccrpcworkforcedataportal.yaml
-Record ID: ccrpcworkforcedataportal
-Country: US
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: US/US-MA/opendata/clinicaldataatlas.yaml
-Record ID: clinicaldataatlas
-Country: US
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: HK/Federal/opendata/hkopendatacatalogue.yaml
-Record ID: hkopendatacatalogue
-Country: HK
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: NZ/indicators/lawaorgnz.yaml
-Record ID: lawaorgnz
-Country: NZ
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: NZ/indicators/whakamauadashboard.yaml
-Record ID: whakamauadashboard
-Country: NZ
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: NZ/indicators/nzhealthsurveyexplorer.yaml
-Record ID: nzhealthsurveyexplorer
-Country: NZ
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: NZ/indicators/data1850nz.yaml
-Record ID: data1850nz
-Country: NZ
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: NZ/indicators/communityinsightsorgnz.yaml
-Record ID: communityinsightsorgnz
-Country: NZ
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: NZ/indicators/educationcountsgovtnz.yaml
-Record ID: educationcountsgovtnz
-Country: NZ
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: NZ/indicators/transportgovtnzstats.yaml
-Record ID: transportgovtnzstats
-Country: NZ
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: NZ/Federal/scientific/datasetsoceanumio.yaml
-Record ID: datasetsoceanumio
-Country: NZ
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: NO/Federal/search/finnnorskegeodata.yaml
-Record ID: finnnorskegeodata
-Country: NO
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: IN/IN-GJ/geo/geoidindiandams.yaml
-Record ID: geoidindiandams
-Country: IN
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: IN/Federal/opendata/datasetatlas.yaml
-Record ID: datasetatlas
-Country: IN
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: IN/Federal/opendata/indiageodata.yaml
-Record ID: indiageodata
-Country: IN
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: CA/CA-QC/opendata/parliamentstreams.yaml
-Record ID: parliamentstreams
-Country: CA
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: CA/CA-BC/scientific/serratusio.yaml
-Record ID: serratusio
-Country: CA
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: CZ/Federal/opendata/dataatlasczech.yaml
-Record ID: dataatlasczech
+File: CZ/CZ-31/geo/hrbitovtstreboncz.yaml
+Record ID: hrbitovtstreboncz
 Country: CZ
 Issue: MISSING_TAGS
 Field: tags
 Current Value: []
 Suggested Action: Extract tags from description and catalog_type
 
-File: RU/RU-KC/opendata/kurdjinovogosuslugiru.yaml
-Record ID: kurdjinovogosuslugiru
+File: RU/RU-NIZ/indicators/budgetnnru.yaml
+Record ID: budgetnnru
 Country: RU
 Issue: MISSING_TAGS
 Field: tags
 Current Value: []
 Suggested Action: Extract tags from description and catalog_type
 
-File: RU/RU-KLU/opendata/kozelskijr40goswebgosuslugiru.yaml
-Record ID: kozelskijr40goswebgosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-KLU/opendata/borovskr40goswebgosuslugiru.yaml
-Record ID: borovskr40goswebgosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-KLU/opendata/maloyargosuslugiru.yaml
-Record ID: maloyargosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-KLU/opendata/maloyaroslaveczkayar40goswebgosuslugiru.yaml
-Record ID: maloyaroslaveczkayar40goswebgosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-KLU/opendata/admdumgosuslugiru.yaml
-Record ID: admdumgosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-KLU/opendata/betlicagosuslugiru.yaml
-Record ID: betlicagosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-MO/opendata/atyashevospgosuslugiru.yaml
-Record ID: atyashevospgosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-MO/opendata/atyashevskr13goswebgosuslugiru.yaml
-Record ID: atyashevskr13goswebgosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-MO/opendata/atyashevogpgosuslugiru.yaml
-Record ID: atyashevogpgosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-MO/opendata/krasnoslobodskgosuslugiru.yaml
-Record ID: krasnoslobodskgosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-MO/opendata/atyashevskoer13goswebgosuslugiru.yaml
-Record ID: atyashevskoer13goswebgosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-MO/opendata/ichalkigosuslugiru.yaml
-Record ID: ichalkigosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-MO/opendata/bignatovogosuslugiru.yaml
-Record ID: bignatovogosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-MO/opendata/kirzhemanyatyashevogosuslugiru.yaml
-Record ID: kirzhemanyatyashevogosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-MO/opendata/atyashevogosuslugiru.yaml
-Record ID: atyashevogosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-MO/opendata/kirzhemanskoer13goswebgosuslugiru.yaml
-Record ID: kirzhemanskoer13goswebgosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-MO/opendata/kochkurovormgosuslugiru.yaml
-Record ID: kochkurovormgosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-MO/opendata/alovskoer13goswebgosuslugiru.yaml
-Record ID: alovskoer13goswebgosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-MO/opendata/manadyshigosuslugiru.yaml
-Record ID: manadyshigosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-MO/opendata/sabancheevogosuslugiru.yaml
-Record ID: sabancheevogosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-STA/opendata/minvodigosuslugiru.yaml
-Record ID: minvodigosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-STA/opendata/arzgirskijr07goswebgosuslugiru.yaml
-Record ID: arzgirskijr07goswebgosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-STA/opendata/adminlmrgosuslugiru.yaml
-Record ID: adminlmrgosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-STA/opendata/stavropolr07goswebgosuslugiru.yaml
-Record ID: stavropolr07goswebgosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-STA/opendata/nevadmgosuslugiru.yaml
-Record ID: nevadmgosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-STA/opendata/ipatovo26gosuslugiru.yaml
-Record ID: ipatovo26gosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-STA/opendata/nevinnomysskr07goswebgosuslugiru.yaml
-Record ID: nevinnomysskr07goswebgosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-STA/opendata/stavropolgosuslugiru.yaml
-Record ID: stavropolgosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-STA/opendata/essentukigosuslugiru.yaml
-Record ID: essentukigosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-STA/opendata/aamoskgosuslugiru.yaml
-Record ID: aamoskgosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-STA/opendata/newalexandrovskgosuslugiru.yaml
-Record ID: newalexandrovskgosuslugiru
-Country: RU
+File: World/Federal/indicators/internationalbudgetorg.yaml
+Record ID: internationalbudgetorg
+Country: World
 Issue: MISSING_TAGS
 Field: tags
 Current Value: []
 Suggested Action: Extract tags from description and catalog_type
 
-File: RU/RU-STA/opendata/andropovskiygosuslugiru.yaml
-Record ID: andropovskiygosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-STA/opendata/mineralovodskijr07goswebgosuslugiru.yaml
-Record ID: mineralovodskijr07goswebgosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-STA/opendata/almoskr07goswebgosuslugiru.yaml
-Record ID: almoskr07goswebgosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-DA/opendata/kaladjuhadmgosuslugiru.yaml
-Record ID: kaladjuhadmgosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-DA/opendata/admkalagosuslugiru.yaml
-Record ID: admkalagosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-DA/opendata/mokokrekgosuslugiru.yaml
-Record ID: mokokrekgosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-DA/opendata/moakbulatyrtgosuslugiru.yaml
-Record ID: moakbulatyrtgosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-DA/opendata/motemiraulgosuslugiru.yaml
-Record ID: motemiraulgosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-DA/opendata/atlanaulr82goswebgosuslugiru.yaml
-Record ID: atlanaulr82goswebgosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-DA/opendata/mokostekgosuslugiru.yaml
-Record ID: mokostekgosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-DA/opendata/novyjkostekr82gosuslugiru.yaml
-Record ID: novyjkostekr82gosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-DA/opendata/karchagskijr82goswebgosuslugiru.yaml
-Record ID: karchagskijr82goswebgosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-MOW/ml/aimosru.yaml
-Record ID: aimosru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-MOW/ml/researchyandexcom.yaml
-Record ID: researchyandexcom
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-MOW/ml/videoprocessingai.yaml
-Record ID: videoprocessingai
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-ALT/opendata/verxobskir22gosuslugiru.yaml
-Record ID: verxobskir22gosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-ALT/opendata/moaltaygosuslugiru.yaml
-Record ID: moaltaygosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-ALT/opendata/admtabrngosuslugiru.yaml
-Record ID: admtabrngosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-ALT/opendata/slavgorodgosuslugiru.yaml
-Record ID: slavgorodgosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-ALT/opendata/admpnkgosuslugiru.yaml
-Record ID: admpnkgosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-ALT/opendata/malinovoeozerogosuslugiru.yaml
-Record ID: malinovoeozerogosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-ALT/opendata/belokurixar22goswebgosuslugiru.yaml
-Record ID: belokurixar22goswebgosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-ALT/opendata/admzspgosuslugiru.yaml
-Record ID: admzspgosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-ALT/opendata/solonovkar22gosuslugiru.yaml
-Record ID: solonovkar22gosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-ALT/opendata/kluchevskygosuslugiru.yaml
-Record ID: kluchevskygosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-ALT/opendata/mixajlovskoer22goswebgosuslugiru.yaml
-Record ID: mixajlovskoer22goswebgosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-ALT/opendata/belokurihagosuslugiru.yaml
-Record ID: belokurihagosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-ALT/opendata/tochilnoer22gosuslugiru.yaml
-Record ID: tochilnoer22gosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-ALT/opendata/sychevkar22gosuslugiru.yaml
-Record ID: sychevkar22gosuslugiru
-Country: RU
+File: DE/Federal/indicators/odlinfobfsde.yaml
+Record ID: odlinfobfsde
+Country: DE
 Issue: MISSING_TAGS
 Field: tags
 Current Value: []
 Suggested Action: Extract tags from description and catalog_type
 
-File: RU/RU-ALT/opendata/andronovskijr22goswebgosuslugiru.yaml
-Record ID: andronovskijr22goswebgosuslugiru
-Country: RU
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: RU/RU-ALT/opendata/anujskoer22gosuslugiru.yaml
-Record ID: anujskoer22gosuslugiru
-Country: RU
+File: FR/Federal/scientific/wwwcatdsfr.yaml
+Record ID: wwwcatdsfr
+Country: FR
 Issue: MISSING_TAGS
 Field: tags
 Current Value: []
 Suggested Action: Extract tags from description and catalog_type
 
-File: RU/RU-ALT/opendata/adminkrutihagosuslugiru.yaml
-Record ID: adminkrutihagosuslugiru
-Country: RU
+File: FR/Federal/scientific/campagnesflotteoceanographiquefr.yaml
+Record ID: campagnesflotteoceanographiquefr
+Country: FR
 Issue: MISSING_TAGS
 Field: tags
 Current Value: []
 Suggested Action: Extract tags from description and catalog_type
 
-File: RU/RU-ALT/opendata/anujskoer22goswebgosuslugiru.yaml
-Record ID: anujskoer22goswebgosuslugiru
-Country: RU
+File: FR/Federal/scientific/envlitifremerfr.yaml
+Record ID: envlitifremerfr
+Country: FR
 Issue: MISSING_TAGS
 Field: tags
 Current Value: []
 Suggested Action: Extract tags from description and catalog_type
 
-File: RU/RU-ALT/opendata/mhlaltaygosuslugiru.yaml
-Record ID: mhlaltaygosuslugiru
-Country: RU
+File: FR/Federal/scientific/sihifremerfr.yaml
+Record ID: sihifremerfr
+Country: FR
 Issue: MISSING_TAGS
 Field: tags
 Current Value: []
 Suggested Action: Extract tags from description and catalog_type
 
-File: RU/RU-ALT/opendata/altadmgosuslugiru.yaml
-Record ID: altadmgosuslugiru
-Country: RU
+File: FR/Federal/scientific/quadrigeeaufrancefr.yaml
+Record ID: quadrigeeaufrancefr
+Country: FR
 Issue: MISSING_TAGS
 Field: tags
 Current Value: []
 Suggested Action: Extract tags from description and catalog_type
-
-... and 372 more records with this issue
 
 [MISSING_TOPICS]
-Count: 473
+Count: 13
 
-File: US/US-IL/opendata/cehinationalgisdatacatalog.yaml
-Record ID: cehinationalgisdatacatalog
+File: PK/PK-BA/opendata/sedgobpk.yaml
+Record ID: sedgobpk
+Country: PK
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: US/Federal/scientific/opendatavectorsurvorg.yaml
+Record ID: opendatavectorsurvorg
 Country: US
 Issue: MISSING_TOPICS
 Field: topics
 Current Value: []
 Suggested Action: Add relevant topics based on catalog_type and description
 
-File: US/US-WA/opendata/poliscireplicationindex.yaml
-Record ID: poliscireplicationindex
+File: US/Federal/scientific/mapsvectorsurvorg.yaml
+Record ID: mapsvectorsurvorg
 Country: US
 Issue: MISSING_TOPICS
 Field: topics
 Current Value: []
 Suggested Action: Add relevant topics based on catalog_type and description
 
-File: US/US-PA/opendata/rainfall3rww.yaml
-Record ID: rainfall3rww
-Country: US
+File: NG/NG-KD/indicators/ghskdbsng.yaml
+Record ID: ghskdbsng
+Country: NG
 Issue: MISSING_TOPICS
 Field: topics
 Current Value: []
 Suggested Action: Add relevant topics based on catalog_type and description
 
-File: US/US-NY/scientific/tcelldysfunctiondataportal.yaml
-Record ID: tcelldysfunctiondataportal
-Country: US
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: US/US-CA/ml/posttrainingdataatlas.yaml
-Record ID: posttrainingdataatlas
-Country: US
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: US/US-CA/scientific/scansio.yaml
-Record ID: scansio
-Country: US
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: US/US-CA/scientific/ibdomicsexplorer.yaml
-Record ID: ibdomicsexplorer
-Country: US
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: US/Federal/opendata/microsoftdataforsociety.yaml
-Record ID: microsoftdataforsociety
-Country: US
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: US/Federal/opendata/gridstatusio.yaml
-Record ID: gridstatusio
-Country: US
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: US/Federal/ml/banglanlphub.yaml
-Record ID: banglanlphub
-Country: US
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: US/Federal/ml/imageomicscatalog.yaml
-Record ID: imageomicscatalog
-Country: US
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: US/Federal/api/registrymodelcontextprotocolio.yaml
-Record ID: registrymodelcontextprotocolio
-Country: US
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: US/Federal/metadata/mdcdatasetschemaregistry.yaml
-Record ID: mdcdatasetschemaregistry
-Country: US
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: US/Federal/scientific/aedinio.yaml
-Record ID: aedinio
-Country: US
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: US/Federal/scientific/opencogdata.yaml
-Record ID: opencogdata
-Country: US
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: US/US-VT/indicators/ccrpcworkforcedataportal.yaml
-Record ID: ccrpcworkforcedataportal
-Country: US
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: US/US-MA/opendata/clinicaldataatlas.yaml
-Record ID: clinicaldataatlas
-Country: US
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: HK/Federal/opendata/hkopendatacatalogue.yaml
-Record ID: hkopendatacatalogue
-Country: HK
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: NZ/indicators/lawaorgnz.yaml
-Record ID: lawaorgnz
-Country: NZ
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: NZ/indicators/whakamauadashboard.yaml
-Record ID: whakamauadashboard
-Country: NZ
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: NZ/indicators/nzhealthsurveyexplorer.yaml
-Record ID: nzhealthsurveyexplorer
-Country: NZ
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: NZ/indicators/data1850nz.yaml
-Record ID: data1850nz
-Country: NZ
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: NZ/indicators/communityinsightsorgnz.yaml
-Record ID: communityinsightsorgnz
-Country: NZ
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: NZ/indicators/educationcountsgovtnz.yaml
-Record ID: educationcountsgovtnz
-Country: NZ
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: NZ/indicators/transportgovtnzstats.yaml
-Record ID: transportgovtnzstats
-Country: NZ
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: NZ/Federal/scientific/datasetsoceanumio.yaml
-Record ID: datasetsoceanumio
-Country: NZ
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: NO/Federal/search/finnnorskegeodata.yaml
-Record ID: finnnorskegeodata
-Country: NO
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: IN/IN-GJ/geo/geoidindiandams.yaml
-Record ID: geoidindiandams
-Country: IN
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: IN/Federal/opendata/datasetatlas.yaml
-Record ID: datasetatlas
-Country: IN
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: IN/Federal/opendata/indiageodata.yaml
-Record ID: indiageodata
-Country: IN
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: CA/CA-QC/opendata/parliamentstreams.yaml
-Record ID: parliamentstreams
-Country: CA
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: CA/CA-BC/scientific/serratusio.yaml
-Record ID: serratusio
-Country: CA
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: CZ/Federal/opendata/dataatlasczech.yaml
-Record ID: dataatlasczech
+File: CZ/CZ-31/geo/hrbitovtstreboncz.yaml
+Record ID: hrbitovtstreboncz
 Country: CZ
 Issue: MISSING_TOPICS
 Field: topics
 Current Value: []
 Suggested Action: Add relevant topics based on catalog_type and description
 
-File: RU/RU-KC/opendata/kurdjinovogosuslugiru.yaml
-Record ID: kurdjinovogosuslugiru
+File: RU/RU-NIZ/indicators/budgetnnru.yaml
+Record ID: budgetnnru
 Country: RU
 Issue: MISSING_TOPICS
 Field: topics
 Current Value: []
 Suggested Action: Add relevant topics based on catalog_type and description
 
-File: RU/RU-KLU/opendata/kozelskijr40goswebgosuslugiru.yaml
-Record ID: kozelskijr40goswebgosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-KLU/opendata/borovskr40goswebgosuslugiru.yaml
-Record ID: borovskr40goswebgosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-KLU/opendata/maloyargosuslugiru.yaml
-Record ID: maloyargosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-KLU/opendata/maloyaroslaveczkayar40goswebgosuslugiru.yaml
-Record ID: maloyaroslaveczkayar40goswebgosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-KLU/opendata/admdumgosuslugiru.yaml
-Record ID: admdumgosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-KLU/opendata/betlicagosuslugiru.yaml
-Record ID: betlicagosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-MO/opendata/atyashevospgosuslugiru.yaml
-Record ID: atyashevospgosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-MO/opendata/atyashevskr13goswebgosuslugiru.yaml
-Record ID: atyashevskr13goswebgosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-MO/opendata/atyashevogpgosuslugiru.yaml
-Record ID: atyashevogpgosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-MO/opendata/krasnoslobodskgosuslugiru.yaml
-Record ID: krasnoslobodskgosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-MO/opendata/atyashevskoer13goswebgosuslugiru.yaml
-Record ID: atyashevskoer13goswebgosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-MO/opendata/ichalkigosuslugiru.yaml
-Record ID: ichalkigosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-MO/opendata/bignatovogosuslugiru.yaml
-Record ID: bignatovogosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-MO/opendata/kirzhemanyatyashevogosuslugiru.yaml
-Record ID: kirzhemanyatyashevogosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-MO/opendata/atyashevogosuslugiru.yaml
-Record ID: atyashevogosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-MO/opendata/kirzhemanskoer13goswebgosuslugiru.yaml
-Record ID: kirzhemanskoer13goswebgosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-MO/opendata/kochkurovormgosuslugiru.yaml
-Record ID: kochkurovormgosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-MO/opendata/alovskoer13goswebgosuslugiru.yaml
-Record ID: alovskoer13goswebgosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-MO/opendata/manadyshigosuslugiru.yaml
-Record ID: manadyshigosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-MO/opendata/sabancheevogosuslugiru.yaml
-Record ID: sabancheevogosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-STA/opendata/minvodigosuslugiru.yaml
-Record ID: minvodigosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-STA/opendata/arzgirskijr07goswebgosuslugiru.yaml
-Record ID: arzgirskijr07goswebgosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-STA/opendata/adminlmrgosuslugiru.yaml
-Record ID: adminlmrgosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-STA/opendata/stavropolr07goswebgosuslugiru.yaml
-Record ID: stavropolr07goswebgosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-STA/opendata/nevadmgosuslugiru.yaml
-Record ID: nevadmgosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-STA/opendata/ipatovo26gosuslugiru.yaml
-Record ID: ipatovo26gosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-STA/opendata/nevinnomysskr07goswebgosuslugiru.yaml
-Record ID: nevinnomysskr07goswebgosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-STA/opendata/stavropolgosuslugiru.yaml
-Record ID: stavropolgosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-STA/opendata/essentukigosuslugiru.yaml
-Record ID: essentukigosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-STA/opendata/aamoskgosuslugiru.yaml
-Record ID: aamoskgosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-STA/opendata/newalexandrovskgosuslugiru.yaml
-Record ID: newalexandrovskgosuslugiru
-Country: RU
+File: World/Federal/indicators/internationalbudgetorg.yaml
+Record ID: internationalbudgetorg
+Country: World
 Issue: MISSING_TOPICS
 Field: topics
 Current Value: []
 Suggested Action: Add relevant topics based on catalog_type and description
 
-File: RU/RU-STA/opendata/andropovskiygosuslugiru.yaml
-Record ID: andropovskiygosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-STA/opendata/mineralovodskijr07goswebgosuslugiru.yaml
-Record ID: mineralovodskijr07goswebgosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-STA/opendata/almoskr07goswebgosuslugiru.yaml
-Record ID: almoskr07goswebgosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-DA/opendata/kaladjuhadmgosuslugiru.yaml
-Record ID: kaladjuhadmgosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-DA/opendata/admkalagosuslugiru.yaml
-Record ID: admkalagosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-DA/opendata/mokokrekgosuslugiru.yaml
-Record ID: mokokrekgosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-DA/opendata/moakbulatyrtgosuslugiru.yaml
-Record ID: moakbulatyrtgosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-DA/opendata/motemiraulgosuslugiru.yaml
-Record ID: motemiraulgosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-DA/opendata/atlanaulr82goswebgosuslugiru.yaml
-Record ID: atlanaulr82goswebgosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-DA/opendata/mokostekgosuslugiru.yaml
-Record ID: mokostekgosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-DA/opendata/novyjkostekr82gosuslugiru.yaml
-Record ID: novyjkostekr82gosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-DA/opendata/karchagskijr82goswebgosuslugiru.yaml
-Record ID: karchagskijr82goswebgosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-MOW/ml/aimosru.yaml
-Record ID: aimosru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-MOW/ml/researchyandexcom.yaml
-Record ID: researchyandexcom
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-MOW/ml/videoprocessingai.yaml
-Record ID: videoprocessingai
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-ALT/opendata/verxobskir22gosuslugiru.yaml
-Record ID: verxobskir22gosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-ALT/opendata/moaltaygosuslugiru.yaml
-Record ID: moaltaygosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-ALT/opendata/admtabrngosuslugiru.yaml
-Record ID: admtabrngosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-ALT/opendata/slavgorodgosuslugiru.yaml
-Record ID: slavgorodgosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-ALT/opendata/admpnkgosuslugiru.yaml
-Record ID: admpnkgosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-ALT/opendata/malinovoeozerogosuslugiru.yaml
-Record ID: malinovoeozerogosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-ALT/opendata/belokurixar22goswebgosuslugiru.yaml
-Record ID: belokurixar22goswebgosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-ALT/opendata/admzspgosuslugiru.yaml
-Record ID: admzspgosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-ALT/opendata/solonovkar22gosuslugiru.yaml
-Record ID: solonovkar22gosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-ALT/opendata/kluchevskygosuslugiru.yaml
-Record ID: kluchevskygosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-ALT/opendata/mixajlovskoer22goswebgosuslugiru.yaml
-Record ID: mixajlovskoer22goswebgosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-ALT/opendata/belokurihagosuslugiru.yaml
-Record ID: belokurihagosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-ALT/opendata/tochilnoer22gosuslugiru.yaml
-Record ID: tochilnoer22gosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-ALT/opendata/sychevkar22gosuslugiru.yaml
-Record ID: sychevkar22gosuslugiru
-Country: RU
+File: DE/Federal/indicators/odlinfobfsde.yaml
+Record ID: odlinfobfsde
+Country: DE
 Issue: MISSING_TOPICS
 Field: topics
 Current Value: []
 Suggested Action: Add relevant topics based on catalog_type and description
 
-File: RU/RU-ALT/opendata/andronovskijr22goswebgosuslugiru.yaml
-Record ID: andronovskijr22goswebgosuslugiru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: RU/RU-ALT/opendata/anujskoer22gosuslugiru.yaml
-Record ID: anujskoer22gosuslugiru
-Country: RU
+File: FR/Federal/scientific/wwwcatdsfr.yaml
+Record ID: wwwcatdsfr
+Country: FR
 Issue: MISSING_TOPICS
 Field: topics
 Current Value: []
 Suggested Action: Add relevant topics based on catalog_type and description
 
-File: RU/RU-ALT/opendata/adminkrutihagosuslugiru.yaml
-Record ID: adminkrutihagosuslugiru
-Country: RU
+File: FR/Federal/scientific/campagnesflotteoceanographiquefr.yaml
+Record ID: campagnesflotteoceanographiquefr
+Country: FR
 Issue: MISSING_TOPICS
 Field: topics
 Current Value: []
 Suggested Action: Add relevant topics based on catalog_type and description
 
-File: RU/RU-ALT/opendata/anujskoer22goswebgosuslugiru.yaml
-Record ID: anujskoer22goswebgosuslugiru
-Country: RU
+File: FR/Federal/scientific/envlitifremerfr.yaml
+Record ID: envlitifremerfr
+Country: FR
 Issue: MISSING_TOPICS
 Field: topics
 Current Value: []
 Suggested Action: Add relevant topics based on catalog_type and description
 
-File: RU/RU-ALT/opendata/mhlaltaygosuslugiru.yaml
-Record ID: mhlaltaygosuslugiru
-Country: RU
+File: FR/Federal/scientific/sihifremerfr.yaml
+Record ID: sihifremerfr
+Country: FR
 Issue: MISSING_TOPICS
 Field: topics
 Current Value: []
 Suggested Action: Add relevant topics based on catalog_type and description
 
-File: RU/RU-ALT/opendata/altadmgosuslugiru.yaml
-Record ID: altadmgosuslugiru
-Country: RU
+File: FR/Federal/scientific/quadrigeeaufrancefr.yaml
+Record ID: quadrigeeaufrancefr
+Country: FR
 Issue: MISSING_TOPICS
 Field: topics
 Current Value: []
 Suggested Action: Add relevant topics based on catalog_type and description
-
-... and 373 more records with this issue
 
 
 === SUMMARY BY ISSUE TYPE ===
 
-MISSING_OWNER_LINK: 24 issues
-MISSING_RIGHTS: 16 issues
-MISSING_TAGS: 472 issues
-MISSING_TOPICS: 473 issues
+MISSING_OWNER_LINK: 4 issues
+MISSING_RIGHTS: 11 issues
+MISSING_TAGS: 13 issues
+MISSING_TOPICS: 13 issues
 
 === SUMMARY BY COUNTRY ===
 
-AI: 1 issue
 AL: 1 issue
-AT: 3 issues
-AU: 2 issues
-Africa: 2 issues
-BD: 1 issue
-BO: 6 issues
+BO: 1 issue
 BT: 1 issue
-CA: 5 issues
-CL: 3 issues
 CZ: 3 issues
-DE: 6 issues
-EC: 1 issue
-ES: 4 issues
-EU: 2 issues
-GB: 5 issues
-HK: 3 issues
-IN: 8 issues
+DE: 3 issues
+FR: 10 issues
 IQ: 1 issue
 IR: 1 issue
-KR: 9 issues
+JP: 1 issue
+KE: 1 issue
 KZ: 1 issue
-LK: 1 issue
-LT: 1 issue
-MK: 4 issues
-MN: 1 issue
-NO: 3 issues
-NZ: 16 issues
-PA: 1 issue
-RU: 841 issues
-TH: 2 issues
-US: 38 issues
+NG: 2 issues
+PK: 3 issues
+RU: 4 issues
+US: 4 issues
 UZ: 1 issue
 VE: 1 issue
-World: 4 issues
-ZA: 2 issues
+World: 2 issues

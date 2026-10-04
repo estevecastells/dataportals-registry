@@ -1,0 +1,59 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: CH
+      name: Switzerland
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+description: The project addresses stamp seals, a common but highly valued and multi-functional
+  artefact class, as a privileged media to study various aspects of ancient Levantine
+  social, economic, cultural and religious history especially in pre-Hellenistic times.
+  Its core aim is to develop an online open-access, collaborative and expandable database
+  entitled Corpus of Stamp Seals from the Southern Levant (CS
+id: cssllevantinesealsorg
+identifiers:
+- id: datacite
+  url: https://cssl.levantineseals.org/
+  value: unibe.cssl
+langs:
+- id: EN
+  name: English
+link: https://cssl.levantineseals.org/
+name: Corpus of Stamp Seals from the Southern Levant
+owner:
+  link: https://www.unibe.ch/universitaet/dienstleistungen/universitaetsbibliothek/service/open_science/index_ger.html
+  location:
+    country:
+      id: CH
+      name: Switzerland
+    level: 20
+  name: University of Bern
+  type: Academy
+properties:
+  dataset_count_reported: 8950
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00008146
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

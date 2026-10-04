@@ -1,58 +1,22 @@
 DATA QUALITY REPORT - COUNTRY: GB
 ================================================================================
-Generated: 2026-09-30 20:41:32
+Generated: 2026-10-04 12:31:49
 Country Code: GB
-Total Records with Issues: 7
-Total Issues Found: 10
+Total Records with Issues: 4
+Total Issues Found: 4
 
 === ISSUES BY TYPE ===
 
-[MISSING_OWNER_LINK]
+[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN]
 Count: 1
-Priority: LOW
+Priority: MEDIUM
 
-File: GB/Federal/scientific/nepalheritagecatalogue.yaml
-Record ID: nepalheritagecatalogue
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: None
-Suggested Action: Add owner organization website URL
-
-[MISSING_TAGS]
-Count: 2
-Priority: LOW
-
-File: GB/Federal/opendata/ukpublicservicesdatacatalogue.yaml
-Record ID: ukpublicservicesdatacatalogue
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: GB/Federal/scientific/nepalheritagecatalogue.yaml
-Record ID: nepalheritagecatalogue
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-[MISSING_TOPICS]
-Count: 2
-Priority: LOW
-
-File: GB/Federal/opendata/ukpublicservicesdatacatalogue.yaml
-Record ID: ukpublicservicesdatacatalogue
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: GB/Federal/scientific/nepalheritagecatalogue.yaml
-Record ID: nepalheritagecatalogue
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
+File: GB/GB-ENG/scientific/datarothamstedacuk.yaml
+Record ID: datarothamstedacuk
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN
+Field: endpoints
+Current Value: {'software_id': 'ckan', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='ckan' is marked as API-capable in software definitions
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_EPRINTS]
 Count: 1
@@ -65,6 +29,17 @@ Field: endpoints
 Current Value: {'software_id': 'eprints', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='eprints' is marked as API-capable in software definitions
 
+[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_FIGSHARE]
+Count: 1
+Priority: MEDIUM
+
+File: GB/GB-ENG/scientific/nclfigsharecom.yaml
+Record ID: nclfigsharecom
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_FIGSHARE
+Field: endpoints
+Current Value: {'software_id': 'figshare', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='figshare' is marked as API-capable in software definitions
+
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_OPENDATASOFT]
 Count: 1
 Priority: MEDIUM
@@ -76,57 +51,10 @@ Field: endpoints
 Current Value: {'software_id': 'opendatasoft', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='opendatasoft' is marked as API-capable in software definitions
 
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PANELAPP]
-Count: 1
-Priority: MEDIUM
-
-File: GB/Federal/scientific/panelappgenomicsenglandcouk.yaml
-Record ID: panelappgenomicsenglandcouk
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PANELAPP
-Field: endpoints
-Current Value: {'software_id': 'panelapp', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='panelapp' is marked as API-capable in software definitions
-
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PORTALJS]
-Count: 1
-Priority: MEDIUM
-
-File: GB/GB-ENG/opendata/lincolnshireckanio.yaml
-Record ID: lincolnshireckanio
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PORTALJS
-Field: endpoints
-Current Value: {'software_id': 'portaljs', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='portaljs' is marked as API-capable in software definitions
-
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_STATSWALES]
-Count: 1
-Priority: MEDIUM
-
-File: GB/GB-WLS/indicators/statswalesgovwales.yaml
-Record ID: statswalesgovwales
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_STATSWALES
-Field: endpoints
-Current Value: {'software_id': 'statswales', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='statswales' is marked as API-capable in software definitions
-
 
 === SUMMARY BY ISSUE TYPE ===
 
-MISSING_OWNER_LINK: 1 issue
-MISSING_TAGS: 2 issues
-MISSING_TOPICS: 2 issues
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_EPRINTS: 1 issue
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_FIGSHARE: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_OPENDATASOFT: 1 issue
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PANELAPP: 1 issue
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PORTALJS: 1 issue
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_STATSWALES: 1 issue
-
-=== RECORDS WITH MULTIPLE ISSUES (3+) ===
-
-Record ID: nepalheritagecatalogue
-File: GB/Federal/scientific/nepalheritagecatalogue.yaml
-Issue Count: 3
-Issues:
-  - MISSING_TOPICS: topics
-  - MISSING_TAGS: tags
-  - MISSING_OWNER_LINK: owner.link

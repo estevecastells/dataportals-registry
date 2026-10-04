@@ -1,0 +1,24 @@
+DATA QUALITY REPORT - COUNTRY: ZM
+================================================================================
+Generated: 2026-10-04 12:31:49
+Country Code: ZM
+Total Records with Issues: 1
+Total Issues Found: 1
+
+=== ISSUES BY TYPE ===
+
+[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_KNOEMA]
+Count: 1
+Priority: MEDIUM
+
+File: ZM/Federal/indicators/cbzambiaopendataforafricaorg.yaml
+Record ID: cbzambiaopendataforafricaorg
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_KNOEMA
+Field: endpoints
+Current Value: {'software_id': 'knoema', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='knoema' is marked as API-capable in software definitions
+
+
+=== SUMMARY BY ISSUE TYPE ===
+
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_KNOEMA: 1 issue

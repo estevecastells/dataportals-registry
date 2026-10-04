@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: AU
+      name: Australia
+    level: 20
+    macroregion:
+      id: '053'
+      name: Australia and New Zealand
+id: appausgeochemorg
+identifiers:
+- id: datacite
+  url: https://app.ausgeochem.org/
+  value: hypc.gxglvy
+langs:
+- id: EN
+  name: English
+link: https://app.ausgeochem.org/
+name: AGRepository
+owner:
+  link: https://lithodat.com/
+  location:
+    country:
+      id: AU
+      name: Australia
+    level: 20
+  name: AGRepository
+  type: Other
+properties:
+  dataset_count_reported: 60
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00008134
+description: Scientific data repository. managed by AGRepository. powered by Custom
+  software. accessible at app.ausgeochem.org.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

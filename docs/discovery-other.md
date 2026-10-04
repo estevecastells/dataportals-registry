@@ -215,6 +215,21 @@ WSO2 API Manager developer portal (`/devportal`). Governments run it as a nation
 | Censys | `web.endpoints.http.body: "Copyright (c) 2019, WSO2 Inc."` |
 | FOFA | `body="/devportal/apis" && body="WSO2"` |
 
+## Gravitee API Management (`gravitee`) {#gravitee}
+
+Gravitee API Management developer portal. Open-source APIM used by public-sector operators; the Government of French Polynesia runs its developer portal at developer.gov.pf. Product: [gravitee.io](https://www.gravitee.io/). `catalog_type` is **API Catalog**.
+
+**Signals:** every page (including `/environments/DEFAULT`) is an SPA shell starting with the `Copyright (C) 2015 The Gravitee team (http://gravitee.io)` comment; assets `gravitee-logo-cyan.svg` / `gravitee-logo-white.svg` / `gravitee-favicon.png`.
+
+**Confirm:** GET the portal root and match the Gravitee team copyright comment. Register each public developer portal. Do not add each API operation as its own catalog.
+
+| Tool | Query |
+|------|-------|
+| Google | `"The Gravitee team" developer portal API` |
+| Censys | `web.endpoints.http.body: "Copyright (C) 2015 The Gravitee team"` |
+| FOFA | `body="gravitee-logo-cyan.svg"` |
+| FOFA | `body="Copyright (C) 2015 The Gravitee team"` |
+
 ## Data marketplaces (`marketplace/`)
 
 Commercial markets that sell or license datasets. Access is often `restricted`.

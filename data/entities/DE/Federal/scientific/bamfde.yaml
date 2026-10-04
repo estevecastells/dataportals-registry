@@ -1,0 +1,59 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+description: The Research Data Centre of the Federal Office for Migration and Refugees
+  (BAMF-FDZ) offers access to adminstrative and survey data from the Federal Office
+  for Migration and Refugees. With this data, researchers can answer relevant questions
+  in the field of migration and integration research. The BAMF-FDZ is part of the
+  Research Centre of the Federal Office for Migration and Refugees.
+id: bamfde
+identifiers:
+- id: datacite
+  url: https://www.bamf.de/EN/Themen/Forschung/Forschungsdatenzentrum/forschungsdatenzentrum-node.html
+  value: bamf.rdcbamf
+langs:
+- id: DE
+  name: German
+link: https://www.bamf.de/EN/Themen/Forschung/Forschungsdatenzentrum/forschungsdatenzentrum-node.html
+name: Research Data Centre of the Federal Office for Migration and Refugees
+owner:
+  location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+  name: Federal Office for Migration and Refugees (BAMF)
+  type: Central government
+  link: https://bamf.de
+properties:
+  dataset_count_reported: 15
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00008155
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

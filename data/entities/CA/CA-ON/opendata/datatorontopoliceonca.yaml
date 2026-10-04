@@ -1,7 +1,7 @@
 access_mode:
 - open
-api: true
-api_status: active
+api: false
+api_status: inactive
 catalog_type: Open data portal
 content_types:
 - dataset
@@ -17,24 +17,20 @@ coverage:
     subregion:
       id: CA-ON
       name: Ontario
-description: The Toronto Police Service Open Data Portal is an open public database that provides
-  access to crime, traffic, and public safety datasets collected by the Toronto Police Service.
-  It includes downloadable data on reported incidents, major crime indicators, traffic collisions,
-  and related statistics, with personal identifying information removed for privacy. The portal
-  supports transparency and research by allowing users to explore, analyze, and visualize
-  public safety trends in Toronto.
+description: 'Open data portal of the Toronto Police Service: datasets on crime, calls for service, traffic
+  and police operations.'
 id: datatorontopoliceonca
 identifiers:
-- id: openaire
-  url: https://explore.openaire.eu/search/dataprovider?datasourceId=fairsharing_::1109f8734e117143a570a8bf9f8c47b2
-  value: fairsharing_::1109f8734e117143a570a8bf9f8c47b2
+- id: re3data
+  url: https://www.re3data.org/repository/r3d100013039
+  value: r3d100013039
 langs:
 - id: EN
   name: English
-link: https://data.tps.ca
+link: https://data.torontopolice.on.ca/
 name: Toronto Police Service Public Safety Data Portal
 owner:
-  link: https://www.tps.ca
+  link: https://www.torontopolice.on.ca
   location:
     country:
       id: CA
@@ -45,37 +41,29 @@ owner:
       name: Ontario
   name: Toronto Police Service
   type: Local government
+properties:
+  has_doi: false
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
 software:
-  id: arcgishub
-  name: ArcGIS Hub
+  id: custom
+  name: Custom software
 status: active
 tags:
-- open data
-- public safety
-- crime
-- Toronto
-- local government
+- police
+- canada
+- opendata
 topics:
 - id: TECH
   name: Science and technology
   type: eudatatheme
-- id: TRAN
-  name: Transport
-  type: eudatatheme
-- id: Transportation
-  name: Transportation
+- id: Society
+  name: Society
   type: iso19115
-endpoints:
-- type: dcatap201
-  url: https://data.tps.ca/api/feed/dcat-ap/2.0.1.json
-- type: dcatus11
-  url: https://data.tps.ca/api/feed/dcat-us/1.1.json
-- type: rss
-  url: https://data.tps.ca/api/feed/rss/2.0
-- type: ogcrecordsapi
-  url: https://data.tps.ca/api/search/v1
-- type: arcgishubapi
-  url: https://data.tps.ca/api/v3/datasets
-- type: dcatus11
-  url: https://data.tps.ca/data.json
-uid: cdi00028769
+uid: cdi00013712

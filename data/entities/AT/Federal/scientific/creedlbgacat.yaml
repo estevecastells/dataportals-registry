@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: AT
+      name: Austria
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+id: creedlbgacat
+identifiers:
+- id: datacite
+  url: https://creed.lbg.ac.at/
+  value: lbg.repos
+langs:
+- id: EN
+  name: English
+link: https://creed.lbg.ac.at/
+name: Ludwig Boltzmann Gesellschaft Repository
+owner:
+  location:
+    country:
+      id: AT
+      name: Austria
+    level: 20
+  name: Ludwig Boltzmann Gesellschaft
+  type: Other
+  link: https://ac.at
+properties:
+  dataset_count_reported: 59
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00008132
+description: Scientific data repository. managed by Ludwig Boltzmann Gesellschaft.
+  powered by Custom software. accessible at creed.lbg.ac.at.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

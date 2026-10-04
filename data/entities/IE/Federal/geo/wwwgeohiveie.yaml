@@ -30,7 +30,8 @@ description: Gaeilge  | English GeoHive Ireland's National Geospatial Data Hub S
   &amp; health. Explore More &gt; Housing and Zoning page National Planning Geospatial
   Resources Explore a range of datasets, interactive maps and dashboards which focus
   on planning and development activity in Ireland. Tailte Eireann Logo GeoHive Logo
-  Government of Ireland Logo
+  Government of Ireland Logo. It is the national geospatial data platform of Ireland,
+  forming part of the national spatial data infrastructure.
 endpoints:
 - type: dcatap201
   url: https://www.geohive.ie/api/feed/dcat-ap/2.0.1.json
@@ -56,6 +57,7 @@ owner:
   name: Tailte Éireann
   type: Central government
 properties:
+  is_national: true
   has_doi: false
 rights:
   license_id: null

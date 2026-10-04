@@ -1,0 +1,100 @@
+access_mode:
+- open
+api: true
+api_status: active
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    level: 20
+    macroregion:
+      id: '021'
+      name: Northern America
+description: Open map of the human body at the cellular level, providing access to
+  data and visualization tools for tissues and cells. Allows searching by donors,
+  samples, datasets, and collections. Includes metadata, downloadable data, and interactive
+  visualizations.
+endpoints:
+- type: sitemap
+  url: https://portal.hubmapconsortium.org/sitemap.txt
+id: portalhubmapconsortiumorg
+identifiers:
+- id: datacite
+  url: https://portal.hubmapconsortium.org/
+  value: psc.hubmap
+langs:
+- id: EN
+  name: English
+link: https://portal.hubmapconsortium.org
+name: HuBMAP Data Portal - Human BioMolecular Atlas Program
+owner:
+  link: https://hubmapconsortium.org
+  location:
+    country:
+      id: US
+      name: United States
+    level: 20
+  name: NIH Human BioMolecular Atlas Program (HuBMAP)
+  type: Academy
+properties:
+  dataset_count_reported: 8362
+  has_doi: true
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- Biomedical research
+- Human body atlas
+- Single cell resolution
+- Open data
+- Visualization tools
+- Metadata
+- Data download
+- Globus
+- Vitessce
+topics:
+- id: HEAL
+  name: Health
+  type: eudatatheme
+- id: Health
+  name: Health
+  type: iso19115
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: AGRI
+  name: Agriculture, fisheries, forestry and food
+  type: eudatatheme
+- id: EDUC
+  name: Education, culture and sport
+  type: eudatatheme
+- id: ENER
+  name: Energy
+  type: eudatatheme
+- id: ENVI
+  name: Environment
+  type: eudatatheme
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
+- id: TRAN
+  name: Transport
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00001709

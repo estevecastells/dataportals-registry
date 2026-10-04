@@ -23,7 +23,7 @@ langs:
 link: https://korczis.github.io/data-atlas/
 name: Data Atlas — katalog GIS a geodatových zdrojů
 owner:
-  link: null
+  link: https://github.io
   location:
     country:
       id: CZ
@@ -34,6 +34,17 @@ software:
   id: custom
   name: Custom software
 status: active
-tags: []
-topics: []
+tags:
+- czech-republic
+- transport
+topics:
+- id: TRAN
+  name: Transport
+  type: eudatatheme
+- id: Transportation
+  name: Transportation
+  type: iso19115
+- id: Planning / Cadastre
+  name: Planning / Cadastre
+  type: iso19115
 uid: cdi00011956

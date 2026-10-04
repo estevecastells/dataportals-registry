@@ -1,0 +1,48 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: IN
+      name: India
+    level: 20
+    macroregion:
+      id: '034'
+      name: Southern Asia
+description: MoSPI platform for the SDG India Index with national and state-level
+  Sustainable Development Goal indicator datasets. Source of datasets assessed in
+  ODIN 2024/25.
+id: sdgindia2030mospigovin
+langs:
+- id: EN
+  name: English
+link: https://sdgindia2030.mospi.gov.in/
+name: SDG India Dashboard (sdgindia2030)
+owner:
+  link: https://www.mospi.gov.in
+  location:
+    country:
+      id: IN
+      name: India
+    level: 20
+  name: Ministry of Statistics and Programme Implementation (MoSPI), India
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- government
+- india
+- indicators
+- statistics
+topics:
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+uid: cdi00013636

@@ -13,7 +13,7 @@ coverage:
       name: Anguilla
     level: 20
     macroregion:
-      id: '029'
+      id: 029
       name: Caribbean
 description: 'Official statistics site of the Anguilla Statistics Department (Government
   of Anguilla): census, economic, social, tourism and trade statistics, publications
@@ -44,3 +44,7 @@ tags:
 - statistics
 - government
 uid: cdi00011953
+topics:
+- id: SOCI
+  name: Population and society
+  type: eudatatheme

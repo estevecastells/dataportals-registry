@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: AU
+      name: Australia
+    level: 20
+    macroregion:
+      id: '053'
+      name: Australia and New Zealand
+description: 'Contacts: simon.kruik@uts.edu.au pascal.tampubolon@uts.edu.au - Technical
+  Opertions Manager'
+id: dataresearchutseduau
+identifiers:
+- id: datacite
+  url: https://data.research.uts.edu.au/
+  value: ardcx.uts
+langs:
+- id: EN
+  name: English
+link: https://data.research.uts.edu.au/
+name: University of Technology, Sydney
+owner:
+  location:
+    country:
+      id: AU
+      name: Australia
+    level: 20
+  name: University of Technology Sydney
+  type: Academy
+  link: https://edu.au
+properties:
+  dataset_count_reported: 43
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00008139
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

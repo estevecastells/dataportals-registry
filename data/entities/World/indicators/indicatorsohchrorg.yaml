@@ -1,0 +1,62 @@
+access_mode:
+- open
+api: false
+api_status: inactive
+catalog_type: Indicators catalog
+content_types:
+- indicator
+coverage:
+- location:
+    country:
+      id: World
+      name: World
+    level: 20
+    macroregion:
+      id: '001'
+      name: World
+description: 'Office of the United Nations High Commissioner for Human Rights dashboard of human rights
+  indicators: SDG human-rights metadata, treaty-body recommendations tracking and national human-rights
+  measurement frameworks.'
+id: indicatorsohchrorg
+langs:
+- id: EN
+  name: English
+link: https://indicators.ohchr.org/
+name: OHCHR Human Rights Indicators Dashboard
+owner:
+  link: https://www.ohchr.org
+  location:
+    country:
+      id: World
+      name: World
+    level: 20
+  name: Office of the United Nations High Commissioner for Human Rights (OHCHR)
+  type: International
+properties:
+  has_doi: false
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- ohchr
+- human rights
+- un
+- indicators
+- dashboard
+topics:
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013748

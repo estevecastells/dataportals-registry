@@ -1,0 +1,52 @@
+access_mode:
+- open
+api: true
+api_status: active
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: SL
+      name: Sierra Leone
+    level: 20
+    macroregion:
+      id: '011'
+      name: Western Africa
+description: Bank of Sierra Leone open data portal on the Open Data for Africa (Knoema)
+  platform with datasets on banking, monetary statistics and the FX market. Source
+  of datasets assessed in ODIN 2024/25.
+id: cbsierraleoneopendataforafricaorg
+langs:
+- id: EN
+  name: English
+link: https://cb-sierraleone.opendataforafrica.org/
+name: Bank of Sierra Leone Open Data Platform
+owner:
+  link: https://www.bsl.gov.sl
+  location:
+    country:
+      id: SL
+      name: Sierra Leone
+    level: 20
+  name: Bank of Sierra Leone
+  type: Central government
+software:
+  id: knoema
+  name: Knoema
+status: active
+tags:
+- government
+- indicators
+- sierra-leone
+- statistics
+topics:
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+uid: cdi00013657
+endpoints:
+- type: sdmx:datastructure
+  url: https://cb-sierraleone.opendataforafrica.org/api/1.0/sdmx
+  version: '2.0'

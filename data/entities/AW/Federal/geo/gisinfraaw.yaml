@@ -1,0 +1,51 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Geoportal
+content_types:
+- dataset
+- map_layer
+coverage:
+- location:
+    country:
+      id: AW
+      name: Aruba
+    level: 20
+    macroregion:
+      id: 029
+      name: Caribbean
+description: Portal for ArcGIS instance of the Aruba Department of Public Works with
+  public feature and map services for streets, waste management, protected nature
+  areas and buildings.
+id: gisinfraaw
+langs:
+- id: NL
+  name: Dutch
+link: https://gis.infra.aw/portal/
+name: DOW Aruba GIS Portal
+owner:
+  link: https://www.dow.aw
+  location:
+    country:
+      id: AW
+      name: Aruba
+    level: 20
+  name: Directie Openbare Werken Aruba
+  type: Central government
+software:
+  id: arcgisserver
+  name: ArcGIS Server
+status: active
+tags:
+- geospatial
+- government
+- open data
+topics:
+- id: REGI
+  name: Regions and cities
+  type: eudatatheme
+- id: Location
+  name: Location
+  type: iso19115
+uid: cdi00013747

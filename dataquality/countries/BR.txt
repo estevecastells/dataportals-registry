@@ -1,43 +1,11 @@
 DATA QUALITY REPORT - COUNTRY: BR
 ================================================================================
-Generated: 2026-09-30 20:41:32
+Generated: 2026-10-04 12:31:49
 Country Code: BR
-Total Records with Issues: 5
-Total Issues Found: 5
+Total Records with Issues: 1
+Total Issues Found: 1
 
 === ISSUES BY TYPE ===
-
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GAUSSWEBGIS]
-Count: 4
-Priority: MEDIUM
-
-File: BR/BR-RS/geo/viamaowebgisgeobr.yaml
-Record ID: viamaowebgisgeobr
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GAUSSWEBGIS
-Field: endpoints
-Current Value: {'software_id': 'gausswebgis', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='gausswebgis' is marked as API-capable in software definitions
-
-File: BR/BR-RS/geo/riopardowebgisgeobr.yaml
-Record ID: riopardowebgisgeobr
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GAUSSWEBGIS
-Field: endpoints
-Current Value: {'software_id': 'gausswebgis', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='gausswebgis' is marked as API-capable in software definitions
-
-File: BR/BR-RS/geo/montenegrowebgisgeobr.yaml
-Record ID: montenegrowebgisgeobr
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GAUSSWEBGIS
-Field: endpoints
-Current Value: {'software_id': 'gausswebgis', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='gausswebgis' is marked as API-capable in software definitions
-
-File: BR/BR-RS/geo/sesicomcienciawebgisgeobr.yaml
-Record ID: sesicomcienciawebgisgeobr
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GAUSSWEBGIS
-Field: endpoints
-Current Value: {'software_id': 'gausswebgis', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='gausswebgis' is marked as API-capable in software definitions
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS]
 Count: 1
@@ -53,5 +21,4 @@ Suggested Action: Add at least one endpoint because software.id='wordpress' is m
 
 === SUMMARY BY ISSUE TYPE ===
 
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GAUSSWEBGIS: 4 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS: 1 issue

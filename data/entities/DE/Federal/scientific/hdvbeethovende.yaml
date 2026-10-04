@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+id: hdvbeethovende
+identifiers:
+- id: datacite
+  url: https://hdv-beethoven.de/
+  value: wvfl.tbxtnp
+langs:
+- id: EN
+  name: English
+link: https://hdv-beethoven.de/
+name: Beethoven Portal online
+owner:
+  location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+  name: Beethoven-Haus Bonn
+  type: Other
+  link: https://hdv-beethoven.de
+properties:
+  dataset_count_reported: 30
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00011970
+description: Scientific data repository. managed by Beethoven-Haus Bonn. powered by
+  Custom software. accessible at hdv-beethoven.de.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

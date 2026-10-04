@@ -1,0 +1,49 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: UG
+      name: Uganda
+    level: 20
+    macroregion:
+      id: '014'
+      name: Eastern Africa
+description: Uganda Ministry of Finance data portal on the Open Data for Africa (Knoema)
+  platform with a data catalog of government-operations and debt time series. Source
+  of datasets assessed in ODIN 2024/25.
+id: mofugandaopendataforafricaorg
+langs:
+- id: EN
+  name: English
+link: https://mof-uganda.opendataforafrica.org/
+name: OpenData for the Ministry of Finance, Planning and Economic Development (Uganda)
+owner:
+  link: https://www.finance.go.ug
+  location:
+    country:
+      id: UG
+      name: Uganda
+    level: 20
+  name: Ministry of Finance, Planning and Economic Development (Uganda)
+  type: Central government
+software:
+  id: knoema
+  name: Knoema
+status: active
+tags:
+- government
+- indicators
+- planning
+- statistics
+- uganda
+topics:
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+uid: cdi00013652

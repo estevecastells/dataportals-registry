@@ -13,11 +13,12 @@ coverage:
       name: Zimbabwe
     level: 20
     macroregion:
-      id: '014'
+      id: 018
       name: Eastern Africa
-description: Zimbabwe country portal on the African Development Bank Open Data for
-  Africa platform (Africa Information Highway / Knoema). Provides official national
-  statistical indicators compiled with ZIMSTAT.
+description: Zimbabwe country portal on the African Development Bank Open Data for Africa platform (Africa
+  Information Highway / Knoema), published with ZIMSTAT. Hosts the 2022 Population and Housing Census
+  dashboard, the National Summary Data Page (NSDP), SDG indicators and the COVID-19 household impact monitor;
+  the open-data frontend linked as ZIMSTAT's Open Data Portal.
 endpoints:
 - type: knoema:search
   url: https://zimbabwe.opendataforafrica.org/api/1.0/search
@@ -32,9 +33,9 @@ langs:
 - id: EN
   name: English
 link: https://zimbabwe.opendataforafrica.org/
-name: Zimbabwe Open Data for Africa
+name: Zimbabwe Open Data for Africa (ZIMSTAT ODP)
 owner:
-  link: https://zimstat.co.zw
+  link: https://www.zimstat.co.zw
   location:
     country:
       id: ZW
@@ -50,49 +51,23 @@ rights:
   license_name: null
   license_url: null
   privacy_policy_url: null
-  rights_type: global
+  rights_type: unknown
   tos_url: null
 software:
   id: knoema
   name: Knoema
 status: active
 tags:
-- has_api
+- zimbabwe
 - statistics
-- government
-- official statistics
-- Zimbabwe
-- AfDB
-- Open Data for Africa
+- opendata
+- african development bank
+- knoema
 topics:
-- id: SOCI
-  name: Population and society
-  type: eudatatheme
-- id: ECON
-  name: Economy and finance
-  type: eudatatheme
 - id: GOVE
   name: Government and public sector
-  type: eudatatheme
-- id: ENVI
-  name: Environment
-  type: eudatatheme
-- id: HEAL
-  name: Health
-  type: eudatatheme
-- id: EDUC
-  name: Education, culture and sport
   type: eudatatheme
 - id: Society
   name: Society
   type: iso19115
-- id: Economy
-  name: Economy
-  type: iso19115
-- id: Environment
-  name: Environment
-  type: iso19115
-- id: Health
-  name: Health
-  type: iso19115
-uid: cdi00021971
+uid: cdi00013746

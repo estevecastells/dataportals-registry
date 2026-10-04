@@ -1,0 +1,68 @@
+access_mode:
+- open
+api: false
+api_status: inactive
+catalog_type: Open data portal
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: JP
+      name: Japan
+    level: 20
+    macroregion:
+      id: '142'
+      name: Asia
+description: Japan's national open data portal (e-Govデータポータル), the successor of data.go.jp
+  run by the Digital Agency; merged catalog of Japanese central-government and municipal
+  open data. It is the national open data portal of Japan, operated by the Digital
+  Agency.
+id: dataegogovjp
+identifiers:
+- id: wikidata
+  url: https://www.wikidata.org/wiki/Q97153912
+  value: Q97153912
+langs:
+- id: JA
+  name: Japanese
+- id: EN
+  name: English
+link: https://data.e-gov.go.jp/
+name: e-Gov Data Portal (data.go.jp)
+owner:
+  link: https://www.digital.go.jp
+  location:
+    country:
+      id: JP
+      name: Japan
+    level: 20
+  name: Digital Agency (デジタル庁)
+  type: Central government
+properties:
+  has_doi: false
+  is_national: true
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- government
+- national
+- opendata
+- japan
+topics:
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013668

@@ -1,0 +1,59 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    level: 20
+    macroregion:
+      id: '021'
+      name: Northern America
+id: sandyunledu
+identifiers:
+- id: datacite
+  url: https://sandy.unl.edu/
+  value: lsqs.rlwdsq
+langs:
+- id: EN
+  name: English
+link: https://sandy.unl.edu/
+name: SANDY - Stewarding Nebraska Data
+owner:
+  location:
+    country:
+      id: US
+      name: United States
+    level: 20
+  name: University of Nebraska–Lincoln
+  type: Academy
+  link: https://unl.edu
+properties:
+  dataset_count_reported: 25
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00013614
+description: Scientific data repository. managed by University of Nebraska–Lincoln.
+  powered by Custom software. accessible at sandy.unl.edu.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115
+- id: EDUC
+  name: Education, culture and sport
+  type: eudatatheme

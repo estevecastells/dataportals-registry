@@ -1,0 +1,26 @@
+DATA QUALITY REPORT - RULE: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GRAVITEE
+================================================================================
+Generated: 2026-10-04 12:31:49
+Issue Type: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GRAVITEE
+Priority: MEDIUM
+Total Issues Found: 1
+
+Rule: Identifies records using software.id='gravitee' (API-capable per software definitions) that have no endpoints listed. Add at least one API endpoint for discovery and integration.
+
+=== SUMMARY BY COUNTRY ===
+
+PF: 1 issue
+
+=== SUMMARY BY RECORD ===
+
+developergovpf: 1 issue
+
+=== ISSUES ===
+
+File: PF/Federal/api/developergovpf.yaml
+Record ID: developergovpf
+Country: PF
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GRAVITEE
+Field: endpoints
+Current Value: {"software_id": "gravitee", "has_api": "Yes", "endpoints_count": 0}
+Suggested Action: Add at least one endpoint because software.id='gravitee' is marked as API-capable in software definitions

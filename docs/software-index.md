@@ -337,6 +337,7 @@ Adding a software definition: [software-taxonomy.md](software-taxonomy.md). Agen
 | `gpatlas` | geo | [discovery-geoportals-viewers](discovery-geoportals-viewers.md#gpatlas) | [harvest-viewers](harvest-viewers.md#gpatlas) | — |
 | `grafana` | indicators | [discovery-indicators](discovery-indicators.md#grafana) | [harvest-indicators](harvest-indicators.md#grafana) | yes |
 | `grandchallenge` | scientific | [discovery-other](discovery-other.md#grandchallenge) | [harvest-other](harvest-other.md#grandchallenge) | — |
+| `gravitee` | opendata | [discovery-other](discovery-other.md#gravitee) | [harvest-other](harvest-other.md#gravitee) | yes |
 | `greenstone` | scientific | [discovery-scientific-domain](discovery-scientific-domain.md#greenstone) | [harvest-scientific-domain](harvest-scientific-domain.md#greenstone) | yes |
 | `gringlobal` | scientific | [discovery-scientific-domain](discovery-scientific-domain.md#gringlobal) | [harvest-scientific-domain](harvest-scientific-domain.md#gringlobal) | yes |
 | `gsdata` | indicators | [discovery-indicators](discovery-indicators.md#gsdata) | [harvest-indicators](harvest-indicators.md#gsdata) | — |

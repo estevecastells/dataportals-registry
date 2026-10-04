@@ -1,0 +1,59 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    level: 20
+    macroregion:
+      id: '021'
+      name: Northern America
+id: aimistanfordedu
+identifiers:
+- id: datacite
+  url: https://aimi.stanford.edu/
+  value: sul.aimi
+langs:
+- id: EN
+  name: English
+link: https://aimi.stanford.edu/
+name: Stanford Center for Artificial Intelligence in Medicine and Imaging
+owner:
+  link: https://www.stanford.edu/
+  location:
+    country:
+      id: US
+      name: United States
+    level: 20
+  name: Stanford University Libraries
+  type: Academy
+properties:
+  dataset_count_reported: 23
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00013587
+description: Scientific data repository. managed by Stanford University Libraries.
+  powered by Custom software. accessible at aimi.stanford.edu.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115
+- id: EDUC
+  name: Education, culture and sport
+  type: eudatatheme

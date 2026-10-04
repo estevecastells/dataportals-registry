@@ -1,0 +1,69 @@
+access_mode:
+- open
+api: false
+api_status: inactive
+catalog_type: Metadata catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: IT
+      name: Italy
+    level: 30
+    macroregion:
+      id: '150'
+      name: Europe
+    subregion:
+      id: IT-21
+      name: Piemonte
+description: Linked open data portal of CoBiS, the library consortium of Turin and north-western Italy,
+  publishing catalogue and authority datasets as RDF.
+id: daticobistoit
+identifiers:
+- id: wikidata
+  url: https://www.wikidata.org/wiki/Q109561891
+  value: Q109561891
+langs:
+- id: IT
+  name: Italian
+link: https://dati.cobis.to.it/
+name: CoBiS Linked Open Data
+owner:
+  link: https://www.cobis.to.it
+  location:
+    country:
+      id: IT
+      name: Italy
+    level: 30
+    subregion:
+      id: IT-21
+      name: Piemonte
+  name: CoBiS (Consorzio Biblioteche del Sistema Informativo del Nord-Ovest)
+  type: Academy
+properties:
+  has_doi: false
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- libraries
+- linked data
+- italy
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013667

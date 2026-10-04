@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    level: 20
+    macroregion:
+      id: '021'
+      name: Northern America
+id: pdssbnastroumdedu
+identifiers:
+- id: datacite
+  url: https://pdssbn.astro.umd.edu/
+  value: sbn.archive
+langs:
+- id: EN
+  name: English
+link: https://pdssbn.astro.umd.edu/
+name: Small Bodies Node SBN of NASA's Planetary Data System (PDS)- Archives
+owner:
+  link: https://pdssbn.astro.umd.edu
+  location:
+    country:
+      id: US
+      name: United States
+    level: 20
+  name: Small Bodies Node of NASA's Planetary Data System
+  type: Academy
+properties:
+  dataset_count_reported: 588
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00013609
+description: Scientific data repository. managed by Small Bodies Node of NASA's Planetary
+  Data System. powered by Custom software. accessible at pdssbn.astro.umd.edu.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

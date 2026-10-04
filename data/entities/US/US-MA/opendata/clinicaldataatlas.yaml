@@ -26,7 +26,7 @@ langs:
 link: https://nielspac177.github.io/clinical-data-atlas/
 name: Clinical Data Atlas
 owner:
-  link: null
+  link: https://github.io
   location:
     country:
       id: US
@@ -41,6 +41,11 @@ software:
   id: custom
   name: Custom software
 status: active
-tags: []
-topics: []
+tags:
+- academic
+- united-states
+topics:
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
 uid: cdi00011948

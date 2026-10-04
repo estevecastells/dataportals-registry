@@ -1,0 +1,61 @@
+access_mode:
+- open
+api: false
+api_status: inactive
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: HK
+      name: Hong Kong
+    level: 20
+    macroregion:
+      id: '030'
+      name: Eastern Asia
+description: University of Hong Kong research data repository on figshare with DataCite DOIs.
+id: hkufigsharecom
+identifiers:
+- id: datacite
+  value: figshare.hku
+langs:
+- id: EN
+  name: English
+link: https://hku.figshare.com/
+name: HKU Data Hub (Hong Kong University figshare)
+owner:
+  link: https://www.hku.hk
+  location:
+    country:
+      id: HK
+      name: Hong Kong
+    level: 20
+  name: The University of Hong Kong
+  type: Academy
+properties:
+  has_doi: true
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: figshare
+  name: Figshare
+status: active
+tags:
+- research data
+- doi
+- datacite
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013693

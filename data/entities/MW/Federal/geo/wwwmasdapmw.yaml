@@ -19,7 +19,8 @@ description: Public GeoNode 4.3 platform for GIS data to support development in 
   Hosts 223 datasets and 78 maps related to boundaries, buildings, climate, elevation,
   geology, health, land cover, nature, places, population, transportation, water,
   drought monitoring, flood and heavy rain. The TLS certificate is currently expired
-  but the catalog and APIs respond.
+  but the catalog and APIs respond. It is the national spatial data infrastructure
+  geoportal of Malawi, operated by the National Spatial Data Centre.
 endpoints:
 - type: geonode:datasets
   url: https://www.masdap.mw/api/v2/datasets
@@ -70,7 +71,7 @@ owner:
   type: Central government
 properties:
   has_doi: false
-  is_national: false
+  is_national: true
   dataset_count_reported: 223
 rights:
   license_id: null

@@ -1,0 +1,70 @@
+access_mode:
+- open
+api: false
+api_status: inactive
+catalog_type: Open data portal
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    level: 30
+    macroregion:
+      id: '021'
+      name: Northern America
+    subregion:
+      id: US-MA
+      name: Massachusetts
+description: 'Massachusetts state financial transparency portal: searchable payroll, spending, contracts
+  and financial data published by the Office of the Comptroller (CTHRU).'
+id: cthrumacomptrollerorg
+identifiers:
+- id: wikidata
+  url: https://www.wikidata.org/wiki/Q75177898
+  value: Q75177898
+langs:
+- id: EN
+  name: English
+link: https://www.macomptroller.org/cthru/
+name: CTHRU - Massachusetts Office of the Comptroller
+owner:
+  link: https://www.macomptroller.org
+  location:
+    country:
+      id: US
+      name: United States
+    level: 30
+    subregion:
+      id: US-MA
+      name: Massachusetts
+  name: Massachusetts Office of the Comptroller
+  type: Regional government
+properties:
+  has_doi: false
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- government
+- massachusetts
+- finance
+- transparency
+topics:
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013671

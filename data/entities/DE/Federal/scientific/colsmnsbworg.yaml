@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+id: colsmnsbworg
+identifiers:
+- id: datacite
+  url: https://col.smns-bw.org/
+  value: zbmed.nkm-bw
+langs:
+- id: DE
+  name: German
+link: https://col.smns-bw.org/
+name: Staatliches Museum für Naturkunde Stuttgart
+owner:
+  location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+  name: Staatliches Museum für Naturkunde Stuttgart
+  type: Other
+  link: https://smns-bw.org
+properties:
+  dataset_count_reported: 11
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00008158
+description: Scientific data repository. managed by Staatliches Museum für Naturkunde
+  Stuttgart. powered by Custom software. accessible at col.smns-bw.org.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

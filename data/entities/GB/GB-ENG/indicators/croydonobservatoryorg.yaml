@@ -1,0 +1,70 @@
+access_mode:
+- open
+api: false
+api_status: inactive
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: GB
+      name: United Kingdom
+    level: 30
+    macroregion:
+      id: '150'
+      name: Europe
+    subregion:
+      id: GB-ENG
+      name: England
+description: 'Local data observatory for the London Borough of Croydon: area profiles, statistics and
+  indicators on population, economy, health and housing.'
+id: croydonobservatoryorg
+identifiers:
+- id: wikidata
+  url: https://www.wikidata.org/wiki/Q97317188
+  value: Q97317188
+langs:
+- id: EN
+  name: English
+link: https://www.croydonobservatory.org/
+name: Croydon Observatory
+owner:
+  link: https://www.croydon.gov.uk
+  location:
+    country:
+      id: GB
+      name: United Kingdom
+    level: 30
+    subregion:
+      id: GB-ENG
+      name: England
+  name: London Borough of Croydon
+  type: Local government
+properties:
+  has_doi: false
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- united kingdom
+- croydon
+- observatory
+- statistics
+topics:
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013666

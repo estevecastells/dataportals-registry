@@ -1,9 +1,9 @@
 DATA QUALITY REPORT - COUNTRY: SE
 ================================================================================
-Generated: 2026-09-30 20:41:32
+Generated: 2026-10-04 12:31:49
 Country Code: SE
-Total Records with Issues: 7
-Total Issues Found: 7
+Total Records with Issues: 4
+Total Issues Found: 4
 
 === ISSUES BY TYPE ===
 
@@ -36,35 +36,6 @@ Field: endpoints
 Current Value: {'software_id': 'drupal', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='drupal' is marked as API-capable in software definitions
 
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_HTTK]
-Count: 2
-Priority: MEDIUM
-
-File: SE/Federal/scientific/defectsanyterialse.yaml
-Record ID: defectsanyterialse
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_HTTK
-Field: endpoints
-Current Value: {'software_id': 'httk', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='httk' is marked as API-capable in software definitions
-
-File: SE/Federal/scientific/hadbfunmatiise.yaml
-Record ID: hadbfunmatiise
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_HTTK
-Field: endpoints
-Current Value: {'software_id': 'httk', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='httk' is marked as API-capable in software definitions
-
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PORTALJS]
-Count: 1
-Priority: MEDIUM
-
-File: SE/SE-M/opendata/opendatamalmose.yaml
-Record ID: opendatamalmose
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PORTALJS
-Field: endpoints
-Current Value: {'software_id': 'portaljs', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='portaljs' is marked as API-capable in software definitions
-
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS]
 Count: 1
 Priority: MEDIUM
@@ -81,6 +52,4 @@ Suggested Action: Add at least one endpoint because software.id='wordpress' is m
 
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISHUB: 2 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL: 1 issue
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_HTTK: 2 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PORTALJS: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS: 1 issue

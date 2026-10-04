@@ -1,15 +1,17 @@
 DATA QUALITY REPORT - RULE: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN
 ================================================================================
-Generated: 2026-09-30 20:41:32
+Generated: 2026-10-04 12:31:49
 Issue Type: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN
 Priority: MEDIUM
-Total Issues Found: 6
+Total Issues Found: 8
 
 Rule: Identifies records using software.id='ckan' (API-capable per software definitions) that have no endpoints listed. Add at least one API endpoint for discovery and integration.
 
 === SUMMARY BY COUNTRY ===
 
+AU: 1 issue
 ES: 4 issues
+GB: 1 issue
 IT: 1 issue
 US: 1 issue
 
@@ -17,6 +19,8 @@ US: 1 issue
 
 txwaterdatahuborg: 1 issue
 opendatavigilfuocoit: 1 issue
+datarothamstedacuk: 1 issue
+dataenvironmentnswgovau: 1 issue
 datosabiertostorrentesesdataset: 1 issue
 opendatamanresacatdataset: 1 issue
 datosabiertosbneescatalogodataset: 1 issue
@@ -35,6 +39,22 @@ Suggested Action: Add at least one endpoint because software.id='ckan' is marked
 File: IT/Federal/opendata/opendatavigilfuocoit.yaml
 Record ID: opendatavigilfuocoit
 Country: IT
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN
+Field: endpoints
+Current Value: {"software_id": "ckan", "has_api": "Yes", "endpoints_count": 0}
+Suggested Action: Add at least one endpoint because software.id='ckan' is marked as API-capable in software definitions
+
+File: GB/GB-ENG/scientific/datarothamstedacuk.yaml
+Record ID: datarothamstedacuk
+Country: GB
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN
+Field: endpoints
+Current Value: {"software_id": "ckan", "has_api": "Yes", "endpoints_count": 0}
+Suggested Action: Add at least one endpoint because software.id='ckan' is marked as API-capable in software definitions
+
+File: AU/AU-NSW/opendata/dataenvironmentnswgovau.yaml
+Record ID: dataenvironmentnswgovau
+Country: AU
 Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN
 Field: endpoints
 Current Value: {"software_id": "ckan", "has_api": "Yes", "endpoints_count": 0}

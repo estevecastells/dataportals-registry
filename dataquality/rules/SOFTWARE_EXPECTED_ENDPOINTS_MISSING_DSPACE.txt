@@ -1,29 +1,57 @@
 DATA QUALITY REPORT - RULE: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DSPACE
 ================================================================================
-Generated: 2026-09-30 20:41:32
+Generated: 2026-10-04 12:31:49
 Issue Type: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DSPACE
 Priority: MEDIUM
-Total Issues Found: 3
+Total Issues Found: 6
 
 Rule: Identifies records using software.id='dspace' (API-capable per software definitions) that have no endpoints listed. Add at least one API endpoint for discovery and integration.
 
 === SUMMARY BY COUNTRY ===
 
-DE: 1 issue
+CA: 1 issue
+DE: 2 issues
 JP: 1 issue
-US: 1 issue
+US: 2 issues
 
 === SUMMARY BY RECORD ===
 
+auroraauburnedu: 1 issue
 wwwglopadorg: 1 issue
+ostrnrcandostrncancanadaca: 1 issue
+edocrkide: 1 issue
 openscienceubovgude: 1 issue
 dspacejaistacjp: 1 issue
 
 === ISSUES ===
 
+File: US/Federal/scientific/auroraauburnedu.yaml
+Record ID: auroraauburnedu
+Country: US
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DSPACE
+Field: endpoints
+Current Value: {"software_id": "dspace", "has_api": "Yes", "endpoints_count": 0}
+Suggested Action: Add at least one endpoint because software.id='dspace' is marked as API-capable in software definitions
+
 File: US/Federal/scientific/wwwglopadorg.yaml
 Record ID: wwwglopadorg
 Country: US
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DSPACE
+Field: endpoints
+Current Value: {"software_id": "dspace", "has_api": "Yes", "endpoints_count": 0}
+Suggested Action: Add at least one endpoint because software.id='dspace' is marked as API-capable in software definitions
+
+File: CA/Federal/scientific/ostrnrcandostrncancanadaca.yaml
+Record ID: ostrnrcandostrncancanadaca
+Country: CA
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DSPACE
+Field: endpoints
+Current Value: {"software_id": "dspace", "has_api": "Yes", "endpoints_count": 0}
+Suggested Action: Add at least one endpoint because software.id='dspace' is marked as API-capable in software definitions
+
+File: DE/Federal/scientific/edocrkide.yaml
+Record ID: edocrkide
+Country: DE
 Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DSPACE
 Field: endpoints
 Current Value: {"software_id": "dspace", "has_api": "Yes", "endpoints_count": 0}

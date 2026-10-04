@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: CH
+      name: Switzerland
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+id: daceunigech
+identifiers:
+- id: datacite
+  url: https://dace.unige.ch/
+  value: opkb.dgpoky
+langs:
+- id: EN
+  name: English
+link: https://dace.unige.ch/
+name: Université de Genève Scientific data repository (DACE)
+owner:
+  location:
+    country:
+      id: CH
+      name: Switzerland
+    level: 20
+  name: Université de Genève
+  type: Academy
+  link: https://unige.ch
+properties:
+  dataset_count_reported: 11
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00008147
+description: Scientific data repository. managed by Université de Genève. powered
+  by Custom software. accessible at dace.unige.ch.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

@@ -1,0 +1,59 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: FR
+      name: France
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+description: Les Écoles françaises à l’étranger (EFE) constituent un réseau de cinq
+  établissements d’enseignement supérieur et de recherche, régis par le décret 2011-164
+  du 10 février 2011. Établies en Grèce (École française d’Athènes, 1846), en Italie
+  (École française de Rome, 1875), en Égypte (Institut français d’archéologie orientale,
+  Le Caire, 1880), en Asie (École française d’Extrême-Orient, Paris, 1898)
+id: archimageefagr
+identifiers:
+- id: datacite
+  url: https://archimage.efa.gr/
+  value: inist.efe
+langs:
+- id: EN
+  name: English
+link: https://archimage.efa.gr/
+name: Écoles françaises à l’étranger
+owner:
+  location:
+    country:
+      id: FR
+      name: France
+    level: 20
+  name: Écoles françaises à l’étranger
+  type: Academy
+  link: https://efa.gr
+properties:
+  dataset_count_reported: 116255
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00012241
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

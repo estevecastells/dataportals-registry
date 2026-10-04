@@ -55,6 +55,7 @@ owner:
   name: Surveying and Mapping Authority of the Republic of Slovenia
   type: Central government
 properties:
+  is_national: true
   has_doi: true
 rights:
   license_id: null

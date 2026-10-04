@@ -1,0 +1,46 @@
+[
+ {
+  "base_id": "12527",
+  "coll": "ftrmitunivfig",
+  "country": "au",
+  "docs": 86441,
+  "link": "https://rmit.figshare.com",
+  "name": "Research from RMIT University",
+  "ror": "RMIT University",
+  "system": "Figshare",
+  "domain": "rmit.figshare.com"
+ },
+ {
+  "base_id": "6836",
+  "coll": "ftumelbournefig",
+  "country": "au",
+  "docs": 4683,
+  "link": "https://melbourne.figshare.com",
+  "name": "University of Melbourne: Figshare",
+  "ror": null,
+  "system": "Figshare",
+  "domain": "melbourne.figshare.com"
+ },
+ {
+  "base_id": "13853",
+  "coll": "ftunivufcat",
+  "country": "br",
+  "docs": 2154,
+  "link": "https://periodicos.ufcat.edu.br",
+  "name": "Biblioteca Universit\u00e1ria - UFCAT",
+  "ror": null,
+  "system": "OJS",
+  "domain": "periodicos.ufcat.edu.br"
+ },
+ {
+  "base_id": "10829",
+  "coll": "ftaussda",
+  "country": "at",
+  "docs": 1610,
+  "link": "https://aussda.at",
+  "name": "AUSSDA - The Austrian Social Science Data Archive",
+  "ror": null,
+  "system": "Dataverse",
+  "domain": "aussda.at"
+ }
+]

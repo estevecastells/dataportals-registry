@@ -1,0 +1,59 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+id: dchphilfakunikoelnde
+identifiers:
+- id: datacite
+  url: https://dch.phil-fak.uni-koeln.de/
+  value: zbmed.unikoeln
+langs:
+- id: EN
+  name: English
+link: https://dch.phil-fak.uni-koeln.de/
+name: Universitäts- und Stadtbibliothek Köln
+owner:
+  link: https://www.uni-koeln.de
+  location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+  name: University of Cologne
+  type: Academy
+properties:
+  dataset_count_reported: 16082
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00008161
+description: Scientific data repository. managed by University of Cologne. powered
+  by Custom software. accessible at dch.phil-fak.uni-koeln.de.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115
+- id: EDUC
+  name: Education, culture and sport
+  type: eudatatheme

@@ -1,0 +1,59 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+description: 'Schloss Dagstuhl - Leibniz Center for Informatics has been operating
+  the Dagstuhl Research Online Publication Server (short: DROPS) since 2004. DROPS
+  enables publication of the latest research findings in a fast, uncomplicated manner,
+  in addition to providing unimpeded, open access to them. All the requisite metadata
+  on each publication is administered in accordance with general guidelines pertain'
+id: dropsdagstuhlde
+identifiers:
+- id: datacite
+  url: https://drops.dagstuhl.de/
+  value: lzi.drops
+langs:
+- id: EN
+  name: English
+link: https://drops.dagstuhl.de/
+name: Dagstuhl Research Online Publication Server
+owner:
+  link: https://www.dagstuhl.de
+  location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+  name: Schloss Dagstuhl – Leibniz Zentrum für Informatik
+  type: Academy
+properties:
+  dataset_count_reported: 214
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00008162
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

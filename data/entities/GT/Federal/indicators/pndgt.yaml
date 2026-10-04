@@ -1,0 +1,48 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: GT
+      name: Guatemala
+    level: 20
+    macroregion:
+      id: '013'
+      name: Central America
+description: Guatemala platform for monitoring the National Development Priorities
+  (K'atun) and SDG indicators with data tables by goal. Source of datasets assessed
+  in ODIN 2024/25.
+id: pndgt
+langs:
+- id: ES
+  name: Spanish
+link: https://pnd.gt/
+name: Prioridades Nacionales de Desarrollo (Guatemala)
+owner:
+  link: https://www.segeplan.gob.gt
+  location:
+    country:
+      id: GT
+      name: Guatemala
+    level: 20
+  name: Secretaría de Planificación y Programación de la Presidencia (Segeplán)
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- government
+- guatemala
+- indicators
+- statistics
+topics:
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+uid: cdi00013634

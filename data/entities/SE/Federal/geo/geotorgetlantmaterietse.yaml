@@ -1,0 +1,67 @@
+access_mode:
+- open
+api: false
+api_status: inactive
+catalog_type: Geoportal
+content_types:
+- dataset
+- map_layer
+coverage:
+- location:
+    country:
+      id: SE
+      name: Sweden
+    level: 20
+    macroregion:
+      id: '150'
+      name: Europe
+description: Lantmäteriet's national geodata platform Geotorget for discovery, ordering and access to
+  Swedish geodata, the access layer succeeding geodata.se.
+id: geotorgetlantmaterietse
+identifiers:
+- id: wikidata
+  url: https://www.wikidata.org/wiki/Q124619079
+  value: Q124619079
+langs:
+- id: SV
+  name: Swedish
+- id: EN
+  name: English
+link: https://geotorget.lantmateriet.se/
+name: Geotorget
+owner:
+  link: https://www.lantmateriet.se
+  location:
+    country:
+      id: SE
+      name: Sweden
+    level: 20
+  name: Lantmäteriet
+  type: Central government
+properties:
+  has_doi: false
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- geodata
+- sweden
+- national
+- geospatial
+topics:
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
+- id: Geoscientific Information
+  name: Geoscientific Information
+  type: iso19115
+uid: cdi00013670

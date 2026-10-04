@@ -24,7 +24,7 @@ langs:
 link: https://shekswess.github.io/open-corpus-registry/
 name: Open Corpus Registry
 owner:
-  link: null
+  link: https://github.io
   location:
     country:
       id: MK
@@ -35,6 +35,10 @@ software:
   id: custom
   name: Custom software
 status: active
-tags: []
-topics: []
+tags:
+- republic-of-north-macedonia
+topics:
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
 uid: cdi00011972

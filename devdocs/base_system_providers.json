@@ -1,0 +1,1324 @@
+{
+ "Dataverse": [
+  {
+   "base_id": "13797",
+   "country": "nl",
+   "docs": 320173,
+   "link": "https://archaeology.datastations.nl/",
+   "name": "DANS Data Station DANS Data Station Archaeology (Data Archiving and Networked Services) (Data Archiving and Networked Services)",
+   "system": "Dataverse",
+   "type": "Publications"
+  },
+  {
+   "base_id": "3316",
+   "country": "us",
+   "docs": 92311,
+   "link": "https://dataverse.harvard.edu/",
+   "name": "Harvard Dataverse",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "12574",
+   "country": "pl",
+   "docs": 79784,
+   "link": "https://dataverse.openforestdata.pl/",
+   "name": "Open Forest Data (Projekt \"e-Puszcza\" - Podlaskie cyfrowe repozytorium przyrodniczych danych naukowych)Weitere Bezeichnung Open Forest Data",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "12085",
+   "country": "ca",
+   "docs": 19478,
+   "link": "https://borealisdata.ca/dataverse/dv",
+   "name": "Borealis",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "8357",
+   "country": "nl",
+   "docs": 9572,
+   "link": "https://dataverse.nl/dataverse/root",
+   "name": "DataverseNL",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "13796",
+   "country": "nl",
+   "docs": 8143,
+   "link": "https://ssh.datastations.nl/",
+   "name": "DANS Data Station Social Sciences and Humanities (Data Archiving and Networked Services)",
+   "system": "Dataverse",
+   "type": "Publications"
+  },
+  {
+   "base_id": "9143",
+   "country": "us",
+   "docs": 7232,
+   "link": "https://dataverse.unc.edu/dataverse/unc",
+   "name": "UNC Dataverse",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "8723",
+   "country": "us",
+   "docs": 3112,
+   "link": "https://dataverse.tdl.org/",
+   "name": "Texas Data Repository Dataverse (Texas Digital Library - TDL)",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "12503",
+   "country": "ca",
+   "docs": 2623,
+   "link": "https://abacus.library.ubc.ca/",
+   "name": "Abacus Data Network",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "9144",
+   "country": "de",
+   "docs": 2574,
+   "link": "https://data.goettingen-research-online.de/",
+   "name": "Göttingen Research Online Data",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "9106",
+   "country": "de",
+   "docs": 2475,
+   "link": "https://darus.uni-stuttgart.de/dataverse/darus",
+   "name": "DaRUS (University of Stuttgart)",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "12650",
+   "country": "es",
+   "docs": 2418,
+   "link": "https://dataverse.csuc.cat/",
+   "name": "CORA - Repositori de Dades de Recerca, Universitat de Barcelona",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "9116",
+   "country": "no",
+   "docs": 2287,
+   "link": "https://dataverse.no/",
+   "name": "DataverseNO",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "10109",
+   "country": "sg",
+   "docs": 2117,
+   "link": "https://researchdata.ntu.edu.sg/",
+   "name": "DR-NTU (Data) (Nanyang Technological University)",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "9117",
+   "country": "es",
+   "docs": 1905,
+   "link": "https://edatos.consorciomadrono.es/dataverse/Madrono",
+   "name": "e-cienciaDatos (Consorcio Madroño Universities)",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "9881",
+   "country": "au",
+   "docs": 1716,
+   "link": "https://dataverse.ada.edu.au/",
+   "name": "ADA Dataverse (Australian Data Archive)",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "10829",
+   "country": "at",
+   "docs": 1610,
+   "link": "https://aussda.at/",
+   "name": "AUSSDA - The Austrian Social Science Data Archive",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "13798",
+   "country": "nl",
+   "docs": 1107,
+   "link": "https://lifesciences.datastations.nl/",
+   "name": "DANS Data Station Life Sciences (Data Archiving and Networked Services)",
+   "system": "Dataverse",
+   "type": "Publications"
+  },
+  {
+   "base_id": "12380",
+   "country": "fr",
+   "docs": 1002,
+   "link": "https://dataverse.cirad.fr/",
+   "name": "CIRAD Dataverse",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "13799",
+   "country": "nl",
+   "docs": 894,
+   "link": "https://phys-techsciences.datastations.nl/",
+   "name": "DANS Data Station Physical and Technical Sciences (Data Archiving and Networked Services)",
+   "system": "Dataverse",
+   "type": "Publications"
+  },
+  {
+   "base_id": "12572",
+   "country": "be",
+   "docs": 852,
+   "link": "https://rdr.kuleuven.be/",
+   "name": "KU Leuven RDR (Research Data Repository)",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "10852",
+   "country": "pe",
+   "docs": 833,
+   "link": "https://datos.pucp.edu.pe/",
+   "name": "Pontificia Universidad Católica del Perú: Portal de Datos Abiertos",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "6016",
+   "country": "de",
+   "docs": 771,
+   "link": "https://heidata.uni-heidelberg.de/",
+   "name": "heiDATA (Heidelberg University) Competence Centre for Research Data",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "8480",
+   "country": "it",
+   "docs": 716,
+   "link": "https://dataverse.unimi.it/",
+   "name": "Università degli Studi di Milano: Dataverse",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "10877",
+   "country": "fr",
+   "docs": 544,
+   "link": "https://data.sciencespo.fr/",
+   "name": "data.sciencespo - Research data repository of Sciences Po",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "9107",
+   "country": "us",
+   "docs": 529,
+   "link": "https://dataverse.lib.virginia.edu/dataverse/uva",
+   "name": "UVA Dataverse (University of Virginia)",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "10884",
+   "country": "pl",
+   "docs": 486,
+   "link": "https://mxrdr.icm.edu.pl/",
+   "name": "MX-RDR Dataverse (Macromolecular Xtallograhpy Raw Data Repository)",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "10501",
+   "country": "pl",
+   "docs": 468,
+   "link": "https://rds.icm.edu.pl/",
+   "name": "RDS Repozytorium Danych SpołecznychWeitere Bezeichnung RDS Social Data Repository",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "9142",
+   "country": "us",
+   "docs": 387,
+   "link": "https://dataverse.ucla.edu/dataverse/ucla",
+   "name": "UCLA Dataverse",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "12575",
+   "country": "sg",
+   "docs": 342,
+   "link": "https://researchdata.nie.edu.sg/",
+   "name": "NIE Data Repository (Nanyang Technological University)",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "12651",
+   "country": "id",
+   "docs": 335,
+   "link": "https://data.cifor.org/",
+   "name": "Dataverse CIFOR (Center for International Forestry Research)",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "10854",
+   "country": "pt",
+   "docs": 327,
+   "link": "https://datarepositorium.uminho.pt/",
+   "name": "Repositório de Dados da Universidade do Minho",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "10910",
+   "country": "hk",
+   "docs": 280,
+   "link": "https://researchdata.cuhk.edu.hk/dataverse/root",
+   "name": "CUHK Research Data Repository (The Chinese University of Hong Kong)",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "13129",
+   "country": "co",
+   "docs": 239,
+   "link": "https://papyrus-datos.co/",
+   "name": "Papyrus Dataverse",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "7873",
+   "country": "nl",
+   "docs": 231,
+   "link": "https://dataverse.nioz.nl/dataverse/root",
+   "name": "NIOZ Dataverse (Royal Netherlands Institute for Sea Research)",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "10870",
+   "country": "be",
+   "docs": 222,
+   "link": "https://dataverse.uclouvain.be/",
+   "name": "Open Data @ UCLouvain (Université catholique de Louvain)",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "11748",
+   "country": "lv",
+   "docs": 165,
+   "link": "https://dataverse.rsu.lv/",
+   "name": "Dataverse Riga Stradins University",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "10892",
+   "country": "cl",
+   "docs": 159,
+   "link": "https://datos.uchile.cl/",
+   "name": "Repositorio de datos de investigación de la Universidad de Chile",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "12573",
+   "country": "us",
+   "docs": 123,
+   "link": "https://dataverse.fiu.edu/",
+   "name": "FIU Research Data Portal (Florida International University)",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "10853",
+   "country": "ca",
+   "docs": 121,
+   "link": "https://dataverse.lib.unb.ca/",
+   "name": "UNB Libraries Dataverse Research Data Repository (University of New Brunswick)",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "9115",
+   "country": "us",
+   "docs": 114,
+   "link": "https://archive.data.jhu.edu/",
+   "name": "Johns Hopkins University Data Archive",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "10831",
+   "country": "ca",
+   "docs": 114,
+   "link": "https://dataverse.lib.umanitoba.ca/",
+   "name": "University of Manitoba: Dataverse",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "10955",
+   "country": "us",
+   "docs": 105,
+   "link": "https://dataverse.asu.edu/",
+   "name": "ASU Library Research Data Repository (Arizona State University)",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "10893",
+   "country": "co",
+   "docs": 104,
+   "link": "https://research-data.urosario.edu.co/dataverse/ur",
+   "name": "Dataverse Universidad del Rosario",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "10895",
+   "country": "de",
+   "docs": 79,
+   "link": "https://osnadata.ub.uni-osnabrueck.de/",
+   "name": "osnaData (Forschungsdatenrepositorium der Universität Osnabrück)Weitere Bezeichnung osnaData (Osnabrück University Research Data Repository)",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "10855",
+   "country": "us",
+   "docs": 76,
+   "link": "https://dataverse.orc.gmu.edu/",
+   "name": "George Mason University Dataverse",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "12728",
+   "country": "ar",
+   "docs": 66,
+   "link": "https://dataverse.unr.edu.ar/",
+   "name": "RDA UNR (Repositorio de Datos Académicos Universidad Nacional de Rosario)",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "10949",
+   "country": "fr",
+   "docs": 52,
+   "link": "https://dorel.univ-lorraine.fr/",
+   "name": "DOREL - Entrepôt de données de la recherche de l'Université de LorraineWeitere Bezeichnung DOREL - The institutional data repository of Université de Lorraine",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "12703",
+   "country": "hr",
+   "docs": 40,
+   "link": "https://data.crossda.hr/",
+   "name": "CROSSDA (Croatian Social Science Data Archive)",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "13196",
+   "country": "it",
+   "docs": 14,
+   "link": "https://opendata.sissa.it/",
+   "name": "SISSA Open Data (Scuola Internazionale Superiore di Studi Avanzati)",
+   "system": "Dataverse",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "12628",
+   "country": "ec",
+   "docs": 1,
+   "link": "https://indata.cedia.edu.ec/",
+   "name": "Repositorio de Datos de Investigación de CEDIA",
+   "system": "Dataverse",
+   "type": "Datasets"
+  }
+ ],
+ "Digital Commons Data": [
+  {
+   "base_id": "12832",
+   "country": "it",
+   "docs": 153,
+   "link": "https://ordr.hsr.it/",
+   "name": "San Raffaele Open Research Data Repository",
+   "system": "Digital Commons Data",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "12538",
+   "country": "it",
+   "docs": 115,
+   "link": "https://board.unimib.it/",
+   "name": "Bicocca Open Archive Research Data (Open Science @ UniMiB - Università degli Studi di Milano-Bicocca)",
+   "system": "Digital Commons Data",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "14418",
+   "country": "it",
+   "docs": 38,
+   "link": "https://unicatt.digitalcommonsdata.com",
+   "name": "Digital Commons UniCatt - DCD UniCatt",
+   "system": "Digital Commons Data",
+   "type": "Academic publications"
+  }
+ ],
+ "Figshare": [
+  {
+   "base_id": "7238",
+   "country": "uk",
+   "docs": 656068,
+   "link": "https://frontiersin.figshare.com/",
+   "name": "Frontiers: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "12306",
+   "country": "au",
+   "docs": 200131,
+   "link": "https://dro.deakin.edu.au/",
+   "name": "DRO - Deakin Research Online",
+   "system": "Figshare",
+   "type": "Academic publications"
+  },
+  {
+   "base_id": "6865",
+   "country": "uk",
+   "docs": 168933,
+   "link": "https://bathspa.figshare.com/",
+   "name": "Bath Spa University: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "13400",
+   "country": "au",
+   "docs": 124312,
+   "link": "https://figshare.utas.edu.au/",
+   "name": "Research from University Of Tasmania",
+   "system": "Figshare",
+   "type": "Academic publications"
+  },
+  {
+   "base_id": "7242",
+   "country": "za",
+   "docs": 111953,
+   "link": "https://uct.figshare.com/",
+   "name": "University of Cape Town: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "12527",
+   "country": "au",
+   "docs": 86441,
+   "link": "https://rmit.figshare.com/",
+   "name": "Research from RMIT University",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "7239",
+   "country": "uk",
+   "docs": 68406,
+   "link": "https://sussex.figshare.com/",
+   "name": "University of Sussex: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "12302",
+   "country": "uk",
+   "docs": 68391,
+   "link": "https://portal.sds.ox.ac.uk/",
+   "name": "Research from University of Oxford",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "6812",
+   "country": "uk",
+   "docs": 64222,
+   "link": "https://lboro.figshare.com/",
+   "name": "Loughborough University: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "7077",
+   "country": "uk",
+   "docs": 42282,
+   "link": "https://rs.figshare.com/",
+   "name": "The Royal Society: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "6816",
+   "country": "au",
+   "docs": 40475,
+   "link": "https://monash.figshare.com/",
+   "name": "Monash University: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "8759",
+   "country": "uk",
+   "docs": 37183,
+   "link": "https://leicester.figshare.com/",
+   "name": "University of Leicester: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "7078",
+   "country": "us",
+   "docs": 36900,
+   "link": "https://osapublishing.figshare.com/",
+   "name": "The Optical Society: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "13912",
+   "country": "uk",
+   "docs": 34788,
+   "link": "https://repository.lincoln.ac.uk/",
+   "name": "University of Lincoln: Research",
+   "system": "Figshare",
+   "type": "Academic publications"
+  },
+  {
+   "base_id": "13403",
+   "country": "uk",
+   "docs": 34312,
+   "link": "https://drs.britishmuseum.org/",
+   "name": "Digital resources from The British Museum",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "12160",
+   "country": "au",
+   "docs": 27343,
+   "link": "https://acquire.cqu.edu.au/",
+   "name": "CQUniversity: acquire",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "6837",
+   "country": "au",
+   "docs": 24299,
+   "link": "https://latrobe.figshare.com/",
+   "name": "La Trobe University (Melbourne): Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "8898",
+   "country": "us",
+   "docs": 22462,
+   "link": "https://kilthub.cmu.edu/",
+   "name": "KiltHub Research from Carnegie Mellon University",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "12303",
+   "country": "us",
+   "docs": 22023,
+   "link": "https://indigo.uic.edu/",
+   "name": "Indigo - University of Illinois at Chicago",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "10538",
+   "country": "nz",
+   "docs": 14563,
+   "link": "https://openaccess.wgtn.ac.nz/",
+   "name": "Open Access Victoria University of Wellington / Te Herenga Waka",
+   "system": "Figshare",
+   "type": "Academic publications"
+  },
+  {
+   "base_id": "13337",
+   "country": "ca",
+   "docs": 13961,
+   "link": "https://rshare.library.torontomu.ca/",
+   "name": "Research from Toronto Metropolitan University",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "8904",
+   "country": "uk",
+   "docs": 11811,
+   "link": "https://aru.figshare.com/",
+   "name": "Anglia Ruskin University: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "8876",
+   "country": "us",
+   "docs": 10653,
+   "link": "https://hammer.figshare.com/",
+   "name": "Purdue University Graduate School: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "12400",
+   "country": "au",
+   "docs": 7339,
+   "link": "https://figshare.mq.edu.au/",
+   "name": "Research from Macquarie University",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "7079",
+   "country": "uk",
+   "docs": 7198,
+   "link": "https://geolsoc.figshare.com/",
+   "name": "Geological Society of London: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "12690",
+   "country": "za",
+   "docs": 5528,
+   "link": "https://repository.uj.ac.za/",
+   "name": "University of Johannesburg Research Repository",
+   "system": "Figshare",
+   "type": "Academic publications"
+  },
+  {
+   "base_id": "6836",
+   "country": "au",
+   "docs": 4683,
+   "link": "https://melbourne.figshare.com/",
+   "name": "University of Melbourne: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "7076",
+   "country": "us",
+   "docs": 3595,
+   "link": "https://epa.figshare.com/",
+   "name": "United States Environmental Protection Agency: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "6838",
+   "country": "nz",
+   "docs": 3538,
+   "link": "https://auckland.figshare.com/",
+   "name": "The University of Auckland: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "8758",
+   "country": "uk",
+   "docs": 2786,
+   "link": "https://figshare.cardiffmet.ac.uk/",
+   "name": "Cardiff Metropolitan University: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "6811",
+   "country": "uk",
+   "docs": 2421,
+   "link": "https://sheffield.figshare.com/",
+   "name": "The University of Sheffield: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "6862",
+   "country": "au",
+   "docs": 2078,
+   "link": "https://adelaide.figshare.com/",
+   "name": "The University of Adelaide: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "6852",
+   "country": "uk",
+   "docs": 2037,
+   "link": "https://ou.figshare.com/",
+   "name": "The Open University: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "12401",
+   "country": "za",
+   "docs": 2021,
+   "link": "https://researchdata.up.ac.za/",
+   "name": "Research data from University of Pretoria",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "12692",
+   "country": "uk",
+   "docs": 2016,
+   "link": "https://figshare.manchester.ac.uk/",
+   "name": "University of Manchester Research Repository",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "6864",
+   "country": "nl",
+   "docs": 1781,
+   "link": "https://uvaauas.figshare.com/",
+   "name": "University of Amsterdam/Amsterdam University of Applied Sciences: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "8761",
+   "country": "uk",
+   "docs": 1729,
+   "link": "https://data.ncl.ac.uk/",
+   "name": "Newcastle University: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "8905",
+   "country": "us",
+   "docs": 1534,
+   "link": "https://smithsonian.figshare.com/",
+   "name": "Smithsonian Institution: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "8788",
+   "country": "uk",
+   "docs": 1525,
+   "link": "https://rdr.ucl.ac.uk/",
+   "name": "University College London (UCL): Fighsare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "13417",
+   "country": "uk",
+   "docs": 1503,
+   "link": "https://figshare.edgehill.ac.uk/",
+   "name": "Research from Edge Hill University",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "8787",
+   "country": "dk",
+   "docs": 1440,
+   "link": "https://data.dtu.dk/",
+   "name": "Technical University of Denmark (DTU): Fighsare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "6813",
+   "country": "uk",
+   "docs": 1313,
+   "link": "https://salford.figshare.com/",
+   "name": "University of Salford: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "13336",
+   "country": "uk",
+   "docs": 1285,
+   "link": "https://figshare.arts.ac.uk/",
+   "name": "ual: (University of the Arts London)",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "6835",
+   "country": "uk",
+   "docs": 1159,
+   "link": "https://cranfield.figshare.com/",
+   "name": "Cranfield University: Cranfield Online Research Data (CORD - Figshare)",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "12694",
+   "country": "us",
+   "docs": 1097,
+   "link": "https://figshare.wesleyan.edu/",
+   "name": "Wesleyan University Research Repository",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "6863",
+   "country": "se",
+   "docs": 951,
+   "link": "https://su.figshare.com/",
+   "name": "Stockholms Universitet: FigshareWeitere Bezeichnung Stockholm University: Fighsare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "8756",
+   "country": "au",
+   "docs": 940,
+   "link": "https://torrens.figshare.com/",
+   "name": "Torrens University Australia: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "6839",
+   "country": "org",
+   "docs": 914,
+   "link": "https://orcid.figshare.com/",
+   "name": "ORCID: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "13402",
+   "country": "us",
+   "docs": 869,
+   "link": "https://rochester.figshare.com/",
+   "name": "Research from University of Rochester",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "12304",
+   "country": "us",
+   "docs": 763,
+   "link": "https://data.lib.vt.edu/",
+   "name": "Research data from Virginia Tech",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "13330",
+   "country": "za",
+   "docs": 738,
+   "link": "https://esango.cput.ac.za/",
+   "name": "eSango CPUT Research Data (Cape Peninsula University of Technology)",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "7245",
+   "country": "uk",
+   "docs": 713,
+   "link": "https://royalholloway.figshare.com/",
+   "name": "Royal Holloway, University of London: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "12301",
+   "country": "us",
+   "docs": 676,
+   "link": "https://iastate.figshare.com/",
+   "name": "Iowa State University: DataShare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "13418",
+   "country": "uk",
+   "docs": 669,
+   "link": "https://figshare.leedsbeckett.ac.uk/",
+   "name": "Leeds Beckett University: Thesis and Research Data Repository",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "6955",
+   "country": "uk",
+   "docs": 594,
+   "link": "https://digitalscience.figshare.com/",
+   "name": "Digital Science: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "12526",
+   "country": "uk",
+   "docs": 495,
+   "link": "https://yorksj.figshare.com/",
+   "name": "RayDar - Research at York St John University Data Repository",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "12305",
+   "country": "uk",
+   "docs": 461,
+   "link": "https://kcl.figshare.com/",
+   "name": "Research from King's College London",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "6834",
+   "country": "uk",
+   "docs": 453,
+   "link": "https://brunel.figshare.com/",
+   "name": "Brunel University London: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "8906",
+   "country": "uk",
+   "docs": 449,
+   "link": "https://figshare.northumbria.ac.uk/",
+   "name": "Northumbria University: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "7246",
+   "country": "uk",
+   "docs": 437,
+   "link": "https://f1000.figshare.com/",
+   "name": "F1000 Research: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "12691",
+   "country": "uk",
+   "docs": 435,
+   "link": "https://figshare.dmu.ac.uk/",
+   "name": "De Montfort University Leicester: Research Repository",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "7243",
+   "country": "uk",
+   "docs": 412,
+   "link": "https://city.figshare.com/",
+   "name": "City, University of London: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "13419",
+   "country": "za",
+   "docs": 410,
+   "link": "https://hungu-mut.figshare.com",
+   "name": "Research from Mangosuthu University of Technology (MUT)",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "12536",
+   "country": "us",
+   "docs": 396,
+   "link": "https://arizona.figshare.com/",
+   "name": "ReData - University of Arizona Research Data Repository",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "13415",
+   "country": "za",
+   "docs": 342,
+   "link": "https://wsu.figshare.com/",
+   "name": "Research from Walter Sisulu University",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "13404",
+   "country": "sg",
+   "docs": 338,
+   "link": "https://researchdata.smu.edu.sg/",
+   "name": "SMU Research Data Repository (RDR)",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "12693",
+   "country": "au",
+   "docs": 324,
+   "link": "https://griffith.figshare.com/",
+   "name": "Griffith University Research Repository",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "12531",
+   "country": "au",
+   "docs": 304,
+   "link": "https://open.flinders.edu.au/",
+   "name": "Flinders University: ROADS (Repository of Open Access Data Sets)",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "7075",
+   "country": "uk",
+   "docs": 289,
+   "link": "https://microbiology.figshare.com/",
+   "name": "Microbiology Society: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "8786",
+   "country": "nl",
+   "docs": 275,
+   "link": "https://eur.figshare.com/",
+   "name": "Erasmus University Rotterdam (EUR): Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "13331",
+   "country": "za",
+   "docs": 264,
+   "link": "https://southafrica.figshare.com/sun",
+   "name": "SUNScholarData (Stellenbosch University)",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "6861",
+   "country": "uk",
+   "docs": 195,
+   "link": "https://mdx.figshare.com/",
+   "name": "Middlesex University London: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "12528",
+   "country": "za",
+   "docs": 177,
+   "link": "https://ufs.figshare.com/",
+   "name": "Research from University of the Free State (UFS UV)",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "7241",
+   "country": "uk",
+   "docs": 164,
+   "link": "https://sgul.figshare.com/",
+   "name": "St George's, University of London: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "12696",
+   "country": "za",
+   "docs": 148,
+   "link": "https://unisa.figshare.com/",
+   "name": "University of South Africa: Research Repository",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "8757",
+   "country": "au",
+   "docs": 136,
+   "link": "https://federation.figshare.com/",
+   "name": "Federation University Australia: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "6814",
+   "country": "nl",
+   "docs": 125,
+   "link": "https://uu.figshare.com/",
+   "name": "Utrecht University: Figshare",
+   "system": "Figshare",
+   "type": "Course materials"
+  },
+  {
+   "base_id": "13421",
+   "country": "za",
+   "docs": 109,
+   "link": "https://dayta.nwu.ac.za/",
+   "name": "North-West University: DaYta",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "8760",
+   "country": "nz",
+   "docs": 100,
+   "link": "https://data.lincoln.ac.nz/",
+   "name": "Lincoln University: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "12695",
+   "country": "za",
+   "docs": 96,
+   "link": "https://researchdata.ru.ac.za/",
+   "name": "Rhodes University: Research and open educational resources",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "6956",
+   "country": "uk",
+   "docs": 92,
+   "link": "https://wellcome.figshare.com/",
+   "name": "Wellcome Trust: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "6851",
+   "country": "org",
+   "docs": 70,
+   "link": "https://vivo.figshare.com/",
+   "name": "VIVO: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "13416",
+   "country": "za",
+   "docs": 51,
+   "link": "https://smu-za.figshare.com/",
+   "name": "Research from Sefako Makgatho Health Sciences University",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "7244",
+   "country": "nl",
+   "docs": 42,
+   "link": "https://zuyd.figshare.com/",
+   "name": "Zuyd University of Applied Sciences: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "8875",
+   "country": "uk",
+   "docs": 37,
+   "link": "https://surrey.figshare.com/",
+   "name": "University of Surrey: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "13405",
+   "country": "us",
+   "docs": 34,
+   "link": "https://nsf.figshare.com/",
+   "name": "NSF Workshop Awards for National Science Foundation",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "6829",
+   "country": "us",
+   "docs": 33,
+   "link": "https://stedwards.figshare.com/",
+   "name": "St. Edward's University: Figshare",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "13420",
+   "country": "za",
+   "docs": 16,
+   "link": "https://mandela.figshare.com/",
+   "name": "Research from Nelson Mandela University",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "13401",
+   "country": "mt",
+   "docs": 11,
+   "link": "https://drum.um.edu.mt/",
+   "name": "drUM Data Repository",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "12399",
+   "country": "ie",
+   "docs": 4,
+   "link": "https://researchrepository.ul.ie/",
+   "name": "Research from University of Limerick",
+   "system": "Figshare",
+   "type": "Datasets"
+  },
+  {
+   "base_id": "12535",
+   "country": "us",
+   "docs": 1,
+   "link": "https://wyoscholar.uwyo.edu/",
+   "name": "WyoScholar - University of Wyoming research repository",
+   "system": "Figshare",
+   "type": "Academic publications"
+  }
+ ],
+ "Radar": [
+  {
+   "base_id": "12834",
+   "country": "de",
+   "docs": 6634,
+   "link": "https://www.radar-service.eu/",
+   "name": "FIZ Karlsruhe: RADAR",
+   "system": "Radar",
+   "type": "Datasets"
+  }
+ ]
+}

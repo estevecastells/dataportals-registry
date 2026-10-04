@@ -1,0 +1,57 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    level: 20
+    macroregion:
+      id: '021'
+      name: Northern America
+id: landscanornlgov
+identifiers:
+- id: datacite
+  url: https://landscan.ornl.gov/
+  value: gshs.gshs
+langs:
+- id: EN
+  name: English
+link: https://landscan.ornl.gov/
+name: Department of Defense, Oak Ridge National Laboratory, Geospatial Science and
+  Human Security Division (ORNL-GSHS) Repository
+owner:
+  location:
+    country:
+      id: US
+      name: United States
+    level: 20
+  name: Oak Ridge National Laboratory
+  type: Central government
+  link: https://ornl.gov
+properties:
+  dataset_count_reported: 85
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00013604
+description: Scientific data repository. managed by Oak Ridge National Laboratory.
+  powered by Custom software. accessible at landscan.ornl.gov.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

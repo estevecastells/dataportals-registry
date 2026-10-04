@@ -1,0 +1,48 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: SN
+      name: Senegal
+    level: 20
+    macroregion:
+      id: '011'
+      name: Western Africa
+description: BCEAO Senegal National Directorate data portal on the Open Data for Africa
+  (Knoema) platform with time series datasets on monetary and financial statistics.
+  Source of datasets assessed in ODIN 2024/25.
+id: cbsenegalopendataforafricaorg
+langs:
+- id: FR
+  name: French
+link: https://cb-senegal.opendataforafrica.org/
+name: OpenData pour la BCEAO - Direction Nationale pour le Sénégal
+owner:
+  link: https://www.bceao.int
+  location:
+    country:
+      id: SN
+      name: Senegal
+    level: 20
+  name: BCEAO - Direction Nationale du Sénégal
+  type: Central government
+software:
+  id: knoema
+  name: Knoema
+status: active
+tags:
+- government
+- indicators
+- senegal
+- statistics
+topics:
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+uid: cdi00013644

@@ -17,7 +17,8 @@ coverage:
       name: Northern Europe
 description: GEO Latvija is the national unified geospatial information portal. It
   publishes maps and geospatial datasets from Latvian public-sector organisations
-  for government, public, and research use.
+  for government, public, and research use. It is the national spatial data infrastructure
+  geoportal of Latvia.
 id: geolatvijalv
 langs:
 - id: LV
@@ -37,7 +38,7 @@ owner:
   type: Central government
 properties:
   has_doi: false
-  is_national: false
+  is_national: true
 rights:
   license_id: null
   license_name: null

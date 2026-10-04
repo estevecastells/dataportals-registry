@@ -1,0 +1,59 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: CA
+      name: Canada
+    level: 20
+    macroregion:
+      id: '021'
+      name: Northern America
+description: 2025-03-18 - shared our credentials with Scholaris for our ERA repository
+  (https://ualberta.scholaris.ca/). Dropped the R3 "shoulder" we were using for Jupiter
+  (era.library.ualberta.ca). Our ERA DOIs have <prefix>/<shoulder><suffix>. The shoulder
+  is something we did historically from EZID days - we used the same prefix for Dataverse
+  and ERA. The shoulder doesn't need to be there - we know from the
+id: ualbertascholarisca
+identifiers:
+- id: datacite
+  url: https://ualberta.scholaris.ca/
+  value: ualberta.library
+langs:
+- id: EN
+  name: English
+link: https://ualberta.scholaris.ca/
+name: University of Alberta Library
+owner:
+  location:
+    country:
+      id: CA
+      name: Canada
+    level: 20
+  name: University of Alberta
+  type: Academy
+  link: https://scholaris.ca
+properties:
+  dataset_count_reported: 898
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00008144
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: IN
+      name: India
+    level: 20
+    macroregion:
+      id: '034'
+      name: Southern Asia
+id: bhusangrahngriresin
+identifiers:
+- id: datacite
+  url: https://bhusangrah.ngri.res.in/
+  value: bcrp.clczbz
+langs:
+- id: EN
+  name: English
+link: https://bhusangrah.ngri.res.in/
+name: NGRI Geomagnetism
+owner:
+  link: https://www.ngri.res.in/
+  location:
+    country:
+      id: IN
+      name: India
+    level: 20
+  name: National Geophysical Research Institute
+  type: Academy
+properties:
+  dataset_count_reported: 112
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00013562
+description: Scientific data repository. managed by National Geophysical Research
+  Institute. powered by Custom software. accessible at bhusangrah.ngri.res.in.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

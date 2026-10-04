@@ -17,7 +17,8 @@ coverage:
       name: Eastern Europe
 description: Former ANCPI InspireView ArcGIS REST catalog at geoportal.ancpi.ro. The
   geoportal.ancpi.ro host no longer resolves. Cadastral map viewing later moved to
-  the national INIS geoportal on geoportal.gov.ro.
+  the national INIS geoportal on geoportal.gov.ro. It is the national spatial data
+  infrastructure geoportal of Romania, publishing INSPIRE cadastre and geodesy services.
 id: geoportalancpiro
 langs:
 - id: RO
@@ -34,6 +35,7 @@ owner:
   name: National Agency for Cadastre and Real Estate Publicity (ANCPI)
   type: Central government
 properties:
+  is_national: true
   has_doi: false
 rights:
   license_id: null

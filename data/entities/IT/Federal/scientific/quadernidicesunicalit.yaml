@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: IT
+      name: Italy
+    level: 20
+    macroregion:
+      id: 039
+      name: Southern Europe
+id: quadernidicesunicalit
+identifiers:
+- id: datacite
+  url: https://quadernidices.unical.it/
+  value: crui.unical
+langs:
+- id: EN
+  name: English
+link: https://quadernidices.unical.it/
+name: Labfon Research Data (Università della Calabria)
+owner:
+  location:
+    country:
+      id: IT
+      name: Italy
+    level: 20
+  name: UNICAL - Università della Calabria
+  type: Academy
+  link: https://unical.it
+properties:
+  dataset_count_reported: 323
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00013573
+description: Scientific data repository. managed by UNICAL - Università della Calabria.
+  powered by Custom software. accessible at quadernidices.unical.it.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

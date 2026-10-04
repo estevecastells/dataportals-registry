@@ -1,0 +1,51 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: DK
+      name: Denmark
+    level: 20
+    macroregion:
+      id: '154'
+      name: Northern Europe
+description: Danish health data portal with indicators, tables and statistics on health,
+  diseases and health services. Source of datasets assessed in ODIN 2024/25.
+id: wwwesundheddk
+langs:
+- id: EN
+  name: English
+link: https://www.esundhed.dk/
+name: eSundhed - Danish health data
+owner:
+  link: https://sundhedsdatastyrelsen.dk
+  location:
+    country:
+      id: DK
+      name: Denmark
+    level: 20
+  name: Danish Health Data Authority (Sundhedsdatastyrelsen)
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- denmark
+- government
+- health
+- indicators
+- statistics
+topics:
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: HEAL
+  name: Health
+  type: eudatatheme
+uid: cdi00013626

@@ -27,7 +27,7 @@ langs:
 link: https://forcitizens.ru
 name: Бюджет для граждан Чеченской Республики
 owner:
-  link: null
+  link: https://forcitizens.ru
   location:
     country:
       id: RU
@@ -42,6 +42,13 @@ software:
   id: imonitoring
   name: iMonitoring
 status: active
-tags: []
-topics: []
+tags:
+- government
+- indicators
+- russian-federation
+- statistics
+topics:
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
 uid: cdi00011920

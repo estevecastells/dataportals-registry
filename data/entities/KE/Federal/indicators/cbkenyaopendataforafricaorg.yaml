@@ -1,0 +1,52 @@
+access_mode:
+- open
+api: true
+api_status: active
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: KE
+      name: Kenya
+    level: 20
+    macroregion:
+      id: '014'
+      name: Eastern Africa
+description: Central Bank of Kenya data portal on the Open Data for Africa (Knoema)
+  platform with a data catalog of monetary, exchange-rate and interest-rate time series.
+  Source of datasets assessed in ODIN 2024/25.
+id: cbkenyaopendataforafricaorg
+langs:
+- id: EN
+  name: English
+link: https://cb-kenya.opendataforafrica.org/
+name: OpenData for the Central Bank of Kenya
+owner:
+  link: https://www.centralbank.go.ke
+  location:
+    country:
+      id: KE
+      name: Kenya
+    level: 20
+  name: Central Bank of Kenya
+  type: Central government
+software:
+  id: knoema
+  name: Knoema
+status: active
+tags:
+- government
+- indicators
+- kenya
+- statistics
+topics:
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+uid: cdi00013637
+endpoints:
+- type: knoema:meta-dataset
+  url: https://cb-kenya.opendataforafrica.org/api/1.0/meta/dataset
+  version: '1.0'

@@ -1,20 +1,24 @@
 DATA QUALITY REPORT - RULE: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISSERVER
 ================================================================================
-Generated: 2026-09-30 20:41:32
+Generated: 2026-10-04 12:31:49
 Issue Type: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISSERVER
 Priority: MEDIUM
-Total Issues Found: 2
+Total Issues Found: 4
 
 Rule: Identifies records using software.id='arcgisserver' (API-capable per software definitions) that have no endpoints listed. Add at least one API endpoint for discovery and integration.
 
 === SUMMARY BY COUNTRY ===
 
+AW: 1 issue
 IL: 1 issue
 SK: 1 issue
+SM: 1 issue
 
 === SUMMARY BY RECORD ===
 
 gistsksk: 1 issue
+mappeonlinepasm: 1 issue
+gisinfraaw: 1 issue
 gispmatamarcoilportal: 1 issue
 
 === ISSUES ===
@@ -22,6 +26,22 @@ gispmatamarcoilportal: 1 issue
 File: SK/SK-TC/geo/gistsksk.yaml
 Record ID: gistsksk
 Country: SK
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISSERVER
+Field: endpoints
+Current Value: {"software_id": "arcgisserver", "has_api": "Yes", "endpoints_count": 0}
+Suggested Action: Add at least one endpoint because software.id='arcgisserver' is marked as API-capable in software definitions
+
+File: SM/Federal/geo/mappeonlinepasm.yaml
+Record ID: mappeonlinepasm
+Country: SM
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISSERVER
+Field: endpoints
+Current Value: {"software_id": "arcgisserver", "has_api": "Yes", "endpoints_count": 0}
+Suggested Action: Add at least one endpoint because software.id='arcgisserver' is marked as API-capable in software definitions
+
+File: AW/Federal/geo/gisinfraaw.yaml
+Record ID: gisinfraaw
+Country: AW
 Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISSERVER
 Field: endpoints
 Current Value: {"software_id": "arcgisserver", "has_api": "Yes", "endpoints_count": 0}

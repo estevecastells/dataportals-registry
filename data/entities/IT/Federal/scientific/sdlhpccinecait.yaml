@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: IT
+      name: Italy
+    level: 20
+    macroregion:
+      id: 039
+      name: Southern Europe
+id: sdlhpccinecait
+identifiers:
+- id: datacite
+  url: https://sdl.hpc.cineca.it/
+  value: uffm.nxsmpa
+langs:
+- id: EN
+  name: English
+link: https://sdl.hpc.cineca.it/
+name: Simulation Data Lake
+owner:
+  link: https://www.cineca.it
+  location:
+    country:
+      id: IT
+      name: Italy
+    level: 20
+  name: CINECA - Consorzio Interuniversitario
+  type: Other
+properties:
+  dataset_count_reported: 68
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00013574
+description: Scientific data repository. managed by CINECA - Consorzio Interuniversitario.
+  powered by Custom software. accessible at sdl.hpc.cineca.it.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

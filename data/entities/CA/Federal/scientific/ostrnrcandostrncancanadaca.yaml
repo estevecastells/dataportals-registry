@@ -1,0 +1,64 @@
+access_mode:
+- open
+api: false
+api_status: inactive
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: CA
+      name: Canada
+    level: 20
+    macroregion:
+      id: 019
+      name: Americas
+description: 'GEOSCAN / OSTR: Natural Resources Canada open science and technology repository (DSpace)
+  for publications and datasets.'
+id: ostrnrcandostrncancanadaca
+identifiers:
+- id: datacite
+  value: natcan.geoscan
+langs:
+- id: EN
+  name: English
+- id: FR
+  name: French
+link: https://ostrnrcan-dostrncan.canada.ca/
+name: GEOSCAN (NRCan Open S&T Repository)
+owner:
+  link: https://www.nrcan.gc.ca
+  location:
+    country:
+      id: CA
+      name: Canada
+    level: 20
+  name: Natural Resources Canada
+  type: Central government
+properties:
+  has_doi: true
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: dspace
+  name: DSpace
+status: active
+tags:
+- research data
+- doi
+- datacite
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013681

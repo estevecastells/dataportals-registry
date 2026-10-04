@@ -1,0 +1,56 @@
+DATA QUALITY REPORT - RULE: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_FIGSHARE
+================================================================================
+Generated: 2026-10-04 12:31:49
+Issue Type: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_FIGSHARE
+Priority: MEDIUM
+Total Issues Found: 4
+
+Rule: Identifies records using software.id='figshare' (API-capable per software definitions) that have no endpoints listed. Add at least one API endpoint for discovery and integration.
+
+=== SUMMARY BY COUNTRY ===
+
+GB: 1 issue
+HK: 1 issue
+QA: 1 issue
+ZA: 1 issue
+
+=== SUMMARY BY RECORD ===
+
+hkufigsharecom: 1 issue
+qnlrorfigsharecom: 1 issue
+cputfigsharecom: 1 issue
+nclfigsharecom: 1 issue
+
+=== ISSUES ===
+
+File: HK/Federal/scientific/hkufigsharecom.yaml
+Record ID: hkufigsharecom
+Country: HK
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_FIGSHARE
+Field: endpoints
+Current Value: {"software_id": "figshare", "has_api": "Yes", "endpoints_count": 0}
+Suggested Action: Add at least one endpoint because software.id='figshare' is marked as API-capable in software definitions
+
+File: QA/Federal/scientific/qnlrorfigsharecom.yaml
+Record ID: qnlrorfigsharecom
+Country: QA
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_FIGSHARE
+Field: endpoints
+Current Value: {"software_id": "figshare", "has_api": "Yes", "endpoints_count": 0}
+Suggested Action: Add at least one endpoint because software.id='figshare' is marked as API-capable in software definitions
+
+File: ZA/Federal/scientific/cputfigsharecom.yaml
+Record ID: cputfigsharecom
+Country: ZA
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_FIGSHARE
+Field: endpoints
+Current Value: {"software_id": "figshare", "has_api": "Yes", "endpoints_count": 0}
+Suggested Action: Add at least one endpoint because software.id='figshare' is marked as API-capable in software definitions
+
+File: GB/GB-ENG/scientific/nclfigsharecom.yaml
+Record ID: nclfigsharecom
+Country: GB
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_FIGSHARE
+Field: endpoints
+Current Value: {"software_id": "figshare", "has_api": "Yes", "endpoints_count": 0}
+Suggested Action: Add at least one endpoint because software.id='figshare' is marked as API-capable in software definitions

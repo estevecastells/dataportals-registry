@@ -1,0 +1,34 @@
+DATA QUALITY REPORT - RULE: MISSING_DESCRIPTION
+================================================================================
+Generated: 2026-10-04 12:31:49
+Issue Type: MISSING_DESCRIPTION
+Priority: MEDIUM
+Total Issues Found: 2
+
+=== SUMMARY BY COUNTRY ===
+
+NG: 1 issue
+World: 1 issue
+
+=== SUMMARY BY RECORD ===
+
+ghskdbsng: 1 issue
+internationalbudgetorg: 1 issue
+
+=== ISSUES ===
+
+File: NG/NG-KD/indicators/ghskdbsng.yaml
+Record ID: ghskdbsng
+Country: NG
+Issue: MISSING_DESCRIPTION
+Field: description
+Current Value: This is a temporary record with some data collected but it should be updated befor adding to the index
+Suggested Action: Add meaningful description based on portal content and purpose
+
+File: World/Federal/indicators/internationalbudgetorg.yaml
+Record ID: internationalbudgetorg
+Country: World
+Issue: MISSING_DESCRIPTION
+Field: description
+Current Value: 
+Suggested Action: Add meaningful description based on portal content and purpose

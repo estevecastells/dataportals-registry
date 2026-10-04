@@ -1,14 +1,17 @@
 DATA QUALITY REPORT - RULE: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISHUB
 ================================================================================
-Generated: 2026-09-30 20:41:32
+Generated: 2026-10-04 12:31:49
 Issue Type: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISHUB
 Priority: MEDIUM
-Total Issues Found: 5
+Total Issues Found: 9
 
 Rule: Identifies records using software.id='arcgishub' (API-capable per software definitions) that have no endpoints listed. Add at least one API endpoint for discovery and integration.
 
 === SUMMARY BY COUNTRY ===
 
+BF: 1 issue
+CA: 2 issues
+KE: 1 issue
 MY: 1 issue
 RS: 1 issue
 SE: 2 issues
@@ -19,7 +22,11 @@ US: 1 issue
 kartorsfvse: 1 issue
 kartaatvidabergse: 1 issue
 datacarlsbadcagov: 1 issue
+opendatagoke: 1 issue
+datacitysaskatoonopendataarcgiscom: 1 issue
+datatolopendataarcgiscom: 1 issue
 geoportalvojvodinagovrs: 1 issue
+sustainabledevelopmentgoalsbfdatahubhubarcgiscom: 1 issue
 geojbgovmy: 1 issue
 
 === ISSUES ===
@@ -48,9 +55,41 @@ Field: endpoints
 Current Value: {"software_id": "arcgishub", "has_api": "Yes", "endpoints_count": 0}
 Suggested Action: Add at least one endpoint because software.id='arcgishub' is marked as API-capable in software definitions
 
+File: KE/Federal/opendata/opendatagoke.yaml
+Record ID: opendatagoke
+Country: KE
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISHUB
+Field: endpoints
+Current Value: {"software_id": "arcgishub", "has_api": "Yes", "endpoints_count": 0}
+Suggested Action: Add at least one endpoint because software.id='arcgishub' is marked as API-capable in software definitions
+
+File: CA/CA-SK/opendata/datacitysaskatoonopendataarcgiscom.yaml
+Record ID: datacitysaskatoonopendataarcgiscom
+Country: CA
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISHUB
+Field: endpoints
+Current Value: {"software_id": "arcgishub", "has_api": "Yes", "endpoints_count": 0}
+Suggested Action: Add at least one endpoint because software.id='arcgishub' is marked as API-capable in software definitions
+
+File: CA/CA-BC/opendata/datatolopendataarcgiscom.yaml
+Record ID: datatolopendataarcgiscom
+Country: CA
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISHUB
+Field: endpoints
+Current Value: {"software_id": "arcgishub", "has_api": "Yes", "endpoints_count": 0}
+Suggested Action: Add at least one endpoint because software.id='arcgishub' is marked as API-capable in software definitions
+
 File: RS/RS-VO/geo/geoportalvojvodinagovrs.yaml
 Record ID: geoportalvojvodinagovrs
 Country: RS
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISHUB
+Field: endpoints
+Current Value: {"software_id": "arcgishub", "has_api": "Yes", "endpoints_count": 0}
+Suggested Action: Add at least one endpoint because software.id='arcgishub' is marked as API-capable in software definitions
+
+File: BF/Federal/geo/sustainabledevelopmentgoalsbfdatahubhubarcgiscom.yaml
+Record ID: sustainabledevelopmentgoalsbfdatahubhubarcgiscom
+Country: BF
 Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISHUB
 Field: endpoints
 Current Value: {"software_id": "arcgishub", "has_api": "Yes", "endpoints_count": 0}

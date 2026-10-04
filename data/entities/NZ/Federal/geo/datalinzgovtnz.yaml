@@ -19,7 +19,9 @@ description: Open online access to New Zealand's most up-to-date land and seabed
   You can search, browse for and download data online on the LINZ Data Service (LDS).
   You can also integrate our APIs into your own applications. Data includes aerial
   imagery, elevation, topographic, hydrographic, property, boundaries and ownership,
-  place names, street address and roads, Crown land.
+  place names, street address and roads, Crown land. It is the national land survey
+  and geospatial data service of New Zealand, forming part of the national spatial
+  data infrastructure.
 endpoints:
 - type: koordinates:data-catalog
   url: https://data.linz.govt.nz/services/api/v1.x/data/
@@ -52,6 +54,7 @@ owner:
   name: Land Information New Zealand
   type: Central government
 properties:
+  is_national: true
   has_doi: false
 rights:
   license_id: null

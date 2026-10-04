@@ -1,0 +1,62 @@
+access_mode:
+- open
+api: false
+api_status: inactive
+catalog_type: API Catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: PF
+      name: French Polynesia
+    level: 20
+    macroregion:
+      id: 009
+      name: Oceania
+description: Developer portal of the Government of French Polynesia running on the Gravitee API Management
+  platform, publishing government APIs for digital service integration.
+id: developergovpf
+langs:
+- id: FR
+  name: French
+link: https://developer.gov.pf/
+name: French Polynesia Government Developer Portal
+owner:
+  link: https://www.service-public.pf
+  location:
+    country:
+      id: PF
+      name: French Polynesia
+    level: 20
+  name: Government of French Polynesia
+  type: Central government
+properties:
+  has_doi: false
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: gravitee
+  name: Gravitee API Management
+status: active
+tags:
+- government
+- API
+- developer portal
+- egov
+- french polynesia
+- gravitee
+topics:
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013675

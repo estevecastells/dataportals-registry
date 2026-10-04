@@ -1,0 +1,65 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: GB
+      name: United Kingdom
+    level: 20
+    macroregion:
+      id: '154'
+      name: Northern Europe
+description: Dementias Platform UK (DPUK) is a public-private partnership funded by
+  the Medical Research Council (MRC) which aims to detect and treat dementia earlier
+  than ever before. Dementia affects over 50 million people globally and yet to date
+  there are no successful treatments. In 2014 the MRC launched DPUK to revolutionise
+  dementia studies and cohort research, as dementia is the leading cause of death
+id: datadpukukserpacuk
+identifiers:
+- id: datacite
+  url: https://data.dpuk.ukserp.ac.uk/
+  value: xwpv.qbqbok
+langs:
+- id: EN
+  name: English
+link: https://data.dpuk.ukserp.ac.uk/
+name: Dementias Platform UK
+owner:
+  link: https://www.swansea.ac.uk/library/
+  location:
+    country:
+      id: GB
+      name: United Kingdom
+    level: 20
+  name: Swansea University
+  type: Academy
+properties:
+  dataset_count_reported: 58
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00013041
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115
+- id: HEAL
+  name: Health
+  type: eudatatheme
+- id: Elevation
+  name: Elevation
+  type: iso19115

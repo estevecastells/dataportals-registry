@@ -1,0 +1,64 @@
+access_mode:
+- open
+api: false
+api_status: inactive
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: QA
+      name: Qatar
+    level: 20
+    macroregion:
+      id: '145'
+      name: Western Asia
+description: Qatar National Library research repository on figshare, publishing Qatari research outputs
+  and datasets with DOIs.
+id: qnlrorfigsharecom
+identifiers:
+- id: datacite
+  value: qnl.figshare
+langs:
+- id: EN
+  name: English
+- id: AR
+  name: Arabic
+link: https://qnl-ror.figshare.com/
+name: Qatar National Library Research Repository
+owner:
+  link: https://www.qnl.qa
+  location:
+    country:
+      id: QA
+      name: Qatar
+    level: 20
+  name: Qatar National Library
+  type: Central government
+properties:
+  has_doi: true
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: figshare
+  name: Figshare
+status: active
+tags:
+- research data
+- doi
+- datacite
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013705

@@ -1,58 +1,29 @@
 DATA QUALITY REPORT - COUNTRY: CA
 ================================================================================
-Generated: 2026-09-30 20:41:32
+Generated: 2026-10-04 12:31:49
 Country Code: CA
 Total Records with Issues: 6
-Total Issues Found: 9
+Total Issues Found: 6
 
 === ISSUES BY TYPE ===
 
-[MISSING_OWNER_LINK]
-Count: 1
-Priority: LOW
-
-File: CA/CA-QC/opendata/parliamentstreams.yaml
-Record ID: parliamentstreams
-Issue: MISSING_OWNER_LINK
-Field: owner.link
-Current Value: None
-Suggested Action: Add owner organization website URL
-
-[MISSING_TAGS]
+[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISHUB]
 Count: 2
-Priority: LOW
+Priority: MEDIUM
 
-File: CA/CA-QC/opendata/parliamentstreams.yaml
-Record ID: parliamentstreams
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
+File: CA/CA-SK/opendata/datacitysaskatoonopendataarcgiscom.yaml
+Record ID: datacitysaskatoonopendataarcgiscom
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISHUB
+Field: endpoints
+Current Value: {'software_id': 'arcgishub', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='arcgishub' is marked as API-capable in software definitions
 
-File: CA/CA-BC/scientific/serratusio.yaml
-Record ID: serratusio
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-[MISSING_TOPICS]
-Count: 2
-Priority: LOW
-
-File: CA/CA-QC/opendata/parliamentstreams.yaml
-Record ID: parliamentstreams
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: CA/CA-BC/scientific/serratusio.yaml
-Record ID: serratusio
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
+File: CA/CA-BC/opendata/datatolopendataarcgiscom.yaml
+Record ID: datatolopendataarcgiscom
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISHUB
+Field: endpoints
+Current Value: {'software_id': 'arcgishub', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='arcgishub' is marked as API-capable in software definitions
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL]
 Count: 2
@@ -72,16 +43,16 @@ Field: endpoints
 Current Value: {'software_id': 'drupal', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='drupal' is marked as API-capable in software definitions
 
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_OCEANS30]
+[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DSPACE]
 Count: 1
 Priority: MEDIUM
 
-File: CA/Federal/scientific/dataoceannetworksca.yaml
-Record ID: dataoceannetworksca
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_OCEANS30
+File: CA/Federal/scientific/ostrnrcandostrncancanadaca.yaml
+Record ID: ostrnrcandostrncancanadaca
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DSPACE
 Field: endpoints
-Current Value: {'software_id': 'oceans30', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='oceans30' is marked as API-capable in software definitions
+Current Value: {'software_id': 'dspace', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='dspace' is marked as API-capable in software definitions
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS]
 Count: 1
@@ -97,19 +68,7 @@ Suggested Action: Add at least one endpoint because software.id='wordpress' is m
 
 === SUMMARY BY ISSUE TYPE ===
 
-MISSING_OWNER_LINK: 1 issue
-MISSING_TAGS: 2 issues
-MISSING_TOPICS: 2 issues
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISHUB: 2 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL: 2 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_OCEANS30: 1 issue
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DSPACE: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS: 1 issue
-
-=== RECORDS WITH MULTIPLE ISSUES (3+) ===
-
-Record ID: parliamentstreams
-File: CA/CA-QC/opendata/parliamentstreams.yaml
-Issue Count: 3
-Issues:
-  - MISSING_TOPICS: topics
-  - MISSING_TAGS: tags
-  - MISSING_OWNER_LINK: owner.link

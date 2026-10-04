@@ -47,8 +47,8 @@ properties:
   is_national: true
 rights:
   license_id: null
-  license_name: null
-  license_url: null
+  license_name: Varies by dataset
+  license_url: https://www.datosabiertos.gob.pa/dataset
   privacy_policy_url: null
   rights_type: granular
   tos_url: null

@@ -1,7 +1,7 @@
 access_mode:
 - open
 api: false
-api_status: uncertain
+api_status: inactive
 catalog_type: Scientific data repository
 content_types:
 - dataset
@@ -12,46 +12,53 @@ coverage:
       name: Sweden
     level: 20
     macroregion:
-      id: '154'
-      name: Northern Europe
-description: SWE-CLARIN Knowledge Centre for the Languages of Sweden provides language
-  resources, tools and expert support for Swedish and other languages of Sweden, hosted
-  at Uppsala University.
+      id: '150'
+      name: Europe
+description: 'SWE-CLARIN: Swedish CLARIN node providing language resources and corpora through Språkbanken.'
 id: sweclarinse
 identifiers:
-- id: openaire
-  url: https://explore.openaire.eu/search/dataprovider?datasourceId=re3data_____::4b5806fb072b70371f50db165930e960
-  value: re3data_____::4b5806fb072b70371f50db165930e960
+- id: re3data
+  url: https://www.re3data.org/repository/r3d100012567
+  value: r3d100012567
 langs:
 - id: SV
   name: Swedish
 - id: EN
   name: English
-link: https://sprakbanken-clarin.lingfil.uu.se/
-name: SWE-CLARIN Knowledge Centre for the Languages of Sweden
+link: https://sweclarin.se/
+name: SWE-CLARIN Språkbanken
 owner:
-  link: https://www.uu.se/en
+  link: https://spraakbanken.gu.se
   location:
     country:
       id: SE
       name: Sweden
     level: 20
-  name: Uppsala University
+  name: SWE-CLARIN (Språkbanken, University of Gothenburg)
   type: Academy
+properties:
+  has_doi: false
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
 software:
   id: custom
   name: Custom software
 status: active
 tags:
-- scientific
-- language resources
-- CLARIN
-- Swedish
+- linguistics
+- clarin
+- corpora
 topics:
-- id: EDUC
-  name: Education, culture and sport
-  type: eudatatheme
 - id: TECH
   name: Science and technology
   type: eudatatheme
-uid: cdi00032687
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013725

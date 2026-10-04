@@ -35,6 +35,20 @@ software:
   id: tableau
   name: Tableau
 status: active
-tags: []
-topics: []
+tags:
+- government
+- indicators
+- new-zealand
+- statistics
+- transport
+topics:
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: TRAN
+  name: Transport
+  type: eudatatheme
+- id: Transportation
+  name: Transportation
+  type: iso19115
 uid: cdi00008130

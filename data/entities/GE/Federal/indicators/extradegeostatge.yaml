@@ -1,0 +1,48 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: GE
+      name: Georgia
+    level: 20
+    macroregion:
+      id: '145'
+      name: Western Asia
+description: Geostat portal for external trade statistics of Georgia with datasets
+  on imports and exports by commodity and partner country. Source of datasets assessed
+  in ODIN 2024/25.
+id: extradegeostatge
+langs:
+- id: EN
+  name: English
+link: https://ex-trade.geostat.ge/en
+name: Geostat - External Trade Data Portal
+owner:
+  link: https://www.geostat.ge
+  location:
+    country:
+      id: GE
+      name: Georgia
+    level: 20
+  name: National Statistics Office of Georgia (Geostat)
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- georgia
+- government
+- indicators
+- statistics
+topics:
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+uid: cdi00013633

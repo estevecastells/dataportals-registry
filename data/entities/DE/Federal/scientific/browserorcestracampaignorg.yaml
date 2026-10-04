@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+id: browserorcestracampaignorg
+identifiers:
+- id: datacite
+  url: https://browser.orcestra-campaign.org/
+  value: bmlm.mpimet
+langs:
+- id: EN
+  name: English
+link: https://browser.orcestra-campaign.org/
+name: Max Planck Institute for Meteorology
+owner:
+  location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+  name: Max Planck Information and Technology
+  type: Other
+  link: https://orcestra-campaign.org
+properties:
+  dataset_count_reported: 43
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00008157
+description: Scientific data repository. managed by Max Planck Information and Technology.
+  powered by Custom software. accessible at browser.orcestra-campaign.org.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

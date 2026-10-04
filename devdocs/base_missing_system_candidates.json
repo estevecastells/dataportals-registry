@@ -1,0 +1,32 @@
+[
+ {
+  "base_id": "10829",
+  "country": "at",
+  "docs": 1610,
+  "link": "https://aussda.at/",
+  "name": "AUSSDA - The Austrian Social Science Data Archive",
+  "system": "Dataverse",
+  "type": "Datasets",
+  "domain": "aussda.at"
+ },
+ {
+  "base_id": "12527",
+  "country": "au",
+  "docs": 86441,
+  "link": "https://rmit.figshare.com/",
+  "name": "Research from RMIT University",
+  "system": "Figshare",
+  "type": "Datasets",
+  "domain": "rmit.figshare.com"
+ },
+ {
+  "base_id": "6836",
+  "country": "au",
+  "docs": 4683,
+  "link": "https://melbourne.figshare.com/",
+  "name": "University of Melbourne: Figshare",
+  "system": "Figshare",
+  "type": "Datasets",
+  "domain": "melbourne.figshare.com"
+ }
+]

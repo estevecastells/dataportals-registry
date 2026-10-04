@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: FR
+      name: France
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+id: dataoremeorg
+identifiers:
+- id: datacite
+  url: https://data.oreme.org/
+  value: inist.oreme
+langs:
+- id: EN
+  name: English
+link: https://data.oreme.org/
+name: Observatoire de Recherche Montpelliérain de l'Environnement
+owner:
+  link: https://www.cnrs.fr/
+  location:
+    country:
+      id: FR
+      name: France
+    level: 20
+  name: Centre National de la Recherche Scientifique
+  type: Academy
+properties:
+  dataset_count_reported: 515
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00012593
+description: Scientific data repository. managed by Centre National de la Recherche
+  Scientifique. powered by Custom software. accessible at data.oreme.org.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

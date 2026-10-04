@@ -1,0 +1,68 @@
+access_mode:
+- open
+api: false
+api_status: inactive
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: GB
+      name: United Kingdom
+    level: 30
+    macroregion:
+      id: '150'
+      name: Europe
+    subregion:
+      id: GB-ENG
+      name: England
+description: CKAN-based environmental and agricultural research data repository of Rothamsted Research
+  (RRES).
+id: datarothamstedacuk
+identifiers:
+- id: datacite
+  value: bl.rothres
+langs:
+- id: EN
+  name: English
+link: https://data.rothamsted.ac.uk/
+name: Rothamsted Research Environmental Data (RRES CKAN)
+owner:
+  link: https://www.rothamsted.ac.uk
+  location:
+    country:
+      id: GB
+      name: United Kingdom
+    level: 30
+    subregion:
+      id: GB-ENG
+      name: England
+  name: Rothamsted Research
+  type: Academy
+properties:
+  has_doi: true
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: ckan
+  name: CKAN
+status: active
+tags:
+- research data
+- doi
+- datacite
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013690

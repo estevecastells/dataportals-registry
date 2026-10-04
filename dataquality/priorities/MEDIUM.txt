@@ -1,32 +1,51 @@
 DATA QUALITY REPORT - PRIORITY: MEDIUM
 ================================================================================
-Generated: 2026-09-30 20:41:32
+Generated: 2026-10-04 12:31:49
 Priority Level: MEDIUM
-Total Issues Found: 284
+Total Issues Found: 228
 
 === ISSUES BY TYPE ===
 
-[PLACEHOLDER_TITLE]
+[IS_NATIONAL_AGENCY_OR_TOPIC]
 Count: 2
 
-File: ZA/Federal/opendata/healthsitesio.yaml
-Record ID: healthsitesio
-Country: ZA
-Issue: PLACEHOLDER_TITLE
-Field: name
-Current Value: Healthsites.io
-Suggested Action: Use a human-readable portal title instead of a URL/domain string.
+File: KE/Federal/opendata/opendatagoke.yaml
+Record ID: opendatagoke
+Country: KE
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {'is_national': True, 'reason': 'federal_opendata_not_national', 'name': 'Kenya Open Data', 'catalog_type': 'Open data portal', 'owner': 'Kenya ICT Authority'}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
 
-File: ZA/Federal/opendata/healthsitesio.yaml
-Record ID: healthsitesio
-Country: ZA
-Issue: PLACEHOLDER_TITLE
-Field: name
-Current Value: Healthsites.io
-Suggested Action: Replace domain/path-based title with a descriptive portal name.
+File: JP/Federal/opendata/dataegogovjp.yaml
+Record ID: dataegogovjp
+Country: JP
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {'is_national': True, 'reason': 'federal_opendata_not_national', 'name': 'e-Gov Data Portal (data.go.jp)', 'catalog_type': 'Open data portal', 'owner': 'Digital Agency (デジタル庁)'}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
+
+[MISSING_DESCRIPTION]
+Count: 2
+
+File: NG/NG-KD/indicators/ghskdbsng.yaml
+Record ID: ghskdbsng
+Country: NG
+Issue: MISSING_DESCRIPTION
+Field: description
+Current Value: This is a temporary record with some data collected but it should be updated befor adding to the index
+Suggested Action: Add meaningful description based on portal content and purpose
+
+File: World/Federal/indicators/internationalbudgetorg.yaml
+Record ID: internationalbudgetorg
+Country: World
+Issue: MISSING_DESCRIPTION
+Field: description
+Current Value: None
+Suggested Action: Add meaningful description based on portal content and purpose
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISHUB]
-Count: 5
+Count: 9
 
 File: SE/Federal/geo/kartorsfvse.yaml
 Record ID: kartorsfvse
@@ -52,9 +71,41 @@ Field: endpoints
 Current Value: {'software_id': 'arcgishub', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='arcgishub' is marked as API-capable in software definitions
 
+File: KE/Federal/opendata/opendatagoke.yaml
+Record ID: opendatagoke
+Country: KE
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISHUB
+Field: endpoints
+Current Value: {'software_id': 'arcgishub', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='arcgishub' is marked as API-capable in software definitions
+
+File: CA/CA-SK/opendata/datacitysaskatoonopendataarcgiscom.yaml
+Record ID: datacitysaskatoonopendataarcgiscom
+Country: CA
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISHUB
+Field: endpoints
+Current Value: {'software_id': 'arcgishub', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='arcgishub' is marked as API-capable in software definitions
+
+File: CA/CA-BC/opendata/datatolopendataarcgiscom.yaml
+Record ID: datatolopendataarcgiscom
+Country: CA
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISHUB
+Field: endpoints
+Current Value: {'software_id': 'arcgishub', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='arcgishub' is marked as API-capable in software definitions
+
 File: RS/RS-VO/geo/geoportalvojvodinagovrs.yaml
 Record ID: geoportalvojvodinagovrs
 Country: RS
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISHUB
+Field: endpoints
+Current Value: {'software_id': 'arcgishub', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='arcgishub' is marked as API-capable in software definitions
+
+File: BF/Federal/geo/sustainabledevelopmentgoalsbfdatahubhubarcgiscom.yaml
+Record ID: sustainabledevelopmentgoalsbfdatahubhubarcgiscom
+Country: BF
 Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISHUB
 Field: endpoints
 Current Value: {'software_id': 'arcgishub', 'has_api': 'Yes', 'endpoints_count': 0}
@@ -69,11 +120,27 @@ Current Value: {'software_id': 'arcgishub', 'has_api': 'Yes', 'endpoints_count':
 Suggested Action: Add at least one endpoint because software.id='arcgishub' is marked as API-capable in software definitions
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISSERVER]
-Count: 2
+Count: 4
 
 File: SK/SK-TC/geo/gistsksk.yaml
 Record ID: gistsksk
 Country: SK
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISSERVER
+Field: endpoints
+Current Value: {'software_id': 'arcgisserver', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='arcgisserver' is marked as API-capable in software definitions
+
+File: SM/Federal/geo/mappeonlinepasm.yaml
+Record ID: mappeonlinepasm
+Country: SM
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISSERVER
+Field: endpoints
+Current Value: {'software_id': 'arcgisserver', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='arcgisserver' is marked as API-capable in software definitions
+
+File: AW/Federal/geo/gisinfraaw.yaml
+Record ID: gisinfraaw
+Country: AW
 Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISSERVER
 Field: endpoints
 Current Value: {'software_id': 'arcgisserver', 'has_api': 'Yes', 'endpoints_count': 0}
@@ -87,33 +154,6 @@ Field: endpoints
 Current Value: {'software_id': 'arcgisserver', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='arcgisserver' is marked as API-capable in software definitions
 
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_AZUREAPIM]
-Count: 3
-
-File: NZ/NZ-AUK/api/devportalatgovtnz.yaml
-Record ID: devportalatgovtnz
-Country: NZ
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_AZUREAPIM
-Field: endpoints
-Current Value: {'software_id': 'azureapim', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='azureapim' is marked as API-capable in software definitions
-
-File: NZ/NZ-CAN/api/apidevelopersmetroinfoconz.yaml
-Record ID: apidevelopersmetroinfoconz
-Country: NZ
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_AZUREAPIM
-Field: endpoints
-Current Value: {'software_id': 'azureapim', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='azureapim' is marked as API-capable in software definitions
-
-File: NZ/Federal/api/portalapisstatsgovtnz.yaml
-Record ID: portalapisstatsgovtnz
-Country: NZ
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_AZUREAPIM
-Field: endpoints
-Current Value: {'software_id': 'azureapim', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='azureapim' is marked as API-capable in software definitions
-
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_BENTO]
 Count: 1
 
@@ -125,78 +165,8 @@ Field: endpoints
 Current Value: {'software_id': 'bento', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='bento' is marked as API-capable in software definitions
 
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_BIMS]
-Count: 3
-
-File: ZA/Federal/scientific/freshwaterbiodiversityorg.yaml
-Record ID: freshwaterbiodiversityorg
-Country: ZA
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_BIMS
-Field: endpoints
-Current Value: {'software_id': 'bims', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='bims' is marked as API-capable in software definitions
-
-File: ZA/Federal/scientific/bimssanparksorg.yaml
-Record ID: bimssanparksorg
-Country: ZA
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_BIMS
-Field: endpoints
-Current Value: {'software_id': 'bims', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='bims' is marked as API-capable in software definitions
-
-File: RW/Federal/scientific/rbisuracrw.yaml
-Record ID: rbisuracrw
-Country: RW
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_BIMS
-Field: endpoints
-Current Value: {'software_id': 'bims', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='bims' is marked as API-capable in software definitions
-
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_BIODIV]
-Count: 5
-
-File: KE/Federal/scientific/portalmikokocoke.yaml
-Record ID: portalmikokocoke
-Country: KE
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_BIODIV
-Field: endpoints
-Current Value: {'software_id': 'biodiv', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='biodiv' is marked as API-capable in software definitions
-
-File: IN/Federal/scientific/indiabiodiversityorg.yaml
-Record ID: indiabiodiversityorg
-Country: IN
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_BIODIV
-Field: endpoints
-Current Value: {'software_id': 'biodiv', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='biodiv' is marked as API-capable in software definitions
-
-File: IN/Federal/scientific/communityconservedareasorg.yaml
-Record ID: communityconservedareasorg
-Country: IN
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_BIODIV
-Field: endpoints
-Current Value: {'software_id': 'biodiv', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='biodiv' is marked as API-capable in software definitions
-
-File: BT/Federal/scientific/biodiversitybt.yaml
-Record ID: biodiversitybt
-Country: BT
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_BIODIV
-Field: endpoints
-Current Value: {'software_id': 'biodiv', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='biodiv' is marked as API-capable in software definitions
-
-File: FR/Federal/scientific/portalwiktroporg.yaml
-Record ID: portalwiktroporg
-Country: FR
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_BIODIV
-Field: endpoints
-Current Value: {'software_id': 'biodiv', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='biodiv' is marked as API-capable in software definitions
-
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_BITRIX]
-Count: 24
+Count: 20
 
 File: BY/Federal/geo/mineralmapbelgeocentrby.yaml
 Record ID: mineralmapbelgeocentrby
@@ -262,14 +232,6 @@ Field: endpoints
 Current Value: {'software_id': 'bitrix', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='bitrix' is marked as API-capable in software definitions
 
-File: RU/RU-LEN/indicators/budgetlenoblru.yaml
-Record ID: budgetlenoblru
-Country: RU
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_BITRIX
-Field: endpoints
-Current Value: {'software_id': 'bitrix', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='bitrix' is marked as API-capable in software definitions
-
 File: RU/RU-IVA/opendata/deritivanovooblru.yaml
 Record ID: deritivanovooblru
 Country: RU
@@ -302,14 +264,6 @@ Field: endpoints
 Current Value: {'software_id': 'bitrix', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='bitrix' is marked as API-capable in software definitions
 
-File: RU/Federal/indicators/statmkrfru.yaml
-Record ID: statmkrfru
-Country: RU
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_BITRIX
-Field: endpoints
-Current Value: {'software_id': 'bitrix', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='bitrix' is marked as API-capable in software definitions
-
 File: RU/Federal/geo/gisgcrasru.yaml
 Record ID: gisgcrasru
 Country: RU
@@ -334,14 +288,6 @@ Field: endpoints
 Current Value: {'software_id': 'bitrix', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='bitrix' is marked as API-capable in software definitions
 
-File: RU/Federal/api/wwwapiportalru.yaml
-Record ID: wwwapiportalru
-Country: RU
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_BITRIX
-Field: endpoints
-Current Value: {'software_id': 'bitrix', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='bitrix' is marked as API-capable in software definitions
-
 File: RU/RU-VLG/opendata/datagov35ru.yaml
 Record ID: datagov35ru
 Country: RU
@@ -352,14 +298,6 @@ Suggested Action: Add at least one endpoint because software.id='bitrix' is mark
 
 File: RU/RU-KHM/opendata/opendataadmmegionru.yaml
 Record ID: opendataadmmegionru
-Country: RU
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_BITRIX
-Field: endpoints
-Current Value: {'software_id': 'bitrix', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='bitrix' is marked as API-capable in software definitions
-
-File: RU/RU-AMU/geo/investmapamuroblru.yaml
-Record ID: investmapamuroblru
 Country: RU
 Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_BITRIX
 Field: endpoints
@@ -390,113 +328,8 @@ Field: endpoints
 Current Value: {'software_id': 'bitrix', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='bitrix' is marked as API-capable in software definitions
 
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CAMDWEB]
-Count: 9
-
-File: DK/DK-84/scientific/crystalbankfysikdtudk.yaml
-Record ID: crystalbankfysikdtudk
-Country: DK
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CAMDWEB
-Field: endpoints
-Current Value: {'software_id': 'camdweb', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='camdweb' is marked as API-capable in software definitions
-
-File: DK/DK-84/scientific/hetdbfysikdtudk.yaml
-Record ID: hetdbfysikdtudk
-Country: DK
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CAMDWEB
-Field: endpoints
-Current Value: {'software_id': 'camdweb', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='camdweb' is marked as API-capable in software definitions
-
-File: DK/DK-84/scientific/cmrdbfysikdtudk.yaml
-Record ID: cmrdbfysikdtudk
-Country: DK
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CAMDWEB
-Field: endpoints
-Current Value: {'software_id': 'camdweb', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='camdweb' is marked as API-capable in software definitions
-
-File: DK/DK-84/scientific/bidbfysikdtudk.yaml
-Record ID: bidbfysikdtudk
-Country: DK
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CAMDWEB
-Field: endpoints
-Current Value: {'software_id': 'camdweb', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='camdweb' is marked as API-capable in software definitions
-
-File: DK/DK-84/scientific/molexdbfysikdtudk.yaml
-Record ID: molexdbfysikdtudk
-Country: DK
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CAMDWEB
-Field: endpoints
-Current Value: {'software_id': 'camdweb', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='camdweb' is marked as API-capable in software definitions
-
-File: DK/DK-84/scientific/cryspfysikdtudk.yaml
-Record ID: cryspfysikdtudk
-Country: DK
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CAMDWEB
-Field: endpoints
-Current Value: {'software_id': 'camdweb', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='camdweb' is marked as API-capable in software definitions
-
-File: DK/DK-84/scientific/qpodfysikdtudk.yaml
-Record ID: qpodfysikdtudk
-Country: DK
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CAMDWEB
-Field: endpoints
-Current Value: {'software_id': 'camdweb', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='camdweb' is marked as API-capable in software definitions
-
-File: DK/DK-84/scientific/x2dbfysikdtudk.yaml
-Record ID: x2dbfysikdtudk
-Country: DK
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CAMDWEB
-Field: endpoints
-Current Value: {'software_id': 'camdweb', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='camdweb' is marked as API-capable in software definitions
-
-File: DK/Federal/scientific/c2dbfysikdtudk.yaml
-Record ID: c2dbfysikdtudk
-Country: DK
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CAMDWEB
-Field: endpoints
-Current Value: {'software_id': 'camdweb', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='camdweb' is marked as API-capable in software definitions
-
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CBDCHM]
-Count: 1
-
-File: World/metadata/bchcbdint.yaml
-Record ID: bchcbdint
-Country: World
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CBDCHM
-Field: endpoints
-Current Value: {'software_id': 'cbdchm', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='cbdchm' is marked as API-capable in software definitions
-
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CENTURION]
-Count: 2
-
-File: ID/Federal/opendata/datapolrigoid.yaml
-Record ID: datapolrigoid
-Country: ID
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CENTURION
-Field: endpoints
-Current Value: {'software_id': 'centurion', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='centurion' is marked as API-capable in software definitions
-
-File: ID/ID-SU/opendata/sadainasumutprovgoid.yaml
-Record ID: sadainasumutprovgoid
-Country: ID
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CENTURION
-Field: endpoints
-Current Value: {'software_id': 'centurion', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='centurion' is marked as API-capable in software definitions
-
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN]
-Count: 6
+Count: 8
 
 File: US/US-TX/opendata/txwaterdatahuborg.yaml
 Record ID: txwaterdatahuborg
@@ -509,6 +342,22 @@ Suggested Action: Add at least one endpoint because software.id='ckan' is marked
 File: IT/Federal/opendata/opendatavigilfuocoit.yaml
 Record ID: opendatavigilfuocoit
 Country: IT
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN
+Field: endpoints
+Current Value: {'software_id': 'ckan', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='ckan' is marked as API-capable in software definitions
+
+File: GB/GB-ENG/scientific/datarothamstedacuk.yaml
+Record ID: datarothamstedacuk
+Country: GB
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN
+Field: endpoints
+Current Value: {'software_id': 'ckan', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='ckan' is marked as API-capable in software definitions
+
+File: AU/AU-NSW/opendata/dataenvironmentnswgovau.yaml
+Record ID: dataenvironmentnswgovau
+Country: AU
 Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN
 Field: endpoints
 Current Value: {'software_id': 'ckan', 'has_api': 'Yes', 'endpoints_count': 0}
@@ -546,16 +395,16 @@ Field: endpoints
 Current Value: {'software_id': 'ckan', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='ckan' is marked as API-capable in software definitions
 
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CONTRATACIONESABIERTAS]
+[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DATAVERSE]
 Count: 1
 
-File: MX/MX-CMX/opendata/dashboardinfocdmxorgmx.yaml
-Record ID: dashboardinfocdmxorgmx
-Country: MX
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CONTRATACIONESABIERTAS
+File: FR/Federal/scientific/dataversecallistocalmipunivtoulousefr.yaml
+Record ID: dataversecallistocalmipunivtoulousefr
+Country: FR
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DATAVERSE
 Field: endpoints
-Current Value: {'software_id': 'contratacionesabiertas', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='contratacionesabiertas' is marked as API-capable in software definitions
+Current Value: {'software_id': 'dataverse', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='dataverse' is marked as API-capable in software definitions
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DKAN]
 Count: 2
@@ -1156,11 +1005,35 @@ Current Value: {'software_id': 'drupal', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='drupal' is marked as API-capable in software definitions
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DSPACE]
-Count: 3
+Count: 6
+
+File: US/Federal/scientific/auroraauburnedu.yaml
+Record ID: auroraauburnedu
+Country: US
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DSPACE
+Field: endpoints
+Current Value: {'software_id': 'dspace', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='dspace' is marked as API-capable in software definitions
 
 File: US/Federal/scientific/wwwglopadorg.yaml
 Record ID: wwwglopadorg
 Country: US
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DSPACE
+Field: endpoints
+Current Value: {'software_id': 'dspace', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='dspace' is marked as API-capable in software definitions
+
+File: CA/Federal/scientific/ostrnrcandostrncancanadaca.yaml
+Record ID: ostrnrcandostrncancanadaca
+Country: CA
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DSPACE
+Field: endpoints
+Current Value: {'software_id': 'dspace', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='dspace' is marked as API-capable in software definitions
+
+File: DE/Federal/scientific/edocrkide.yaml
+Record ID: edocrkide
+Country: DE
 Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DSPACE
 Field: endpoints
 Current Value: {'software_id': 'dspace', 'has_api': 'Yes', 'endpoints_count': 0}
@@ -1204,51 +1077,51 @@ Field: endpoints
 Current Value: {'software_id': 'eprints', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='eprints' is marked as API-capable in software definitions
 
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_FAIRDATA]
+[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ESGF]
 Count: 1
 
-File: FI/Federal/scientific/idafairdatafi.yaml
-Record ID: idafairdatafi
-Country: FI
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_FAIRDATA
+File: US/Federal/scientific/esgfllnlgov.yaml
+Record ID: esgfllnlgov
+Country: US
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ESGF
 Field: endpoints
-Current Value: {'software_id': 'fairdata', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='fairdata' is marked as API-capable in software definitions
+Current Value: {'software_id': 'esgf', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='esgf' is marked as API-capable in software definitions
 
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GAUSSWEBGIS]
+[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_FIGSHARE]
 Count: 4
 
-File: BR/BR-RS/geo/viamaowebgisgeobr.yaml
-Record ID: viamaowebgisgeobr
-Country: BR
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GAUSSWEBGIS
+File: HK/Federal/scientific/hkufigsharecom.yaml
+Record ID: hkufigsharecom
+Country: HK
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_FIGSHARE
 Field: endpoints
-Current Value: {'software_id': 'gausswebgis', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='gausswebgis' is marked as API-capable in software definitions
+Current Value: {'software_id': 'figshare', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='figshare' is marked as API-capable in software definitions
 
-File: BR/BR-RS/geo/riopardowebgisgeobr.yaml
-Record ID: riopardowebgisgeobr
-Country: BR
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GAUSSWEBGIS
+File: QA/Federal/scientific/qnlrorfigsharecom.yaml
+Record ID: qnlrorfigsharecom
+Country: QA
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_FIGSHARE
 Field: endpoints
-Current Value: {'software_id': 'gausswebgis', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='gausswebgis' is marked as API-capable in software definitions
+Current Value: {'software_id': 'figshare', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='figshare' is marked as API-capable in software definitions
 
-File: BR/BR-RS/geo/montenegrowebgisgeobr.yaml
-Record ID: montenegrowebgisgeobr
-Country: BR
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GAUSSWEBGIS
+File: ZA/Federal/scientific/cputfigsharecom.yaml
+Record ID: cputfigsharecom
+Country: ZA
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_FIGSHARE
 Field: endpoints
-Current Value: {'software_id': 'gausswebgis', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='gausswebgis' is marked as API-capable in software definitions
+Current Value: {'software_id': 'figshare', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='figshare' is marked as API-capable in software definitions
 
-File: BR/BR-RS/geo/sesicomcienciawebgisgeobr.yaml
-Record ID: sesicomcienciawebgisgeobr
-Country: BR
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GAUSSWEBGIS
+File: GB/GB-ENG/scientific/nclfigsharecom.yaml
+Record ID: nclfigsharecom
+Country: GB
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_FIGSHARE
 Field: endpoints
-Current Value: {'software_id': 'gausswebgis', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='gausswebgis' is marked as API-capable in software definitions
+Current Value: {'software_id': 'figshare', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='figshare' is marked as API-capable in software definitions
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GBIFPLATFORM]
 Count: 2
@@ -1268,17 +1141,6 @@ Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GBIFPLATFORM
 Field: endpoints
 Current Value: {'software_id': 'gbifplatform', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='gbifplatform' is marked as API-capable in software definitions
-
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GENESYS]
-Count: 1
-
-File: World/scientific/genebankworldvegorg.yaml
-Record ID: genebankworldvegorg
-Country: World
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GENESYS
-Field: endpoints
-Current Value: {'software_id': 'genesys', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='genesys' is marked as API-capable in software definitions
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GEOCORTEX]
 Count: 1
@@ -1310,140 +1172,16 @@ Field: endpoints
 Current Value: {'software_id': 'geonetwork', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='geonetwork' is marked as API-capable in software definitions
 
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GEONODO]
-Count: 4
+[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GRAVITEE]
+Count: 1
 
-File: CL/CL-MA/geo/idemagallanescl.yaml
-Record ID: idemagallanescl
-Country: CL
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GEONODO
+File: PF/Federal/api/developergovpf.yaml
+Record ID: developergovpf
+Country: PF
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GRAVITEE
 Field: endpoints
-Current Value: {'software_id': 'geonodo', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='geonodo' is marked as API-capable in software definitions
-
-File: CL/CL-AI/geo/idegoreaysengobcl.yaml
-Record ID: idegoreaysengobcl
-Country: CL
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GEONODO
-Field: endpoints
-Current Value: {'software_id': 'geonodo', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='geonodo' is marked as API-capable in software definitions
-
-File: CL/Federal/geo/idemmagobcl.yaml
-Record ID: idemmagobcl
-Country: CL
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GEONODO
-Field: endpoints
-Current Value: {'software_id': 'geonodo', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='geonodo' is marked as API-capable in software definitions
-
-File: CL/CL-TA/geo/idegoretarapacagovcl.yaml
-Record ID: idegoretarapacagovcl
-Country: CL
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GEONODO
-Field: endpoints
-Current Value: {'software_id': 'geonodo', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='geonodo' is marked as API-capable in software definitions
-
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GEOSHOP]
-Count: 5
-
-File: CH/CH-BE/geo/geoshopavinfragonch.yaml
-Record ID: geoshopavinfragonch
-Country: CH
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GEOSHOP
-Field: endpoints
-Current Value: {'software_id': 'geoshop', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='geoshop' is marked as API-capable in software definitions
-
-File: CH/CH-UR/geo/geourch.yaml
-Record ID: geourch
-Country: CH
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GEOSHOP
-Field: endpoints
-Current Value: {'software_id': 'geoshop', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='geoshop' is marked as API-capable in software definitions
-
-File: CH/CH-ZG/geo/geoshoplisagchzg.yaml
-Record ID: geoshoplisagchzg
-Country: CH
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GEOSHOP
-Field: endpoints
-Current Value: {'software_id': 'geoshop', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='geoshop' is marked as API-capable in software definitions
-
-File: CH/CH-SZ/geo/geoshopszch.yaml
-Record ID: geoshopszch
-Country: CH
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GEOSHOP
-Field: endpoints
-Current Value: {'software_id': 'geoshop', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='geoshop' is marked as API-capable in software definitions
-
-File: CH/Federal/geo/geodata01adminch.yaml
-Record ID: geodata01adminch
-Country: CH
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GEOSHOP
-Field: endpoints
-Current Value: {'software_id': 'geoshop', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='geoshop' is marked as API-capable in software definitions
-
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GIGWA]
-Count: 2
-
-File: FR/Federal/scientific/gigwasouthgreenfr.yaml
-Record ID: gigwasouthgreenfr
-Country: FR
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GIGWA
-Field: endpoints
-Current Value: {'software_id': 'gigwa', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='gigwa' is marked as API-capable in software definitions
-
-File: FR/Federal/scientific/gigwairdfr.yaml
-Record ID: gigwairdfr
-Country: FR
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GIGWA
-Field: endpoints
-Current Value: {'software_id': 'gigwa', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='gigwa' is marked as API-capable in software definitions
-
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_HTTK]
-Count: 2
-
-File: SE/Federal/scientific/defectsanyterialse.yaml
-Record ID: defectsanyterialse
-Country: SE
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_HTTK
-Field: endpoints
-Current Value: {'software_id': 'httk', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='httk' is marked as API-capable in software definitions
-
-File: SE/Federal/scientific/hadbfunmatiise.yaml
-Record ID: hadbfunmatiise
-Country: SE
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_HTTK
-Field: endpoints
-Current Value: {'software_id': 'httk', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='httk' is marked as API-capable in software definitions
-
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_HUGEAMP]
-Count: 2
-
-File: World/Federal/scientific/hugeamporg.yaml
-Record ID: hugeamporg
-Country: World
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_HUGEAMP
-Field: endpoints
-Current Value: {'software_id': 'hugeamp', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='hugeamp' is marked as API-capable in software definitions
-
-File: World/Federal/scientific/wwwtype2diabetesgeneticsorg.yaml
-Record ID: wwwtype2diabetesgeneticsorg
-Country: World
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_HUGEAMP
-Field: endpoints
-Current Value: {'software_id': 'hugeamp', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='hugeamp' is marked as API-capable in software definitions
+Current Value: {'software_id': 'gravitee', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='gravitee' is marked as API-capable in software definitions
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_INVENIO]
 Count: 1
@@ -1477,6 +1215,57 @@ Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_KADI4MAT
 Field: endpoints
 Current Value: {'software_id': 'kadi4mat', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='kadi4mat' is marked as API-capable in software definitions
+
+[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_KNOEMA]
+Count: 6
+
+File: ZM/Federal/indicators/cbzambiaopendataforafricaorg.yaml
+Record ID: cbzambiaopendataforafricaorg
+Country: ZM
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_KNOEMA
+Field: endpoints
+Current Value: {'software_id': 'knoema', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='knoema' is marked as API-capable in software definitions
+
+File: UG/Federal/indicators/mofugandaopendataforafricaorg.yaml
+Record ID: mofugandaopendataforafricaorg
+Country: UG
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_KNOEMA
+Field: endpoints
+Current Value: {'software_id': 'knoema', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='knoema' is marked as API-capable in software definitions
+
+File: SN/Federal/indicators/mofsenegalopendataforafricaorg.yaml
+Record ID: mofsenegalopendataforafricaorg
+Country: SN
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_KNOEMA
+Field: endpoints
+Current Value: {'software_id': 'knoema', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='knoema' is marked as API-capable in software definitions
+
+File: SN/Federal/indicators/cbsenegalopendataforafricaorg.yaml
+Record ID: cbsenegalopendataforafricaorg
+Country: SN
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_KNOEMA
+Field: endpoints
+Current Value: {'software_id': 'knoema', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='knoema' is marked as API-capable in software definitions
+
+File: SN/Federal/indicators/senegalopendataforafricaorg.yaml
+Record ID: senegalopendataforafricaorg
+Country: SN
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_KNOEMA
+Field: endpoints
+Current Value: {'software_id': 'knoema', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='knoema' is marked as API-capable in software definitions
+
+File: TZ/Federal/indicators/cbtanzaniaopendataforafricaorg.yaml
+Record ID: cbtanzaniaopendataforafricaorg
+Country: TZ
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_KNOEMA
+Field: endpoints
+Current Value: {'software_id': 'knoema', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='knoema' is marked as API-capable in software definitions
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_LIZMAP]
 Count: 1
@@ -1535,25 +1324,6 @@ Field: endpoints
 Current Value: {'software_id': 'mapstore', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='mapstore' is marked as API-capable in software definitions
 
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_MEDIATUM]
-Count: 2
-
-File: DE/DE-BY/scientific/mediatumubtumde.yaml
-Record ID: mediatumubtumde
-Country: DE
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_MEDIATUM
-Field: endpoints
-Current Value: {'software_id': 'mediatum', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='mediatum' is marked as API-capable in software definitions
-
-File: DE/DE-BY/scientific/mediakude.yaml
-Record ID: mediakude
-Country: DE
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_MEDIATUM
-Field: endpoints
-Current Value: {'software_id': 'mediatum', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='mediatum' is marked as API-capable in software definitions
-
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_NBIA]
 Count: 1
 
@@ -1566,15 +1336,7 @@ Current Value: {'software_id': 'nbia', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='nbia' is marked as API-capable in software definitions
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_NEXTGISWEB]
-Count: 2
-
-File: RU/Federal/geo/geologygisgcrasru.yaml
-Record ID: geologygisgcrasru
-Country: RU
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_NEXTGISWEB
-Field: endpoints
-Current Value: {'software_id': 'nextgisweb', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='nextgisweb' is marked as API-capable in software definitions
+Count: 1
 
 File: RU/Federal/geo/arcticgisgcrasru.yaml
 Record ID: arcticgisgcrasru
@@ -1583,17 +1345,6 @@ Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_NEXTGISWEB
 Field: endpoints
 Current Value: {'software_id': 'nextgisweb', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='nextgisweb' is marked as API-capable in software definitions
-
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_OCEANS30]
-Count: 1
-
-File: CA/Federal/scientific/dataoceannetworksca.yaml
-Record ID: dataoceannetworksca
-Country: CA
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_OCEANS30
-Field: endpoints
-Current Value: {'software_id': 'oceans30', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='oceans30' is marked as API-capable in software definitions
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_OPENDATASOFT]
 Count: 1
@@ -1644,17 +1395,6 @@ Field: endpoints
 Current Value: {'software_id': 'opus', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='opus' is marked as API-capable in software definitions
 
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_OSCAR]
-Count: 1
-
-File: World/metadata/spaceoscarwmoint.yaml
-Record ID: spaceoscarwmoint
-Country: World
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_OSCAR
-Field: endpoints
-Current Value: {'software_id': 'oscar', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='oscar' is marked as API-capable in software definitions
-
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PALAPA]
 Count: 3
 
@@ -1682,221 +1422,16 @@ Field: endpoints
 Current Value: {'software_id': 'palapa', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='palapa' is marked as API-capable in software definitions
 
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PANELAPP]
+[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PHAIDRA]
 Count: 1
 
-File: GB/Federal/scientific/panelappgenomicsenglandcouk.yaml
-Record ID: panelappgenomicsenglandcouk
-Country: GB
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PANELAPP
+File: AT/Federal/scientific/phaidraustpat.yaml
+Record ID: phaidraustpat
+Country: AT
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PHAIDRA
 Field: endpoints
-Current Value: {'software_id': 'panelapp', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='panelapp' is marked as API-capable in software definitions
-
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PMR2]
-Count: 2
-
-File: NZ/NZ-AUK/scientific/modelsphysiomeprojectorg.yaml
-Record ID: modelsphysiomeprojectorg
-Country: NZ
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PMR2
-Field: endpoints
-Current Value: {'software_id': 'pmr2', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='pmr2' is marked as API-capable in software definitions
-
-File: NZ/NZ-AUK/scientific/modelscellmlorg.yaml
-Record ID: modelscellmlorg
-Country: NZ
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PMR2
-Field: endpoints
-Current Value: {'software_id': 'pmr2', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='pmr2' is marked as API-capable in software definitions
-
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PORTALJS]
-Count: 4
-
-File: SE/SE-M/opendata/opendatamalmose.yaml
-Record ID: opendatamalmose
-Country: SE
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PORTALJS
-Field: endpoints
-Current Value: {'software_id': 'portaljs', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='portaljs' is marked as API-capable in software definitions
-
-File: US/Federal/opendata/dataculturedataio.yaml
-Record ID: dataculturedataio
-Country: US
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PORTALJS
-Field: endpoints
-Current Value: {'software_id': 'portaljs', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='portaljs' is marked as API-capable in software definitions
-
-File: World/Federal/opendata/eitiportaljscom.yaml
-Record ID: eitiportaljscom
-Country: World
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PORTALJS
-Field: endpoints
-Current Value: {'software_id': 'portaljs', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='portaljs' is marked as API-capable in software definitions
-
-File: GB/GB-ENG/opendata/lincolnshireckanio.yaml
-Record ID: lincolnshireckanio
-Country: GB
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PORTALJS
-Field: endpoints
-Current Value: {'software_id': 'portaljs', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='portaljs' is marked as API-capable in software definitions
-
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_REDBOX]
-Count: 9
-
-File: NZ/Federal/scientific/dmpaucklandacnz.yaml
-Record ID: dmpaucklandacnz
-Country: NZ
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_REDBOX
-Field: endpoints
-Current Value: {'software_id': 'redbox', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='redbox' is marked as API-capable in software definitions
-
-File: AU/Federal/scientific/rdmpndeduau.yaml
-Record ID: rdmpndeduau
-Country: AU
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_REDBOX
-Field: endpoints
-Current Value: {'software_id': 'redbox', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='redbox' is marked as API-capable in software definitions
-
-File: AU/Federal/scientific/redboxcanberraeduau.yaml
-Record ID: redboxcanberraeduau
-Country: AU
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_REDBOX
-Field: endpoints
-Current Value: {'software_id': 'redbox', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='redbox' is marked as API-capable in software definitions
-
-File: AU/Federal/scientific/datamanagercqueduau.yaml
-Record ID: datamanagercqueduau
-Country: AU
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_REDBOX
-Field: endpoints
-Current Value: {'software_id': 'redbox', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='redbox' is marked as API-capable in software definitions
-
-File: AU/Federal/scientific/tropicaldatahuborg.yaml
-Record ID: tropicaldatahuborg
-Country: AU
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_REDBOX
-Field: endpoints
-Current Value: {'software_id': 'redbox', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='redbox' is marked as API-capable in software definitions
-
-File: AU/Federal/scientific/researchdataplannerdeakineduau.yaml
-Record ID: researchdataplannerdeakineduau
-Country: AU
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_REDBOX
-Field: endpoints
-Current Value: {'software_id': 'redbox', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='redbox' is marked as API-capable in software definitions
-
-File: AU/Federal/scientific/researchdatahubuwaeduau.yaml
-Record ID: researchdatahubuwaeduau
-Country: AU
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_REDBOX
-Field: endpoints
-Current Value: {'software_id': 'redbox', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='redbox' is marked as API-capable in software definitions
-
-File: AU/Federal/scientific/dmnewcastleeduau.yaml
-Record ID: dmnewcastleeduau
-Country: AU
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_REDBOX
-Field: endpoints
-Current Value: {'software_id': 'redbox', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='redbox' is marked as API-capable in software definitions
-
-File: AU/Federal/scientific/researchjcueduau.yaml
-Record ID: researchjcueduau
-Country: AU
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_REDBOX
-Field: endpoints
-Current Value: {'software_id': 'redbox', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='redbox' is marked as API-capable in software definitions
-
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_SEADATANET]
-Count: 3
-
-File: World/opendata/cdiseadatanetorg.yaml
-Record ID: cdiseadatanetorg
-Country: World
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_SEADATANET
-Field: endpoints
-Current Value: {'software_id': 'seadatanet', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='seadatanet' is marked as API-capable in software definitions
-
-File: World/Federal/scientific/geoservicemarisnl.yaml
-Record ID: geoservicemarisnl
-Country: World
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_SEADATANET
-Field: endpoints
-Current Value: {'software_id': 'seadatanet', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='seadatanet' is marked as API-capable in software definitions
-
-File: World/Federal/scientific/edmedseadatanetorg.yaml
-Record ID: edmedseadatanetorg
-Country: World
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_SEADATANET
-Field: endpoints
-Current Value: {'software_id': 'seadatanet', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='seadatanet' is marked as API-capable in software definitions
-
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_SOPORTAL]
-Count: 3
-
-File: KR/Federal/indicators/wwwreborkrrone.yaml
-Record ID: wwwreborkrrone
-Country: KR
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_SOPORTAL
-Field: endpoints
-Current Value: {'software_id': 'soportal', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='soportal' is marked as API-capable in software definitions
-
-File: KR/Federal/indicators/kbioisorkr.yaml
-Record ID: kbioisorkr
-Country: KR
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_SOPORTAL
-Field: endpoints
-Current Value: {'software_id': 'soportal', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='soportal' is marked as API-capable in software definitions
-
-File: KR/Federal/indicators/houstathfgokr.yaml
-Record ID: houstathgokr
-Country: KR
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_SOPORTAL
-Field: endpoints
-Current Value: {'software_id': 'soportal', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='soportal' is marked as API-capable in software definitions
-
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_SORMAS]
-Count: 1
-
-File: NP/Federal/indicators/analysedcdgovnp.yaml
-Record ID: analysedcdgovnp
-Country: NP
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_SORMAS
-Field: endpoints
-Current Value: {'software_id': 'sormas', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='sormas' is marked as API-capable in software definitions
-
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_STATSWALES]
-Count: 1
-
-File: GB/GB-WLS/indicators/statswalesgovwales.yaml
-Record ID: statswalesgovwales
-Country: GB
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_STATSWALES
-Field: endpoints
-Current Value: {'software_id': 'statswales', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='statswales' is marked as API-capable in software definitions
+Current Value: {'software_id': 'phaidra', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='phaidra' is marked as API-capable in software definitions
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_STRAPI]
 Count: 1
@@ -1987,43 +1522,8 @@ Field: endpoints
 Current Value: {'software_id': 'tripal', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='tripal' is marked as API-capable in software definitions
 
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WEBGISCLOUD]
-Count: 4
-
-File: AT/AT-8/geo/atlasvorarlbergat.yaml
-Record ID: atlasvorarlbergat
-Country: AT
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WEBGISCLOUD
-Field: endpoints
-Current Value: {'software_id': 'webgiscloud', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='webgiscloud' is marked as API-capable in software definitions
-
-File: AT/AT-1/geo/geodatenbgldgvat.yaml
-Record ID: geodatenbgldgvat
-Country: AT
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WEBGISCLOUD
-Field: endpoints
-Current Value: {'software_id': 'webgiscloud', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='webgiscloud' is marked as API-capable in software definitions
-
-File: AT/AT-2/geo/gisktngvatatlasmobile.yaml
-Record ID: gisktngvatatlasmobile
-Country: AT
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WEBGISCLOUD
-Field: endpoints
-Current Value: {'software_id': 'webgiscloud', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='webgiscloud' is marked as API-capable in software definitions
-
-File: AT/AT-3/geo/atlasnoegvat.yaml
-Record ID: atlasnoegvat
-Country: AT
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WEBGISCLOUD
-Field: endpoints
-Current Value: {'software_id': 'webgiscloud', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='webgiscloud' is marked as API-capable in software definitions
-
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS]
-Count: 52
+Count: 50
 
 File: SE/Federal/indicators/statistiketikprovningsansokanse.yaml
 Record ID: statistiketikprovningsansokanse
@@ -2225,14 +1725,6 @@ Field: endpoints
 Current Value: {'software_id': 'wordpress', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='wordpress' is marked as API-capable in software definitions
 
-File: RU/RU-ME/geo/geo12rfatlas.yaml
-Record ID: geo12rfatlas
-Country: RU
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS
-Field: endpoints
-Current Value: {'software_id': 'wordpress', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='wordpress' is marked as API-capable in software definitions
-
 File: RU/Federal/indicators/datamartsroskaznaru.yaml
 Record ID: datamartsroskaznaru
 Country: RU
@@ -2300,14 +1792,6 @@ Suggested Action: Add at least one endpoint because software.id='wordpress' is m
 File: ASEAN/indicators/dataaseanstatsorg.yaml
 Record ID: dataaseanstatsorg
 Country: ASEAN
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS
-Field: endpoints
-Current Value: {'software_id': 'wordpress', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='wordpress' is marked as API-capable in software definitions
-
-File: PT/PT-20/indicators/sreaazoresgovpt.yaml
-Record ID: sreaazoresgovpt
-Country: PT
 Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS
 Field: endpoints
 Current Value: {'software_id': 'wordpress', 'has_api': 'Yes', 'endpoints_count': 0}
@@ -2452,121 +1936,117 @@ Field: endpoints
 Current Value: {'software_id': 'xnat', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='xnat' is marked as API-capable in software definitions
 
+[TAG_HYGIENE]
+Count: 1
+
+File: World/indicators/indicatorsohchrorg.yaml
+Record ID: indicatorsohchrorg
+Country: World
+Issue: TAG_HYGIENE
+Field: tags[2]
+Current Value: un
+Suggested Action: Tag is too short (less than 3 characters), consider removing or expanding
+
 
 === SUMMARY BY ISSUE TYPE ===
 
-PLACEHOLDER_TITLE: 2 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISHUB: 5 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISSERVER: 2 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_AZUREAPIM: 3 issues
+IS_NATIONAL_AGENCY_OR_TOPIC: 2 issues
+MISSING_DESCRIPTION: 2 issues
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISHUB: 9 issues
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISSERVER: 4 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_BENTO: 1 issue
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_BIMS: 3 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_BIODIV: 5 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_BITRIX: 24 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CAMDWEB: 9 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CBDCHM: 1 issue
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CENTURION: 2 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN: 6 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CONTRATACIONESABIERTAS: 1 issue
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_BITRIX: 20 issues
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN: 8 issues
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DATAVERSE: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DKAN: 2 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL: 72 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DSPACE: 3 issues
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DSPACE: 6 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DSPACECRIS: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_EPRINTS: 1 issue
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_FAIRDATA: 1 issue
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GAUSSWEBGIS: 4 issues
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ESGF: 1 issue
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_FIGSHARE: 4 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GBIFPLATFORM: 2 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GENESYS: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GEOCORTEX: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GEONETWORK: 2 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GEONODO: 4 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GEOSHOP: 5 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GIGWA: 2 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_HTTK: 2 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_HUGEAMP: 2 issues
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GRAVITEE: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_INVENIO: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ISLANDORA: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_KADI4MAT: 1 issue
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_KNOEMA: 6 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_LIZMAP: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_MAPBENDER: 3 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_MAPSTORE: 2 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_MEDIATUM: 2 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_NBIA: 1 issue
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_NEXTGISWEB: 2 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_OCEANS30: 1 issue
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_NEXTGISWEB: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_OPENDATASOFT: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_OPENSCIENCESI: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_OPUS: 3 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_OSCAR: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PALAPA: 3 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PANELAPP: 1 issue
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PMR2: 2 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PORTALJS: 4 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_REDBOX: 9 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_SEADATANET: 3 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_SOPORTAL: 3 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_SORMAS: 1 issue
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_STATSWALES: 1 issue
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PHAIDRA: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_STRAPI: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_SUPERSET: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_TRIPAL: 8 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WEBGISCLOUD: 4 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS: 52 issues
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS: 50 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_XNAT: 1 issue
+TAG_HYGIENE: 1 issue
 
 === SUMMARY BY COUNTRY ===
 
 ASEAN: 1 issue
-AT: 4 issues
-AU: 11 issues
+AT: 1 issue
+AU: 4 issues
+AW: 1 issue
 BE: 1 issue
-BR: 5 issues
-BT: 1 issue
+BF: 1 issue
+BR: 1 issue
 BW: 1 issue
 BY: 1 issue
-CA: 4 issues
+CA: 6 issues
 CD: 1 issue
-CH: 7 issues
-CL: 4 issues
+CH: 2 issues
 CN: 4 issues
 CO: 1 issue
-DE: 19 issues
-DK: 10 issues
+DE: 18 issues
+DK: 1 issue
 EE: 2 issues
 ES: 14 issues
 EU: 1 issue
-FI: 1 issue
-FR: 10 issues
-GB: 5 issues
+FR: 8 issues
+GB: 4 issues
 GR: 1 issue
-ID: 5 issues
+HK: 1 issue
+ID: 3 issues
 IE: 1 issue
 IL: 2 issues
-IN: 5 issues
+IN: 3 issues
 IT: 4 issues
-JP: 3 issues
-KE: 1 issue
-KR: 3 issues
+JP: 4 issues
+KE: 2 issues
 KZ: 2 issues
-MX: 4 issues
+MX: 3 issues
 MY: 2 issues
+NG: 1 issue
 NL: 2 issues
 NO: 1 issue
-NP: 1 issue
-NZ: 6 issues
+PF: 1 issue
 PH: 1 issue
 PK: 4 issues
 PL: 1 issue
-PT: 3 issues
+PT: 2 issues
+QA: 1 issue
 RS: 2 issues
-RU: 46 issues
-RW: 1 issue
+RU: 40 issues
 SA: 1 issue
-SE: 7 issues
+SE: 4 issues
 SI: 1 issue
 SK: 1 issue
+SM: 1 issue
+SN: 3 issues
 SV: 1 issue
 TR: 1 issue
-US: 45 issues
-World: 14 issues
-ZA: 4 issues
+TZ: 1 issue
+UG: 1 issue
+US: 46 issues
+World: 7 issues
+ZA: 1 issue
+ZM: 1 issue

@@ -1,8 +1,8 @@
 access_mode:
 - open
 catalog_type: Geoportal
-api: false
-api_status: uncertain
+api: true
+api_status: active
 content_types:
 - map_layer
 coverage:
@@ -58,3 +58,9 @@ topics:
   name: Biota
   type: iso19115
 uid: cdi00041897
+endpoints:
+- type: rest
+  url: https://xn--12-glci9b.xn--p1ai/atlas/wp-json/
+- type: rest:posts
+  url: https://xn--12-glci9b.xn--p1ai/atlas/wp-json/wp/v2/posts
+  version: '2'

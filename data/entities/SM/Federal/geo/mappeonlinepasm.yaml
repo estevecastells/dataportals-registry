@@ -1,0 +1,54 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Geoportal
+content_types:
+- dataset
+- map_layer
+coverage:
+- location:
+    country:
+      id: SM
+      name: San Marino
+    level: 20
+    macroregion:
+      id: 039
+      name: Southern Europe
+description: Official cartographic portal of San Marino with public ArcGIS REST services
+  covering cadastral maps, basemaps, historical cadastres, urban planning (PRG2030),
+  utilities, transport and civil protection layers. It is the national geoportal of
+  San Marino for cadastral and territorial cartography.
+id: mappeonlinepasm
+langs:
+- id: IT
+  name: Italian
+link: https://mappeonline.pa.sm
+name: Mappe Online San Marino
+owner:
+  link: https://www.gov.sm
+  location:
+    country:
+      id: SM
+      name: San Marino
+    level: 20
+  name: Pubblica Amministrazione della Repubblica di San Marino
+  type: Central government
+properties:
+  is_national: true
+software:
+  id: arcgisserver
+  name: ArcGIS Server
+status: active
+tags:
+- geospatial
+- government
+- open data
+topics:
+- id: REGI
+  name: Regions and cities
+  type: eudatatheme
+- id: Location
+  name: Location
+  type: iso19115
+uid: cdi00013757

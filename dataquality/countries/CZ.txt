@@ -1,6 +1,6 @@
 DATA QUALITY REPORT - COUNTRY: CZ
 ================================================================================
-Generated: 2026-09-30 20:41:32
+Generated: 2026-10-04 12:31:49
 Country Code: CZ
 Total Records with Issues: 1
 Total Issues Found: 3
@@ -11,8 +11,8 @@ Total Issues Found: 3
 Count: 1
 Priority: LOW
 
-File: CZ/Federal/opendata/dataatlasczech.yaml
-Record ID: dataatlasczech
+File: CZ/CZ-31/geo/hrbitovtstreboncz.yaml
+Record ID: hrbitovtstreboncz
 Issue: MISSING_OWNER_LINK
 Field: owner.link
 Current Value: None
@@ -22,8 +22,8 @@ Suggested Action: Add owner organization website URL
 Count: 1
 Priority: LOW
 
-File: CZ/Federal/opendata/dataatlasczech.yaml
-Record ID: dataatlasczech
+File: CZ/CZ-31/geo/hrbitovtstreboncz.yaml
+Record ID: hrbitovtstreboncz
 Issue: MISSING_TAGS
 Field: tags
 Current Value: []
@@ -33,8 +33,8 @@ Suggested Action: Extract tags from description and catalog_type
 Count: 1
 Priority: LOW
 
-File: CZ/Federal/opendata/dataatlasczech.yaml
-Record ID: dataatlasczech
+File: CZ/CZ-31/geo/hrbitovtstreboncz.yaml
+Record ID: hrbitovtstreboncz
 Issue: MISSING_TOPICS
 Field: topics
 Current Value: []
@@ -49,8 +49,8 @@ MISSING_TOPICS: 1 issue
 
 === RECORDS WITH MULTIPLE ISSUES (3+) ===
 
-Record ID: dataatlasczech
-File: CZ/Federal/opendata/dataatlasczech.yaml
+Record ID: hrbitovtstreboncz
+File: CZ/CZ-31/geo/hrbitovtstreboncz.yaml
 Issue Count: 3
 Issues:
   - MISSING_TOPICS: topics

@@ -1,0 +1,62 @@
+access_mode:
+- open
+api: false
+api_status: inactive
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: CO
+      name: Colombia
+    level: 20
+    macroregion:
+      id: '419'
+      name: Latin America and the Caribbean
+description: Colombian Biodiversity Information System portal; GBIF Colombia publisher node for biodiversity
+  datasets.
+id: sibcolombianet
+identifiers:
+- id: datacite
+  value: gbif.co
+langs:
+- id: ES
+  name: Spanish
+link: https://sibcolombia.net/
+name: SiB Colombia (Colombian Biodiversity Information System)
+owner:
+  link: https://sibcolombia.net
+  location:
+    country:
+      id: CO
+      name: Colombia
+    level: 20
+  name: SiB Colombia (Instituto Alexander von Humboldt)
+  type: Central government
+properties:
+  has_doi: true
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- biodiversity
+- gbif
+- colombia
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013682

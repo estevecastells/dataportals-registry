@@ -1,0 +1,70 @@
+access_mode:
+- open
+api: false
+api_status: inactive
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: CH
+      name: Switzerland
+    level: 20
+    macroregion:
+      id: '150'
+      name: Europe
+    subregion:
+      id: CH-BE
+      name: Berne
+description: 'Authoritative world catalog of spider taxonomy (Araneae): nomenclature, synonymy and distribution
+  for all described spider species, maintained by WSC trustees and hosted by NMBE.'
+id: wscnmbech
+identifiers:
+- id: wikidata
+  url: https://www.wikidata.org/wiki/Q3570011
+  value: Q3570011
+langs:
+- id: EN
+  name: English
+link: https://www.wsc.nmbe.ch/
+name: World Spider Catalog
+owner:
+  link: https://www.nmbe.ch
+  location:
+    country:
+      id: CH
+      name: Switzerland
+    level: 20
+    subregion:
+      id: CH-BE
+      name: Berne
+  name: Natural History Museum Bern (NMBE)
+  type: Civil society
+properties:
+  has_doi: false
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- biodiversity
+- taxonomy
+- spiders
+- scientific
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Biota
+  name: Biota
+  type: iso19115
+uid: cdi00013660

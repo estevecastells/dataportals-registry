@@ -1,0 +1,48 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: TZ
+      name: Tanzania
+    level: 20
+    macroregion:
+      id: '014'
+      name: Eastern Africa
+description: Bank of Tanzania data portal on the Open Data for Africa (Knoema) platform
+  with a data catalog and time series datasets. Source of datasets assessed in ODIN
+  2024/25.
+id: cbtanzaniaopendataforafricaorg
+langs:
+- id: EN
+  name: English
+link: https://cb-tanzania.opendataforafrica.org/
+name: OpenData for the Bank of Tanzania
+owner:
+  link: https://www.bot.go.tz
+  location:
+    country:
+      id: TZ
+      name: Tanzania
+    level: 20
+  name: Bank of Tanzania
+  type: Central government
+software:
+  id: knoema
+  name: Knoema
+status: active
+tags:
+- government
+- indicators
+- statistics
+- tanzania
+topics:
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+uid: cdi00013650

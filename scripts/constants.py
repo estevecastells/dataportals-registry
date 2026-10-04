@@ -838,6 +838,9 @@ MAP_SOFTWARE_ALLOWED_CATALOG_TYPES = {
     # WSO2 API Manager developer portals (api.viss.gov.lv, Met Office) are
     # API catalogs on API-management software.
     "wso2apimanager": frozenset({"Open data portal", "API Catalog"}),
+    # Gravitee API Management developer portals (developer.gov.pf) are API
+    # catalogs on API-management software.
+    "gravitee": frozenset({"Open data portal", "API Catalog"}),
     # Strapi also backs SDG indicator platforms (ODSlocal).
     "strapi": frozenset({"Open data portal", "Indicators catalog"}),
     # OutSystems low-code portals: statistics databases (PORDATA), gazettes, and

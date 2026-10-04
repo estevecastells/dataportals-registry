@@ -41,10 +41,10 @@ properties:
   is_national: true
 rights:
   license_id: null
-  license_name: null
-  license_url: null
+  license_name: Open Government Licence
+  license_url: https://ogdnew.sdg.gov.bd/faq
   privacy_policy_url: https://ogdnew.sdg.gov.bd/privacy-policy
-  rights_type: unknown
+  rights_type: granular
   tos_url: https://ogdnew.sdg.gov.bd/terms-of-use
 software:
   id: custom

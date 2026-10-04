@@ -1,0 +1,58 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: IT
+      name: Italy
+    level: 20
+    macroregion:
+      id: 039
+      name: Southern Europe
+description: The Open Digital Epigraphy Hub, or EpiHub, is an open-access platform
+  designed to provide a comprehensive and searchable catalogue of digital resources
+  relevant to epigraphy. EpiHub is designed to align with the FAIR principles and
+  the Linked (Open) Data paradigm.It is released under CC BY 4.0 license.
+id: openepihubcnrit
+identifiers:
+- id: datacite
+  url: https://open-epihub.cnr.it/
+  value: rpak.uuchyp
+langs:
+- id: EN
+  name: English
+link: https://open-epihub.cnr.it/
+name: Open Digital Epigraphy Hub
+owner:
+  link: https://www.cnr.it
+  location:
+    country:
+      id: IT
+      name: Italy
+    level: 20
+  name: Consiglio Nazionale delle Ricerche
+  type: Academy
+properties:
+  dataset_count_reported: 155
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00013571
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

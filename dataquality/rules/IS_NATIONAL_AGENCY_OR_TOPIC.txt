@@ -1,0 +1,36 @@
+DATA QUALITY REPORT - RULE: IS_NATIONAL_AGENCY_OR_TOPIC
+================================================================================
+Generated: 2026-10-04 12:31:49
+Issue Type: IS_NATIONAL_AGENCY_OR_TOPIC
+Priority: MEDIUM
+Total Issues Found: 2
+
+Rule: properties.is_national is true on a catalog that is not the country's official catalog of that type. Keep the flag only for the national open-data portal, NSDI/national geoportal/INSPIRE node, or NSO statistical product. Agency, thematic, scientific, and subnational catalogs must use is_national: false even when the owner is a central/federal body. Do not bulk-set the flag from a Federal/ path or a .gov/.mil hostname.
+
+=== SUMMARY BY COUNTRY ===
+
+JP: 1 issue
+KE: 1 issue
+
+=== SUMMARY BY RECORD ===
+
+opendatagoke: 1 issue
+dataegogovjp: 1 issue
+
+=== ISSUES ===
+
+File: KE/Federal/opendata/opendatagoke.yaml
+Record ID: opendatagoke
+Country: KE
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {"is_national": true, "reason": "federal_opendata_not_national", "name": "Kenya Open Data", "catalog_type": "Open data portal", "owner": "Kenya ICT Authority"}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
+
+File: JP/Federal/opendata/dataegogovjp.yaml
+Record ID: dataegogovjp
+Country: JP
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {"is_national": true, "reason": "federal_opendata_not_national", "name": "e-Gov Data Portal (data.go.jp)", "catalog_type": "Open data portal", "owner": "Digital Agency (デジタル庁)"}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).

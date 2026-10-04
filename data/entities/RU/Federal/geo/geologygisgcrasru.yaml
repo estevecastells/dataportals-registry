@@ -1,6 +1,6 @@
 access_mode:
 - open
-api_status: uncertain
+api_status: active
 catalog_type: Geoportal
 content_types:
 - dataset
@@ -54,3 +54,11 @@ topics:
   name: Location
   type: iso19115
 uid: cdi00041802
+endpoints:
+- type: nextgisweb:api
+  url: https://geology-gis.gcras.ru/api/resource/
+- type: nextgisweb:pkg-version
+  url: https://geology-gis.gcras.ru/api/component/pyramid/pkg_version
+- type: nextgisweb:routes
+  url: https://geology-gis.gcras.ru/api/component/pyramid/route
+api: true

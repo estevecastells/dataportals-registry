@@ -1,0 +1,59 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: LU
+      name: Luxembourg
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+id: r3lcsbunilu
+identifiers:
+- id: datacite
+  url: https://r3.lcsb.uni.lu/
+  value: inist.unilu
+langs:
+- id: EN
+  name: English
+link: https://r3.lcsb.uni.lu/
+name: University of Luxembourg
+owner:
+  location:
+    country:
+      id: LU
+      name: Luxembourg
+    level: 20
+  name: University of Luxembourg
+  type: Academy
+  link: https://uni.lu
+properties:
+  dataset_count_reported: 10
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00013578
+description: Scientific data repository. managed by University of Luxembourg. powered
+  by Custom software. accessible at r3.lcsb.uni.lu.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115
+- id: EDUC
+  name: Education, culture and sport
+  type: eudatatheme

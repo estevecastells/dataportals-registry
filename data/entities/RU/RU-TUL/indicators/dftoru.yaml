@@ -26,7 +26,7 @@ langs:
 link: https://dfto.ru
 name: Открытый бюджет Тульской области
 owner:
-  link: null
+  link: https://dfto.ru
   location:
     country:
       id: RU
@@ -41,6 +41,13 @@ software:
   id: imonitoring
   name: iMonitoring
 status: active
-tags: []
-topics: []
+tags:
+- government
+- indicators
+- russian-federation
+- statistics
+topics:
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
 uid: cdi00011921

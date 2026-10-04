@@ -45,6 +45,8 @@ owner:
     level: 20
   name: Geoscience Australia
   type: Central government
+properties:
+  is_national: true
 rights:
   license_id: null
   license_name: null

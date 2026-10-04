@@ -1,0 +1,59 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: IT
+      name: Italy
+    level: 20
+    macroregion:
+      id: 039
+      name: Southern Europe
+description: DASI is an open-access archive dedicated to preserving and studying the
+  epigraphic heritage of the Arabian Peninsula from the pre-Islamic period. To date,
+  it provides the digital curated edition of about 8,800 inscriptions, mostly Ancient
+  South Arabian, and approximately 600 anepigraphic objects. It contains information
+  on texts, supports and their provenance, besides the bibliographical and visua
+id: dasicnrit
+identifiers:
+- id: datacite
+  url: https://dasi.cnr.it/
+  value: rpak.dxwaxf
+langs:
+- id: EN
+  name: English
+link: https://dasi.cnr.it/
+name: Digital Archive for the Study of pre-Islamic Arabian Inscriptions
+owner:
+  link: https://www.cnr.it
+  location:
+    country:
+      id: IT
+      name: Italy
+    level: 20
+  name: Consiglio Nazionale delle Ricerche
+  type: Academy
+properties:
+  dataset_count_reported: 19393
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00013563
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

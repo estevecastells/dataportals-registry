@@ -80,6 +80,8 @@ owner:
     level: 20
   name: Ministerio de Tecnologías de la Información y Comunicación (MITIC)
   type: Central government
+properties:
+  is_national: true
 software:
   id: geonode
   name: GeoNode

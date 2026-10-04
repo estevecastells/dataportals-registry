@@ -1,0 +1,64 @@
+access_mode:
+- open
+api: false
+api_status: inactive
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: GL
+      name: Greenland
+    level: 20
+    macroregion:
+      id: 019
+      name: Americas
+description: 'PROMICE and GC-NET: Greenland ice-sheet and climate monitoring programme data portal.'
+id: promiceorg
+identifiers:
+- id: re3data
+  url: https://www.re3data.org/repository/r3d100011010
+  value: r3d100011010
+langs:
+- id: EN
+  name: English
+- id: DA
+  name: Danish
+link: https://promice.org/
+name: PROMICE / GC-NET
+owner:
+  link: https://www.asiaq.gl
+  location:
+    country:
+      id: GL
+      name: Greenland
+    level: 20
+  name: Asiaq (Greenland Survey) / GEUS
+  type: Central government
+properties:
+  has_doi: false
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- glaciology
+- greenland
+- climate
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013718

@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: NL
+      name: Netherlands
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+id: surfsharekitnl
+identifiers:
+- id: datacite
+  url: https://surfsharekit.nl/
+  value: mkka.rawsxe
+langs:
+- id: EN
+  name: English
+link: https://surfsharekit.nl/
+name: SURFsharekit
+owner:
+  link: https://www.surf.nl/en
+  location:
+    country:
+      id: NL
+      name: Netherlands
+    level: 20
+  name: SURF
+  type: Other
+properties:
+  dataset_count_reported: 894
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00013581
+description: Scientific data repository. managed by SURF. powered by Custom software.
+  accessible at surfsharekit.nl.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

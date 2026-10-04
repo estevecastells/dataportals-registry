@@ -1,0 +1,64 @@
+access_mode:
+- open
+api: false
+api_status: inactive
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: PL
+      name: Poland
+    level: 20
+    macroregion:
+      id: '150'
+      name: Europe
+description: DOI service of the eCUDO-Ocean system publishing oceanographic research data from the Institute
+  of Oceanology PAN.
+id: doiiopanpl
+identifiers:
+- id: datacite
+  value: iopan.odis
+langs:
+- id: PL
+  name: Polish
+- id: EN
+  name: English
+link: https://doi.iopan.pl/
+name: IO PAN eCUDO-Ocean DOI Service
+owner:
+  link: https://www.iopan.pl
+  location:
+    country:
+      id: PL
+      name: Poland
+    level: 20
+  name: Institute of Oceanology, Polish Academy of Sciences
+  type: Academy
+properties:
+  has_doi: true
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- research data
+- doi
+- datacite
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013704

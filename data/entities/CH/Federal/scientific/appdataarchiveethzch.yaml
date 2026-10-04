@@ -1,0 +1,60 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: CH
+      name: Switzerland
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+description: ETH Data Archive is ETH Zurich's long-term preservation solution for
+  digital information such as research data, documents or images. It serves as the
+  backbone of data curation and for most of its content, it is a “dark archive” without
+  public access. In this capacity, the ETH Data Archive also archives the content
+  of ETH Zurich’s Research Collection which is the primary repository for members
+  of t
+id: appdataarchiveethzch
+identifiers:
+- id: datacite
+  url: https://app.data-archive.ethz.ch/
+  value: ethz.da-rd
+langs:
+- id: EN
+  name: English
+link: https://app.data-archive.ethz.ch/
+name: ETHZ Data Archive - Research Data
+owner:
+  location:
+    country:
+      id: CH
+      name: Switzerland
+    level: 20
+  name: ETH Zurich
+  type: Other
+  link: https://ethz.ch
+properties:
+  dataset_count_reported: 232
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00008145
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

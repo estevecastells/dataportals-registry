@@ -1,0 +1,51 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Open data portal
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: GB
+      name: United Kingdom
+    level: 20
+    macroregion:
+      id: '154'
+      name: Northern Europe
+description: NHS England data and information hub publishing statistical publications,
+  datasets and data collections on health and care in England. Source of datasets
+  assessed in ODIN 2024/25.
+id: digitalnhsuk
+langs:
+- id: EN
+  name: English
+link: https://digital.nhs.uk/data-and-information
+name: NHS England - Data and Information
+owner:
+  link: https://www.england.nhs.uk
+  location:
+    country:
+      id: GB
+      name: United Kingdom
+    level: 20
+  name: NHS England
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- government
+- health
+- open data
+- united-kingdom
+topics:
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
+- id: HEAL
+  name: Health
+  type: eudatatheme
+uid: cdi00013632

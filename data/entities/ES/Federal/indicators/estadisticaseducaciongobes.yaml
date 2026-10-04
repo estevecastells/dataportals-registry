@@ -1,0 +1,52 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: ES
+      name: Spain
+    level: 20
+    macroregion:
+      id: 039
+      name: Southern Europe
+description: Ministry of Education statistics service (EducaJaxiPx) with interactive
+  JAXI tables on non-university and university education. Source of datasets assessed
+  in ODIN 2024/25.
+id: estadisticaseducaciongobes
+langs:
+- id: ES
+  name: Spanish
+link: https://estadisticas.educacion.gob.es/EducaJaxiPx/
+name: Estadísticas Educativas - EducaJaxiPx (España)
+owner:
+  link: https://www.educacion.gob.es
+  location:
+    country:
+      id: ES
+      name: Spain
+    level: 20
+  name: Ministerio de Educación y Formación Profesional (España)
+  type: Central government
+software:
+  id: jaxi
+  name: JAXI
+status: active
+tags:
+- education
+- government
+- indicators
+- spain
+- statistics
+topics:
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: EDUC
+  name: Education, culture and sport
+  type: eudatatheme
+uid: cdi00013629

@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: PT
+      name: Portugal
+    level: 20
+    macroregion:
+      id: 039
+      name: Southern Europe
+id: segalubipt
+identifiers:
+- id: datacite
+  url: https://segal.ubi.pt/
+  value: fct.ubi
+langs:
+- id: EN
+  name: English
+link: https://segal.ubi.pt/
+name: Universidade da Beira Interior
+owner:
+  location:
+    country:
+      id: PT
+      name: Portugal
+    level: 20
+  name: Universidade da Beira Interior
+  type: Academy
+  link: https://ubi.pt
+properties:
+  dataset_count_reported: 69
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00013584
+description: Scientific data repository. managed by Universidade da Beira Interior.
+  powered by Custom software. accessible at segal.ubi.pt.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

@@ -1,0 +1,51 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Geoportal
+content_types:
+- dataset
+- map_layer
+coverage:
+- location:
+    country:
+      id: AW
+      name: Aruba
+    level: 20
+    macroregion:
+      id: 029
+      name: Caribbean
+description: Official national spatial development plan (ROPV) web map viewer with
+  zoning layers for Aruba, linked from the Department of Infrastructure and Planning
+  website.
+id: ropvarubazoningplanviewer
+langs:
+- id: NL
+  name: Dutch
+link: https://www.arcgis.com/apps/webappviewer/index.html?id=38891684b5404974a15860c00a0defd6
+name: ROPV Aruba Zoning Plan Viewer
+owner:
+  link: https://www.dip.aw
+  location:
+    country:
+      id: AW
+      name: Aruba
+    level: 20
+  name: Department of Infrastructure and Planning Aruba
+  type: Central government
+software:
+  id: webappbuilder
+  name: ArcGIS Web AppBuilder
+status: active
+tags:
+- geospatial
+- government
+- open data
+topics:
+- id: REGI
+  name: Regions and cities
+  type: eudatatheme
+- id: Location
+  name: Location
+  type: iso19115
+uid: cdi00013749

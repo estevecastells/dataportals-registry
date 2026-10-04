@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: FR
+      name: France
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+id: omeromesocentreucafr
+identifiers:
+- id: datacite
+  url: https://omero.mesocentre.uca.fr/
+  value: inist.bcu
+langs:
+- id: EN
+  name: English
+link: https://omero.mesocentre.uca.fr/
+name: Université Clermont Auvergne
+owner:
+  location:
+    country:
+      id: FR
+      name: France
+    level: 20
+  name: Université Clermont Auvergne
+  type: Academy
+  link: https://uca.fr
+properties:
+  dataset_count_reported: 20
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00012895
+description: Scientific data repository. managed by Université Clermont Auvergne.
+  powered by Custom software. accessible at omero.mesocentre.uca.fr.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

@@ -1,0 +1,40 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: FR
+      name: France
+    level: 20
+    macroregion:
+      id: '150'
+      name: Europe
+description: French ground segment for SMOS level 3/4 products (soil moisture, ocean salinity); data production
+  centre (CPDC) at Ifremer Brest operated by SISMER/ISI with CNES, CESBIO and LOCEAN.
+id: wwwcatdsfr
+langs:
+- id: FR
+  name: French
+link: https://www.catds.fr/
+name: CATDS - Centre Aval de Traitement des Données SMOS
+owner:
+  link: https://www.ifremer.fr/
+  location:
+    country:
+      id: FR
+      name: France
+    level: 20
+  name: French Research Institute for Exploitation of the Sea
+  type: Academy
+software:
+  id: sismer
+  name: SISMER
+status: active
+tags: []
+topics: []
+uid: cdi00013738

@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: CA
+      name: Canada
+    level: 20
+    macroregion:
+      id: '021'
+      name: Northern America
+id: hsscommonsca
+identifiers:
+- id: datacite
+  url: https://hsscommons.ca/
+  value: etcl.uvic
+langs:
+- id: EN
+  name: English
+link: https://hsscommons.ca/
+name: Electronic Textual Cultures Lab
+owner:
+  location:
+    country:
+      id: CA
+      name: Canada
+    level: 20
+  name: Electronic Textual Cultures Lab
+  type: Other
+  link: https://hsscommons.ca
+properties:
+  dataset_count_reported: 10
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00008143
+description: Scientific data repository. managed by Electronic Textual Cultures Lab.
+  powered by Custom software. accessible at hsscommons.ca.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

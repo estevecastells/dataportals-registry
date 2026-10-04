@@ -24,7 +24,7 @@ langs:
 link: https://datamarts.roskazna.ru
 name: Витрины данных КПЭ Федерального казначейства
 owner:
-  link: null
+  link: https://roskazna.ru
   location:
     country:
       id: RU
@@ -36,6 +36,13 @@ software:
   id: wordpress
   name: WordPress
 status: active
-tags: []
-topics: []
+tags:
+- government
+- indicators
+- russian-federation
+- statistics
+topics:
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
 uid: cdi00011919

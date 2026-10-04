@@ -1,0 +1,24 @@
+DATA QUALITY REPORT - RULE: TAG_HYGIENE
+================================================================================
+Generated: 2026-10-04 12:31:49
+Issue Type: TAG_HYGIENE
+Priority: MEDIUM
+Total Issues Found: 1
+
+=== SUMMARY BY COUNTRY ===
+
+World: 1 issue
+
+=== SUMMARY BY RECORD ===
+
+indicatorsohchrorg: 1 issue
+
+=== ISSUES ===
+
+File: World/indicators/indicatorsohchrorg.yaml
+Record ID: indicatorsohchrorg
+Country: World
+Issue: TAG_HYGIENE
+Field: tags[2]
+Current Value: un
+Suggested Action: Tag is too short (less than 3 characters), consider removing or expanding

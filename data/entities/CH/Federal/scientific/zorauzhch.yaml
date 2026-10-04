@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: CH
+      name: Switzerland
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+id: zorauzhch
+identifiers:
+- id: datacite
+  url: https://www.zora.uzh.ch/
+  value: ethz.zora
+langs:
+- id: EN
+  name: English
+link: https://www.zora.uzh.ch/
+name: Universität Zürich, ZORA
+owner:
+  link: https://www.hbz.uzh.ch/de
+  location:
+    country:
+      id: CH
+      name: Switzerland
+    level: 20
+  name: Hauptbibliothek Universität Zürich
+  type: Academy
+properties:
+  dataset_count_reported: 1930
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00008151
+description: Scientific data repository. managed by Hauptbibliothek Universität Zürich.
+  powered by Custom software. accessible at www.zora.uzh.ch.
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115

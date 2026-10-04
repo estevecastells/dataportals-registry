@@ -1,24 +1,58 @@
 DATA QUALITY REPORT - COUNTRY: KE
 ================================================================================
-Generated: 2026-09-30 20:41:32
+Generated: 2026-10-04 12:31:49
 Country Code: KE
 Total Records with Issues: 1
-Total Issues Found: 1
+Total Issues Found: 3
 
 === ISSUES BY TYPE ===
 
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_BIODIV]
+[IS_NATIONAL_AGENCY_OR_TOPIC]
 Count: 1
 Priority: MEDIUM
 
-File: KE/Federal/scientific/portalmikokocoke.yaml
-Record ID: portalmikokocoke
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_BIODIV
+File: KE/Federal/opendata/opendatagoke.yaml
+Record ID: opendatagoke
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {'is_national': True, 'reason': 'federal_opendata_not_national', 'name': 'Kenya Open Data', 'catalog_type': 'Open data portal', 'owner': 'Kenya ICT Authority'}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
+
+[MISSING_RIGHTS]
+Count: 1
+Priority: LOW
+
+File: KE/Federal/opendata/opendatagoke.yaml
+Record ID: opendatagoke
+Issue: MISSING_RIGHTS
+Field: rights
+Current Value: {'license_id': None, 'license_name': None, 'license_url': None, 'privacy_policy_url': None, 'rights_type': 'unknown', 'tos_url': None}
+Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
+
+[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISHUB]
+Count: 1
+Priority: MEDIUM
+
+File: KE/Federal/opendata/opendatagoke.yaml
+Record ID: opendatagoke
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISHUB
 Field: endpoints
-Current Value: {'software_id': 'biodiv', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='biodiv' is marked as API-capable in software definitions
+Current Value: {'software_id': 'arcgishub', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='arcgishub' is marked as API-capable in software definitions
 
 
 === SUMMARY BY ISSUE TYPE ===
 
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_BIODIV: 1 issue
+IS_NATIONAL_AGENCY_OR_TOPIC: 1 issue
+MISSING_RIGHTS: 1 issue
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISHUB: 1 issue
+
+=== RECORDS WITH MULTIPLE ISSUES (3+) ===
+
+Record ID: opendatagoke
+File: KE/Federal/opendata/opendatagoke.yaml
+Issue Count: 3
+Issues:
+  - SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISHUB: endpoints
+  - MISSING_RIGHTS: rights
+  - IS_NATIONAL_AGENCY_OR_TOPIC: properties.is_national

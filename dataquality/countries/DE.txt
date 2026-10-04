@@ -1,57 +1,40 @@
 DATA QUALITY REPORT - COUNTRY: DE
 ================================================================================
-Generated: 2026-09-30 20:41:32
+Generated: 2026-10-04 12:31:49
 Country Code: DE
-Total Records with Issues: 22
-Total Issues Found: 25
+Total Records with Issues: 19
+Total Issues Found: 21
 
 === ISSUES BY TYPE ===
 
-[MISSING_TAGS]
-Count: 3
+[MISSING_OWNER_LINK]
+Count: 1
 Priority: LOW
 
-File: DE/DE-NW/geo/digitaltwinwuppertalgeoportal.yaml
-Record ID: digitaltwinwuppertalgeoportal
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
+File: DE/Federal/indicators/odlinfobfsde.yaml
+Record ID: odlinfobfsde
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
 
-File: DE/Federal/ml/fairforwarddatasets.yaml
-Record ID: fairforwarddatasets
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
+[MISSING_TAGS]
+Count: 1
+Priority: LOW
 
-File: DE/Federal/scientific/glcregistry.yaml
-Record ID: glcregistry
+File: DE/Federal/indicators/odlinfobfsde.yaml
+Record ID: odlinfobfsde
 Issue: MISSING_TAGS
 Field: tags
 Current Value: []
 Suggested Action: Extract tags from description and catalog_type
 
 [MISSING_TOPICS]
-Count: 3
+Count: 1
 Priority: LOW
 
-File: DE/DE-NW/geo/digitaltwinwuppertalgeoportal.yaml
-Record ID: digitaltwinwuppertalgeoportal
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: DE/Federal/ml/fairforwarddatasets.yaml
-Record ID: fairforwarddatasets
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: DE/Federal/scientific/glcregistry.yaml
-Record ID: glcregistry
+File: DE/Federal/indicators/odlinfobfsde.yaml
+Record ID: odlinfobfsde
 Issue: MISSING_TOPICS
 Field: topics
 Current Value: []
@@ -90,8 +73,15 @@ Current Value: {'software_id': 'drupal', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='drupal' is marked as API-capable in software definitions
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DSPACE]
-Count: 1
+Count: 2
 Priority: MEDIUM
+
+File: DE/Federal/scientific/edocrkide.yaml
+Record ID: edocrkide
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DSPACE
+Field: endpoints
+Current Value: {'software_id': 'dspace', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='dspace' is marked as API-capable in software definitions
 
 File: DE/Federal/scientific/openscienceubovgude.yaml
 Record ID: openscienceubovgude
@@ -135,24 +125,6 @@ Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_MAPBENDER
 Field: endpoints
 Current Value: {'software_id': 'mapbender', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='mapbender' is marked as API-capable in software definitions
-
-[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_MEDIATUM]
-Count: 2
-Priority: MEDIUM
-
-File: DE/DE-BY/scientific/mediatumubtumde.yaml
-Record ID: mediatumubtumde
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_MEDIATUM
-Field: endpoints
-Current Value: {'software_id': 'mediatum', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='mediatum' is marked as API-capable in software definitions
-
-File: DE/DE-BY/scientific/mediakude.yaml
-Record ID: mediakude
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_MEDIATUM
-Field: endpoints
-Current Value: {'software_id': 'mediatum', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='mediatum' is marked as API-capable in software definitions
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_OPUS]
 Count: 3
@@ -225,13 +197,23 @@ Suggested Action: Add at least one endpoint because software.id='wordpress' is m
 
 === SUMMARY BY ISSUE TYPE ===
 
-MISSING_TAGS: 3 issues
-MISSING_TOPICS: 3 issues
+MISSING_OWNER_LINK: 1 issue
+MISSING_TAGS: 1 issue
+MISSING_TOPICS: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL: 4 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DSPACE: 1 issue
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DSPACE: 2 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_KADI4MAT: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_MAPBENDER: 3 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_MEDIATUM: 2 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_OPUS: 3 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_TRIPAL: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS: 4 issues
+
+=== RECORDS WITH MULTIPLE ISSUES (3+) ===
+
+Record ID: odlinfobfsde
+File: DE/Federal/indicators/odlinfobfsde.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link

@@ -17,7 +17,8 @@ coverage:
       name: 'Eastern Europe '
 description: Central node of the Spatial Information Infrastructure with access to
   spatial data and related services, providing access to official geographical, administrative,
-  and topographical databases.
+  and topographical databases. It is the national spatial data infrastructure geoportal
+  of Poland, operated by the national geodesy and cartography authority.
 id: mapygeoportalgovpl
 langs:
 - id: PL
@@ -33,6 +34,8 @@ owner:
     level: 20
   name: Head Office of Geodesy and Cartography (GUGiK)
   type: Central government
+properties:
+  is_national: true
 software:
   id: custom
   name: Custom software

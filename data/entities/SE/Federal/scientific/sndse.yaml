@@ -1,0 +1,65 @@
+access_mode:
+- open
+api: false
+api_status: inactive
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: SE
+      name: Sweden
+    level: 20
+    macroregion:
+      id: '150'
+      name: Europe
+description: 'Swedish National Data Service: national research data catalogue service for Swedish universities
+  and research data.'
+id: sndse
+identifiers:
+- id: re3data
+  url: https://www.re3data.org/repository/r3d100010146
+  value: r3d100010146
+langs:
+- id: SV
+  name: Swedish
+- id: EN
+  name: English
+link: https://snd.se/
+name: Swedish National Data Service (SND)
+owner:
+  link: https://snd.se
+  location:
+    country:
+      id: SE
+      name: Sweden
+    level: 20
+  name: Swedish National Data Service (SND)
+  type: Academy
+properties:
+  has_doi: false
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- research data
+- sweden
+- national
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013724

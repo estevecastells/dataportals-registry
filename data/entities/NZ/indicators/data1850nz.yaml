@@ -34,6 +34,13 @@ software:
   id: custom
   name: Custom software
 status: active
-tags: []
-topics: []
+tags:
+- commercial
+- indicators
+- new-zealand
+- statistics
+topics:
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
 uid: cdi00008128

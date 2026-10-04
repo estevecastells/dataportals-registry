@@ -34,6 +34,8 @@ owner:
     level: 20
   name: Geospatial Information Authority of Japan
   type: Central government
+properties:
+  is_national: true
 software:
   id: gsimaps
   name: GSI Maps (地理院地図)

@@ -17,29 +17,29 @@ coverage:
 description: A repository for data relating to agriculture and the environment.
 endpoints:
 - type: ckan:package-search
-  url: https://ckan.cabi.org/data/api/3/action/package_search
+  url: https://datarepository.cabi.org/data/api/3/action/package_search
   version: '3'
 - type: ckan:package-list
-  url: https://ckan.cabi.org/data/api/3/action/package_list
+  url: https://datarepository.cabi.org/data/api/3/action/package_list
   version: '3'
 - type: ckan
-  url: https://ckan.cabi.org/api/3
+  url: https://datarepository.cabi.org/api/3
   version: '3'
 - type: ckan:package-list
-  url: https://ckan.cabi.org/api/3/action/package_list
+  url: https://datarepository.cabi.org/api/3/action/package_list
   version: '3'
 - type: ckan:package-search
-  url: https://ckan.cabi.org/api/3/action/package_search
+  url: https://datarepository.cabi.org/api/3/action/package_search
   version: '3'
 id: ckancabiorg
 identifiers:
 - id: datacite
-  url: https://ckan.cabi.org/
+  url: https://datarepository.cabi.org/
   value: bl.cabi
 langs:
 - id: EN
   name: English
-link: https://ckan.cabi.org
+link: https://datarepository.cabi.org
 name: CABI Data Repository
 owner:
   link: https://www.cabi.org

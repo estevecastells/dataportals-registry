@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: PT
+      name: Portugal
+    level: 20
+    macroregion:
+      id: 039
+      name: Southern Europe
+description: Repositório CIDEHUS Digital disponibiliza um prefixo específico para
+  esta plataforma no CIDEHUS.
+id: cidehusdigitaluevorapt
+identifiers:
+- id: datacite
+  url: http://www.cidehusdigital.uevora.pt/
+  value: iohr.cidehus-dig
+langs:
+- id: PT
+  name: Portuguese
+link: http://www.cidehusdigital.uevora.pt/
+name: CIDEHUS Digital
+owner:
+  location:
+    country:
+      id: PT
+      name: Portugal
+    level: 20
+  name: University of Évora
+  type: Academy
+  link: https://uevora.pt
+properties:
+  dataset_count_reported: 78
+  has_doi: true
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- scientific
+- research data
+uid: cdi00013583
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: Science and technology
+  name: Science and technology
+  type: iso19115
