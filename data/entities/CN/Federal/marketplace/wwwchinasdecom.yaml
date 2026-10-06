@@ -1,0 +1,51 @@
+access_mode:
+- open
+- restricted
+api: false
+api_status: uncertain
+catalog_type: Data marketplace
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: CN
+      name: China
+    level: 20
+    macroregion:
+      id: '030'
+      name: Eastern Asia
+description: Shanghai Data Exchange (上海数据交易所) national data exchange listing thousands
+  of traded data products, with data asset and compliance services.
+id: wwwchinasdecom
+langs:
+- id: ZH
+  name: Chinese
+link: https://www.china-sde.com/
+name: Shanghai Data Exchange
+owner:
+  link: https://www.china-sde.com/
+  location:
+    country:
+      id: CN
+      name: China
+    level: 20
+  name: Shanghai Data Exchange
+  type: Business
+properties:
+  has_doi: false
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- marketplace
+- data marketplace
+- China
+- Shanghai
+topics:
+- id: ECON
+  name: Economy and finance
+  type: eudatatheme
+uid: cdi00013790

@@ -1,9 +1,9 @@
 DATA QUALITY REPORT - RULE: IS_NATIONAL_AGENCY_OR_TOPIC
 ================================================================================
-Generated: 2026-10-04 12:31:49
+Generated: 2026-10-06 09:14:05
 Issue Type: IS_NATIONAL_AGENCY_OR_TOPIC
 Priority: MEDIUM
-Total Issues Found: 2
+Total Issues Found: 4
 
 Rule: properties.is_national is true on a catalog that is not the country's official catalog of that type. Keep the flag only for the national open-data portal, NSDI/national geoportal/INSPIRE node, or NSO statistical product. Agency, thematic, scientific, and subnational catalogs must use is_national: false even when the owner is a central/federal body. Do not bulk-set the flag from a Federal/ path or a .gov/.mil hostname.
 
@@ -11,10 +11,14 @@ Rule: properties.is_national is true on a catalog that is not the country's offi
 
 JP: 1 issue
 KE: 1 issue
+PF: 1 issue
+TM: 1 issue
 
 === SUMMARY BY RECORD ===
 
 opendatagoke: 1 issue
+wwwstatgovtm: 1 issue
+chiffresdetaillesispfpf: 1 issue
 dataegogovjp: 1 issue
 
 === ISSUES ===
@@ -26,6 +30,22 @@ Issue: IS_NATIONAL_AGENCY_OR_TOPIC
 Field: properties.is_national
 Current Value: {"is_national": true, "reason": "federal_opendata_not_national", "name": "Kenya Open Data", "catalog_type": "Open data portal", "owner": "Kenya ICT Authority"}
 Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
+
+File: TM/Federal/indicators/wwwstatgovtm.yaml
+Record ID: wwwstatgovtm
+Country: TM
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {"is_national": true, "reason": "indicators_not_nso", "name": "State Committee of Turkmenistan on Statistics (TürkmenStat)", "catalog_type": "Indicators catalog", "owner": "State Committee of Turkmenistan on Statistics (TürkmenStat)"}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (indicators_not_nso).
+
+File: PF/Federal/indicators/chiffresdetaillesispfpf.yaml
+Record ID: chiffresdetaillesispfpf
+Country: PF
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {"is_national": true, "reason": "indicators_not_nso", "name": "ISPF Chiffres détaillés (Polynésie française)", "catalog_type": "Indicators catalog", "owner": "Institut de la statistique de la Polynésie française (ISPF)"}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (indicators_not_nso).
 
 File: JP/Federal/opendata/dataegogovjp.yaml
 Record ID: dataegogovjp

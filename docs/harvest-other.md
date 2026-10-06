@@ -152,6 +152,36 @@ GET https://host/environments/DEFAULT/apis
 (e.g. developer.gov.pf) serve every route — including JSON paths — as the SPA HTML shell;
 when the portal API is exposed anonymously, read it instead of parsing HTML. Stop on `401`.
 
+## Google Apigee (`apigee`) {#apigee}
+
+Harvest the integrated developer portal's API list. One portal is one catalog.
+
+```text
+GET https://<portal-host>/
+```
+
+**Keep:** APIs published in the developer portal (name, description, documentation URL, publisher). **Drop:** app registrations, API keys, and portal user profiles. Unauthenticated portal JSON endpoints vary by install — stop on `401` rather than probing management APIs.
+
+## Kong Gateway (`kong`) {#kong}
+
+Harvest the Dev Portal's API list. One portal is one catalog.
+
+```text
+GET https://<portal-host>/
+```
+
+**Keep:** APIs published in the Dev Portal (name, version, documentation URL, publisher). **Drop:** application registrations, keys, and developer profiles. Self-hosted and Konnect-hosted portals expose different unauthenticated endpoints — stop on `401` rather than probing admin or Konnect APIs.
+
+## Tyk API Gateway (`tyk`) {#tyk}
+
+Harvest the developer portal's API catalogue. One portal is one catalog.
+
+```text
+GET https://<portal-host>/portal
+```
+
+**Keep:** catalogued APIs in the portal (name, description, documentation URL, publisher). **Drop:** key registrations and developer profiles. The Enterprise Developer Portal is a separate application with its own routes — stop on `401` rather than probing dashboard admin APIs.
+
 ## Data marketplaces
 
 Public catalog of datasets for sale or license. Harvest **public** listing APIs only (dataset id, title, landing URL). Stop on paywalls and `401`. Do not scrape prices, buyer lists, or sample files into this repository. `access_mode` on the **catalog** record is often `restricted` — still harvest metadata if it is public.

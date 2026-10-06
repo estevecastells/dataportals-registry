@@ -841,6 +841,17 @@ MAP_SOFTWARE_ALLOWED_CATALOG_TYPES = {
     # Gravitee API Management developer portals (developer.gov.pf) are API
     # catalogs on API-management software.
     "gravitee": frozenset({"Open data portal", "API Catalog"}),
+    # Google Apigee, Kong and Tyk developer portals are API catalogs on
+    # API-management software.
+    "apigee": frozenset({"Open data portal", "API Catalog"}),
+    "kong": frozenset({"Open data portal", "API Catalog"}),
+    "tyk": frozenset({"Open data portal", "API Catalog"}),
+    # The Felles datakatalog platform also publishes the Norwegian national
+    # API-katalog (data services) next to the dataset catalog on data.norge.no.
+    "fellesdatakatalog": frozenset({"Open data portal", "API Catalog"}),
+    # OntoPortal installations run as scientific ontology repositories and as
+    # ontology/terminology metadata registries (BioPortal, AgroPortal).
+    "ontoportal": frozenset({"Scientific data repository", "Metadata catalog"}),
     # Strapi also backs SDG indicator platforms (ODSlocal).
     "strapi": frozenset({"Open data portal", "Indicators catalog"}),
     # OutSystems low-code portals: statistics databases (PORDATA), gazettes, and

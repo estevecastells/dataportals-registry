@@ -1,0 +1,67 @@
+category: Metadata catalog
+subtype: metadata_registry_platform
+datatypes:
+  datasets: 'No'
+  fields: 'Yes'
+  organizations: 'No'
+  resources: 'No'
+  topics: 'No'
+has_api: 'Yes'
+has_bulk: 'No'
+id: skosmos
+description: Skosmos is an open-source web-based SKOS browser and vocabulary service
+  for publishing controlled vocabularies, thesauri and ontologies as linked data.
+  Maintained by the National Library of Finland and deployed by national libraries,
+  archives and research organizations worldwide.
+owner:
+  name: National Library of Finland
+  location:
+    country:
+      id: FI
+      name: Finland
+logo_url: https://skosmos.org/favicon.ico
+metadata_support:
+  ckan_api: 'No'
+  csw: 'No'
+  custom_api: 'Yes'
+  dcat: 'No'
+  dublin_core: 'No'
+  iso19115: 'No'
+  oai-pmh: 'No'
+  ogcrecords: 'No'
+  openaire: 'No'
+  opensearch: 'No'
+  rdf_sparql: 'No'
+  schema-org: 'No'
+  sdmx: 'No'
+  stac: 'No'
+  swordapi: 'No'
+  wcs: 'No'
+  wfs: 'No'
+  wms: 'No'
+name: Skosmos
+website: https://skosmos.org
+pid_support:
+  has_doi: 'No'
+  persistent_dataset_url: 'Yes'
+rights_management:
+  licensing_type: Not applicable
+  supports_licenses: 'No'
+storage_type: Structured
+type: Software
+repository_url: https://github.com/NatLibFi/Skosmos
+documentation_url: https://github.com/NatLibFi/Skosmos/wiki
+version: '3.4'
+license:
+  type: MIT
+  url: https://github.com/NatLibFi/Skosmos/blob/main/LICENSE
+export_formats:
+- JSON
+- RDF
+- SKOS
+capabilities:
+- REST API
+- SKOS support
+- Multilingual vocabulary browser
+changelog_url: https://github.com/NatLibFi/Skosmos/releases
+last_updated: '2026-10-04T00:00:00Z'

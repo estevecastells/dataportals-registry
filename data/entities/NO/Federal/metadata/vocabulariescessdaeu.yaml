@@ -2,7 +2,7 @@ access_mode:
 - open
 api: false
 api_status: uncertain
-catalog_type: Scientific data repository
+catalog_type: Metadata catalog
 content_types:
 - dataset
 coverage:

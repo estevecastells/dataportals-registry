@@ -1,0 +1,42 @@
+DATA QUALITY REPORT - RULE: PLACEHOLDER_TITLE
+================================================================================
+Generated: 2026-10-06 09:14:05
+Issue Type: PLACEHOLDER_TITLE
+Priority: MEDIUM
+Total Issues Found: 3
+
+=== SUMMARY BY COUNTRY ===
+
+DE: 1 issue
+World: 2 issues
+
+=== SUMMARY BY RECORD ===
+
+apisguru: 2 issues
+up42com: 1 issue
+
+=== ISSUES ===
+
+File: World/api/apisguru.yaml
+Record ID: apisguru
+Country: World
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: APIs.guru
+Suggested Action: Use a human-readable portal title instead of a URL/domain string.
+
+File: World/api/apisguru.yaml
+Record ID: apisguru
+Country: World
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: APIs.guru
+Suggested Action: Replace domain/path-based title with a descriptive portal name.
+
+File: DE/Federal/marketplace/up42com.yaml
+Record ID: up42com
+Country: DE
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: UP42
+Suggested Action: Expand the portal title to be more descriptive than a few characters.

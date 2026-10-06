@@ -1,0 +1,66 @@
+access_mode:
+- open
+api: true
+api_status: active
+catalog_type: API Catalog
+content_types:
+- dataset
+- indicator
+coverage:
+- location:
+    country:
+      id: EU
+      name: European Union
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+description: Redisstat SDMX 2.1 dissemination API of the European Commission
+  Directorate-General for Internal Market, Industry, Entrepreneurship and SMEs
+  (DG GROW). Endpoint is listed in the sdmx1 library sources; the webgate host
+  answers 404 to non-EC networks.
+endpoints:
+- type: sdmx-rest
+  url: https://webgate.ec.europa.eu/grow/redisstat/api/dissemination/sdmx/2.1
+id: webgateeceuropaeugrowredisstat
+langs:
+- id: EN
+  name: English
+link: https://webgate.ec.europa.eu/grow/redisstat/api/dissemination/sdmx/2.1
+name: DG GROW Redisstat SDMX API
+owner:
+  link: https://commission.europa.eu/
+  location:
+    country:
+      id: EU
+      name: European Union
+    level: 20
+  name: European Commission
+  type: Central government
+properties:
+  has_doi: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: global
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- SDMX
+- statistics
+- European Commission
+- API
+- internal market
+topics:
+- id: ECON
+  name: Economy and finance
+  type: eudatatheme
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
+uid: cdi00013786

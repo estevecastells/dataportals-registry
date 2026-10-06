@@ -1,6 +1,6 @@
 DATA QUALITY REPORT - RULE: MISSING_RIGHTS
 ================================================================================
-Generated: 2026-10-04 12:31:49
+Generated: 2026-10-06 09:14:05
 Issue Type: MISSING_RIGHTS
 Priority: LOW
 Total Issues Found: 11

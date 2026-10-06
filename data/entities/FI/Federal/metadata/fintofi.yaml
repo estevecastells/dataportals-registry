@@ -1,0 +1,59 @@
+access_mode:
+- open
+api: true
+api_status: active
+catalog_type: Metadata catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: FI
+      name: Finland
+    level: 20
+    macroregion:
+      id: '154'
+      name: Northern Europe
+description: Finto is the Finnish national thesaurus and ontology service hosting
+  YSO, KOKO and other Finnish terminological vocabularies and ontologies, with search
+  UI and REST linked-data APIs.
+id: fintofi
+langs:
+- id: FI
+  name: Finnish
+- id: SV
+  name: Swedish
+- id: EN
+  name: English
+link: https://finto.fi/
+name: Finto
+owner:
+  link: https://www.kansalliskirasto.fi/en
+  location:
+    country:
+      id: FI
+      name: Finland
+    level: 20
+  name: National Library of Finland
+  type: Academy
+software:
+  id: skosmos
+  name: Skosmos
+status: active
+endpoints:
+- type: skosmos:rest
+  url: https://finto.fi/rest/v1/vocabularies?lang=en
+tags:
+- thesaurus
+- ontology
+- vocabulary
+- Finnish
+- terminology
+topics:
+- id: EDUC
+  name: Education, culture and sport
+  type: eudatatheme
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+uid: cdi00013771

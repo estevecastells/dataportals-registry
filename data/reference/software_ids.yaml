@@ -21,6 +21,7 @@
 - andino
 - aodn
 - aphia
+- apigee
 - arcgisdashboards
 - arcgishub
 - arcgisserver
@@ -432,6 +433,7 @@
 - klimadashboardmuenster
 - knoema
 - kommunekart
+- kong
 - koordinates
 - korp
 - kortinfo
@@ -677,6 +679,7 @@
 - sismer
 - sitmun
 - sitwebgis
+- skosmos
 - smartfindersdi
 - smartgis
 - smartmap
@@ -738,6 +741,7 @@
 - tripal
 - triplydb
 - twgovopendata
+- tyk
 - tykyopendata
 - typo3
 - ucscgenomebrowser

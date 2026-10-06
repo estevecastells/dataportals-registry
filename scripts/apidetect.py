@@ -2512,6 +2512,24 @@ SDMXRI_URLMAP = [
     },
 ]
 
+SKOSMOS_URLMAP = [
+    {
+        "id": "skosmos:rest",
+        "url": "/rest/v1/vocabularies?lang=en",
+        "accept": "application/json",
+        "expected_mime": JSON_MIMETYPES,
+        "is_json": True,
+        "version": None,
+    },
+    {
+        "id": "skosmos:about",
+        "url": "/rest/v1/about",
+        "expected_mime": JSON_MIMETYPES,
+        "is_json": True,
+        "version": None,
+    },
+]
+
 
 from apidetect_urlmaps_draft import DRAFT_CATALOGS_URLMAP, OPENDAP_URLMAP_DRAFT
 
@@ -3000,6 +3018,7 @@ CATALOGS_URLMAP = {
     "triplydb": TRIPLYDB_URLMAP,
     "ipt": IPT_URLMAP,
     "sdmxri": SDMXRI_URLMAP,
+    "skosmos": SKOSMOS_URLMAP,
     "opendatareg": OPENDATAREG_URLMAP,
     "opengdc": OPENGDC_URLMAP,
     **DRAFT_CATALOGS_URLMAP,

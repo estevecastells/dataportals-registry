@@ -1,0 +1,60 @@
+access_mode:
+- open
+api: true
+api_status: active
+endpoints:
+- type: sparql
+  url: https://vocabularies.unesco.org/sparql
+catalog_type: Metadata catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: World
+      name: World
+    level: 20
+    macroregion:
+      id: '001'
+      name: World
+description: The UNESCO Thesaurus is a controlled and structured vocabulary of concepts
+  in education, science, culture and communication, published as SKOS with a multilingual
+  browse UI and SPARQL endpoint.
+id: vocabulariesunescoorg
+langs:
+- id: EN
+  name: English
+- id: FR
+  name: French
+- id: ES
+  name: Spanish
+- id: RU
+  name: Russian
+link: https://vocabularies.unesco.org/
+name: UNESCO Thesaurus
+owner:
+  link: https://www.unesco.org
+  location:
+    country:
+      id: World
+      name: World
+    level: 20
+  name: UNESCO
+  type: International
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- thesaurus
+- terminology
+- multilingual
+- vocabulary
+topics:
+- id: EDUC
+  name: Education, culture and sport
+  type: eudatatheme
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+uid: cdi00013770

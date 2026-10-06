@@ -1,0 +1,52 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Metadata catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: EU
+      name: European Union
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+description: EU Vocabularies is the reference service of the European Union for controlled
+  vocabularies such as EuroVoc, MDR authority tables and interinstitutional term bases,
+  with a browse UI plus REST and SPARQL endpoints.
+id: euvocabulariesopeuropaeu
+langs:
+- id: EN
+  name: English
+link: https://op.europa.eu/en/web/eu-vocabularies
+name: EU Vocabularies
+owner:
+  link: https://op.europa.eu
+  location:
+    country:
+      id: EU
+      name: European Union
+    level: 20
+  name: Publications Office of the European Union
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- metadata
+- vocabulary
+- EuroVoc
+- European Union
+- interoperability
+topics:
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+uid: cdi00013766

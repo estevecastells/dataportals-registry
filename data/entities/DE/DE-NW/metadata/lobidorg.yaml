@@ -1,0 +1,64 @@
+access_mode:
+- open
+api: true
+api_status: active
+catalog_type: Metadata catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+description: lobid is the linked-open-data infrastructure of the hbz library service
+  centre, publishing the hbz union catalogue (lobid-resources), the GND authority
+  file, organisation data and subject vocabularies as JSON-LD with search APIs and
+  web UIs. API endpoints sit behind an Anubis bot check for datacenter traffic.
+endpoints:
+- type: rest
+  url: https://lobid.org/resources/search
+id: lobidorg
+langs:
+- id: DE
+  name: German
+- id: EN
+  name: English
+link: https://lobid.org
+name: lobid
+owner:
+  link: https://www.hbz-nrw.de
+  location:
+    country:
+      id: DE
+      name: Germany
+    level: 30
+    subregion:
+      id: DE-NW
+      name: Nordrhein-Westfalen
+  name: Hochschulbibliothekszentrum des Landes Nordrhein-Westfalen (hbz)
+  type: Regional government
+properties:
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- linked data
+- authority data
+- GND
+- bibliographic metadata
+- lobid
+- hbz
+topics:
+- id: EDUC
+  name: Education, culture and sport
+  type: eudatatheme
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+uid: cdi00013787

@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: true
+api_status: active
+catalog_type: Metadata catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: AT
+      name: Austria
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+description: Skosmos service of the Austrian Academy of Sciences ACDH-CH publishing
+  DARIAH vocabularies for digital humanities as linked data.
+id: vocabsacdhoeawacat
+langs:
+- id: DE
+  name: German
+- id: EN
+  name: English
+link: https://vocabs.acdh.oeaw.ac.at
+name: ACDH-CH/DARIAH Vocabularies
+owner:
+  link: https://www.oeaw.ac.at/acdh
+  location:
+    country:
+      id: AT
+      name: Austria
+    level: 20
+  name: Austrian Centre for Digital Humanities and Cultural Heritage (OeAW)
+  type: Academy
+software:
+  id: skosmos
+  name: Skosmos
+status: active
+endpoints:
+- type: skosmos:rest
+  url: https://vocabs.acdh.oeaw.ac.at/rest/v1/vocabularies?lang=en
+tags:
+- vocabulary
+- thesaurus
+- terminology
+- linked data
+- SKOS
+topics:
+- id: EDUC
+  name: Education, culture and sport
+  type: eudatatheme
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+uid: cdi00013777

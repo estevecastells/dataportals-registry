@@ -1,11 +1,22 @@
 DATA QUALITY REPORT - COUNTRY: PF
 ================================================================================
-Generated: 2026-10-04 12:31:49
+Generated: 2026-10-06 09:14:05
 Country Code: PF
-Total Records with Issues: 1
-Total Issues Found: 1
+Total Records with Issues: 2
+Total Issues Found: 2
 
 === ISSUES BY TYPE ===
+
+[IS_NATIONAL_AGENCY_OR_TOPIC]
+Count: 1
+Priority: MEDIUM
+
+File: PF/Federal/indicators/chiffresdetaillesispfpf.yaml
+Record ID: chiffresdetaillesispfpf
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {'is_national': True, 'reason': 'indicators_not_nso', 'name': 'ISPF Chiffres détaillés (Polynésie française)', 'catalog_type': 'Indicators catalog', 'owner': 'Institut de la statistique de la Polynésie française (ISPF)'}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (indicators_not_nso).
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GRAVITEE]
 Count: 1
@@ -21,4 +32,5 @@ Suggested Action: Add at least one endpoint because software.id='gravitee' is ma
 
 === SUMMARY BY ISSUE TYPE ===
 
+IS_NATIONAL_AGENCY_OR_TOPIC: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GRAVITEE: 1 issue

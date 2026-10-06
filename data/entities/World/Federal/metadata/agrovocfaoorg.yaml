@@ -1,0 +1,54 @@
+access_mode:
+- open
+api: true
+api_status: active
+endpoints:
+- type: sparql
+  url: https://agrovoc.fao.org/sparql
+catalog_type: Metadata catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: World
+      name: World
+    level: 20
+    macroregion:
+      id: '001'
+      name: World
+description: AGROVOC is FAO's multilingual thesaurus covering agriculture, forestry
+  and fisheries, published as SKOS linked data with a search and browse interface
+  and SPARQL endpoint.
+id: agrovocfaoorg
+langs:
+- id: EN
+  name: English
+link: https://agrovoc.fao.org/
+name: AGROVOC Linked Data
+owner:
+  link: https://www.fao.org
+  location:
+    country:
+      id: World
+      name: World
+    level: 20
+  name: Food and Agriculture Organization of the United Nations (FAO)
+  type: International
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- thesaurus
+- agriculture
+- terminology
+- multilingual
+topics:
+- id: AGRI
+  name: Agriculture, fisheries, forestry and food
+  type: eudatatheme
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+uid: cdi00013769

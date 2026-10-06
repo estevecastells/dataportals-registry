@@ -1,0 +1,54 @@
+access_mode:
+- open
+- restricted
+api: false
+api_status: uncertain
+catalog_type: Data marketplace
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: World
+      name: World
+    level: 20
+    macroregion:
+      id: World
+      name: World
+description: UP42 Earth observation platform marketplace for ordering archive and
+  tasked satellite imagery, elevation and aerial data from multiple providers.
+id: up42com
+langs:
+- id: EN
+  name: English
+link: https://up42.com/
+name: UP42
+owner:
+  link: https://up42.com/
+  location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+  name: UP42 GmbH (Airbus)
+  type: Business
+properties:
+  has_doi: false
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- marketplace
+- Earth observation
+- satellite imagery
+- geospatial
+topics:
+- id: ENVI
+  name: Environment
+  type: eudatatheme
+- id: Imagery/Base Maps/Coverage
+  name: Imagery/Base Maps/Coverage
+  type: iso19115
+uid: cdi00013792

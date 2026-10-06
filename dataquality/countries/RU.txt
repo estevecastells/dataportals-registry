@@ -1,6 +1,6 @@
 DATA QUALITY REPORT - COUNTRY: RU
 ================================================================================
-Generated: 2026-10-04 12:31:49
+Generated: 2026-10-06 09:14:05
 Country Code: RU
 Total Records with Issues: 42
 Total Issues Found: 44

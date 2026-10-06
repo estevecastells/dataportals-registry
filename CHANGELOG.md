@@ -5,7 +5,33 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.25.0] - 2026-10-06
+
+**GitHub Release**: [v1.25.0](https://github.com/datenoio/dataportals-registry/releases/tag/v1.25.0) - Published October 6, 2026
+
+### Added
+
+- **35 net new catalog entries** since v1.24.0; registry source now **43,313** entities (**33** scheduled) across **225** country/territory folders. Software now **789** platforms.
+- **16 metadata / vocabulary registries**: Skosmos software definition (`skosmos`, the National Library of Finland SKOS browser) with a same-change instance hunt from the skosmos.org directory — Finto (FI), Loterre and ScolomFr (FR), Service central de législation (LU), ZBW (DE), ACDH-CH DARIAH (AT), Nasjonalbiblioteket and UB-Data UiO (NO), NALT (US), CLARIN Concept Registry (NL) — plus named-registry finds: EU Vocabularies, Library of Congress Linked Data Service (US), LOV Spain, UNESCO Thesaurus, AGROVOC Linked Data (FAO), and lobid (DE-NW, hbz; added on recheck after earlier all-egress timeouts). **10** records now tagged `skosmos`.
+- **7 API catalogs**: API-katalog (NO), Postman Public API Network and RapidAPI Hub (US), APIs.guru and Public APIs (World), and the DG EMPL and DG GROW Redisstat SDMX dissemination APIs (EU webgate siblings of the registered DG COMP endpoint).
+- **6 data marketplaces**: Shanghai Data Exchange and Guiyang Big Data Exchange (CN), UP42 (DE), Cboe DataShop, CME DataMine, and Microsoft Marketplace Data Products (US). Dawex definition track closed with no software id — the vendor powers private data spaces without a public tenant catalog.
+- **6 indicators catalogs**: TürkmenStat (TM — official NSO site joins the existing SDG portal), ISEE-NC and ISPF Chiffres détaillés (closing the empty NC and PF indicators folders), Ember Data Explorer, Energy Institute Statistical Review of World Energy, and ODYSSEE-MURE (EU) from the energy/climate platform audit (27 of ~30 named platforms were already registered).
+- **4 software definitions**: Skosmos plus API-gateway developer-portal platforms Apigee API Management (`apigee`), Kong Gateway (`kong`), and Tyk API Gateway (`tyk`) — no catalogs tagged on the gateway ids yet; software catalog now **789** platforms.
+
+### Changed
+
+- Reclassified **4** ontology registries from Scientific data repository to Metadata catalog and moved them into `metadata/` folders: Agroportal (FR), BioPortal (US-CA), EBI OLS (GB), CESSDA Vocabularies (NO); NIWA (NZ) marketplace → Scientific data repository; GetData Defined AI (US) ml → Data marketplace.
+- Netherlands API catalog `developeroverheidnl` moved to `apis.developer.overheid.nl` and renamed Netherlands Government API Register; DG COMP Redisstat description now names its own DG (EMPL/GROW siblings registered as their own catalogs).
+- Endpoint enrichment: live-verified `skosmos:rest` endpoints on the Skosmos records and BARTOC; IMF SDMX Central gained `api.imf.org` SDMX 2.1 REST and a 3.0-style structure endpoint.
+- `is_national: true` on **4** NSO products: Statistics Iceland StatBank, ISEE-NC, ISPF (PF), TürkmenStat.
+- FusionRegistry instance hunt closed as complete: 0 new — every public FMR deployment was already registered.
+- Rebuild dataset exports to match source YAML: **43,313** catalogs, **33** scheduled, **789** software (`full.jsonl`, `full.parquet`, and the DuckDB `catalogs` table: **43,346** rows incl. scheduled).
+- Quality gate: **0** CRITICAL and **0** IMPORTANT across **43,313** records; **234** MEDIUM and **41** LOW findings (expected-endpoint probe gaps on new records plus is_national heuristic noise).
+- Docs and fingerprints: Skosmos sections in the discovery/harvest metadata guides, marketplace and API-catalog guidance in `docs/discovery-other.md` / `docs/harvest-other.md`, SKOSMOS URL-map fingerprints in `scripts/apidetect.py`, `docs/software-index.md` regenerated.
+
 ## [1.24.0] - 2026-10-04
+
+**GitHub Release**: [v1.24.0](https://github.com/datenoio/dataportals-registry/releases/tag/v1.24.0) - Published October 6, 2026
 
 ### Added
 

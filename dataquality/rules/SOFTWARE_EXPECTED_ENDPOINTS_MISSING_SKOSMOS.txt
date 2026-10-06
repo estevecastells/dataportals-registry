@@ -1,0 +1,26 @@
+DATA QUALITY REPORT - RULE: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_SKOSMOS
+================================================================================
+Generated: 2026-10-06 09:14:05
+Issue Type: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_SKOSMOS
+Priority: MEDIUM
+Total Issues Found: 1
+
+Rule: Identifies records using software.id='skosmos' (API-capable per software definitions) that have no endpoints listed. Add at least one API endpoint for discovery and integration.
+
+=== SUMMARY BY COUNTRY ===
+
+NL: 1 issue
+
+=== SUMMARY BY RECORD ===
+
+conceptsclarineu: 1 issue
+
+=== ISSUES ===
+
+File: NL/Federal/metadata/conceptsclarineu.yaml
+Record ID: conceptsclarineu
+Country: NL
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_SKOSMOS
+Field: endpoints
+Current Value: {"software_id": "skosmos", "has_api": "Yes", "endpoints_count": 0}
+Suggested Action: Add at least one endpoint because software.id='skosmos' is marked as API-capable in software definitions

@@ -1,13 +1,13 @@
 DATA QUALITY REPORT - PRIORITY: MEDIUM
 ================================================================================
-Generated: 2026-10-04 12:31:49
+Generated: 2026-10-06 09:14:05
 Priority Level: MEDIUM
-Total Issues Found: 228
+Total Issues Found: 234
 
 === ISSUES BY TYPE ===
 
 [IS_NATIONAL_AGENCY_OR_TOPIC]
-Count: 2
+Count: 4
 
 File: KE/Federal/opendata/opendatagoke.yaml
 Record ID: opendatagoke
@@ -16,6 +16,22 @@ Issue: IS_NATIONAL_AGENCY_OR_TOPIC
 Field: properties.is_national
 Current Value: {'is_national': True, 'reason': 'federal_opendata_not_national', 'name': 'Kenya Open Data', 'catalog_type': 'Open data portal', 'owner': 'Kenya ICT Authority'}
 Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
+
+File: TM/Federal/indicators/wwwstatgovtm.yaml
+Record ID: wwwstatgovtm
+Country: TM
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {'is_national': True, 'reason': 'indicators_not_nso', 'name': 'State Committee of Turkmenistan on Statistics (TürkmenStat)', 'catalog_type': 'Indicators catalog', 'owner': 'State Committee of Turkmenistan on Statistics (TürkmenStat)'}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (indicators_not_nso).
+
+File: PF/Federal/indicators/chiffresdetaillesispfpf.yaml
+Record ID: chiffresdetaillesispfpf
+Country: PF
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {'is_national': True, 'reason': 'indicators_not_nso', 'name': 'ISPF Chiffres détaillés (Polynésie française)', 'catalog_type': 'Indicators catalog', 'owner': 'Institut de la statistique de la Polynésie française (ISPF)'}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (indicators_not_nso).
 
 File: JP/Federal/opendata/dataegogovjp.yaml
 Record ID: dataegogovjp
@@ -43,6 +59,33 @@ Issue: MISSING_DESCRIPTION
 Field: description
 Current Value: None
 Suggested Action: Add meaningful description based on portal content and purpose
+
+[PLACEHOLDER_TITLE]
+Count: 3
+
+File: World/api/apisguru.yaml
+Record ID: apisguru
+Country: World
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: APIs.guru
+Suggested Action: Use a human-readable portal title instead of a URL/domain string.
+
+File: World/api/apisguru.yaml
+Record ID: apisguru
+Country: World
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: APIs.guru
+Suggested Action: Replace domain/path-based title with a descriptive portal name.
+
+File: DE/Federal/marketplace/up42com.yaml
+Record ID: up42com
+Country: DE
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: UP42
+Suggested Action: Expand the portal title to be more descriptive than a few characters.
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISHUB]
 Count: 9
@@ -1433,6 +1476,17 @@ Field: endpoints
 Current Value: {'software_id': 'phaidra', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='phaidra' is marked as API-capable in software definitions
 
+[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_SKOSMOS]
+Count: 1
+
+File: NL/Federal/metadata/conceptsclarineu.yaml
+Record ID: conceptsclarineu
+Country: NL
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_SKOSMOS
+Field: endpoints
+Current Value: {'software_id': 'skosmos', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='skosmos' is marked as API-capable in software definitions
+
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_STRAPI]
 Count: 1
 
@@ -1950,8 +2004,9 @@ Suggested Action: Tag is too short (less than 3 characters), consider removing o
 
 === SUMMARY BY ISSUE TYPE ===
 
-IS_NATIONAL_AGENCY_OR_TOPIC: 2 issues
+IS_NATIONAL_AGENCY_OR_TOPIC: 4 issues
 MISSING_DESCRIPTION: 2 issues
+PLACEHOLDER_TITLE: 3 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISHUB: 9 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISSERVER: 4 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_BENTO: 1 issue
@@ -1983,6 +2038,7 @@ SOFTWARE_EXPECTED_ENDPOINTS_MISSING_OPENSCIENCESI: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_OPUS: 3 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PALAPA: 3 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PHAIDRA: 1 issue
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_SKOSMOS: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_STRAPI: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_SUPERSET: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_TRIPAL: 8 issues
@@ -2006,7 +2062,7 @@ CD: 1 issue
 CH: 2 issues
 CN: 4 issues
 CO: 1 issue
-DE: 18 issues
+DE: 19 issues
 DK: 1 issue
 EE: 2 issues
 ES: 14 issues
@@ -2026,9 +2082,9 @@ KZ: 2 issues
 MX: 3 issues
 MY: 2 issues
 NG: 1 issue
-NL: 2 issues
+NL: 3 issues
 NO: 1 issue
-PF: 1 issue
+PF: 2 issues
 PH: 1 issue
 PK: 4 issues
 PL: 1 issue
@@ -2043,10 +2099,11 @@ SK: 1 issue
 SM: 1 issue
 SN: 3 issues
 SV: 1 issue
+TM: 1 issue
 TR: 1 issue
 TZ: 1 issue
 UG: 1 issue
 US: 46 issues
-World: 7 issues
+World: 9 issues
 ZA: 1 issue
 ZM: 1 issue

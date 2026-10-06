@@ -1,0 +1,48 @@
+access_mode:
+- open
+- restricted
+api: false
+api_status: uncertain
+catalog_type: Data marketplace
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    level: 20
+    macroregion:
+      id: '021'
+      name: Northern America
+description: CME DataMine catalog of historical futures and options market data products
+  sold as self-service downloadable datasets.
+id: dataminenewcmegroupcom
+langs:
+- id: EN
+  name: English
+link: https://datamine.new.cmegroup.com/
+name: CME DataMine
+owner:
+  link: https://www.cmegroup.com
+  location:
+    country:
+      id: US
+      name: United States
+    level: 20
+  name: CME Group
+  type: Business
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- marketplace
+- financial data
+- market data
+- futures
+topics:
+- id: ECON
+  name: Economy and finance
+  type: eudatatheme
+uid: cdi00013789

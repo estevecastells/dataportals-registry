@@ -15,8 +15,10 @@ coverage:
     macroregion:
       id: '155'
       name: Western Europe
-description: Redisstat SDMX dissemination API endpoint operated under European Commission
-  services (DG COMP, EMPL, GROW).
+description: Redisstat SDMX 2.1 dissemination API of the European Commission
+  Directorate-General for Competition (DG COMP). Endpoint is listed in the sdmx1
+  library sources; the webgate host answers 404 to non-EC networks. Sibling DG
+  EMPL and DG GROW deployments are registered as their own catalogs.
 endpoints:
 - type: sdmx-rest
   url: https://webgate.ec.europa.eu/comp/redisstat/api/dissemination/sdmx/2.1

@@ -1,0 +1,52 @@
+access_mode:
+- open
+- restricted
+api: false
+api_status: uncertain
+catalog_type: Data marketplace
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    level: 20
+    macroregion:
+      id: '021'
+      name: Northern America
+description: Microsoft Marketplace (formerly Azure Marketplace) catalog of third-party
+  data products, including weather, financial, and geospatial datasets delivered through
+  Azure.
+id: marketplacemicrosoftcom
+langs:
+- id: EN
+  name: English
+link: https://marketplace.microsoft.com/en-us/marketplace/apps?filters=data-products
+name: Microsoft Marketplace Data Products
+owner:
+  link: https://www.microsoft.com
+  location:
+    country:
+      id: US
+      name: United States
+    level: 20
+  name: Microsoft
+  type: Business
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- marketplace
+- cloud marketplace
+- data products
+- Azure
+topics:
+- id: ECON
+  name: Economy and finance
+  type: eudatatheme
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+uid: cdi00013793

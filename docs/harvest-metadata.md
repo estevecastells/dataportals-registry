@@ -121,9 +121,22 @@ OSCAR/Surface search results are paged (`stationSearchResults`, `page`, `items`)
 
 **Keep:** stations, satellites, instruments, and observation variables. **Drop:** user accounts, gap-analysis chrome, and the WMO Weather Radar Database (`wrd.mgm.gov.tr`), which is not OSCAR.
 
+## Skosmos (`skosmos`) {#skosmos}
+
+SKOS vocabularies via the Skosmos REST API.
+
+```text
+GET {base}/rest/v1/vocabularies?lang=en
+GET {base}/rest/v1/{vocab}/index?lang=en
+```
+
+List **vocabularies** as the harvest grain for “datasets”; concept-level crawls only on request. The `lang` parameter is required (the API answers `400 lang parameter missing` without it).
+
+**Keep:** vocabulary list with labels and languages. **Drop:** individual concept pages unless a concept crawl was requested.
+
 ## DCAT without an FDP
 
-Many open-data sites expose `/catalog.xml`, `/data.json`, or DCAT-AP. That harvest belongs with [harvest-opendata.md](harvest-opendata.md) (`dcat:Dataset` only). Protocol details: [harvest-protocols.md](harvest-protocols.md#dcat). Use this page when `software.id` is `fairdatapoint`, `aristotlemdr`, `fusionregistry`, `mwmb`, `datahubproject`, `cedar`, `cbdchm`, or `oscar`.
+Many open-data sites expose `/catalog.xml`, `/data.json`, or DCAT-AP. That harvest belongs with [harvest-opendata.md](harvest-opendata.md) (`dcat:Dataset` only). Protocol details: [harvest-protocols.md](harvest-protocols.md#dcat). Use this page when `software.id` is `fairdatapoint`, `aristotlemdr`, `fusionregistry`, `mwmb`, `datahubproject`, `cedar`, `cbdchm`, `oscar`, or `skosmos`.
 
 ## Related
 

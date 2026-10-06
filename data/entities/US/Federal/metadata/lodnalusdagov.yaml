@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: true
+api_status: active
+catalog_type: Metadata catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    level: 20
+    macroregion:
+      id: '021'
+      name: Northern America
+description: Skosmos service publishing the NALT agricultural thesaurus as linked
+  data; legacy agclass.nal.usda.gov vocabulary URLs redirect here.
+id: lodnalusdagov
+langs:
+- id: EN
+  name: English
+- id: ES
+  name: Spanish
+link: https://lod.nal.usda.gov/nalt/en/
+name: NALT - NAL Agricultural Thesaurus
+owner:
+  link: https://www.nal.usda.gov
+  location:
+    country:
+      id: US
+      name: United States
+    level: 20
+  name: United States National Agricultural Library
+  type: Central government
+software:
+  id: skosmos
+  name: Skosmos
+status: active
+endpoints:
+- type: skosmos:rest
+  url: https://lod.nal.usda.gov/rest/v1/vocabularies?lang=en
+tags:
+- vocabulary
+- thesaurus
+- terminology
+- linked data
+- SKOS
+topics:
+- id: AGRI
+  name: Agriculture, fisheries, forestry and food
+  type: eudatatheme
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+uid: cdi00013776

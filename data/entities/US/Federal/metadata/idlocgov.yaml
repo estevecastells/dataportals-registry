@@ -1,0 +1,55 @@
+access_mode:
+- open
+api: true
+api_status: active
+endpoints:
+- type: rest
+  url: https://id.loc.gov/search/
+catalog_type: Metadata catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    level: 20
+    macroregion:
+      id: '021'
+      name: Northern America
+description: id.loc.gov publishes Library of Congress subject headings, name and classification
+  authorities and controlled vocabularies as linked open data, with a browse UI and
+  machine-readable representations.
+id: idlocgov
+langs:
+- id: EN
+  name: English
+link: https://id.loc.gov/
+name: Library of Congress Linked Data Service
+owner:
+  link: https://www.loc.gov
+  location:
+    country:
+      id: US
+      name: United States
+    level: 20
+  name: Library of Congress
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- metadata
+- library
+- linked data
+- vocabulary
+- authorities
+topics:
+- id: EDUC
+  name: Education, culture and sport
+  type: eudatatheme
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+uid: cdi00013768

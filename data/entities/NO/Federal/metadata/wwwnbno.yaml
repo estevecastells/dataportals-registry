@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: true
+api_status: active
+catalog_type: Metadata catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: 'NO'
+      name: Norway
+    level: 20
+    macroregion:
+      id: '154'
+      name: Northern Europe
+description: Skosmos-based national vocabulary service of the National Library of
+  Norway publishing Norwegian subject vocabularies.
+id: wwwnbno
+langs:
+- id: 'NO'
+  name: Norwegian
+- id: EN
+  name: English
+link: https://www.nb.no/nbvok
+name: Nasjonalbibliotekets vokabulartjeneste
+owner:
+  link: https://www.nb.no
+  location:
+    country:
+      id: 'NO'
+      name: Norway
+    level: 20
+  name: National Library of Norway
+  type: Academy
+software:
+  id: skosmos
+  name: Skosmos
+status: active
+endpoints:
+- type: skosmos:rest
+  url: https://www.nb.no/nbvok/rest/v1/vocabularies?lang=en
+tags:
+- vocabulary
+- thesaurus
+- terminology
+- linked data
+- SKOS
+topics:
+- id: EDUC
+  name: Education, culture and sport
+  type: eudatatheme
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+uid: cdi00013778

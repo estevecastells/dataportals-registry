@@ -1,0 +1,58 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: API Catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: 'NO'
+      name: Norway
+    level: 20
+    macroregion:
+      id: '154'
+      name: Northern Europe
+description: Norwegian national API catalog (API-katalog), the API-er section of
+  data.norge.no. Lists APIs and data services registered by Norwegian public
+  agencies, alongside the dataset and concept catalogs of the same Felles
+  datakatalog platform run by the Norwegian Digitalisation Agency (Digdir).
+id: apikatalogdatanorgeno
+langs:
+- id: 'NO'
+  name: Norwegian
+- id: EN
+  name: English
+link: https://data.norge.no/api-katalog
+name: API-katalog (Norway)
+owner:
+  link: https://www.digdir.no
+  location:
+    country:
+      id: 'NO'
+      name: Norway
+    level: 20
+  name: Norwegian Digitalisation Agency (Digdir)
+  type: Central government
+properties:
+  is_national: false
+software:
+  id: fellesdatakatalog
+  name: Felles datakatalog
+status: active
+tags:
+- APIs
+- API-katalog
+- Norway
+- government
+- Digdir
+- data services
+topics:
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+uid: cdi00013784

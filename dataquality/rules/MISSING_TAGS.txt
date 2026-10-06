@@ -1,6 +1,6 @@
 DATA QUALITY REPORT - RULE: MISSING_TAGS
 ================================================================================
-Generated: 2026-10-04 12:31:49
+Generated: 2026-10-06 09:14:05
 Issue Type: MISSING_TAGS
 Priority: LOW
 Total Issues Found: 13

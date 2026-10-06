@@ -1,0 +1,24 @@
+DATA QUALITY REPORT - COUNTRY: TM
+================================================================================
+Generated: 2026-10-06 09:14:05
+Country Code: TM
+Total Records with Issues: 1
+Total Issues Found: 1
+
+=== ISSUES BY TYPE ===
+
+[IS_NATIONAL_AGENCY_OR_TOPIC]
+Count: 1
+Priority: MEDIUM
+
+File: TM/Federal/indicators/wwwstatgovtm.yaml
+Record ID: wwwstatgovtm
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {'is_national': True, 'reason': 'indicators_not_nso', 'name': 'State Committee of Turkmenistan on Statistics (TürkmenStat)', 'catalog_type': 'Indicators catalog', 'owner': 'State Committee of Turkmenistan on Statistics (TürkmenStat)'}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (indicators_not_nso).
+
+
+=== SUMMARY BY ISSUE TYPE ===
+
+IS_NATIONAL_AGENCY_OR_TOPIC: 1 issue

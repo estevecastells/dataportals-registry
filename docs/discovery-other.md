@@ -230,6 +230,46 @@ Gravitee API Management developer portal. Open-source APIM used by public-sector
 | FOFA | `body="gravitee-logo-cyan.svg"` |
 | FOFA | `body="Copyright (C) 2015 The Gravitee team"` |
 
+## Google Apigee (`apigee`) {#apigee}
+
+Google Cloud Apigee API Management integrated developer portal. Docs: [cloud.google.com/apigee/docs](https://cloud.google.com/apigee/docs). `catalog_type` is **API Catalog**.
+
+**Signals:** the default portal domain is `https://<org>-<env>.apigee.io` (Apigee SaaS only; hybrid and private-cloud installs use custom domains, and many SaaS portals switch to a custom domain too). Classic Drupal-based Apigee Edge portals also exist.
+
+**Confirm:** a browsable list of published APIs behind an Apigee developer portal (default-domain host, or a custom domain whose page identifies the Apigee portal). Register each public developer portal. Do not add each API operation as its own catalog.
+
+| Tool | Query |
+|------|-------|
+| Google | `Apigee "developer portal" APIs` plus a sector or country name |
+| Censys | `dns.names: /\.apigee\.io$/` |
+| FOFA | `host=".apigee.io"` |
+
+## Kong Gateway (`kong`) {#kong}
+
+Kong API gateway developer portal — self-hosted (Kong Enterprise portal served by the gateway) or Kong Konnect Dev Portal. Product: [konghq.com](https://konghq.com/products/kong-gateway), portal docs: [developer.konghq.com/dev-portal](https://developer.konghq.com/dev-portal/). `catalog_type` is **API Catalog**.
+
+**Signals:** Konnect assigns an auto-generated portal domain; most operators then set a custom FQDN (CNAME to the Konnect portal URL), so there is **no fixed hostname suffix to search on**. Self-hosted Enterprise portals have no fixed domain either.
+
+**Confirm:** the page identifies itself as a Kong (Konnect) Dev Portal with a browsable API catalog. Register each public developer portal. Do not add each API operation as its own catalog.
+
+| Tool | Query |
+|------|-------|
+| Google | `"Kong Dev Portal" OR "Kong Developer Portal" APIs` plus a sector or country name |
+| Google | `site:developer.konghq.com OR "dev portal" Konnect published APIs` |
+
+## Tyk API Gateway (`tyk`) {#tyk}
+
+Tyk API gateway and dashboard with its developer portal. Product: [tyk.io](https://tyk.io), portal docs: [tyk.io/docs/tyk-developer-portal](https://tyk.io/docs/tyk-developer-portal/). `catalog_type` is **API Catalog**.
+
+**Signals:** the self-hosted portal is served by the Tyk Dashboard at `<dashboard-host>/portal` by default; operators usually set a dedicated portal hostname ("Set your portal domain" in the Dashboard). The Enterprise Developer Portal is a separate application with its own hostname. No fixed domain suffix.
+
+**Confirm:** the page identifies itself as a Tyk developer portal with a catalogued API list. Register each public developer portal. Do not add each API operation as its own catalog.
+
+| Tool | Query |
+|------|-------|
+| Google | `"Tyk Developer Portal" APIs` |
+| Google | `"powered by Tyk" OR "Tyk portal" API catalog` |
+
 ## Data marketplaces (`marketplace/`)
 
 Commercial markets that sell or license datasets. Access is often `restricted`.

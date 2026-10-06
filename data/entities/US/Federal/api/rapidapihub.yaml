@@ -1,0 +1,55 @@
+access_mode:
+- open
+- restricted
+api: false
+api_status: uncertain
+catalog_type: API Catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    level: 20
+    macroregion:
+      id: '021'
+      name: Northern America
+description: The RapidAPI Hub marketplace directory where thousands of APIs across
+  categories can be browsed with docs, pricing and interactive testing. Freeware,
+  freemium and paid API subscriptions; listing is public, using the APIs requires
+  RapidAPI account signup.
+id: rapidapihub
+langs:
+- id: EN
+  name: English
+link: https://rapidapi.com/hub
+name: RapidAPI Hub
+owner:
+  link: https://rapidapi.com
+  location:
+    country:
+      id: US
+      name: United States
+    level: 20
+  name: RapidAPI, Inc.
+  type: Business
+properties:
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- APIs
+- API marketplace
+- developer resources
+- api directory
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: ECON
+  name: Economy and finance
+  type: eudatatheme
+uid: cdi00013781

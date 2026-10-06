@@ -1,0 +1,67 @@
+category: Open data portal
+subtype: managed_saas_service
+datatypes:
+  datasets: 'Yes'
+  fields: 'No'
+  organizations: 'Yes'
+  resources: 'No'
+  topics: 'Yes'
+has_api: 'Yes'
+has_bulk: 'No'
+id: apigee
+name: Apigee API Management
+website: https://cloud.google.com/apigee
+description: Google Cloud Apigee API Management developer portal. Each organization
+  can publish an integrated developer portal listing APIs with documentation,
+  OpenAPI definitions and app signup. Catalog records use catalog_type API Catalog.
+  The software category is Open data portal because the software schema has no
+  API Catalog category. Register each public developer portal, not each API
+  operation.
+owner:
+  name: Google
+  location:
+    country:
+      id: US
+      name: United States
+logo_url: https://cloud.google.com/favicon.ico
+metadata_support:
+  ckan_api: 'No'
+  csw: 'No'
+  custom_api: 'Yes'
+  dcat: 'No'
+  dublin_core: 'No'
+  iso19115: 'No'
+  oai-pmh: 'No'
+  ogcrecords: 'No'
+  openaire: 'No'
+  openapi: 'Yes'
+  opensearch: 'No'
+  rdf_sparql: 'No'
+  schema-org: 'No'
+  sdmx: 'No'
+  stac: 'No'
+  swordapi: 'No'
+  wcs: 'No'
+  wfs: 'No'
+  wms: 'No'
+pid_support:
+  has_doi: 'No'
+  persistent_dataset_url: 'Yes'
+rights_management:
+  licensing_type: Per item
+  supports_licenses: 'No'
+storage_type: Structured
+type: Software
+documentation_url: https://cloud.google.com/apigee/docs
+license:
+  type: Proprietary
+  url: https://cloud.google.com/apigee
+export_formats:
+- JSON
+- OpenAPI
+capabilities:
+- Developer portal API list
+- OpenAPI documentation
+- App registration and API keys
+- OAuth 2.0
+last_updated: '2026-10-05T00:00:00Z'

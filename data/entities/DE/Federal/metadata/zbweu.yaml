@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: true
+api_status: active
+catalog_type: Metadata catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+description: Skosmos instance of ZBW publishing economics classifications and thesauri
+  such as STW and TheSoz as linked data.
+id: zbweu
+langs:
+- id: DE
+  name: German
+- id: EN
+  name: English
+link: https://zbw.eu/beta/skosmos
+name: Skosmos
+owner:
+  link: https://www.zbw.eu
+  location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+  name: Leibniz Information Centre for Economics (ZBW)
+  type: Academy
+software:
+  id: skosmos
+  name: Skosmos
+status: active
+endpoints:
+- type: skosmos:rest
+  url: https://zbw.eu/beta/skosmos/rest/v1/vocabularies?lang=en
+tags:
+- vocabulary
+- thesaurus
+- terminology
+- linked data
+- SKOS
+topics:
+- id: EDUC
+  name: Education, culture and sport
+  type: eudatatheme
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+uid: cdi00013772

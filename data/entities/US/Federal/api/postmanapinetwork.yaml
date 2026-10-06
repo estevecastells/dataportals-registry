@@ -1,0 +1,51 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: API Catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    level: 20
+    macroregion:
+      id: '021'
+      name: Northern America
+description: Postman Public API Network, the public directory of the Postman platform.
+  Thousands of public workspaces publish API collections, documentation, mock servers
+  and environments organised by category and publisher; browsing is open, workspace
+  editing requires a Postman account.
+id: postmanapinetwork
+langs:
+- id: EN
+  name: English
+link: https://www.postman.com/explore
+name: Postman Public API Network
+owner:
+  link: https://www.postman.com
+  location:
+    country:
+      id: US
+      name: United States
+    level: 20
+  name: Postman, Inc.
+  type: Business
+properties:
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- APIs
+- developer resources
+- api directory
+- workspaces
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+uid: cdi00013780

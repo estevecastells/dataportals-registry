@@ -1,0 +1,51 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Metadata catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: NL
+      name: Netherlands
+    level: 20
+    macroregion:
+      id: '528'
+      name: Western Europe
+description: The CLARIN Concept Registry assigns persistent identifiers to concepts
+  used in the documentation of language resources, providing searchable SKOS concept
+  definitions for the European language research infrastructure.
+id: conceptsclarineu
+langs:
+- id: EN
+  name: English
+link: https://concepts.clarin.eu/
+name: CLARIN Concept Registry
+owner:
+  link: https://www.clarin.eu
+  location:
+    country:
+      id: NL
+      name: Netherlands
+    level: 20
+  name: CLARIN ERIC
+  type: International
+software:
+  id: skosmos
+  name: Skosmos
+status: active
+tags:
+- vocabulary
+- linguistics
+- persistent identifiers
+- language resources
+topics:
+- id: EDUC
+  name: Education, culture and sport
+  type: eudatatheme
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+uid: cdi00013767

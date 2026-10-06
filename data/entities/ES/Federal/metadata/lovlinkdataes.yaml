@@ -1,0 +1,48 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Metadata catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: ES
+      name: Spain
+    level: 20
+    macroregion:
+      id: '039'
+      name: Southern Europe
+description: LOV is a registry of RDFS/OWL/SKOS vocabularies published as linked data
+  on the web, searchable by prefix, domain and creator, maintained by the Ontology
+  Engineering Group at UPM.
+id: lovlinkdataes
+langs:
+- id: EN
+  name: English
+link: https://lov.linkeddata.es/
+name: Linked Open Vocabularies (LOV)
+owner:
+  link: http://www.oeg-upm.net
+  location:
+    country:
+      id: ES
+      name: Spain
+    level: 20
+  name: Ontology Engineering Group, Universidad Politécnica de Madrid
+  type: Academy
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- ontology
+- vocabulary
+- linked data
+- semantic web
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+uid: cdi00013765

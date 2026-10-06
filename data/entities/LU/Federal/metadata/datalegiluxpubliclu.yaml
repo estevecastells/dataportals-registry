@@ -1,0 +1,54 @@
+access_mode:
+- open
+api: true
+api_status: active
+catalog_type: Metadata catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: LU
+      name: Luxembourg
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+description: Skosmos service of the Luxembourg central legislation service publishing
+  official legal vocabularies and classifications as linked data.
+id: datalegiluxpubliclu
+langs:
+- id: FR
+  name: French
+link: https://data.legilux.public.lu/vocabulaires
+name: Service central de législation
+owner:
+  link: https://legilux.public.lu
+  location:
+    country:
+      id: LU
+      name: Luxembourg
+    level: 20
+  name: Service central de legislation
+  type: Central government
+software:
+  id: skosmos
+  name: Skosmos
+status: active
+endpoints:
+- type: skosmos:rest
+  url: https://data.legilux.public.lu/vocabulaires/rest/v1/vocabularies?lang=en
+tags:
+- vocabulary
+- thesaurus
+- terminology
+- linked data
+- SKOS
+topics:
+- id: EDUC
+  name: Education, culture and sport
+  type: eudatatheme
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+uid: cdi00013775

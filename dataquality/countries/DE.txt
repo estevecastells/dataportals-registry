@@ -1,9 +1,9 @@
 DATA QUALITY REPORT - COUNTRY: DE
 ================================================================================
-Generated: 2026-10-04 12:31:49
+Generated: 2026-10-06 09:14:05
 Country Code: DE
-Total Records with Issues: 19
-Total Issues Found: 21
+Total Records with Issues: 20
+Total Issues Found: 22
 
 === ISSUES BY TYPE ===
 
@@ -39,6 +39,17 @@ Issue: MISSING_TOPICS
 Field: topics
 Current Value: []
 Suggested Action: Add relevant topics based on catalog_type and description
+
+[PLACEHOLDER_TITLE]
+Count: 1
+Priority: MEDIUM
+
+File: DE/Federal/marketplace/up42com.yaml
+Record ID: up42com
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: UP42
+Suggested Action: Expand the portal title to be more descriptive than a few characters.
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL]
 Count: 4
@@ -200,6 +211,7 @@ Suggested Action: Add at least one endpoint because software.id='wordpress' is m
 MISSING_OWNER_LINK: 1 issue
 MISSING_TAGS: 1 issue
 MISSING_TOPICS: 1 issue
+PLACEHOLDER_TITLE: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL: 4 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DSPACE: 2 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_KADI4MAT: 1 issue

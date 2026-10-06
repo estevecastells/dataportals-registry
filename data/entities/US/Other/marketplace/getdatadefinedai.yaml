@@ -1,8 +1,9 @@
 access_mode:
 - open
+- restricted
 api: false
 api_status: uncertain
-catalog_type: Machine learning catalog
+catalog_type: Data marketplace
 content_types:
 - dataset
 coverage:

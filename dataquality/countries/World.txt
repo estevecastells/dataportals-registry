@@ -1,9 +1,9 @@
 DATA QUALITY REPORT - COUNTRY: World
 ================================================================================
-Generated: 2026-10-04 12:31:49
+Generated: 2026-10-06 09:14:05
 Country Code: World
-Total Records with Issues: 12
-Total Issues Found: 14
+Total Records with Issues: 14
+Total Issues Found: 17
 
 === ISSUES BY TYPE ===
 
@@ -39,6 +39,31 @@ Issue: MISSING_TOPICS
 Field: topics
 Current Value: []
 Suggested Action: Add relevant topics based on catalog_type and description
+
+[PLACEHOLDER_TITLE]
+Count: 3
+Priority: MEDIUM
+
+File: World/api/apisguru.yaml
+Record ID: apisguru
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: APIs.guru
+Suggested Action: Use a human-readable portal title instead of a URL/domain string.
+
+File: World/api/apisguru.yaml
+Record ID: apisguru
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: APIs.guru
+Suggested Action: Replace domain/path-based title with a descriptive portal name.
+
+File: DE/Federal/marketplace/up42com.yaml
+Record ID: up42com
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: UP42
+Suggested Action: Expand the portal title to be more descriptive than a few characters.
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL]
 Count: 5
@@ -139,6 +164,7 @@ Suggested Action: Tag is too short (less than 3 characters), consider removing o
 MISSING_DESCRIPTION: 1 issue
 MISSING_TAGS: 1 issue
 MISSING_TOPICS: 1 issue
+PLACEHOLDER_TITLE: 3 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL: 5 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_INVENIO: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS: 4 issues

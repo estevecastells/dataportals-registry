@@ -25,6 +25,7 @@ Adding a software definition: [software-taxonomy.md](software-taxonomy.md). Agen
 | `andino` | opendata | [discovery-opendata](discovery-opendata.md#andino) | [harvest-opendata](harvest-opendata.md#andino) | yes |
 | `aodn` | scientific | [discovery-scientific](discovery-scientific.md#aodn) | [harvest-earthdata](harvest-earthdata.md#aodn) | — |
 | `aphia` | scientific | [discovery-scientific-domain](discovery-scientific-domain.md#aphia) | [harvest-scientific-domain](harvest-scientific-domain.md#aphia) | — |
+| `apigee` | opendata | [discovery-other](discovery-other.md#apigee) | [harvest-other](harvest-other.md#apigee) | — |
 | `arcgisdashboards` | geo | [discovery-geoportals-sdi](discovery-geoportals-sdi.md#arcgisdashboards) | [harvest-geoportals](harvest-geoportals.md#arcgisdashboards) | — |
 | `arcgishub` | geo | [discovery-geoportals-sdi](discovery-geoportals-sdi.md#arcgishub) | [harvest-geoportals](harvest-geoportals.md#arcgishub) | yes |
 | `arcgisserver` | geo | [discovery-geoportals-sdi](discovery-geoportals-sdi.md#arcgisserver) | [harvest-geoportals](harvest-geoportals.md#arcgisserver) | yes |
@@ -435,6 +436,7 @@ Adding a software definition: [software-taxonomy.md](software-taxonomy.md). Agen
 | `klimadashboardmuenster` | indicators | [discovery-indicators](discovery-indicators.md#klimadashboardmuenster) | [harvest-indicators](harvest-indicators.md#klimadashboardmuenster) | — |
 | `knoema` | indicators | [discovery-indicators](discovery-indicators.md#knoema) | [harvest-indicators](harvest-indicators.md#knoema) | yes |
 | `kommunekart` | geo | [discovery-geoportals-viewers](discovery-geoportals-viewers.md#kommunekart) | [harvest-viewers](harvest-viewers.md#kommunekart) | — |
+| `kong` | opendata | [discovery-other](discovery-other.md#kong) | [harvest-other](harvest-other.md#kong) | — |
 | `koordinates` | geo | [discovery-geoportals-sdi](discovery-geoportals-sdi.md#koordinates) | [harvest-viewers](harvest-viewers.md#koordinates) | yes |
 | `korp` | scientific | [discovery-scientific-domain](discovery-scientific-domain.md#korp) | [harvest-scientific-domain](harvest-scientific-domain.md#korp) | — |
 | `kortinfo` | geo | [discovery-geoportals-viewers](discovery-geoportals-viewers.md#kortinfo) | [harvest-viewers](harvest-viewers.md#kortinfo) | — |
@@ -680,6 +682,7 @@ Adding a software definition: [software-taxonomy.md](software-taxonomy.md). Agen
 | `sismer` | scientific | [discovery-scientific-domain](discovery-scientific-domain.md#sismer) | [harvest-scientific-domain](harvest-scientific-domain.md#sismer) | — |
 | `sitmun` | geo | [discovery-geoportals-viewers](discovery-geoportals-viewers.md#sitmun) | [harvest-geoportals](harvest-geoportals.md#sitmun) | — |
 | `sitwebgis` | geo | [discovery-geoportals-viewers](discovery-geoportals-viewers.md#sitwebgis) | [harvest-viewers](harvest-viewers.md#sitwebgis) | — |
+| `skosmos` | metadata | [discovery-metadata](discovery-metadata.md#skosmos) | [harvest-metadata](harvest-metadata.md#skosmos) | yes |
 | `smartfindersdi` | geo | [discovery-geoportals-viewers](discovery-geoportals-viewers.md#smartfindersdi) | [harvest-viewers](harvest-viewers.md#smartfindersdi) | — |
 | `smartgis` | geo | [discovery-geoportals-viewers](discovery-geoportals-viewers.md#smartgis) | [harvest-viewers](harvest-viewers.md#smartgis) | — |
 | `smartmap` | geo | [discovery-geoportals-viewers](discovery-geoportals-viewers.md#smartmap) | [harvest-viewers](harvest-viewers.md#smartmap) | — |
@@ -741,6 +744,7 @@ Adding a software definition: [software-taxonomy.md](software-taxonomy.md). Agen
 | `tripal` | scientific | [discovery-scientific-domain](discovery-scientific-domain.md#tripal) | [harvest-scientific-domain](harvest-scientific-domain.md#tripal) | yes |
 | `triplydb` | opendata | [discovery-opendata](discovery-opendata.md#triplydb) | [harvest-opendata](harvest-opendata.md#triplydb) | yes |
 | `twgovopendata` | opendata | [discovery-opendata](discovery-opendata.md#twgovopendata) | [harvest-opendata](harvest-opendata.md#twgovopendata) | — |
+| `tyk` | opendata | [discovery-other](discovery-other.md#tyk) | [harvest-other](harvest-other.md#tyk) | — |
 | `tykyopendata` | opendata | [discovery-opendata](discovery-opendata.md#tykyopendata) | [harvest-opendata](harvest-opendata.md#tykyopendata) | — |
 | `typo3` | indicators | [discovery-indicators](discovery-indicators.md#typo3) | [harvest-indicators](harvest-indicators.md#typo3) | — |
 | `ucscgenomebrowser` | scientific | [discovery-scientific-domain](discovery-scientific-domain.md#ucscgenomebrowser) | [harvest-scientific-domain](harvest-scientific-domain.md#ucscgenomebrowser) | yes |

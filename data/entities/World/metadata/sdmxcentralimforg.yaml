@@ -65,3 +65,9 @@ endpoints:
 - type: sdmx:dataflows
   url: https://sdmxcentral.imf.org/ws/public/sdmxapi/rest/dataflow/all/all/latest?detail=allstubs
   version: '2.1'
+- type: sdmx-rest
+  url: https://api.imf.org/external/sdmx/2.1
+  version: '2.1'
+- type: sdmx-rest
+  url: https://sdmxcentral.imf.org/sdmx/v2/structure/dataflow/all/all/latest
+  version: '3.0'

@@ -139,6 +139,21 @@ Checked 25 September 2026. `body="Observing Systems Capability Analysis and Revi
 | FOFA | `host=".oscar.wmo.int"` |
 | crt.sh | `%.oscar.wmo.int` |
 
+## Skosmos (`skosmos`) {#skosmos}
+
+Open-source SKOS vocabulary browser and REST service from the National Library of Finland. Product home: [skosmos.org](https://skosmos.org/) — the home page lists live installations. Code: [NatLibFi/Skosmos](https://github.com/NatLibFi/Skosmos).
+
+**Signals:** REST at `/rest/v1/`; language paths such as `/en/`, `/fr/` on the vocabulary index; footer “Powered by Skosmos”; hosts at national libraries, archives and terminology centres; thesaurus front doors (AGROVOC, NALT style).
+
+**Confirm:** GET `{base}/rest/v1/vocabularies?lang=en` and expect a JSON vocabulary list (without `lang` the endpoint answers `400 lang parameter missing`). One deployment = one catalog; do not register each vocabulary deep link. A KOS registry not on the Skosmos stack (BARTOC's own UI, EU Vocabularies, FAIRsharing) stays `custom`; Finto is the reference Skosmos deployment by the product team.
+
+| Tool | Query |
+|------|-------|
+| Google | `"Powered by Skosmos" -site:github.com` |
+| Censys | `web.endpoints.http.body: "rest/v1/vocabularies"` |
+| FOFA | `body="Powered by Skosmos"` |
+| FOFA | `body="rest/v1/vocabularies" \|\| title="Skosmos"` |
+
 ## Related
 
 - [discovery.md](discovery.md)

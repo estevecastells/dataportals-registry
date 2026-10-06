@@ -1,0 +1,55 @@
+access_mode:
+- open
+api: true
+api_status: active
+catalog_type: API Catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: World
+      name: World
+    level: 20
+    macroregion:
+      id: '001'
+      name: World
+description: Community directory of OpenAPI/Swagger definitions for public REST
+  APIs, self-described as the "Wikipedia for Web APIs". Lists API specs by provider
+  with versions, logo, documentation and spec URLs; the full catalogue is exposed
+  through a public list API and mirrored on GitHub.
+endpoints:
+- type: rest
+  url: https://api.apis.guru/v2/list.json
+id: apisguru
+langs:
+- id: EN
+  name: English
+link: https://apis.guru/
+name: APIs.guru
+owner:
+  link: https://github.com/APIs-guru
+  location:
+    country:
+      id: World
+      name: World
+    level: 20
+  name: APIs-guru project
+  type: Community
+properties:
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- APIs
+- OpenAPI
+- Swagger
+- developer resources
+- api directory
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+uid: cdi00013782

@@ -1,0 +1,51 @@
+access_mode:
+- open
+- restricted
+api: false
+api_status: uncertain
+catalog_type: Data marketplace
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: CN
+      name: China
+    level: 20
+    macroregion:
+      id: '030'
+      name: Eastern Asia
+description: Guiyang Big Data Exchange (贵阳大数据交易所), China's first data trading venue
+  (est. 2015), listing data products with negotiated and evaluated pricing.
+id: wwwgzdexcomcn
+langs:
+- id: ZH
+  name: Chinese
+link: https://www.gzdex.com.cn/
+name: Guiyang Big Data Exchange
+owner:
+  link: https://www.gzdex.com.cn/
+  location:
+    country:
+      id: CN
+      name: China
+    level: 20
+  name: Guiyang Big Data Exchange
+  type: Business
+properties:
+  has_doi: false
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- marketplace
+- data marketplace
+- China
+- Guiyang
+topics:
+- id: ECON
+  name: Economy and finance
+  type: eudatatheme
+uid: cdi00013791

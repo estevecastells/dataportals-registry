@@ -20,6 +20,8 @@ description: BARTOC is a registry of knowledge organization systems (thesauri, o
 endpoints:
 - type: rest
   url: https://bartoc.org/api/
+- type: skosmos:rest
+  url: https://skosmos.bartoc.org/rest/v1/vocabularies?lang=en
 id: bartocorg
 identifiers:
 - id: openaire

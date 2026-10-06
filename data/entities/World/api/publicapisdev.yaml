@@ -1,0 +1,51 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: API Catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: World
+      name: World
+    level: 20
+    macroregion:
+      id: '001'
+      name: World
+description: Collaborative list of 1400+ public APIs for developers, organised in
+  about 47 categories from Animals to Weather. Community-maintained fork of the
+  classic public-apis list, rendered as a searchable static site backed by a GitHub
+  repository.
+id: publicapisdev
+langs:
+- id: EN
+  name: English
+link: https://publicapis.dev
+name: Public APIs directory
+owner:
+  link: https://github.com/marcelscruz/public-apis
+  location:
+    country:
+      id: World
+      name: World
+    level: 20
+  name: public-apis community (Marcel Cruz)
+  type: Community
+properties:
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- APIs
+- public APIs
+- developer resources
+- api directory
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+uid: cdi00013783
