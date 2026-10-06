@@ -1,0 +1,53 @@
+access_mode:
+- open
+api: true
+api_status: active
+catalog_type: Open data portal
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: GB
+      name: United Kingdom
+    level: 20
+    macroregion:
+      id: '154'
+      name: Northern Europe
+description: Analysis-ready, openly licensed UK open datasets (prescribing, MOT tests,
+  road safety) in CSV, ORC and Parquet with bulk downloads, an OData API and the Data
+  Baking service for machine-learning pipelines.
+endpoints:
+- type: index
+  url: https://www.opendatablend.io/datasets
+id: opendatablendio
+langs:
+- id: EN
+  name: English
+link: https://www.opendatablend.io/datasets
+name: Open Data Blend
+owner:
+  link: https://www.nimblelearn.com
+  location:
+    country:
+      id: GB
+      name: United Kingdom
+  name: Nimble Learn Ltd
+  type: Business
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- open data
+- analysis-ready data
+- United Kingdom
+- machine learning
+topics:
+- id: TRAN
+  name: Transport
+  type: eudatatheme
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+uid: cdi00013804

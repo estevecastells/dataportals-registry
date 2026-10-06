@@ -1,0 +1,48 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Machine learning catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    level: 20
+    macroregion:
+      id: '021'
+      name: Northern America
+description: 'Community benchmark for dataset experiments on multimodal and language
+  models (DataComp, DataComp-LM, DataCompDR): curated dataset releases, leaderboards
+  and challenge suites.'
+id: wwwdatacompai
+langs:
+- id: EN
+  name: English
+link: https://www.datacomp.ai
+name: DataComp
+owner:
+  link: https://www.datacomp.ai
+  location:
+    country:
+      id: US
+      name: United States
+  name: DataComp research consortium
+  type: Academy
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- machine learning
+- datasets
+- benchmarks
+- foundation models
+- research data
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+uid: cdi00013801

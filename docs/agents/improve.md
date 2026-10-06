@@ -2,7 +2,7 @@
 
 How to grow coverage and quality, based on **~3,900 Cursor sessions** (November 2025–8 September 2026) and the releases they produced. This is the *what to work on next* guide. Mechanics live in [discover.md](discover.md), [contribute.md](contribute.md), [scheduled.md](../scheduled.md), and [metadata-quality.md](../metadata-quality.md). Hunt-pattern table: [discovery.md](../discovery.md#hunt-patterns).
 
-Working tree (6 October 2026): **43,313** verified catalogs, **33** scheduled YAML, **789** software IDs, **225** country folders. Published snapshot: v1.25.0 (43,313 catalogs, 33 scheduled, 789 software). Rebuild exports when YAML and `data/datasets/` diverge.
+Working tree (6 October 2026): **43,324** verified catalogs, **33** scheduled YAML, **789** software IDs, **225** country folders. Published snapshot: v1.25.0 (43,313 catalogs, 33 scheduled, 789 software). Rebuild exports when YAML and `data/datasets/` diverge.
 
 ## What those sessions actually did
 
@@ -159,7 +159,7 @@ Re-check counts in DuckDB (and YAML if exports lag) before starting. India/Niger
 | 5 | Custom retag on scientific + indicators | `custom` is 40% of scientific and 53% of indicators | Hostname/path clusters with a named product; one-off `.gov` roots stay `custom` |
 | 6 | Native NSO / health / education leftovers | Africa and some subnational explorers remain | PxWeb / .Stat / STATcube / DHIS2 / TabNet; skip IMF NSDP already present |
 | 7 | National harvest-source leftovers | Other national portals still have unmatched harvest URLs | Harvest/organisations API → probe origin UI |
-| 8 | Thin types | Microdata 298, metadata 137, API 51, ML 71, marketplace 46 | IHSN leftover, government API directories, FAIR Data Point |
+| 8 | Thin types | Microdata 326, metadata 172, API 113, ML 100, marketplace 46 | IHSN leftover, government API directories, FAIR Data Point |
 | 9 | India remaining depth | Population × empty states/cities after the first passes | State SDI, city CKAN, dataset-bearing university IRs. Duplicate-check `*.data.gov.in` |
 | 10 | Country reviews after bulk adds | Reviews stopped in late August; World/NL/GB/IT/RO/AT gained thousands of rows | `Review records at data/entities/{CC}` |
 | — | More US/EU commune ArcGIS or e-mapa-class GIS | Geo is 58% of the registry; PL/CZ/IT/NL/RO Map2Web filled | Only if a named gallery remains unmatched |

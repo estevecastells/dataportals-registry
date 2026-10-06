@@ -1,0 +1,46 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Machine learning catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    level: 20
+    macroregion:
+      id: '021'
+      name: Northern America
+description: Collection of pre-trained, state-of-the-art models in the ONNX format
+  with downloadable weights, test data and notebooks.
+id: onnxmodels
+langs:
+- id: EN
+  name: English
+link: https://github.com/onnx/models
+name: ONNX Model Zoo
+owner:
+  link: https://onnx.ai
+  location:
+    country:
+      id: US
+      name: United States
+  name: ONNX (Linux Foundation)
+  type: Community
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- machine learning
+- models
+- deep learning
+- interoperability
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+uid: cdi00013799

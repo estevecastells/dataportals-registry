@@ -2,7 +2,7 @@ access_mode:
 - open
 api: false
 api_status: uncertain
-catalog_type: Data search engine
+catalog_type: Machine learning catalog
 content_types:
 - dataset
 coverage:
@@ -45,7 +45,7 @@ software:
   name: Custom software
 status: active
 tags:
-- search
+- machine learning
 - linguistics
 - language resources
 - nlp

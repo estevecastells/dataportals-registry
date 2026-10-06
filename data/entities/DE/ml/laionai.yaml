@@ -1,0 +1,48 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Machine learning catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+description: Non-profit organization publishing web-scale open multimodal datasets
+  (LAION-5B, LAION-400M, LAION-COCO) with search portals and tools used for training
+  foundation models.
+id: laionai
+langs:
+- id: EN
+  name: English
+link: https://laion.ai
+name: LAION
+owner:
+  link: https://laion.ai/about
+  location:
+    country:
+      id: DE
+      name: Germany
+  name: LAION e.V.
+  type: Community
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- machine learning
+- datasets
+- multimodal
+- foundation models
+- research data
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+uid: cdi00013797

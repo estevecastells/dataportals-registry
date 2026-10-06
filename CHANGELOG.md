@@ -5,6 +5,26 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.26.0] - 2026-10-06
+
+**GitHub Release**: [v1.26.0](https://github.com/datenoio/dataportals-registry/releases/tag/v1.26.0) - Published October 6, 2026
+
+### Added
+
+- **11 net new catalog entries** since v1.25.0; registry source now **43,324** entities (**33** scheduled) across **225** country/territory folders. Software stays **789** platforms.
+- **9 machine learning catalogs** from the ML coverage-gap program; the ML catalog type now has **100** records (was 90 at v1.25.0). Global platforms: LAION (DE, open web-scale multimodal datasets), DataComp (US, dataset benchmark program), Dynabench (US, Meta AI dynamic benchmarking), PyTorch Hub (US), ONNX Model Zoo (US), OpenVINO Model Zoo (US, Intel), Replicate (US, public model catalog). National AI registry: YZE Veri Platformu (TR, TÜBİTAK BİLGEM AI Institute open AI data platform — TCP-blocked from non-TR egress, verified via alternate fetch channel). Instance hunt: CodaLab LISN (FR, Université Paris-Saclay) — EvalAI/Codabench candidate lists probed to exhaustion (dead hosts, demo tenants, project landing pages rejected); grand-challenge hunt logged blocked pending FOFA/Censys keys.
+- **1 metadata registry**: NSW Government Metadata Registry (`metadata.nsw.gov.au`, AU-NSW, Aristotle Metadata Registry with live `/api/v4/` endpoint) from the Aristotle vendor case-studies pass; the case-study list is exhausted (Potential(x) already registered, no Ireland DHLGH URL published).
+- **1 open data portal**: Open Data Blend (GB, Nimble Learn) — analysis-ready UK datasets with OData API, found while sweeping GB/CA/AU for ML geography gaps (no dedicated ML catalogs exist there; UK Data Service and data.csiro.au already registered).
+
+### Changed
+
+- **European Language Grid Catalogue** re-typed from Data search engine to **Machine learning catalog** and moved into `EU/Federal/ml/` (it hosts language data, models and tools rather than searching external catalogs).
+- Skipped as already covered: TensorFlow Hub (redirects to kaggle.com/models — Kaggle entry), Google Cloud Public Datasets (same host as the Google Cloud Marketplace Datasets record). Rejected: Cisco LRAC Codabench (demo/test tenant), codalab.org (project landing page), Graviti OpenDatasets (unreachable), OpenBayes (compute platform, no public catalog), kms.metadata.works (search behind auth redirect).
+- Thin-type triage: IHSN/nada vendor list, FAIR Data Point index, api.gov.{tld} sweep, skosmos, and vocabulary-registry hunts all completed within the prior 14-day window (`hunt.py prior` blocks reruns); mwmb (MetadataWorks) tenant enumeration logged blocked — crt.sh and Cert Spotter rejected requests and the federated exchange exposes no public tenant list.
+- Quality fixes on the new records: endpoints/API consistency on PyTorch Hub, YZE Veri Platformu and Open Data Blend; owner location level on YZE; coverage macroregion, Aristotle v4 API endpoint and a descriptive title on the NSW registry record.
+- Rebuild dataset exports to match source YAML: **43,324** catalogs, **33** scheduled, **789** software (`full.jsonl`, `full.parquet`, and the DuckDB `catalogs` table: **43,357** rows incl. scheduled).
+- Quality gate: **0** CRITICAL and **0** IMPORTANT across **43,324** records; **234** MEDIUM and **41** LOW findings (expected-endpoint probe gaps plus title/is_national heuristic noise).
+
 ## [1.25.0] - 2026-10-06
 
 **GitHub Release**: [v1.25.0](https://github.com/datenoio/dataportals-registry/releases/tag/v1.25.0) - Published October 6, 2026
