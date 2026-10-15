@@ -2960,6 +2960,13 @@ TERGIS_URLMAP = [
     _json_probe("/themes.json", "qwc2:layers"),
 ]
 
+NSPDPLATFORM_URLMAP = [
+    # NSPD Platform (ФГИС ЕЦП НСПД / Геопортал СНГ): first entry id must equal
+    # the software id so hunt.py probe uses it as the fingerprint URL.
+    _json_probe("/api/geoportal/v1/baselayers", "nspdplatform"),
+    _json_probe("/api/geoportal/v2/search/geoportal?query=test", "nspd:search"),
+]
+
 AUBREY_URLMAP = [
     _xml_probe("/oai/?verb=Identify", "oaipmh20", "2.0"),
     _json_probe("/api/", "custom_api"),
@@ -3322,6 +3329,7 @@ DRAFT_CATALOGS_URLMAP = {
     "clld": CLLD_URLMAP,
     "minerva": MINERVA_URLMAP,
     "tergis": TERGIS_URLMAP,
+    "nspdplatform": NSPDPLATFORM_URLMAP,
     "aubrey": AUBREY_URLMAP,
     "geonature": GEONATURE_URLMAP,
     "geocortex": GEOCORTEX_URLMAP,

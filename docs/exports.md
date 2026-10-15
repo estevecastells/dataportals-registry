@@ -20,11 +20,11 @@ Do not mix these three numbers. Exports lag YAML until `python scripts/builder.p
 
 | Layer | Date | Catalogs | Scheduled | Software | Countries |
 |-------|------|----------|-----------|----------|-----------|
-| **Published GitHub snapshot** | v1.25.0, 6 October 2026 | **43,313** | **33** | **789** | **225** |
-| **Working-tree exports** | last `build` in this tree (6 October 2026) | **43,313** (`catalogs.jsonl.zst`) | **33** | **789** | **225** |
-| **Current source YAML** | 6 October 2026 | **43,313** (`data/entities/`) | **33** (`data/scheduled/`) | **789** | **225** |
+| **Published GitHub snapshot** | v1.27.0, 15 October 2026 | **43,614** | **0** | **790** | **225** |
+| **Working-tree exports** | last `build` in this tree (15 October 2026) | **43,614** (`catalogs.jsonl.zst`) | **0** | **790** | **225** |
+| **Current source YAML** | 15 October 2026 | **43,614** (`data/entities/`) | **0** (`data/scheduled/`) | **790** | **225** |
 
-Working-tree exports match entity YAML (**43,313** catalogs, **33** scheduled, **789** software). `full.jsonl` is **43,346** (entities plus the scheduled records). Canonical software IDs: `data/reference/software_ids.yaml`.
+Working-tree exports match entity YAML (**43,614** catalogs, **0** scheduled, **790** software). `full.jsonl` is **43,614** (entities plus the scheduled records). Canonical software IDs: `data/reference/software_ids.yaml`.
 
 Filter by catalog type or software in DuckDB / Parquet (see [query-examples.md](query-examples.md)); there are no pre-sliced `bytype/` or `bysoftware/` dumps.
 

@@ -1,0 +1,71 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Datasets list
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: KZ
+      name: Kazakhstan
+    level: 20
+    macroregion:
+      id: '143'
+      name: Central Asia
+description: Public registry of state entrepreneurship objects in Kazakhstan (about
+  6,000 state enterprises and organizations) filterable by region, organizational-legal
+  form, ownership type and disposition status, with summary statistics tables. Maintained
+  by the state property registry operator JSC Information and Accounting Center.
+id: sgpeqazynakz
+langs:
+- id: KZ
+  name: Kazakh
+- id: RU
+  name: Russian
+link: https://sgp.e-qazyna.kz/
+name: State Entrepreneurship Objects Registry (SGP)
+owner:
+  link: https://www.iuc.kz
+  location:
+    country:
+      id: KZ
+      name: Kazakhstan
+    level: 20
+  name: JSC Information and Accounting Center
+  type: Business
+properties:
+  has_doi: false
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- state entrepreneurship
+- registry
+- state enterprises
+- state property
+- Kazakhstan
+topics:
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
+- id: ECON
+  name: Economy and finance
+  type: eudatatheme
+- id: Economy
+  name: Economy
+  type: iso19115
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013811

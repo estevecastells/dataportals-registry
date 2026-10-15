@@ -1,0 +1,60 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    macroregion:
+      id: '021'
+      name: Northern America
+    level: 30
+    subregion:
+      id: US-MN
+      name: Minnesota
+description: 'Minnesota Department of Education Report Card: enrollment, assessment, growth, graduation
+  and attendance indicators searchable by district and school.'
+id: rceducationmngov
+langs:
+- id: EN
+  name: English
+link: https://rc.education.mn.gov/
+name: Minnesota Report Card
+owner:
+  link: https://education.mn.gov/MDE/
+  location:
+    country:
+      id: US
+      name: United States
+    level: 30
+    subregion:
+      id: US-MN
+      name: Minnesota
+  name: Minnesota Department of Education
+  type: Regional government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- education
+- statistics
+- Minnesota
+- indicators
+topics:
+- id: EDUC
+  name: Education, culture and sport
+  type: eudatatheme
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013961

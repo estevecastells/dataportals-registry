@@ -1,0 +1,42 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: BD
+      name: Bangladesh
+    macroregion:
+      id: '034'
+      name: Southern Asia
+    level: 20
+description: 'Public health dashboard of Bangladesh''s Directorate General of Health
+  Services: routine live health data from more than 14,000 public facilities (DHIS2-based),
+  health workforce, SDG health tracker, UHC indicators, district situation analysis
+  and local health bulletins.'
+id: dashboarddghsgovbd
+langs:
+- id: EN
+  name: English
+link: https://dashboard.dghs.gov.bd/
+name: DGHS Health Dashboard
+owner:
+  link: https://dghs.gov.bd
+  location:
+    country:
+      id: BD
+      name: Bangladesh
+    level: 20
+  name: Directorate General of Health Services
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013972

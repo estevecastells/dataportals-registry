@@ -2,7 +2,7 @@
 
 How to grow coverage and quality, based on **~3,900 Cursor sessions** (November 2025–8 September 2026) and the releases they produced. This is the *what to work on next* guide. Mechanics live in [discover.md](discover.md), [contribute.md](contribute.md), [scheduled.md](../scheduled.md), and [metadata-quality.md](../metadata-quality.md). Hunt-pattern table: [discovery.md](../discovery.md#hunt-patterns).
 
-Working tree (6 October 2026): **43,324** verified catalogs, **33** scheduled YAML, **789** software IDs, **225** country folders. Published snapshot: v1.25.0 (43,313 catalogs, 33 scheduled, 789 software). Rebuild exports when YAML and `data/datasets/` diverge.
+Working tree (15 October 2026): **43,614** verified catalogs, **0** scheduled YAML, **790** software IDs, **225** country folders. Published snapshot: v1.27.0 (43,614 catalogs, 0 scheduled, 790 software). Rebuild exports when YAML and `data/datasets/` diverge.
 
 ## What those sessions actually did
 

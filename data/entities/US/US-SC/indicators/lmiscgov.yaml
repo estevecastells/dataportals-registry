@@ -1,0 +1,61 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    macroregion:
+      id: '021'
+      name: Northern America
+    level: 30
+    subregion:
+      id: US-SC
+      name: South Carolina
+description: 'South Carolina Department of Employment and Workforce LMI portal (lmi.sc.gov): Data Hub
+  with CES employment series, labor force, wages and unemployment statistics for the state and sub-state
+  areas.'
+id: lmiscgov
+langs:
+- id: EN
+  name: English
+link: https://lmi.sc.gov/
+name: South Carolina Labor Market Information
+owner:
+  link: https://dew.sc.gov/
+  location:
+    country:
+      id: US
+      name: United States
+    level: 30
+    subregion:
+      id: US-SC
+      name: South Carolina
+  name: South Carolina Department of Employment and Workforce
+  type: Regional government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- labor market
+- statistics
+- South Carolina
+- indicators
+topics:
+- id: ECON
+  name: Economy and finance
+  type: eudatatheme
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013963

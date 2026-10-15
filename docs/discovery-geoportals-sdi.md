@@ -2097,3 +2097,27 @@ Slovak national GeoICT platform of the Ministry of Environment (MŽP SR, ESPUS p
 | Censys | `web.endpoints.http.body: "api.geocloud.gov.sk"` |
 | FOFA | `host="geocloud.gov.sk"` |
 | FOFA | `body="VUE_APP_API_ENDPOINT_GP"` |
+
+## NSPD Platform (`nspdplatform`) {#nspdplatform}
+
+Closed-source geoportal stack of Russia's ФГИС ЕЦП НСПД (Rosreestr; built by BFT
+Holding with Rostelecom). React/Vite + OpenLayers SPA over Node.js microservices,
+deployed in Kubernetes. Known deployments: `nspd.gov.ru` (Russia NSDI, replaced
+pkk.rosreestr.ru in 2025) and the CIS geoportal `cisgeo.info` (more CIS states
+planned to connect from 2026). The legacy `nspd.rosreestr.gov.ru/geoserver` host
+is a plain GeoServer — keep `geoserver` there, not this id.
+
+**Signals:** `/api/geoportal/v1/baselayers` (JSON array with `systemInfo`/`groupedLayers`),
+`/api/aeggis/v{2..4}/{layer}/wmts|wms`, map URL params `baseLayerId` + `coordinate_x` +
+`active_layers`, `x-app-name: tileserver` header on tile responses. RU hosts often
+geo-block non-RU probing networks — confirm via the documented API endpoints or a
+RU-based check before discarding a timeout as dead.
+
+**Confirm:** GET `{host}/api/geoportal/v1/baselayers` returns the baselayers JSON array.
+
+| Tool | Query |
+|------|-------|
+| Google | `"/api/geoportal/v2/search/geoportal" -site:github.com` |
+| Censys | `services.http.response.body: "/api/aeggis/"` |
+| FOFA | `body="/api/aeggis/"` |
+| FOFA | `body="/api/geoportal/v1/baselayers"` |

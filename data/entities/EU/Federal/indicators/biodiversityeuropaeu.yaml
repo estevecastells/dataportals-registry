@@ -1,0 +1,64 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+- indicator
+coverage:
+- location:
+    country:
+      id: EU
+      name: European Union
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+description: Biodiversity Information System for Europe (BISE) of the European
+  Environment Agency. European reference gateway for data and knowledge on
+  biodiversity, including EU biodiversity indicators (protected areas and related
+  trends), nature reporting datasets such as Article 17 of the Habitats Directive
+  with CSV downloads, and country profiles.
+id: biodiversityeuropaeu
+langs:
+- id: EN
+  name: English
+link: https://biodiversity.europa.eu/
+name: Biodiversity Information System for Europe
+owner:
+  link: https://www.eea.europa.eu/
+  location:
+    country:
+      id: EU
+      name: European Union
+    level: 20
+  name: European Environment Agency
+  type: International
+properties:
+  has_doi: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- biodiversity
+- environment
+- europe
+- indicators
+- nature reporting
+topics:
+- id: ENVI
+  name: Environment
+  type: eudatatheme
+- id: Biota
+  name: Biota
+  type: iso19115
+uid: cdi00013868

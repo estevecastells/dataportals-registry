@@ -890,6 +890,8 @@ MAP_SOFTWARE_ALLOWED_CATALOG_TYPES = {
             "Open data portal",
             "Datasets list",
             "Geoportal",
+            # Austrian Micro Data Center publishes its catalog on TYPO3.
+            "Microdata catalog",
         }
     ),
     "spip": frozenset({"Indicators catalog", "Scientific data repository"}),

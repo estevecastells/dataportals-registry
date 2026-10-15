@@ -1,0 +1,42 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: DK
+      name: Denmark
+    macroregion:
+      id: '154'
+      name: Northern Europe
+    level: 20
+description: Ministry education statistics portal with key figures across the Danish
+  education system from primary school to PhD, plus open API at api.uddannelsesstatistik.dk.
+id: uddannelsesstatistikdk
+langs:
+- id: DA
+  name: Danish
+- id: EN
+  name: English
+link: https://uddannelsesstatistik.dk/
+name: Uddannelsesstatistik
+owner:
+  link: null
+  location:
+    country:
+      id: DK
+      name: Denmark
+    level: 20
+  name: Styrelsen for It og Læring (Undervisningsministeriet)
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013881

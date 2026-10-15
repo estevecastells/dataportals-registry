@@ -1,0 +1,64 @@
+access_mode:
+- open
+api: true
+api_status: active
+catalog_type: Datasets list
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: EU
+      name: European Union
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+description: CORDIS, the European Commission's primary portal for results of
+  EU-funded research and innovation programmes. Searchable database of projects,
+  participants and results from FP1 to Horizon Europe; the CORDIS Datalab provides
+  downloadable project datasets and reference data.
+id: cordiseuropaeu
+endpoints:
+- type: docs
+  url: https://cordis.europa.eu/datalab
+langs:
+- id: EN
+  name: English
+link: https://cordis.europa.eu/
+name: CORDIS - EU research results
+owner:
+  link: https://commission.europa.eu/
+  location:
+    country:
+      id: EU
+      name: European Union
+    level: 20
+  name: European Commission
+  type: Central government
+properties:
+  has_doi: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- research
+- projects
+- Horizon Europe
+- innovation
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
+uid: cdi00013873

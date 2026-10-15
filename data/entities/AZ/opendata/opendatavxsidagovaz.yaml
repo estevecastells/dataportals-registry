@@ -1,0 +1,73 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Open data portal
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: AZ
+      name: Azerbaijan
+    level: 20
+    macroregion:
+      id: '145'
+      name: Western Asia
+description: Public Data Portal of the State Agency for Public Service and Social
+  Innovations under the President of the Republic of Azerbaijan (VXSIDA). Publishes
+  statistics and downloadable datasets on the activity of ASAN Xidmet and ASAN Kommunal
+  one-stop public service centers, mobile ASAN services, and the YASAT Foundation
+  support to families of martyrs and war veterans - overall indicators, time series,
+  breakdowns by service center, demographic indicators and interactive maps, with
+  spreadsheet exports.
+id: opendatavxsidagovaz
+langs:
+- id: AZ
+  name: Azerbaijani
+- id: EN
+  name: English
+link: https://opendata.vxsida.gov.az/
+name: VXSIDA Public Data Portal
+owner:
+  link: https://vxsida.gov.az
+  location:
+    country:
+      id: AZ
+      name: Azerbaijan
+    level: 20
+  name: State Agency for Public Service and Social Innovations under the President
+    of the Republic of Azerbaijan
+  type: Central government
+properties:
+  has_doi: false
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- government
+- open data
+- statistics
+- public services
+- Azerbaijan
+- ASAN
+topics:
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013858

@@ -1,0 +1,62 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+coverage:
+- location:
+    country:
+      id: KH
+      name: Cambodia
+    level: 20
+    macroregion:
+      id: '035'
+      name: South-eastern Asia
+description: Public Commune/Village Databook of the Cambodia Commune Database (CDB)
+  maintained by NCDD with the Ministry of Planning. Interactive selection of year
+  (2008-2010), province, district, commune, and sector (general, economic, social,
+  natural resources and environment, administration, gender, minority groups) renders
+  printable indicator profiles. No login required.
+id: cdbonlinedbncddgovkh
+langs:
+- id: EN
+  name: English
+- id: KM
+  name: Khmer
+link: https://db.ncdd.gov.kh/cdbonline
+name: CDB Online - Cambodia Commune Database
+owner:
+  link: https://www.ncdd.gov.kh
+  location:
+    country:
+      id: KH
+      name: Cambodia
+    level: 20
+  name: National Committee for Sub-National Democratic Development (NCDD)
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- commune database
+- indicators
+- subnational
+- Cambodia
+- CDB
+topics:
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
+- id: REGI
+  name: Regions and cities
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013968

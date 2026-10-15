@@ -1,0 +1,41 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: NG
+      name: Nigeria
+    macroregion:
+      id: '011'
+      name: Western Africa
+    level: 20
+description: 'Nigerian Communications Commission industry statistics: monthly tables
+  and charts of active voice subscribers, internet and broadband subscriptions, teledensity
+  and market shares.'
+id: nccgovng
+langs:
+- id: EN
+  name: English
+link: https://ncc.gov.ng/market-data-reports/industry-statistics
+name: NCC Industry Statistics
+owner:
+  link: null
+  location:
+    country:
+      id: NG
+      name: Nigeria
+    level: 20
+  name: Nigerian Communications Commission
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00014079

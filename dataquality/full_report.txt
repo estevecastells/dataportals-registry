@@ -1,14 +1,14 @@
 DATA QUALITY ANALYSIS REPORT
 ================================================================================
-Generated: 2026-10-06 16:36:15
-Total Records Analyzed: 43324
-Total Issues Found: 275
-Records with Issues: 252
+Generated: 2026-10-15 13:36:04
+Total Records Analyzed: 43614
+Total Issues Found: 721
+Records with Issues: 442
 
 === ISSUES BY TYPE ===
 
 [IS_NATIONAL_AGENCY_OR_TOPIC]
-Count: 4
+Count: 14
 Priority: MEDIUM
 
 File: KE/Federal/opendata/opendatagoke.yaml
@@ -17,6 +17,70 @@ Country: KE
 Issue: IS_NATIONAL_AGENCY_OR_TOPIC
 Field: properties.is_national
 Current Value: {'is_national': True, 'reason': 'federal_opendata_not_national', 'name': 'Kenya Open Data', 'catalog_type': 'Open data portal', 'owner': 'Kenya ICT Authority'}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
+
+File: NZ/Federal/opendata/cataloguedatagovtnz.yaml
+Record ID: cataloguedatagovtnz
+Country: NZ
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {'is_national': True, 'reason': 'federal_opendata_not_national', 'name': 'Data.gov.nz - New Zealand open data portal', 'catalog_type': 'Open data portal', 'owner': 'Government of New Zealand'}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
+
+File: NO/Federal/opendata/datanorgeno.yaml
+Record ID: datanorgeno
+Country: NO
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {'is_national': True, 'reason': 'federal_opendata_not_national', 'name': 'Felles datakatalog (Norway)', 'catalog_type': 'Open data portal', 'owner': 'Norwegian Digitalisation Agency'}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
+
+File: AE/Federal/opendata/databayanatae.yaml
+Record ID: databayanatae
+Country: AE
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {'is_national': True, 'reason': 'federal_opendata_not_national', 'name': 'UAE Open Data Portal', 'catalog_type': 'Open data portal', 'owner': 'Government of UAE'}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
+
+File: EE/Federal/opendata/avaandmedeestiee.yaml
+Record ID: avaandmedeestiee
+Country: EE
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {'is_national': True, 'reason': 'federal_opendata_not_national', 'name': 'Andmete teabevärav', 'catalog_type': 'Open data portal', 'owner': 'Information System Authority (RIA)'}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
+
+File: CR/Federal/opendata/datosgocr.yaml
+Record ID: datosgocr
+Country: CR
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {'is_national': True, 'reason': 'federal_opendata_not_national', 'name': 'Portal de Datos Abiertos de Costa Rica', 'catalog_type': 'Open data portal', 'owner': 'Ministerio de la Presidencia'}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
+
+File: CO/Federal/opendata/datagovco.yaml
+Record ID: datagovco
+Country: CO
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {'is_national': True, 'reason': 'federal_opendata_not_national', 'name': 'Datos Abiertos Colombia', 'catalog_type': 'Open data portal', 'owner': 'Ministerio de Tecnologías de la Información y las Comunicaciones'}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
+
+File: IT/Federal/opendata/datigovit.yaml
+Record ID: datigovit
+Country: IT
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {'is_national': True, 'reason': 'federal_opendata_not_national', 'name': 'dati.gov.it i dati aperti della pubblica amministrazione', 'catalog_type': 'Open data portal', 'owner': 'Agenzia per l Italia digitale'}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
+
+File: CA/Federal/opendata/opencanadaca.yaml
+Record ID: opencanadaca
+Country: CA
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {'is_national': True, 'reason': 'federal_opendata_not_national', 'name': 'Open Government Portal - Canada.ca', 'catalog_type': 'Open data portal', 'owner': 'Government of Canada'}
 Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
 
 File: TM/Federal/indicators/wwwstatgovtm.yaml
@@ -34,6 +98,22 @@ Issue: IS_NATIONAL_AGENCY_OR_TOPIC
 Field: properties.is_national
 Current Value: {'is_national': True, 'reason': 'indicators_not_nso', 'name': 'ISPF Chiffres détaillés (Polynésie française)', 'catalog_type': 'Indicators catalog', 'owner': 'Institut de la statistique de la Polynésie française (ISPF)'}
 Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (indicators_not_nso).
+
+File: AT/Federal/opendata/datagvat.yaml
+Record ID: datagvat
+Country: AT
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {'is_national': True, 'reason': 'federal_opendata_not_national', 'name': 'Offene Daten Österreich | data.gv.at', 'catalog_type': 'Open data portal', 'owner': 'Government of Austria'}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
+
+File: FI/Federal/opendata/avoindatafi.yaml
+Record ID: avoindatafi
+Country: FI
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {'is_national': True, 'reason': 'federal_opendata_not_national', 'name': 'Avoindata.fi Data Catalog', 'catalog_type': 'Open data portal', 'owner': 'Verkkopalvelun kehittämisestä vastaa'}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
 
 File: JP/Federal/opendata/dataegogovjp.yaml
 Record ID: dataegogovjp
@@ -64,12 +144,108 @@ Current Value: None
 Suggested Action: Add meaningful description based on portal content and purpose
 
 [MISSING_OWNER_LINK]
-Count: 4
+Count: 74
 Priority: LOW
+
+File: PK/PK-BA/indicators/bemissedgobpk.yaml
+Record ID: bemissedgobpk
+Country: PK
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
 
 File: PK/PK-BA/opendata/sedgobpk.yaml
 Record ID: sedgobpk
 Country: PK
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: PK/PK-KP/indicators/sdgsupportunitkpgovpk.yaml
+Record ID: sdgsupportunitkpgovpk
+Country: PK
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: PK/PK-SD/indicators/semissindheducationgovpk.yaml
+Record ID: semissindheducationgovpk
+Country: PK
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: PK/PK-PB/indicators/pdmapunjabgovpk.yaml
+Record ID: pdmapunjabgovpk
+Country: PK
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: PK/PK-PB/geo/mapportalpulsegoppk.yaml
+Record ID: mapportalpulsegoppk
+Country: PK
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: PK/PK-PB/geo/gislabpwlgoppk.yaml
+Record ID: gislabpwlgoppk
+Country: PK
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: UZ/Federal/geo/dshkshaffofqurilishuz.yaml
+Record ID: dshkshaffofqurilishuz
+Country: UZ
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: UZ/Federal/geo/geoportaluzorg.yaml
+Record ID: geoportaluzorg
+Country: UZ
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: NG/Federal/indicators/nccgovng.yaml
+Record ID: nccgovng
+Country: NG
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: KE/Federal/indicators/statushealthgoke.yaml
+Record ID: statushealthgoke
+Country: KE
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: KE/Federal/indicators/labourmarketgoke.yaml
+Record ID: labourmarketgoke
+Country: KE
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: IN/Federal/scientific/vizieriucaain.yaml
+Record ID: vizieriucaain
+Country: IN
 Issue: MISSING_OWNER_LINK
 Field: owner.link
 Current Value: None
@@ -83,6 +259,22 @@ Field: owner.link
 Current Value: None
 Suggested Action: Add owner organization website URL
 
+File: RU/RU-ORE/indicators/budgetorbru.yaml
+Record ID: budgetorbru
+Country: RU
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: RU/RU-NIZ/indicators/mfnnovru.yaml
+Record ID: mfnnovru
+Country: RU
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
 File: RU/RU-NIZ/indicators/budgetnnru.yaml
 Record ID: budgetnnru
 Country: RU
@@ -91,16 +283,274 @@ Field: owner.link
 Current Value: None
 Suggested Action: Add owner organization website URL
 
-File: DE/Federal/indicators/odlinfobfsde.yaml
-Record ID: odlinfobfsde
-Country: DE
+File: RU/RU-LEN/indicators/monitoringlenregru.yaml
+Record ID: monitoringlenregru
+Country: RU
 Issue: MISSING_OWNER_LINK
 Field: owner.link
 Current Value: None
 Suggested Action: Add owner organization website URL
 
+File: RU/RU-KR/indicators/budgetkareliaru.yaml
+Record ID: budgetkareliaru
+Country: RU
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: RU/RU-ME/indicators/maristatmarirumunstinet.yaml
+Record ID: maristatmarirumunstinet
+Country: RU
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: RU/RU-BA/indicators/budgetbashkortostanru.yaml
+Record ID: budgetbashkortostanru
+Country: RU
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: RU/RU-BU/indicators/openbudgetgovrbru.yaml
+Record ID: openbudgetgovrbru
+Country: RU
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: RU/Federal/indicators/wwwbudgetgovru.yaml
+Record ID: wwwbudgetgovru
+Country: RU
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: RU/Federal/scientific/vizierinasanru.yaml
+Record ID: vizierinasanru
+Country: RU
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: RU/RU-KHM/indicators/monitoringadmhmaoru.yaml
+Record ID: monitoringadmhmaoru
+Country: RU
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: RU/RU-MAG/indicators/openbudget49govru.yaml
+Record ID: openbudget49govru
+Country: RU
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: World/Federal/indicators/data360worldbankorg.yaml
+Record ID: data360worldbankorg
+Country: World
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: World/Federal/indicators/goingdigitaloecdorg.yaml
+Record ID: goingdigitaloecdorg
+Country: World
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: ZA/Federal/scientific/vizieridiaacza.yaml
+Record ID: vizieridiaacza
+Country: ZA
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: SN/Federal/indicators/artpsn.yaml
+Record ID: artpsn
+Country: SN
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: SN/Federal/indicators/obfiloccom.yaml
+Record ID: obfiloccom
+Country: SN
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/indicators/wwwnottinghamshireinsightorguk.yaml
+Record ID: wwwnottinghamshireinsightorguk
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/indicators/wwwnottinghaminsightorguk.yaml
+Record ID: wwwnottinghaminsightorguk
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/indicators/wwwwestyorkscagovuk.yaml
+Record ID: wwwwestyorkscagovuk
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/indicators/midlandsengineobservatoryorg.yaml
+Record ID: midlandsengineobservatoryorg
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/indicators/wwwlsronlineorg.yaml
+Record ID: wwwlsronlineorg
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/wwwdatawandinfo.yaml
+Record ID: wwwdatawandinfo
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/wwwcumbriaobservatoryorguk.yaml
+Record ID: wwwcumbriaobservatoryorguk
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/bexleyjsnainfo.yaml
+Record ID: bexleyjsnainfo
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/wwwdurhaminsightinfo.yaml
+Record ID: wwwdurhaminsightinfo
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/intelhubeastridinggovuk.yaml
+Record ID: intelhubeastridinggovuk
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/wwweconomyhubcornwallgovuk.yaml
+Record ID: wwweconomyhubcornwallgovuk
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/wwwhertfordshiregovuk.yaml
+Record ID: wwwhertfordshiregovuk
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/wwwobservatorylewishamgovuk.yaml
+Record ID: wwwobservatorylewishamgovuk
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/wwwnorfolkinsightorguk.yaml
+Record ID: wwwnorfolkinsightorguk
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/wwwdatarichinfo.yaml
+Record ID: wwwdatarichinfo
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/wwwnewhaminfo.yaml
+Record ID: wwwnewhaminfo
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/wwwhaveringdatanet.yaml
+Record ID: wwwhaveringdatanet
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/datamertongovuk.yaml
+Record ID: datamertongovuk
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/observatorykirkleesgovuk.yaml
+Record ID: observatorykirkleesgovuk
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+... and 24 more records with this issue
+
 [MISSING_RIGHTS]
-Count: 11
+Count: 22
 Priority: LOW
 
 File: UZ/Federal/opendata/dataegovuz.yaml
@@ -119,6 +569,22 @@ Field: rights
 Current Value: {'license_id': None, 'license_name': None, 'license_url': None, 'privacy_policy_url': None, 'rights_type': 'unknown', 'tos_url': None}
 Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
 
+File: NZ/Federal/opendata/cataloguedatagovtnz.yaml
+Record ID: cataloguedatagovtnz
+Country: NZ
+Issue: MISSING_RIGHTS
+Field: rights
+Current Value: {'license_id': None, 'license_name': None, 'license_url': None, 'privacy_policy_url': None, 'rights_type': 'granular', 'tos_url': None}
+Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
+
+File: NO/Federal/opendata/datanorgeno.yaml
+Record ID: datanorgeno
+Country: NO
+Issue: MISSING_RIGHTS
+Field: rights
+Current Value: {'license_id': None, 'license_name': None, 'license_url': None, 'privacy_policy_url': None, 'rights_type': 'unknown', 'tos_url': None}
+Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
+
 File: AL/Federal/opendata/opendatagoval.yaml
 Record ID: opendatagoval
 Country: AL
@@ -127,12 +593,60 @@ Field: rights
 Current Value: {'license_id': None, 'license_name': None, 'license_url': None, 'privacy_policy_url': None, 'rights_type': 'unknown', 'tos_url': None}
 Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
 
+File: AE/Federal/opendata/databayanatae.yaml
+Record ID: databayanatae
+Country: AE
+Issue: MISSING_RIGHTS
+Field: rights
+Current Value: {'license_id': None, 'license_name': None, 'license_url': None, 'privacy_policy_url': None, 'rights_type': 'granular', 'tos_url': None}
+Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
+
 File: IR/Federal/opendata/catalogdatagovir.yaml
 Record ID: catalogdatagovir
 Country: IR
 Issue: MISSING_RIGHTS
 Field: rights
 Current Value: {'license_id': None, 'license_name': None, 'license_url': None, 'privacy_policy_url': None, 'rights_type': 'unknown', 'tos_url': None}
+Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
+
+File: EE/Federal/opendata/avaandmedeestiee.yaml
+Record ID: avaandmedeestiee
+Country: EE
+Issue: MISSING_RIGHTS
+Field: rights
+Current Value: {'license_id': None, 'license_name': None, 'license_url': None, 'privacy_policy_url': None, 'rights_type': 'unknown', 'tos_url': None}
+Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
+
+File: CR/Federal/opendata/datosgocr.yaml
+Record ID: datosgocr
+Country: CR
+Issue: MISSING_RIGHTS
+Field: rights
+Current Value: {'license_id': None, 'license_name': None, 'license_url': None, 'privacy_policy_url': 'https://datos.go.cr/pages/politicas-de-privacidad', 'rights_type': 'granular', 'tos_url': None}
+Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
+
+File: CO/Federal/opendata/datagovco.yaml
+Record ID: datagovco
+Country: CO
+Issue: MISSING_RIGHTS
+Field: rights
+Current Value: {'license_id': None, 'license_name': None, 'license_url': None, 'privacy_policy_url': 'https://www.tylertech.com/privacy', 'rights_type': 'granular', 'tos_url': 'https://www.tylertech.com/terms'}
+Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
+
+File: IT/Federal/opendata/datigovit.yaml
+Record ID: datigovit
+Country: IT
+Issue: MISSING_RIGHTS
+Field: rights
+Current Value: {'license_id': None, 'license_name': None, 'license_url': None, 'privacy_policy_url': None, 'rights_type': 'granular', 'tos_url': None}
+Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
+
+File: CA/Federal/opendata/opencanadaca.yaml
+Record ID: opencanadaca
+Country: CA
+Issue: MISSING_RIGHTS
+Field: rights
+Current Value: {'license_id': None, 'license_name': None, 'license_url': None, 'privacy_policy_url': None, 'rights_type': 'granular', 'tos_url': None}
 Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
 
 File: RU/Federal/opendata/datagovru.yaml
@@ -175,6 +689,22 @@ Field: rights
 Current Value: {'license_id': None, 'license_name': None, 'license_url': None, 'privacy_policy_url': None, 'rights_type': 'unknown', 'tos_url': None}
 Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
 
+File: AT/Federal/opendata/datagvat.yaml
+Record ID: datagvat
+Country: AT
+Issue: MISSING_RIGHTS
+Field: rights
+Current Value: {'license_id': None, 'license_name': None, 'license_url': None, 'privacy_policy_url': None, 'rights_type': 'granular', 'tos_url': None}
+Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
+
+File: FI/Federal/opendata/avoindatafi.yaml
+Record ID: avoindatafi
+Country: FI
+Issue: MISSING_RIGHTS
+Field: rights
+Current Value: {'license_id': None, 'license_name': None, 'license_url': None, 'privacy_policy_url': None, 'rights_type': 'granular', 'tos_url': None}
+Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
+
 File: IQ/Federal/opendata/nogpgoviq.yaml
 Record ID: nogpgoviq
 Country: IQ
@@ -191,13 +721,93 @@ Field: rights
 Current Value: {'license_id': None, 'license_name': None, 'license_url': None, 'privacy_policy_url': None, 'rights_type': 'unknown', 'tos_url': None}
 Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
 
+File: TN/Federal/opendata/datagovtn.yaml
+Record ID: datagovtn
+Country: TN
+Issue: MISSING_RIGHTS
+Field: rights
+Current Value: {'license_id': None, 'license_name': None, 'license_url': None, 'privacy_policy_url': None, 'rights_type': 'granular', 'tos_url': None}
+Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
+
 [MISSING_TAGS]
-Count: 13
+Count: 173
 Priority: LOW
+
+File: PK/PK-BA/indicators/bemissedgobpk.yaml
+Record ID: bemissedgobpk
+Country: PK
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
 
 File: PK/PK-BA/opendata/sedgobpk.yaml
 Record ID: sedgobpk
 Country: PK
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: PK/PK-KP/indicators/sdgsupportunitkpgovpk.yaml
+Record ID: sdgsupportunitkpgovpk
+Country: PK
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: PK/PK-SD/indicators/semissindheducationgovpk.yaml
+Record ID: semissindheducationgovpk
+Country: PK
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: PK/PK-PB/indicators/pdmapunjabgovpk.yaml
+Record ID: pdmapunjabgovpk
+Country: PK
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: PK/PK-PB/geo/mapportalpulsegoppk.yaml
+Record ID: mapportalpulsegoppk
+Country: PK
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: PK/PK-PB/geo/gislabpwlgoppk.yaml
+Record ID: gislabpwlgoppk
+Country: PK
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: UZ/Federal/geo/gisuznatureuz.yaml
+Record ID: gisuznatureuz
+Country: UZ
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: UZ/Federal/geo/dshkshaffofqurilishuz.yaml
+Record ID: dshkshaffofqurilishuz
+Country: UZ
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: UZ/Federal/geo/geoportaluzorg.yaml
+Record ID: geoportaluzorg
+Country: UZ
 Issue: MISSING_TAGS
 Field: tags
 Current Value: []
@@ -227,9 +837,265 @@ Field: tags
 Current Value: []
 Suggested Action: Extract tags from description and catalog_type
 
+File: NG/Federal/indicators/nccgovng.yaml
+Record ID: nccgovng
+Country: NG
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: BE/BE-WAL/indicators/indicateursoddiwepsbe.yaml
+Record ID: indicateursoddiwepsbe
+Country: BE
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: BE/BE-WAL/indicators/icpibiwepsbe.yaml
+Record ID: icpibiwepsbe
+Country: BE
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: BE/BE-BRU/indicators/ibsabrussels.yaml
+Record ID: ibsabrussels
+Country: BE
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: BE/BE-BRU/indicators/monitoringdesquartiersbrussels.yaml
+Record ID: monitoringdesquartiersbrussels
+Country: BE
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: BD/BD-C/indicators/dnccinnovationlabgithubiodenguedashboard.yaml
+Record ID: dnccinnovationlabgithubiodenguedashboard
+Country: BD
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: BD/Federal/indicators/aimserdgovbd.yaml
+Record ID: aimserdgovbd
+Country: BD
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: BD/Federal/indicators/dashboarddghsgovbd.yaml
+Record ID: dashboarddghsgovbd
+Country: BD
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: BD/Federal/indicators/esgbgmeacombd.yaml
+Record ID: esgbgmeacombd
+Country: BD
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: BD/Federal/indicators/solarsredagovbd.yaml
+Record ID: solarsredagovbd
+Country: BD
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: BJ/Federal/other/tradeportalbj.yaml
+Record ID: tradeportalbj
+Country: BJ
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: CN/CN-HA/opendata/wwwlhzwfwgovcn.yaml
+Record ID: wwwlhzwfwgovcn
+Country: CN
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IN/IN-PB/indicators/esopbgovin.yaml
+Record ID: esopbgovin
+Country: IN
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IN/IN-WB/indicators/baeswbgovin.yaml
+Record ID: baeswbgovin
+Country: IN
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IN/IN-OD/indicators/desodishagovin.yaml
+Record ID: desodishagovin
+Country: IN
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IN/IN-CG/indicators/descggovin.yaml
+Record ID: descggovin
+Country: IN
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IN/IN-UK/indicators/desdataukgovin.yaml
+Record ID: desdataukgovin
+Country: IN
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IN/IN-UK/indicators/districtepatrikaukgovin.yaml
+Record ID: districtepatrikaukgovin
+Country: IN
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IN/Federal/scientific/vizieriucaain.yaml
+Record ID: vizieriucaain
+Country: IN
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IN/IN-RJ/indicators/iiprajasthangovin.yaml
+Record ID: iiprajasthangovin
+Country: IN
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IN/IN-RJ/indicators/psrrajasthangovin.yaml
+Record ID: psrrajasthangovin
+Country: IN
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IN/IN-RJ/indicators/saarrajasthangovin.yaml
+Record ID: saarrajasthangovin
+Country: IN
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IT/IT-52/indicators/ottoscanapromozionedatiindicatori.yaml
+Record ID: ottoscanapromozionedatiindicatori
+Country: IT
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IT/IT-45/indicators/datiregistrotumoriemiliaromagnait.yaml
+Record ID: datiregistrotumoriemiliaromagnait
+Country: IT
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IT/Federal/indicators/quotazioniomiagenziaentrate.yaml
+Record ID: quotazioniomiagenziaentrate
+Country: IT
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IT/Federal/indicators/wwweduscopioit.yaml
+Record ID: wwweduscopioit
+Country: IT
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IT/Federal/indicators/openbdaprgsmefgovit.yaml
+Record ID: openbdaprgsmefgovit
+Country: IT
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IT/Federal/indicators/sviluppolavoroitaliacruscotti.yaml
+Record ID: sviluppolavoroitaliacruscotti
+Country: IT
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IT/Federal/indicators/pneagenasit.yaml
+Record ID: pneagenasit
+Country: IT
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IS/Federal/api/apisis.yaml
+Record ID: apisis
+Country: IS
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
 File: CZ/CZ-31/geo/hrbitovtstreboncz.yaml
 Record ID: hrbitovtstreboncz
 Country: CZ
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: RU/RU-ORE/indicators/budgetorbru.yaml
+Record ID: budgetorbru
+Country: RU
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: RU/RU-NIZ/indicators/mfnnovru.yaml
+Record ID: mfnnovru
+Country: RU
 Issue: MISSING_TAGS
 Field: tags
 Current Value: []
@@ -243,69 +1109,111 @@ Field: tags
 Current Value: []
 Suggested Action: Extract tags from description and catalog_type
 
-File: World/Federal/indicators/internationalbudgetorg.yaml
-Record ID: internationalbudgetorg
-Country: World
+File: RU/RU-LEN/indicators/monitoringlenregru.yaml
+Record ID: monitoringlenregru
+Country: RU
 Issue: MISSING_TAGS
 Field: tags
 Current Value: []
 Suggested Action: Extract tags from description and catalog_type
 
-File: DE/Federal/indicators/odlinfobfsde.yaml
-Record ID: odlinfobfsde
-Country: DE
+File: RU/RU-KR/indicators/budgetkareliaru.yaml
+Record ID: budgetkareliaru
+Country: RU
 Issue: MISSING_TAGS
 Field: tags
 Current Value: []
 Suggested Action: Extract tags from description and catalog_type
 
-File: FR/Federal/scientific/wwwcatdsfr.yaml
-Record ID: wwwcatdsfr
-Country: FR
+File: RU/RU-ME/indicators/maristatmarirumunstinet.yaml
+Record ID: maristatmarirumunstinet
+Country: RU
 Issue: MISSING_TAGS
 Field: tags
 Current Value: []
 Suggested Action: Extract tags from description and catalog_type
 
-File: FR/Federal/scientific/campagnesflotteoceanographiquefr.yaml
-Record ID: campagnesflotteoceanographiquefr
-Country: FR
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: FR/Federal/scientific/envlitifremerfr.yaml
-Record ID: envlitifremerfr
-Country: FR
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: FR/Federal/scientific/sihifremerfr.yaml
-Record ID: sihifremerfr
-Country: FR
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
-
-File: FR/Federal/scientific/quadrigeeaufrancefr.yaml
-Record ID: quadrigeeaufrancefr
-Country: FR
-Issue: MISSING_TAGS
-Field: tags
-Current Value: []
-Suggested Action: Extract tags from description and catalog_type
+... and 123 more records with this issue
 
 [MISSING_TOPICS]
-Count: 13
+Count: 179
 Priority: LOW
+
+File: PK/PK-BA/indicators/bemissedgobpk.yaml
+Record ID: bemissedgobpk
+Country: PK
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
 
 File: PK/PK-BA/opendata/sedgobpk.yaml
 Record ID: sedgobpk
 Country: PK
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: PK/PK-KP/indicators/sdgsupportunitkpgovpk.yaml
+Record ID: sdgsupportunitkpgovpk
+Country: PK
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: PK/PK-SD/indicators/semissindheducationgovpk.yaml
+Record ID: semissindheducationgovpk
+Country: PK
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: PK/PK-PB/indicators/pdmapunjabgovpk.yaml
+Record ID: pdmapunjabgovpk
+Country: PK
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: PK/PK-PB/geo/mapportalpulsegoppk.yaml
+Record ID: mapportalpulsegoppk
+Country: PK
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: PK/PK-PB/geo/gislabpwlgoppk.yaml
+Record ID: gislabpwlgoppk
+Country: PK
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: UZ/Federal/geo/gisuznatureuz.yaml
+Record ID: gisuznatureuz
+Country: UZ
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: UZ/Federal/geo/dshkshaffofqurilishuz.yaml
+Record ID: dshkshaffofqurilishuz
+Country: UZ
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: UZ/Federal/geo/geoportaluzorg.yaml
+Record ID: geoportaluzorg
+Country: UZ
 Issue: MISSING_TOPICS
 Field: topics
 Current Value: []
@@ -335,6 +1243,294 @@ Field: topics
 Current Value: []
 Suggested Action: Add relevant topics based on catalog_type and description
 
+File: NG/Federal/indicators/nccgovng.yaml
+Record ID: nccgovng
+Country: NG
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: BE/BE-WAL/indicators/indicateursoddiwepsbe.yaml
+Record ID: indicateursoddiwepsbe
+Country: BE
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: BE/BE-WAL/indicators/icpibiwepsbe.yaml
+Record ID: icpibiwepsbe
+Country: BE
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: BE/BE-BRU/indicators/ibsabrussels.yaml
+Record ID: ibsabrussels
+Country: BE
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: BE/BE-BRU/indicators/monitoringdesquartiersbrussels.yaml
+Record ID: monitoringdesquartiersbrussels
+Country: BE
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: BD/BD-C/indicators/dnccinnovationlabgithubiodenguedashboard.yaml
+Record ID: dnccinnovationlabgithubiodenguedashboard
+Country: BD
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: BD/Federal/indicators/aimserdgovbd.yaml
+Record ID: aimserdgovbd
+Country: BD
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: BD/Federal/indicators/dashboarddghsgovbd.yaml
+Record ID: dashboarddghsgovbd
+Country: BD
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: BD/Federal/indicators/esgbgmeacombd.yaml
+Record ID: esgbgmeacombd
+Country: BD
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: BD/Federal/indicators/solarsredagovbd.yaml
+Record ID: solarsredagovbd
+Country: BD
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: BJ/Federal/other/tradeportalbj.yaml
+Record ID: tradeportalbj
+Country: BJ
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: CN/CN-HA/opendata/wwwlhzwfwgovcn.yaml
+Record ID: wwwlhzwfwgovcn
+Country: CN
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: IN/IN-PB/indicators/esopbgovin.yaml
+Record ID: esopbgovin
+Country: IN
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: IN/IN-WB/indicators/baeswbgovin.yaml
+Record ID: baeswbgovin
+Country: IN
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: IN/IN-OD/indicators/desodishagovin.yaml
+Record ID: desodishagovin
+Country: IN
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: IN/IN-CG/indicators/descggovin.yaml
+Record ID: descggovin
+Country: IN
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: IN/IN-UK/indicators/desdataukgovin.yaml
+Record ID: desdataukgovin
+Country: IN
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: IN/IN-UK/indicators/districtepatrikaukgovin.yaml
+Record ID: districtepatrikaukgovin
+Country: IN
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: IN/Federal/scientific/vizieriucaain.yaml
+Record ID: vizieriucaain
+Country: IN
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: IN/IN-RJ/indicators/iiprajasthangovin.yaml
+Record ID: iiprajasthangovin
+Country: IN
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: IN/IN-RJ/indicators/psrrajasthangovin.yaml
+Record ID: psrrajasthangovin
+Country: IN
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: IN/IN-RJ/indicators/saarrajasthangovin.yaml
+Record ID: saarrajasthangovin
+Country: IN
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: CH/CH-BE/indicators/wwwbernchbernzahlen.yaml
+Record ID: wwwbernchbernzahlen
+Country: CH
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: CH/CH-JU/indicators/statjurach.yaml
+Record ID: statjurach
+Country: CH
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: CH/CH-VD/indicators/wwwlausannechstatistique.yaml
+Record ID: wwwlausannechstatistique
+Country: CH
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: CH/Federal/indicators/wwwobsanch.yaml
+Record ID: wwwobsanch
+Country: CH
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: CH/Federal/indicators/wwwamstatch.yaml
+Record ID: wwwamstatch
+Country: CH
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: CH/Federal/geo/wwwastraadminchdashboard.yaml
+Record ID: wwwastraadminchdashboard
+Country: CH
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: IT/IT-52/indicators/ottoscanapromozionedatiindicatori.yaml
+Record ID: ottoscanapromozionedatiindicatori
+Country: IT
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: IT/IT-45/indicators/datiregistrotumoriemiliaromagnait.yaml
+Record ID: datiregistrotumoriemiliaromagnait
+Country: IT
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: IT/Federal/indicators/quotazioniomiagenziaentrate.yaml
+Record ID: quotazioniomiagenziaentrate
+Country: IT
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: IT/Federal/indicators/wwweduscopioit.yaml
+Record ID: wwweduscopioit
+Country: IT
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: IT/Federal/indicators/openbdaprgsmefgovit.yaml
+Record ID: openbdaprgsmefgovit
+Country: IT
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: IT/Federal/indicators/sviluppolavoroitaliacruscotti.yaml
+Record ID: sviluppolavoroitaliacruscotti
+Country: IT
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: IT/Federal/indicators/pneagenasit.yaml
+Record ID: pneagenasit
+Country: IT
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: IS/Federal/api/apisis.yaml
+Record ID: apisis
+Country: IS
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
 File: CZ/CZ-31/geo/hrbitovtstreboncz.yaml
 Record ID: hrbitovtstreboncz
 Country: CZ
@@ -343,73 +1539,83 @@ Field: topics
 Current Value: []
 Suggested Action: Add relevant topics based on catalog_type and description
 
-File: RU/RU-NIZ/indicators/budgetnnru.yaml
-Record ID: budgetnnru
-Country: RU
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: World/Federal/indicators/internationalbudgetorg.yaml
-Record ID: internationalbudgetorg
-Country: World
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: DE/Federal/indicators/odlinfobfsde.yaml
-Record ID: odlinfobfsde
-Country: DE
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: FR/Federal/scientific/wwwcatdsfr.yaml
-Record ID: wwwcatdsfr
-Country: FR
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: FR/Federal/scientific/campagnesflotteoceanographiquefr.yaml
-Record ID: campagnesflotteoceanographiquefr
-Country: FR
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: FR/Federal/scientific/envlitifremerfr.yaml
-Record ID: envlitifremerfr
-Country: FR
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: FR/Federal/scientific/sihifremerfr.yaml
-Record ID: sihifremerfr
-Country: FR
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
-
-File: FR/Federal/scientific/quadrigeeaufrancefr.yaml
-Record ID: quadrigeeaufrancefr
-Country: FR
-Issue: MISSING_TOPICS
-Field: topics
-Current Value: []
-Suggested Action: Add relevant topics based on catalog_type and description
+... and 129 more records with this issue
 
 [PLACEHOLDER_TITLE]
-Count: 3
+Count: 16
 Priority: MEDIUM
+
+File: SK/Federal/indicators/platysk.yaml
+Record ID: platysk
+Country: SK
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: Platy.sk
+Suggested Action: Use a human-readable portal title instead of a URL/domain string.
+
+File: SK/Federal/indicators/platysk.yaml
+Record ID: platysk
+Country: SK
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: Platy.sk
+Suggested Action: Replace domain/path-based title with a descriptive portal name.
+
+File: PL/Federal/indicators/wynagrodzeniapl.yaml
+Record ID: wynagrodzeniapl
+Country: PL
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: Wynagrodzenia.pl
+Suggested Action: Use a human-readable portal title instead of a URL/domain string.
+
+File: PL/Federal/indicators/wynagrodzeniapl.yaml
+Record ID: wynagrodzeniapl
+Country: PL
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: Wynagrodzenia.pl
+Suggested Action: Replace domain/path-based title with a descriptive portal name.
+
+File: IN/IN-WB/indicators/baeswbgovin.yaml
+Record ID: baeswbgovin
+Country: IN
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: BAES
+Suggested Action: Expand the portal title to be more descriptive than a few characters.
+
+File: IS/Federal/api/apisis.yaml
+Record ID: apisis
+Country: IS
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: apis.is
+Suggested Action: Use a human-readable portal title instead of a URL/domain string.
+
+File: IS/Federal/api/apisis.yaml
+Record ID: apisis
+Country: IS
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: apis.is
+Suggested Action: Replace domain/path-based title with a descriptive portal name.
+
+File: CZ/Federal/indicators/platycz.yaml
+Record ID: platycz
+Country: CZ
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: Platy.cz
+Suggested Action: Use a human-readable portal title instead of a URL/domain string.
+
+File: CZ/Federal/indicators/platycz.yaml
+Record ID: platycz
+Country: CZ
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: Platy.cz
+Suggested Action: Replace domain/path-based title with a descriptive portal name.
 
 File: World/api/apisguru.yaml
 Record ID: apisguru
@@ -427,6 +1633,22 @@ Field: name
 Current Value: APIs.guru
 Suggested Action: Replace domain/path-based title with a descriptive portal name.
 
+File: GB/GB-WLS/indicators/datamapcymru.yaml
+Record ID: datamapcymru
+Country: GB
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: datamap.cymru
+Suggested Action: Use a human-readable portal title instead of a URL/domain string.
+
+File: GB/GB-WLS/indicators/datamapcymru.yaml
+Record ID: datamapcymru
+Country: GB
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: datamap.cymru
+Suggested Action: Replace domain/path-based title with a descriptive portal name.
+
 File: DE/Federal/marketplace/up42com.yaml
 Record ID: up42com
 Country: DE
@@ -434,6 +1656,22 @@ Issue: PLACEHOLDER_TITLE
 Field: name
 Current Value: UP42
 Suggested Action: Expand the portal title to be more descriptive than a few characters.
+
+File: DK/Federal/indicators/jobindsatsdk.yaml
+Record ID: jobindsatsdk
+Country: DK
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: Jobindsats.dk
+Suggested Action: Use a human-readable portal title instead of a URL/domain string.
+
+File: DK/Federal/indicators/jobindsatsdk.yaml
+Record ID: jobindsatsdk
+Country: DK
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: Jobindsats.dk
+Suggested Action: Replace domain/path-based title with a descriptive portal name.
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISHUB]
 Count: 9
@@ -724,7 +1962,7 @@ Current Value: {'software_id': 'bitrix', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='bitrix' is marked as API-capable in software definitions
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN]
-Count: 8
+Count: 12
 Priority: MEDIUM
 
 File: US/US-TX/opendata/txwaterdatahuborg.yaml
@@ -759,6 +1997,22 @@ Field: endpoints
 Current Value: {'software_id': 'ckan', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='ckan' is marked as API-capable in software definitions
 
+File: ES/ES-AN/opendata/transparenciaalhaurindelatorreesdataset.yaml
+Record ID: transparenciaalhaurindelatorreesdataset
+Country: ES
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN
+Field: endpoints
+Current Value: {'software_id': 'ckan', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='ckan' is marked as API-capable in software definitions
+
+File: ES/ES-MD/opendata/datosalcobendasorgdataset.yaml
+Record ID: datosalcobendasorgdataset
+Country: ES
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN
+Field: endpoints
+Current Value: {'software_id': 'ckan', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='ckan' is marked as API-capable in software definitions
+
 File: ES/ES-VC/opendata/datosabiertostorrentesesdataset.yaml
 Record ID: datosabiertostorrentesesdataset
 Country: ES
@@ -767,8 +2021,24 @@ Field: endpoints
 Current Value: {'software_id': 'ckan', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='ckan' is marked as API-capable in software definitions
 
+File: ES/ES-CN/opendata/datostenerifeesesdatosconjuntosdedatoscatalogodeco.yaml
+Record ID: datostenerifeesesdatosconjuntosdedatoscatalogodeco
+Country: ES
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN
+Field: endpoints
+Current Value: {'software_id': 'ckan', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='ckan' is marked as API-capable in software definitions
+
 File: ES/ES-CT/opendata/opendatamanresacatdataset.yaml
 Record ID: opendatamanresacatdataset
+Country: ES
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN
+Field: endpoints
+Current Value: {'software_id': 'ckan', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='ckan' is marked as API-capable in software definitions
+
+File: ES/ES-CT/opendata/opendataajuntamentbarcelonacatdataesdataset.yaml
+Record ID: opendataajuntamentbarcelonacatdataesdataset
 Country: ES
 Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN
 Field: endpoints
@@ -824,7 +2094,7 @@ Current Value: {'software_id': 'dkan', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='dkan' is marked as API-capable in software definitions
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL]
-Count: 72
+Count: 78
 Priority: MEDIUM
 
 File: SE/Federal/scientific/kibkise.yaml
@@ -1067,6 +2337,14 @@ Field: endpoints
 Current Value: {'software_id': 'drupal', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='drupal' is marked as API-capable in software definitions
 
+File: LV/Federal/microdata/statgovlvresearchdata.yaml
+Record ID: statgovlvresearchdata
+Country: LV
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL
+Field: endpoints
+Current Value: {'software_id': 'drupal', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='drupal' is marked as API-capable in software definitions
+
 File: IT/Federal/indicators/indicatoriambientaliisprambienteit.yaml
 Record ID: indicatoriambientaliisprambienteit
 Country: IT
@@ -1219,15 +2497,7 @@ Field: endpoints
 Current Value: {'software_id': 'drupal', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='drupal' is marked as API-capable in software definitions
 
-File: AU/AU-VIC/indicators/wwwcrimestatisticsvicgovau.yaml
-Record ID: wwwcrimestatisticsvicgovau
-Country: AU
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL
-Field: endpoints
-Current Value: {'software_id': 'drupal', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='drupal' is marked as API-capable in software definitions
-
-... and 22 more records with this issue
+... and 28 more records with this issue
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DSPACE]
 Count: 6
@@ -1418,12 +2688,20 @@ Current Value: {'software_id': 'gravitee', 'has_api': 'Yes', 'endpoints_count': 
 Suggested Action: Add at least one endpoint because software.id='gravitee' is marked as API-capable in software definitions
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_INVENIO]
-Count: 1
+Count: 2
 Priority: MEDIUM
 
 File: CH/Federal/scientific/inspirehepnet.yaml
 Record ID: inspirehepnet
 Country: CH
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_INVENIO
+Field: endpoints
+Current Value: {'software_id': 'invenio', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='invenio' is marked as API-capable in software definitions
+
+File: ES/ES-AR/scientific/zaguanunizarescollectionopendatalnesas1.yaml
+Record ID: zaguanunizarescollectionopendatalnesas1
+Country: ES
 Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_INVENIO
 Field: endpoints
 Current Value: {'software_id': 'invenio', 'has_api': 'Yes', 'endpoints_count': 0}
@@ -1681,6 +2959,26 @@ Field: endpoints
 Current Value: {'software_id': 'phaidra', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='phaidra' is marked as API-capable in software definitions
 
+[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PXWEB]
+Count: 2
+Priority: MEDIUM
+
+File: DK/DK-84/indicators/kkstatistikbankdk.yaml
+Record ID: kkstatistikbankdk
+Country: DK
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PXWEB
+Field: endpoints
+Current Value: {'software_id': 'pxweb', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='pxweb' is marked as API-capable in software definitions
+
+File: DK/Federal/indicators/smvstatistikstatistikbankdk.yaml
+Record ID: smvstatistikstatistikbankdk
+Country: DK
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PXWEB
+Field: endpoints
+Current Value: {'software_id': 'pxweb', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='pxweb' is marked as API-capable in software definitions
+
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_SKOSMOS]
 Count: 1
 Priority: MEDIUM
@@ -1786,12 +3084,20 @@ Current Value: {'software_id': 'tripal', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='tripal' is marked as API-capable in software definitions
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS]
-Count: 50
+Count: 53
 Priority: MEDIUM
 
 File: SE/Federal/indicators/statistiketikprovningsansokanse.yaml
 Record ID: statistiketikprovningsansokanse
 Country: SE
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS
+Field: endpoints
+Current Value: {'software_id': 'wordpress', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='wordpress' is marked as API-capable in software definitions
+
+File: ZM/Federal/indicators/wwwzraorgzmstatistics.yaml
+Record ID: wwwzraorgzmstatistics
+Country: ZM
 Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS
 Field: endpoints
 Current Value: {'software_id': 'wordpress', 'has_api': 'Yes', 'endpoints_count': 0}
@@ -2061,6 +3367,14 @@ Field: endpoints
 Current Value: {'software_id': 'wordpress', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='wordpress' is marked as API-capable in software definitions
 
+File: TJ/Federal/geo/geoportaltjorg.yaml
+Record ID: geoportaltjorg
+Country: TJ
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS
+Field: endpoints
+Current Value: {'software_id': 'wordpress', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='wordpress' is marked as API-capable in software definitions
+
 File: PH/Federal/geo/mapsdswdgovph.yaml
 Record ID: mapsdswdgovph
 Country: PH
@@ -2173,21 +3487,7 @@ Field: endpoints
 Current Value: {'software_id': 'wordpress', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='wordpress' is marked as API-capable in software definitions
 
-File: ES/Federal/scientific/evolclustdborg.yaml
-Record ID: evolclustdborg
-Country: ES
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS
-Field: endpoints
-Current Value: {'software_id': 'wordpress', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='wordpress' is marked as API-capable in software definitions
-
-File: JP/Federal/opendata/datacongrantjp.yaml
-Record ID: datacongrantjp
-Country: JP
-Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS
-Field: endpoints
-Current Value: {'software_id': 'wordpress', 'has_api': 'Yes', 'endpoints_count': 0}
-Suggested Action: Add at least one endpoint because software.id='wordpress' is marked as API-capable in software definitions
+... and 3 more records with this issue
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_XNAT]
 Count: 1
@@ -2216,21 +3516,21 @@ Suggested Action: Tag is too short (less than 3 characters), consider removing o
 
 === SUMMARY BY ISSUE TYPE ===
 
-IS_NATIONAL_AGENCY_OR_TOPIC (MEDIUM): 4 issues
+IS_NATIONAL_AGENCY_OR_TOPIC (MEDIUM): 14 issues
 MISSING_DESCRIPTION (MEDIUM): 2 issues
-MISSING_OWNER_LINK (LOW): 4 issues
-MISSING_RIGHTS (LOW): 11 issues
-MISSING_TAGS (LOW): 13 issues
-MISSING_TOPICS (LOW): 13 issues
-PLACEHOLDER_TITLE (MEDIUM): 3 issues
+MISSING_OWNER_LINK (LOW): 74 issues
+MISSING_RIGHTS (LOW): 22 issues
+MISSING_TAGS (LOW): 173 issues
+MISSING_TOPICS (LOW): 179 issues
+PLACEHOLDER_TITLE (MEDIUM): 16 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISHUB (MEDIUM): 9 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISSERVER (MEDIUM): 4 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_BENTO (MEDIUM): 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_BITRIX (MEDIUM): 20 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN (MEDIUM): 8 issues
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN (MEDIUM): 12 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DATAVERSE (MEDIUM): 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DKAN (MEDIUM): 2 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL (MEDIUM): 72 issues
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL (MEDIUM): 78 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DSPACE (MEDIUM): 6 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DSPACECRIS (MEDIUM): 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_EPRINTS (MEDIUM): 1 issue
@@ -2240,7 +3540,7 @@ SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GBIFPLATFORM (MEDIUM): 2 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GEOCORTEX (MEDIUM): 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GEONETWORK (MEDIUM): 2 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GRAVITEE (MEDIUM): 1 issue
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_INVENIO (MEDIUM): 1 issue
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_INVENIO (MEDIUM): 2 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ISLANDORA (MEDIUM): 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_KADI4MAT (MEDIUM): 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_KNOEMA (MEDIUM): 6 issues
@@ -2254,24 +3554,148 @@ SOFTWARE_EXPECTED_ENDPOINTS_MISSING_OPENSCIENCESI (MEDIUM): 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_OPUS (MEDIUM): 3 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PALAPA (MEDIUM): 3 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PHAIDRA (MEDIUM): 1 issue
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PXWEB (MEDIUM): 2 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_SKOSMOS (MEDIUM): 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_STRAPI (MEDIUM): 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_SUPERSET (MEDIUM): 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_TRIPAL (MEDIUM): 8 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS (MEDIUM): 50 issues
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS (MEDIUM): 53 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_XNAT (MEDIUM): 1 issue
 TAG_HYGIENE (MEDIUM): 1 issue
 
 === SUMMARY BY PRIORITY ===
 
-MEDIUM: 234 issues
-LOW: 41 issues
+MEDIUM: 273 issues
+LOW: 448 issues
 
 === RECORDS WITH MULTIPLE ISSUES (3+) ===
+
+Record ID: jobindsatsdk
+File: DK/Federal/indicators/jobindsatsdk.yaml
+Country: DK
+Issue Count: 5
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+  - PLACEHOLDER_TITLE (MEDIUM): name
+  - PLACEHOLDER_TITLE (MEDIUM): name
+
+Record ID: apisis
+File: IS/Federal/api/apisis.yaml
+Country: IS
+Issue Count: 4
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - PLACEHOLDER_TITLE (MEDIUM): name
+  - PLACEHOLDER_TITLE (MEDIUM): name
+
+Record ID: datamapcymru
+File: GB/GB-WLS/indicators/datamapcymru.yaml
+Country: GB
+Issue Count: 4
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - PLACEHOLDER_TITLE (MEDIUM): name
+  - PLACEHOLDER_TITLE (MEDIUM): name
+
+Record ID: kkstatistikbankdk
+File: DK/DK-84/indicators/kkstatistikbankdk.yaml
+Country: DK
+Issue Count: 4
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PXWEB (MEDIUM): endpoints
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: smvstatistikstatistikbankdk
+File: DK/Federal/indicators/smvstatistikstatistikbankdk.yaml
+Country: DK
+Issue Count: 4
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PXWEB (MEDIUM): endpoints
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: bemissedgobpk
+File: PK/PK-BA/indicators/bemissedgobpk.yaml
+Country: PK
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
 
 Record ID: sedgobpk
 File: PK/PK-BA/opendata/sedgobpk.yaml
 Country: PK
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: sdgsupportunitkpgovpk
+File: PK/PK-KP/indicators/sdgsupportunitkpgovpk.yaml
+Country: PK
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: semissindheducationgovpk
+File: PK/PK-SD/indicators/semissindheducationgovpk.yaml
+Country: PK
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: pdmapunjabgovpk
+File: PK/PK-PB/indicators/pdmapunjabgovpk.yaml
+Country: PK
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: mapportalpulsegoppk
+File: PK/PK-PB/geo/mapportalpulsegoppk.yaml
+Country: PK
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: gislabpwlgoppk
+File: PK/PK-PB/geo/gislabpwlgoppk.yaml
+Country: PK
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: dshkshaffofqurilishuz
+File: UZ/Federal/geo/dshkshaffofqurilishuz.yaml
+Country: UZ
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: geoportaluzorg
+File: UZ/Federal/geo/geoportaluzorg.yaml
+Country: UZ
 Issue Count: 3
 Issues:
   - MISSING_TOPICS (LOW): topics
@@ -2287,6 +3711,15 @@ Issues:
   - MISSING_TAGS (LOW): tags
   - MISSING_DESCRIPTION (MEDIUM): description
 
+Record ID: nccgovng
+File: NG/Federal/indicators/nccgovng.yaml
+Country: NG
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
 Record ID: opendatagoke
 File: KE/Federal/opendata/opendatagoke.yaml
 Country: KE
@@ -2296,9 +3729,45 @@ Issues:
   - MISSING_RIGHTS (LOW): rights
   - IS_NATIONAL_AGENCY_OR_TOPIC (MEDIUM): properties.is_national
 
+Record ID: baeswbgovin
+File: IN/IN-WB/indicators/baeswbgovin.yaml
+Country: IN
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - PLACEHOLDER_TITLE (MEDIUM): name
+
+Record ID: vizieriucaain
+File: IN/Federal/scientific/vizieriucaain.yaml
+Country: IN
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
 Record ID: hrbitovtstreboncz
 File: CZ/CZ-31/geo/hrbitovtstreboncz.yaml
 Country: CZ
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: budgetorbru
+File: RU/RU-ORE/indicators/budgetorbru.yaml
+Country: RU
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: mfnnovru
+File: RU/RU-NIZ/indicators/mfnnovru.yaml
+Country: RU
 Issue Count: 3
 Issues:
   - MISSING_TOPICS (LOW): topics
@@ -2314,6 +3783,105 @@ Issues:
   - MISSING_TAGS (LOW): tags
   - MISSING_OWNER_LINK (LOW): owner.link
 
+Record ID: monitoringlenregru
+File: RU/RU-LEN/indicators/monitoringlenregru.yaml
+Country: RU
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: budgetkareliaru
+File: RU/RU-KR/indicators/budgetkareliaru.yaml
+Country: RU
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: maristatmarirumunstinet
+File: RU/RU-ME/indicators/maristatmarirumunstinet.yaml
+Country: RU
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: budgetbashkortostanru
+File: RU/RU-BA/indicators/budgetbashkortostanru.yaml
+Country: RU
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: openbudgetgovrbru
+File: RU/RU-BU/indicators/openbudgetgovrbru.yaml
+Country: RU
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: wwwbudgetgovru
+File: RU/Federal/indicators/wwwbudgetgovru.yaml
+Country: RU
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: vizierinasanru
+File: RU/Federal/scientific/vizierinasanru.yaml
+Country: RU
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: monitoringadmhmaoru
+File: RU/RU-KHM/indicators/monitoringadmhmaoru.yaml
+Country: RU
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: openbudget49govru
+File: RU/RU-MAG/indicators/openbudget49govru.yaml
+Country: RU
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: data360worldbankorg
+File: World/Federal/indicators/data360worldbankorg.yaml
+Country: World
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: goingdigitaloecdorg
+File: World/Federal/indicators/goingdigitaloecdorg.yaml
+Country: World
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
 Record ID: internationalbudgetorg
 File: World/Federal/indicators/internationalbudgetorg.yaml
 Country: World
@@ -2323,6 +3891,330 @@ Issues:
   - MISSING_TAGS (LOW): tags
   - MISSING_DESCRIPTION (MEDIUM): description
 
+Record ID: vizieridiaacza
+File: ZA/Federal/scientific/vizieridiaacza.yaml
+Country: ZA
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: artpsn
+File: SN/Federal/indicators/artpsn.yaml
+Country: SN
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: obfiloccom
+File: SN/Federal/indicators/obfiloccom.yaml
+Country: SN
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: wwwnottinghamshireinsightorguk
+File: GB/GB-ENG/indicators/wwwnottinghamshireinsightorguk.yaml
+Country: GB
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: wwwnottinghaminsightorguk
+File: GB/GB-ENG/indicators/wwwnottinghaminsightorguk.yaml
+Country: GB
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: wwwwestyorkscagovuk
+File: GB/GB-ENG/indicators/wwwwestyorkscagovuk.yaml
+Country: GB
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: midlandsengineobservatoryorg
+File: GB/GB-ENG/indicators/midlandsengineobservatoryorg.yaml
+Country: GB
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: wwwlsronlineorg
+File: GB/GB-ENG/indicators/wwwlsronlineorg.yaml
+Country: GB
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: wwwdatawandinfo
+File: GB/GB-ENG/opendata/wwwdatawandinfo.yaml
+Country: GB
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: wwwcumbriaobservatoryorguk
+File: GB/GB-ENG/opendata/wwwcumbriaobservatoryorguk.yaml
+Country: GB
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: bexleyjsnainfo
+File: GB/GB-ENG/opendata/bexleyjsnainfo.yaml
+Country: GB
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: wwwdurhaminsightinfo
+File: GB/GB-ENG/opendata/wwwdurhaminsightinfo.yaml
+Country: GB
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: intelhubeastridinggovuk
+File: GB/GB-ENG/opendata/intelhubeastridinggovuk.yaml
+Country: GB
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: wwweconomyhubcornwallgovuk
+File: GB/GB-ENG/opendata/wwweconomyhubcornwallgovuk.yaml
+Country: GB
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: wwwhertfordshiregovuk
+File: GB/GB-ENG/opendata/wwwhertfordshiregovuk.yaml
+Country: GB
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: wwwobservatorylewishamgovuk
+File: GB/GB-ENG/opendata/wwwobservatorylewishamgovuk.yaml
+Country: GB
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: wwwnorfolkinsightorguk
+File: GB/GB-ENG/opendata/wwwnorfolkinsightorguk.yaml
+Country: GB
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: wwwdatarichinfo
+File: GB/GB-ENG/opendata/wwwdatarichinfo.yaml
+Country: GB
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: wwwnewhaminfo
+File: GB/GB-ENG/opendata/wwwnewhaminfo.yaml
+Country: GB
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: wwwhaveringdatanet
+File: GB/GB-ENG/opendata/wwwhaveringdatanet.yaml
+Country: GB
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: datamertongovuk
+File: GB/GB-ENG/opendata/datamertongovuk.yaml
+Country: GB
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: observatorykirkleesgovuk
+File: GB/GB-ENG/opendata/observatorykirkleesgovuk.yaml
+Country: GB
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: cambridgeshireinsightorguk
+File: GB/GB-ENG/opendata/cambridgeshireinsightorguk.yaml
+Country: GB
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: insightsworcestershiregovuk
+File: GB/GB-ENG/opendata/insightsworcestershiregovuk.yaml
+Country: GB
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: datahubhillingdongovuk
+File: GB/GB-ENG/opendata/datahubhillingdongovuk.yaml
+Country: GB
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: observatoryderbyshiregovuk
+File: GB/GB-ENG/opendata/observatoryderbyshiregovuk.yaml
+Country: GB
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: datawarwickshiregovuk
+File: GB/GB-ENG/geo/datawarwickshiregovuk.yaml
+Country: GB
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: drechtstedeninzichtnl
+File: NL/NL-ZH/indicators/drechtstedeninzichtnl.yaml
+Country: NL
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: rijnmondinzichtnl
+File: NL/NL-ZH/indicators/rijnmondinzichtnl.yaml
+Country: NL
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: haaglandeninzichtnl
+File: NL/NL-ZH/indicators/haaglandeninzichtnl.yaml
+Country: NL
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: zuidhollandinzichtnl
+File: NL/NL-ZH/indicators/zuidhollandinzichtnl.yaml
+Country: NL
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: nhninzichtnl
+File: NL/NL-NH/indicators/nhninzichtnl.yaml
+Country: NL
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: nhinzichtnl
+File: NL/NL-NH/indicators/nhinzichtnl.yaml
+Country: NL
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: datenstadtsalzburgat
+File: AT/AT-5/indicators/datenstadtsalzburgat.yaml
+Country: AT
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: linzzahlen
+File: AT/AT-4/indicators/linzzahlen.yaml
+Country: AT
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: statistikreportingooegvat
+File: AT/AT-4/indicators/statistikreportingooegvat.yaml
+Country: AT
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
 Record ID: odlinfobfsde
 File: DE/Federal/indicators/odlinfobfsde.yaml
 Country: DE
@@ -2331,3 +4223,111 @@ Issues:
   - MISSING_TOPICS (LOW): topics
   - MISSING_TAGS (LOW): tags
   - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: gisportalenaarhusdknoegletal
+File: DK/DK-82/indicators/gisportalenaarhusdknoegletal.yaml
+Country: DK
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: vej08vddkkomse
+File: DK/Federal/indicators/vej08vddkkomse.yaml
+Country: DK
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: uddannelsesstatistikdk
+File: DK/Federal/indicators/uddannelsesstatistikdk.yaml
+Country: DK
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: wwwnoegletaldk
+File: DK/Federal/indicators/wwwnoegletaldk.yaml
+Country: DK
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: painelticceticbr
+File: BR/Federal/indicators/painelticceticbr.yaml
+Country: BR
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: observatoireemploioccitaniefr
+File: FR/FR-OCC/indicators/observatoireemploioccitaniefr.yaml
+Country: FR
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL (MEDIUM): endpoints
+
+Record ID: observatoireemploinouvelleaquitainefr
+File: FR/FR-NAQ/indicators/observatoireemploinouvelleaquitainefr.yaml
+Country: FR
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL (MEDIUM): endpoints
+
+Record ID: observatoireemploiiledefrancefr
+File: FR/FR-IDF/indicators/observatoireemploiiledefrancefr.yaml
+Country: FR
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL (MEDIUM): endpoints
+
+Record ID: observatoirenumeriquegouvfr
+File: FR/Federal/indicators/observatoirenumeriquegouvfr.yaml
+Country: FR
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - MISSING_OWNER_LINK (LOW): owner.link
+
+Record ID: onisrsecuriteroutieregouvfr
+File: FR/Federal/indicators/onisrsecuriteroutieregouvfr.yaml
+Country: FR
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL (MEDIUM): endpoints
+
+Record ID: wwwdataestures
+File: ES/Federal/indicators/wwwdataestures.yaml
+Country: ES
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS (MEDIUM): endpoints
+
+Record ID: otletransportesgobes
+File: ES/Federal/indicators/otletransportesgobes.yaml
+Country: ES
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS (LOW): topics
+  - MISSING_TAGS (LOW): tags
+  - SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL (MEDIUM): endpoints

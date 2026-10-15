@@ -1,29 +1,208 @@
 DATA QUALITY REPORT - RULE: MISSING_OWNER_LINK
 ================================================================================
-Generated: 2026-10-06 16:36:15
+Generated: 2026-10-15 13:36:04
 Issue Type: MISSING_OWNER_LINK
 Priority: LOW
-Total Issues Found: 4
+Total Issues Found: 74
 
 === SUMMARY BY COUNTRY ===
 
+AT: 3 issues
+BR: 1 issue
 CZ: 1 issue
 DE: 1 issue
-PK: 1 issue
-RU: 1 issue
+DK: 7 issues
+FR: 1 issue
+GB: 24 issues
+IN: 1 issue
+KE: 2 issues
+NG: 1 issue
+NL: 6 issues
+PK: 7 issues
+RU: 12 issues
+SN: 2 issues
+UZ: 2 issues
+World: 2 issues
+ZA: 1 issue
 
 === SUMMARY BY RECORD ===
 
+bemissedgobpk: 1 issue
 sedgobpk: 1 issue
+sdgsupportunitkpgovpk: 1 issue
+semissindheducationgovpk: 1 issue
+pdmapunjabgovpk: 1 issue
+mapportalpulsegoppk: 1 issue
+gislabpwlgoppk: 1 issue
+dshkshaffofqurilishuz: 1 issue
+geoportaluzorg: 1 issue
+nccgovng: 1 issue
+statushealthgoke: 1 issue
+labourmarketgoke: 1 issue
+vizieriucaain: 1 issue
 hrbitovtstreboncz: 1 issue
+budgetorbru: 1 issue
+mfnnovru: 1 issue
 budgetnnru: 1 issue
+monitoringlenregru: 1 issue
+budgetkareliaru: 1 issue
+maristatmarirumunstinet: 1 issue
+budgetbashkortostanru: 1 issue
+openbudgetgovrbru: 1 issue
+wwwbudgetgovru: 1 issue
+vizierinasanru: 1 issue
+monitoringadmhmaoru: 1 issue
+openbudget49govru: 1 issue
+data360worldbankorg: 1 issue
+goingdigitaloecdorg: 1 issue
+vizieridiaacza: 1 issue
+artpsn: 1 issue
+obfiloccom: 1 issue
+wwwnottinghamshireinsightorguk: 1 issue
+wwwnottinghaminsightorguk: 1 issue
+wwwwestyorkscagovuk: 1 issue
+midlandsengineobservatoryorg: 1 issue
+wwwlsronlineorg: 1 issue
+wwwdatawandinfo: 1 issue
+wwwcumbriaobservatoryorguk: 1 issue
+bexleyjsnainfo: 1 issue
+wwwdurhaminsightinfo: 1 issue
+intelhubeastridinggovuk: 1 issue
+wwweconomyhubcornwallgovuk: 1 issue
+wwwhertfordshiregovuk: 1 issue
+wwwobservatorylewishamgovuk: 1 issue
+wwwnorfolkinsightorguk: 1 issue
+wwwdatarichinfo: 1 issue
+wwwnewhaminfo: 1 issue
+wwwhaveringdatanet: 1 issue
+datamertongovuk: 1 issue
+observatorykirkleesgovuk: 1 issue
+cambridgeshireinsightorguk: 1 issue
+insightsworcestershiregovuk: 1 issue
+datahubhillingdongovuk: 1 issue
+observatoryderbyshiregovuk: 1 issue
+datawarwickshiregovuk: 1 issue
+drechtstedeninzichtnl: 1 issue
+rijnmondinzichtnl: 1 issue
+haaglandeninzichtnl: 1 issue
+zuidhollandinzichtnl: 1 issue
+nhninzichtnl: 1 issue
+nhinzichtnl: 1 issue
+datenstadtsalzburgat: 1 issue
+linzzahlen: 1 issue
+statistikreportingooegvat: 1 issue
 odlinfobfsde: 1 issue
+kkstatistikbankdk: 1 issue
+gisportalenaarhusdknoegletal: 1 issue
+vej08vddkkomse: 1 issue
+jobindsatsdk: 1 issue
+uddannelsesstatistikdk: 1 issue
+wwwnoegletaldk: 1 issue
+smvstatistikstatistikbankdk: 1 issue
+painelticceticbr: 1 issue
+observatoirenumeriquegouvfr: 1 issue
 
 === ISSUES ===
+
+File: PK/PK-BA/indicators/bemissedgobpk.yaml
+Record ID: bemissedgobpk
+Country: PK
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
 
 File: PK/PK-BA/opendata/sedgobpk.yaml
 Record ID: sedgobpk
 Country: PK
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: PK/PK-KP/indicators/sdgsupportunitkpgovpk.yaml
+Record ID: sdgsupportunitkpgovpk
+Country: PK
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: PK/PK-SD/indicators/semissindheducationgovpk.yaml
+Record ID: semissindheducationgovpk
+Country: PK
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: PK/PK-PB/indicators/pdmapunjabgovpk.yaml
+Record ID: pdmapunjabgovpk
+Country: PK
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: PK/PK-PB/geo/mapportalpulsegoppk.yaml
+Record ID: mapportalpulsegoppk
+Country: PK
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: PK/PK-PB/geo/gislabpwlgoppk.yaml
+Record ID: gislabpwlgoppk
+Country: PK
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: UZ/Federal/geo/dshkshaffofqurilishuz.yaml
+Record ID: dshkshaffofqurilishuz
+Country: UZ
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: UZ/Federal/geo/geoportaluzorg.yaml
+Record ID: geoportaluzorg
+Country: UZ
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: NG/Federal/indicators/nccgovng.yaml
+Record ID: nccgovng
+Country: NG
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: KE/Federal/indicators/statushealthgoke.yaml
+Record ID: statushealthgoke
+Country: KE
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: KE/Federal/indicators/labourmarketgoke.yaml
+Record ID: labourmarketgoke
+Country: KE
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: IN/Federal/scientific/vizieriucaain.yaml
+Record ID: vizieriucaain
+Country: IN
 Issue: MISSING_OWNER_LINK
 Field: owner.link
 Current Value: 
@@ -37,6 +216,22 @@ Field: owner.link
 Current Value: 
 Suggested Action: Add owner organization website URL
 
+File: RU/RU-ORE/indicators/budgetorbru.yaml
+Record ID: budgetorbru
+Country: RU
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: RU/RU-NIZ/indicators/mfnnovru.yaml
+Record ID: mfnnovru
+Country: RU
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
 File: RU/RU-NIZ/indicators/budgetnnru.yaml
 Record ID: budgetnnru
 Country: RU
@@ -45,9 +240,457 @@ Field: owner.link
 Current Value: 
 Suggested Action: Add owner organization website URL
 
+File: RU/RU-LEN/indicators/monitoringlenregru.yaml
+Record ID: monitoringlenregru
+Country: RU
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: RU/RU-KR/indicators/budgetkareliaru.yaml
+Record ID: budgetkareliaru
+Country: RU
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: RU/RU-ME/indicators/maristatmarirumunstinet.yaml
+Record ID: maristatmarirumunstinet
+Country: RU
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: RU/RU-BA/indicators/budgetbashkortostanru.yaml
+Record ID: budgetbashkortostanru
+Country: RU
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: RU/RU-BU/indicators/openbudgetgovrbru.yaml
+Record ID: openbudgetgovrbru
+Country: RU
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: RU/Federal/indicators/wwwbudgetgovru.yaml
+Record ID: wwwbudgetgovru
+Country: RU
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: RU/Federal/scientific/vizierinasanru.yaml
+Record ID: vizierinasanru
+Country: RU
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: RU/RU-KHM/indicators/monitoringadmhmaoru.yaml
+Record ID: monitoringadmhmaoru
+Country: RU
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: RU/RU-MAG/indicators/openbudget49govru.yaml
+Record ID: openbudget49govru
+Country: RU
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: World/Federal/indicators/data360worldbankorg.yaml
+Record ID: data360worldbankorg
+Country: World
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: World/Federal/indicators/goingdigitaloecdorg.yaml
+Record ID: goingdigitaloecdorg
+Country: World
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: ZA/Federal/scientific/vizieridiaacza.yaml
+Record ID: vizieridiaacza
+Country: ZA
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: SN/Federal/indicators/artpsn.yaml
+Record ID: artpsn
+Country: SN
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: SN/Federal/indicators/obfiloccom.yaml
+Record ID: obfiloccom
+Country: SN
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/indicators/wwwnottinghamshireinsightorguk.yaml
+Record ID: wwwnottinghamshireinsightorguk
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/indicators/wwwnottinghaminsightorguk.yaml
+Record ID: wwwnottinghaminsightorguk
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/indicators/wwwwestyorkscagovuk.yaml
+Record ID: wwwwestyorkscagovuk
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/indicators/midlandsengineobservatoryorg.yaml
+Record ID: midlandsengineobservatoryorg
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/indicators/wwwlsronlineorg.yaml
+Record ID: wwwlsronlineorg
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/wwwdatawandinfo.yaml
+Record ID: wwwdatawandinfo
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/wwwcumbriaobservatoryorguk.yaml
+Record ID: wwwcumbriaobservatoryorguk
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/bexleyjsnainfo.yaml
+Record ID: bexleyjsnainfo
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/wwwdurhaminsightinfo.yaml
+Record ID: wwwdurhaminsightinfo
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/intelhubeastridinggovuk.yaml
+Record ID: intelhubeastridinggovuk
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/wwweconomyhubcornwallgovuk.yaml
+Record ID: wwweconomyhubcornwallgovuk
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/wwwhertfordshiregovuk.yaml
+Record ID: wwwhertfordshiregovuk
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/wwwobservatorylewishamgovuk.yaml
+Record ID: wwwobservatorylewishamgovuk
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/wwwnorfolkinsightorguk.yaml
+Record ID: wwwnorfolkinsightorguk
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/wwwdatarichinfo.yaml
+Record ID: wwwdatarichinfo
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/wwwnewhaminfo.yaml
+Record ID: wwwnewhaminfo
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/wwwhaveringdatanet.yaml
+Record ID: wwwhaveringdatanet
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/datamertongovuk.yaml
+Record ID: datamertongovuk
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/observatorykirkleesgovuk.yaml
+Record ID: observatorykirkleesgovuk
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/cambridgeshireinsightorguk.yaml
+Record ID: cambridgeshireinsightorguk
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/insightsworcestershiregovuk.yaml
+Record ID: insightsworcestershiregovuk
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/datahubhillingdongovuk.yaml
+Record ID: datahubhillingdongovuk
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/observatoryderbyshiregovuk.yaml
+Record ID: observatoryderbyshiregovuk
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/geo/datawarwickshiregovuk.yaml
+Record ID: datawarwickshiregovuk
+Country: GB
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: NL/NL-ZH/indicators/drechtstedeninzichtnl.yaml
+Record ID: drechtstedeninzichtnl
+Country: NL
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: NL/NL-ZH/indicators/rijnmondinzichtnl.yaml
+Record ID: rijnmondinzichtnl
+Country: NL
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: NL/NL-ZH/indicators/haaglandeninzichtnl.yaml
+Record ID: haaglandeninzichtnl
+Country: NL
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: NL/NL-ZH/indicators/zuidhollandinzichtnl.yaml
+Record ID: zuidhollandinzichtnl
+Country: NL
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: NL/NL-NH/indicators/nhninzichtnl.yaml
+Record ID: nhninzichtnl
+Country: NL
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: NL/NL-NH/indicators/nhinzichtnl.yaml
+Record ID: nhinzichtnl
+Country: NL
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: AT/AT-5/indicators/datenstadtsalzburgat.yaml
+Record ID: datenstadtsalzburgat
+Country: AT
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: AT/AT-4/indicators/linzzahlen.yaml
+Record ID: linzzahlen
+Country: AT
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: AT/AT-4/indicators/statistikreportingooegvat.yaml
+Record ID: statistikreportingooegvat
+Country: AT
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
 File: DE/Federal/indicators/odlinfobfsde.yaml
 Record ID: odlinfobfsde
 Country: DE
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: DK/DK-84/indicators/kkstatistikbankdk.yaml
+Record ID: kkstatistikbankdk
+Country: DK
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: DK/DK-82/indicators/gisportalenaarhusdknoegletal.yaml
+Record ID: gisportalenaarhusdknoegletal
+Country: DK
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: DK/Federal/indicators/vej08vddkkomse.yaml
+Record ID: vej08vddkkomse
+Country: DK
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: DK/Federal/indicators/jobindsatsdk.yaml
+Record ID: jobindsatsdk
+Country: DK
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: DK/Federal/indicators/uddannelsesstatistikdk.yaml
+Record ID: uddannelsesstatistikdk
+Country: DK
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: DK/Federal/indicators/wwwnoegletaldk.yaml
+Record ID: wwwnoegletaldk
+Country: DK
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: DK/Federal/indicators/smvstatistikstatistikbankdk.yaml
+Record ID: smvstatistikstatistikbankdk
+Country: DK
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: BR/Federal/indicators/painelticceticbr.yaml
+Record ID: painelticceticbr
+Country: BR
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: 
+Suggested Action: Add owner organization website URL
+
+File: FR/Federal/indicators/observatoirenumeriquegouvfr.yaml
+Record ID: observatoirenumeriquegouvfr
+Country: FR
 Issue: MISSING_OWNER_LINK
 Field: owner.link
 Current Value: 

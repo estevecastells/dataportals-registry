@@ -1,21 +1,107 @@
 DATA QUALITY REPORT - RULE: PLACEHOLDER_TITLE
 ================================================================================
-Generated: 2026-10-06 16:36:15
+Generated: 2026-10-15 13:36:04
 Issue Type: PLACEHOLDER_TITLE
 Priority: MEDIUM
-Total Issues Found: 3
+Total Issues Found: 16
 
 === SUMMARY BY COUNTRY ===
 
+CZ: 2 issues
 DE: 1 issue
+DK: 2 issues
+GB: 2 issues
+IN: 1 issue
+IS: 2 issues
+PL: 2 issues
+SK: 2 issues
 World: 2 issues
 
 === SUMMARY BY RECORD ===
 
+platysk: 2 issues
+wynagrodzeniapl: 2 issues
+apisis: 2 issues
+platycz: 2 issues
 apisguru: 2 issues
+datamapcymru: 2 issues
+jobindsatsdk: 2 issues
+baeswbgovin: 1 issue
 up42com: 1 issue
 
 === ISSUES ===
+
+File: SK/Federal/indicators/platysk.yaml
+Record ID: platysk
+Country: SK
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: Platy.sk
+Suggested Action: Use a human-readable portal title instead of a URL/domain string.
+
+File: SK/Federal/indicators/platysk.yaml
+Record ID: platysk
+Country: SK
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: Platy.sk
+Suggested Action: Replace domain/path-based title with a descriptive portal name.
+
+File: PL/Federal/indicators/wynagrodzeniapl.yaml
+Record ID: wynagrodzeniapl
+Country: PL
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: Wynagrodzenia.pl
+Suggested Action: Use a human-readable portal title instead of a URL/domain string.
+
+File: PL/Federal/indicators/wynagrodzeniapl.yaml
+Record ID: wynagrodzeniapl
+Country: PL
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: Wynagrodzenia.pl
+Suggested Action: Replace domain/path-based title with a descriptive portal name.
+
+File: IN/IN-WB/indicators/baeswbgovin.yaml
+Record ID: baeswbgovin
+Country: IN
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: BAES
+Suggested Action: Expand the portal title to be more descriptive than a few characters.
+
+File: IS/Federal/api/apisis.yaml
+Record ID: apisis
+Country: IS
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: apis.is
+Suggested Action: Use a human-readable portal title instead of a URL/domain string.
+
+File: IS/Federal/api/apisis.yaml
+Record ID: apisis
+Country: IS
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: apis.is
+Suggested Action: Replace domain/path-based title with a descriptive portal name.
+
+File: CZ/Federal/indicators/platycz.yaml
+Record ID: platycz
+Country: CZ
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: Platy.cz
+Suggested Action: Use a human-readable portal title instead of a URL/domain string.
+
+File: CZ/Federal/indicators/platycz.yaml
+Record ID: platycz
+Country: CZ
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: Platy.cz
+Suggested Action: Replace domain/path-based title with a descriptive portal name.
 
 File: World/api/apisguru.yaml
 Record ID: apisguru
@@ -33,6 +119,22 @@ Field: name
 Current Value: APIs.guru
 Suggested Action: Replace domain/path-based title with a descriptive portal name.
 
+File: GB/GB-WLS/indicators/datamapcymru.yaml
+Record ID: datamapcymru
+Country: GB
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: datamap.cymru
+Suggested Action: Use a human-readable portal title instead of a URL/domain string.
+
+File: GB/GB-WLS/indicators/datamapcymru.yaml
+Record ID: datamapcymru
+Country: GB
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: datamap.cymru
+Suggested Action: Replace domain/path-based title with a descriptive portal name.
+
 File: DE/Federal/marketplace/up42com.yaml
 Record ID: up42com
 Country: DE
@@ -40,3 +142,19 @@ Issue: PLACEHOLDER_TITLE
 Field: name
 Current Value: UP42
 Suggested Action: Expand the portal title to be more descriptive than a few characters.
+
+File: DK/Federal/indicators/jobindsatsdk.yaml
+Record ID: jobindsatsdk
+Country: DK
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: Jobindsats.dk
+Suggested Action: Use a human-readable portal title instead of a URL/domain string.
+
+File: DK/Federal/indicators/jobindsatsdk.yaml
+Record ID: jobindsatsdk
+Country: DK
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: Jobindsats.dk
+Suggested Action: Replace domain/path-based title with a descriptive portal name.

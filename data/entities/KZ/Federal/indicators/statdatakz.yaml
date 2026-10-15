@@ -1,0 +1,73 @@
+access_mode:
+- restricted
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+coverage:
+- location:
+    country:
+      id: KZ
+      name: Kazakhstan
+    level: 20
+    macroregion:
+      id: '143'
+      name: Central Asia
+description: Priced catalog of statistical indicators and custom reports operated by
+  the Information and Computing Centre of the Bureau of National Statistics. Themed
+  catalogs cover demography, small and medium business, industry, investment and
+  construction, and agriculture, with per-indicator monthly and annual pricing and
+  downloadable sample files. Reports are paid and delivered by request under the state
+  statistical information service regulated by Ministry of National Economy order
+  No. 24 of 6 April 2020.
+id: statdatakz
+langs:
+- id: RU
+  name: Russian
+link: https://www.statdata.kz/services
+name: StatData paid statistical information service (IVC of the Bureau of National
+  Statistics)
+owner:
+  link: https://www.statdata.kz
+  location:
+    country:
+      id: KZ
+      name: Kazakhstan
+    level: 20
+  name: Information and Computing Centre of the Bureau of National Statistics
+  type: Central government
+properties:
+  has_doi: false
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- statistics
+- paid data
+- official statistics
+- business
+- Kazakhstan
+topics:
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: ECON
+  name: Economy and finance
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+- id: Economy
+  name: Economy
+  type: iso19115
+uid: cdi00013819

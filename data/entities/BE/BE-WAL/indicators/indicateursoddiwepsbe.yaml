@@ -1,0 +1,46 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: BE
+      name: Belgium
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 30
+    subregion:
+      id: BE-WAL
+      name: wallonne, Région
+description: 'Wallonia SDG indicators portal (ODD): sustainable development indicators
+  for the Walloon Region by goal, with maps and tables.'
+id: indicateursoddiwepsbe
+langs:
+- id: FR
+  name: French
+link: https://indicateursodd.iweps.be/odd-accueil.php
+name: Objectifs de développement durable en Wallonie
+owner:
+  link: https://www.iweps.be
+  location:
+    country:
+      id: BE
+      name: Belgium
+    level: 30
+    subregion:
+      id: BE-WAL
+      name: wallonne, Région
+  name: Institut wallon de l'évaluation, de la prospective et de la statistique (IWEPS)
+  type: Regional government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013883

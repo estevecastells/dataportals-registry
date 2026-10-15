@@ -1,0 +1,40 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: World
+      name: World
+    level: 20
+    macroregion:
+      id: '001'
+      name: World
+description: 'Digital theme of the World Bank Data360 platform: indicators on connectivity,
+  data infrastructure, cybersecurity, digital industry and jobs, and digital services
+  by economy.'
+id: data360worldbankorg
+langs:
+- id: EN
+  name: English
+link: https://data360.worldbank.org/en/digital
+name: World Bank Data360 Digital
+owner:
+  link: null
+  location:
+    country:
+      id: World
+      name: World
+  name: World Bank
+  type: International
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00014100

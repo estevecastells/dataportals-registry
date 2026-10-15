@@ -1,0 +1,67 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Geoportal
+content_types:
+- dataset
+- map_layer
+coverage:
+- location:
+    country:
+      id: KG
+      name: Kyrgyzstan
+    level: 20
+    macroregion:
+      id: '143'
+      name: Central Asia
+description: Address Register of the Kyrgyz Republic (GISAR), operated by State Institution
+  "Kadastr" under the State Agency for Land Resources. Address search over the national
+  address register with a gateway to the public cadastral map (cadastre.kg) and
+  electronic services.
+id: darekkg
+langs:
+- id: RU
+  name: Russian
+link: http://darek.kg
+name: Address Register of the Kyrgyz Republic (GISAR)
+owner:
+  link: https://darek.kg
+  location:
+    country:
+      id: KG
+      name: Kyrgyzstan
+    level: 20
+  name: State Institution "Kadastr" under the State Agency for Land Resources under
+    the Cabinet of Ministers of the Kyrgyz Republic
+  type: Central government
+properties:
+  has_doi: false
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: granular
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- geospatial
+- government
+- cadastre
+- addresses
+topics:
+- id: Planning / Cadastre
+  name: Planning / Cadastre
+  type: iso19115
+- id: Location
+  name: Location
+  type: iso19115
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
+uid: cdi00013855

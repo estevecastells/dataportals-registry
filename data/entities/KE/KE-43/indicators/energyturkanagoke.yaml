@@ -1,0 +1,62 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+- dataset
+coverage:
+- location:
+    country:
+      id: KE
+      name: Kenya
+    macroregion:
+      id: '014'
+      name: Eastern Africa
+    level: 30
+    subregion:
+      id: KE-43
+      name: Turkana
+description: 'Turkana County Energy Database, run with GIZ and Turkana University College: 50 county energy
+  indicator datasets covering energy access, fuels, transmission and renewable energy, each with summary
+  statistics, downloadable Excel tables and maps.'
+id: energyturkanagoke
+langs:
+- id: EN
+  name: English
+link: https://energy.turkana.go.ke
+name: Turkana County Energy Database
+owner:
+  link: https://www.turkana.go.ke
+  location:
+    country:
+      id: KE
+      name: Kenya
+    level: 30
+    subregion:
+      id: KE-43
+      name: Turkana
+  name: County Government of Turkana
+  type: Local government
+properties:
+  has_doi: false
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- energy
+- county
+- Turkana
+- renewable energy
+- Kenya
+topics:
+- id: ENER
+  name: Energy
+  type: eudatatheme
+- id: UtilitiesCommunication
+  name: Utilities / Communication
+  type: iso19115
+uid: cdi00013983

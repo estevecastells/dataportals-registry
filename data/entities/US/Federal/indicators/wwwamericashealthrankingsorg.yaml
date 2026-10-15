@@ -1,0 +1,47 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    level: 20
+    macroregion:
+      id: '001'
+      name: World
+description: 'America''s Health Rankings from the United Health Foundation: state health indicator explorer
+  with 300+ measures of behaviors, community and environment, policy, clinical care and outcomes, with
+  subpopulation breakdowns and downloadable data.'
+id: wwwamericashealthrankingsorg
+langs:
+- id: EN
+  name: English
+link: https://www.americashealthrankings.org/
+name: America’s Health Rankings | AHR
+owner:
+  link: https://www.unitedhealthgroup.com/newsroom/articles/united-health-foundation.html
+  location:
+    country:
+      id: US
+      name: United States
+    level: 20
+  name: United Health Foundation
+  type: Civil society
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- indicators
+- statistics
+- united-states
+topics:
+- id: HEAL
+  name: Health
+  type: eudatatheme
+uid: cdi00013893

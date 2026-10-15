@@ -1,9 +1,9 @@
 DATA QUALITY REPORT - COUNTRY: NG
 ================================================================================
-Generated: 2026-10-06 16:36:15
+Generated: 2026-10-15 13:36:04
 Country Code: NG
-Total Records with Issues: 1
-Total Issues Found: 3
+Total Records with Issues: 2
+Total Issues Found: 6
 
 === ISSUES BY TYPE ===
 
@@ -18,8 +18,19 @@ Field: description
 Current Value: This is a temporary record with some data collected but it should be updated befor adding to the index
 Suggested Action: Add meaningful description based on portal content and purpose
 
-[MISSING_TAGS]
+[MISSING_OWNER_LINK]
 Count: 1
+Priority: LOW
+
+File: NG/Federal/indicators/nccgovng.yaml
+Record ID: nccgovng
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+[MISSING_TAGS]
+Count: 2
 Priority: LOW
 
 File: NG/NG-KD/indicators/ghskdbsng.yaml
@@ -29,8 +40,15 @@ Field: tags
 Current Value: []
 Suggested Action: Extract tags from description and catalog_type
 
+File: NG/Federal/indicators/nccgovng.yaml
+Record ID: nccgovng
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
 [MISSING_TOPICS]
-Count: 1
+Count: 2
 Priority: LOW
 
 File: NG/NG-KD/indicators/ghskdbsng.yaml
@@ -40,12 +58,20 @@ Field: topics
 Current Value: []
 Suggested Action: Add relevant topics based on catalog_type and description
 
+File: NG/Federal/indicators/nccgovng.yaml
+Record ID: nccgovng
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
 
 === SUMMARY BY ISSUE TYPE ===
 
 MISSING_DESCRIPTION: 1 issue
-MISSING_TAGS: 1 issue
-MISSING_TOPICS: 1 issue
+MISSING_OWNER_LINK: 1 issue
+MISSING_TAGS: 2 issues
+MISSING_TOPICS: 2 issues
 
 === RECORDS WITH MULTIPLE ISSUES (3+) ===
 
@@ -56,3 +82,11 @@ Issues:
   - MISSING_TOPICS: topics
   - MISSING_TAGS: tags
   - MISSING_DESCRIPTION: description
+
+Record ID: nccgovng
+File: NG/Federal/indicators/nccgovng.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link

@@ -1,0 +1,47 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+coverage:
+- location:
+    country:
+      id: FR
+      name: France
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 30
+    subregion:
+      id: FR-IDF
+      name: Île-de-France
+description: Observatoire de l'emploi en Île-de-France publishes France Travail Île-de-France
+  employment and labour-market statistics by department, employment basin, CLPE, EPCI
+  and commune.
+id: observatoireemploiiledefrancefr
+langs:
+- id: FR
+  name: French
+link: https://observatoire-emploi-iledefrance.fr/
+name: Observatoire de l'emploi IDF - Les statistiques de France Travail Ile-de-France
+owner:
+  link: https://www.francetravail.fr
+  location:
+    country:
+      id: FR
+      name: France
+    level: 30
+    subregion:
+      id: FR-IDF
+      name: Île-de-France
+  name: France Travail Île-de-France
+  type: Regional government
+software:
+  id: drupal
+  name: Drupal
+status: active
+tags: []
+topics: []
+uid: cdi00013993

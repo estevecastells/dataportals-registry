@@ -1,0 +1,75 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Datasets list
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: KZ
+      name: Kazakhstan
+    level: 20
+    macroregion:
+      id: '143'
+      name: Central Asia
+description: Public search over the Kazakhstan registry of state enterprises, institutions
+  and legal entities with state participation, with filters by BIN, name, legal form,
+  region and status, plus sections for real estate records, bankruptcy court decisions
+  and detailed statistics by region and government body. The registry is maintained
+  by JSC Information and Accounting Center; gr5 is the first version of the Esepte
+  service.
+id: gr5eqazynakz
+langs:
+- id: KZ
+  name: Kazakh
+- id: RU
+  name: Russian
+- id: EN
+  name: English
+link: https://gr5.e-qazyna.kz/p/ru/gr-search/search-objects
+name: State Property Registry (Esepte)
+owner:
+  link: https://www.iuc.kz
+  location:
+    country:
+      id: KZ
+      name: Kazakhstan
+    level: 20
+  name: JSC Information and Accounting Center
+  type: Business
+properties:
+  has_doi: false
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- state property
+- registry
+- state enterprises
+- government
+- Kazakhstan
+topics:
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
+- id: ECON
+  name: Economy and finance
+  type: eudatatheme
+- id: Economy
+  name: Economy
+  type: iso19115
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013810

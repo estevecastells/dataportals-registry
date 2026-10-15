@@ -1,11 +1,206 @@
 DATA QUALITY REPORT - COUNTRY: DK
 ================================================================================
-Generated: 2026-10-06 16:36:15
+Generated: 2026-10-15 13:36:04
 Country Code: DK
-Total Records with Issues: 1
-Total Issues Found: 1
+Total Records with Issues: 8
+Total Issues Found: 26
 
 === ISSUES BY TYPE ===
+
+[MISSING_OWNER_LINK]
+Count: 7
+Priority: LOW
+
+File: DK/DK-84/indicators/kkstatistikbankdk.yaml
+Record ID: kkstatistikbankdk
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: DK/DK-82/indicators/gisportalenaarhusdknoegletal.yaml
+Record ID: gisportalenaarhusdknoegletal
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: DK/Federal/indicators/vej08vddkkomse.yaml
+Record ID: vej08vddkkomse
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: DK/Federal/indicators/jobindsatsdk.yaml
+Record ID: jobindsatsdk
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: DK/Federal/indicators/uddannelsesstatistikdk.yaml
+Record ID: uddannelsesstatistikdk
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: DK/Federal/indicators/wwwnoegletaldk.yaml
+Record ID: wwwnoegletaldk
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: DK/Federal/indicators/smvstatistikstatistikbankdk.yaml
+Record ID: smvstatistikstatistikbankdk
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+[MISSING_TAGS]
+Count: 7
+Priority: LOW
+
+File: DK/DK-84/indicators/kkstatistikbankdk.yaml
+Record ID: kkstatistikbankdk
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: DK/DK-82/indicators/gisportalenaarhusdknoegletal.yaml
+Record ID: gisportalenaarhusdknoegletal
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: DK/Federal/indicators/vej08vddkkomse.yaml
+Record ID: vej08vddkkomse
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: DK/Federal/indicators/jobindsatsdk.yaml
+Record ID: jobindsatsdk
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: DK/Federal/indicators/uddannelsesstatistikdk.yaml
+Record ID: uddannelsesstatistikdk
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: DK/Federal/indicators/wwwnoegletaldk.yaml
+Record ID: wwwnoegletaldk
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: DK/Federal/indicators/smvstatistikstatistikbankdk.yaml
+Record ID: smvstatistikstatistikbankdk
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+[MISSING_TOPICS]
+Count: 7
+Priority: LOW
+
+File: DK/DK-84/indicators/kkstatistikbankdk.yaml
+Record ID: kkstatistikbankdk
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: DK/DK-82/indicators/gisportalenaarhusdknoegletal.yaml
+Record ID: gisportalenaarhusdknoegletal
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: DK/Federal/indicators/vej08vddkkomse.yaml
+Record ID: vej08vddkkomse
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: DK/Federal/indicators/jobindsatsdk.yaml
+Record ID: jobindsatsdk
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: DK/Federal/indicators/uddannelsesstatistikdk.yaml
+Record ID: uddannelsesstatistikdk
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: DK/Federal/indicators/wwwnoegletaldk.yaml
+Record ID: wwwnoegletaldk
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: DK/Federal/indicators/smvstatistikstatistikbankdk.yaml
+Record ID: smvstatistikstatistikbankdk
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+[PLACEHOLDER_TITLE]
+Count: 2
+Priority: MEDIUM
+
+File: DK/Federal/indicators/jobindsatsdk.yaml
+Record ID: jobindsatsdk
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: Jobindsats.dk
+Suggested Action: Use a human-readable portal title instead of a URL/domain string.
+
+File: DK/Federal/indicators/jobindsatsdk.yaml
+Record ID: jobindsatsdk
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: Jobindsats.dk
+Suggested Action: Replace domain/path-based title with a descriptive portal name.
+
+[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PXWEB]
+Count: 2
+Priority: MEDIUM
+
+File: DK/DK-84/indicators/kkstatistikbankdk.yaml
+Record ID: kkstatistikbankdk
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PXWEB
+Field: endpoints
+Current Value: {'software_id': 'pxweb', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='pxweb' is marked as API-capable in software definitions
+
+File: DK/Federal/indicators/smvstatistikstatistikbankdk.yaml
+Record ID: smvstatistikstatistikbankdk
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PXWEB
+Field: endpoints
+Current Value: {'software_id': 'pxweb', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='pxweb' is marked as API-capable in software definitions
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS]
 Count: 1
@@ -21,4 +216,71 @@ Suggested Action: Add at least one endpoint because software.id='wordpress' is m
 
 === SUMMARY BY ISSUE TYPE ===
 
+MISSING_OWNER_LINK: 7 issues
+MISSING_TAGS: 7 issues
+MISSING_TOPICS: 7 issues
+PLACEHOLDER_TITLE: 2 issues
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PXWEB: 2 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS: 1 issue
+
+=== RECORDS WITH MULTIPLE ISSUES (3+) ===
+
+Record ID: jobindsatsdk
+File: DK/Federal/indicators/jobindsatsdk.yaml
+Issue Count: 5
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+  - PLACEHOLDER_TITLE: name
+  - PLACEHOLDER_TITLE: name
+
+Record ID: kkstatistikbankdk
+File: DK/DK-84/indicators/kkstatistikbankdk.yaml
+Issue Count: 4
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PXWEB: endpoints
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: smvstatistikstatistikbankdk
+File: DK/Federal/indicators/smvstatistikstatistikbankdk.yaml
+Issue Count: 4
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PXWEB: endpoints
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: gisportalenaarhusdknoegletal
+File: DK/DK-82/indicators/gisportalenaarhusdknoegletal.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: vej08vddkkomse
+File: DK/Federal/indicators/vej08vddkkomse.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: uddannelsesstatistikdk
+File: DK/Federal/indicators/uddannelsesstatistikdk.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: wwwnoegletaldk
+File: DK/Federal/indicators/wwwnoegletaldk.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link

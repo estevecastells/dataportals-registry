@@ -1,0 +1,46 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Open data portal
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: GB
+      name: United Kingdom
+    macroregion:
+      id: '154'
+      name: Northern Europe
+    level: 30
+    subregion:
+      id: GB-ENG
+      name: England
+description: County intelligence observatory with local data, area profiles and reports
+  for Cumbria.
+id: wwwcumbriaobservatoryorguk
+langs:
+- id: EN
+  name: English
+link: https://www.cumbriaobservatory.org.uk/
+name: Cumbria Intelligence Observatory
+owner:
+  link: null
+  location:
+    country:
+      id: GB
+      name: United Kingdom
+    level: 30
+    subregion:
+      id: GB-ENG
+      name: England
+  name: Cumbria County Council
+  type: Local government
+software:
+  id: esridataobservatory
+  name: Esri UK Data Observatory
+status: active
+tags: []
+topics: []
+uid: cdi00014041

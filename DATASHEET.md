@@ -20,7 +20,7 @@ Each record describes one data catalog or repository: name, URL, owner, geograph
 
 ### How many instances?
 
-Working tree (27 September 2026): **42,390** verified entity YAML records plus **1** scheduled YAML record and **733** software definitions. Last published snapshot is v1.22.0 (41,167 catalogs, 1 scheduled, 24 September 2026). Export counts are listed in [README.md](README.md#data-exports).
+Working tree (15 October 2026): **43,614** verified entity YAML records plus **0** scheduled YAML records and **790** software definitions. Last published snapshot is v1.27.0 (43,614 catalogs, 0 scheduled, 15 October 2026). Export counts are listed in [README.md](README.md#data-exports).
 
 ### What data does each instance consist of?
 

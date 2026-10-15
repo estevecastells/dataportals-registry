@@ -1,0 +1,67 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Geoportal
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: EU
+      name: European Union
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+description: Water Information System for Europe (WISE) run by the European Environment
+  Agency with the European Commission. Gateway and map viewers (Water Framework
+  Directive map viewer, WISE Marine, droughts viewer) providing data on the state
+  of Europe's rivers, lakes, groundwaters and marine waters, the pressures affecting
+  them and the protection measures taken under EU water legislation.
+id: watereuropaeu
+langs:
+- id: EN
+  name: English
+link: https://water.europa.eu/
+name: WISE - Water Information System for Europe
+owner:
+  link: https://www.eea.europa.eu/
+  location:
+    country:
+      id: EU
+      name: European Union
+    level: 20
+  name: European Environment Agency
+  type: International
+properties:
+  has_doi: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- water
+- environment
+- europe
+- map viewer
+- freshwater
+- marine
+topics:
+- id: ENVI
+  name: Environment
+  type: eudatatheme
+- id: Inland Waters
+  name: Inland Waters
+  type: iso19115
+- id: Oceans
+  name: Oceans
+  type: iso19115
+uid: cdi00013865

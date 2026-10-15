@@ -1,0 +1,51 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+coverage:
+- location:
+    country:
+      id: CH
+      name: Switzerland
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 20
+description: 'Indicator system of the Swiss Health Observatory: A-Z health indicators
+  with statistical data on the population''s health and the Swiss health system, with
+  charts, tables and cantonal breakdowns.'
+id: wwwobsanch
+langs:
+- id: DE
+  name: German
+- id: FR
+  name: French
+link: https://www.obsan.ch/indikatoren
+name: Obsan Indikatoren – Schweizerisches Gesundheitsobservatorium
+owner:
+  link: https://www.obsan.ch
+  location:
+    country:
+      id: CH
+      name: Switzerland
+    level: 20
+  name: Schweizerisches Gesundheitsobservatorium (Obsan)
+  type: Central government
+properties:
+  has_doi: false
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- statistics
+- government
+- Switzerland
+- health
+- indicators
+topics: []
+uid: cdi00014060

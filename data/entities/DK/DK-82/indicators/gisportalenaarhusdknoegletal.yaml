@@ -1,0 +1,47 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: DK
+      name: Denmark
+    macroregion:
+      id: '154'
+      name: Northern Europe
+    level: 30
+    subregion:
+      id: DK-82
+      name: Midtjylland
+description: Interactive socio-economic key-figures map of Aarhus Municipality built
+  with the Alexandra Institute, presenting De Kommunale Nøgletal themes with time
+  series from 1993.
+id: gisportalenaarhusdknoegletal
+langs:
+- id: DA
+  name: Danish
+link: https://gisportalen.aarhus.dk/sociooekonomi/noegletal-aarhus
+name: Nøgletal Aarhus
+owner:
+  link: null
+  location:
+    country:
+      id: DK
+      name: Denmark
+    level: 30
+    subregion:
+      id: DK-82
+      name: Midtjylland
+  name: Aarhus Kommune
+  type: Local government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013892

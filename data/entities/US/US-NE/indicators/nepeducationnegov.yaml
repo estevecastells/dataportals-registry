@@ -1,0 +1,61 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    macroregion:
+      id: '021'
+      name: Northern America
+    level: 30
+    subregion:
+      id: US-NE
+      name: Nebraska
+description: 'Nebraska Department of Education one-stop education data portal: performance and student
+  indicators for Nebraska public schools and districts.'
+id: nepeducationnegov
+langs:
+- id: EN
+  name: English
+link: https://nep.education.ne.gov/
+name: Nebraska Education Profile
+owner:
+  link: https://www.education.ne.gov/
+  location:
+    country:
+      id: US
+      name: United States
+    level: 30
+    subregion:
+      id: US-NE
+      name: Nebraska
+  name: Nebraska Department of Education
+  type: Regional government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- education
+- schools
+- statistics
+- Nebraska
+- indicators
+topics:
+- id: EDUC
+  name: Education, culture and sport
+  type: eudatatheme
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013934

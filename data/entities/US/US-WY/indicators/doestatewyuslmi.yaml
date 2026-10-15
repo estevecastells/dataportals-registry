@@ -1,0 +1,60 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    macroregion:
+      id: '021'
+      name: Northern America
+    level: 30
+    subregion:
+      id: US-WY
+      name: Wyoming
+description: 'Wyoming Department of Workforce Services Research and Planning LMI portal: labor force,
+  employment and wage indicators with an economic dashboard.'
+id: doestatewyuslmi
+langs:
+- id: EN
+  name: English
+link: https://doe.state.wy.us/lmi
+name: Wyoming Labor Market Information
+owner:
+  link: https://dws.wyo.gov/
+  location:
+    country:
+      id: US
+      name: United States
+    level: 30
+    subregion:
+      id: US-WY
+      name: Wyoming
+  name: Wyoming Department of Workforce Services, Research and Planning
+  type: Regional government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- labor market
+- employment
+- statistics
+- Wyoming
+- indicators
+topics:
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: ECON
+  name: Economy and finance
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013943

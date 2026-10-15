@@ -1303,6 +1303,20 @@ roots as catalogs.
 workspace. **Drop:** basemap tiles, CMS media (`cms.geocloud.gov.sk`), and
 login-only provider areas.
 
+## NSPD Platform (`nspdplatform`) {#nspdplatform}
+
+Layer/theme registry, not package datasets. The catalog is the theme tree
+`/api/geoportal/v1/layers-theme-tree?themeId={id}` (themes from
+`/api/geoportal/v1/layers-theme`) with layer configs at `/api/layers/v3/layers/{id}`;
+object search is `/api/geoportal/v2/search/geoportal?query=...&layersId=...`.
+Feature attributes come from `aeggis` WMS GetFeatureInfo
+(`/api/aeggis/v{3,4}/{layer}/wms`).
+
+**Keep:** thematic **layers** (one dataset per layer id) with name, theme, and scale
+range from `groupedLayers`. **Drop:** basemaps (`source: "external"` tile proxies such
+as 2GIS or the nspd.gov.ru TMS), cache configs, and per-object cadastral features
+unless the user asked for object-level records.
+
 ## Related
 
 - [harvest.md](harvest.md)

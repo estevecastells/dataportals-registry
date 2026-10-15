@@ -1,0 +1,51 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+coverage:
+- location:
+    country:
+      id: TZ
+      name: Tanzania
+    level: 20
+    macroregion:
+      id: '014'
+      name: Eastern Africa
+description: Official dashboard of the Ministry of Minerals with real-time mining
+  statistics, licence and revenue data, and sector performance.
+id: msmismadinigotz
+langs:
+- id: EN
+  name: English
+link: https://msmis.madini.go.tz
+name: Ministry of Minerals Dashboard (MSMIS)
+owner:
+  link: https://www.madini.go.tz
+  location:
+    country:
+      id: TZ
+      name: Tanzania
+    level: 20
+  name: Ministry of Minerals
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- government
+- mining
+- statistics
+- indicators
+- Tanzania
+topics:
+- id: ECON
+  name: Economy and finance
+  type: eudatatheme
+- id: Economy
+  name: Economy
+  type: iso19115
+uid: cdi00013883

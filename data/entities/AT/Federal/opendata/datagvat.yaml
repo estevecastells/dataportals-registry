@@ -52,7 +52,7 @@ owner:
   name: Government of Austria
   type: Central government
 properties:
-  is_national: false
+  is_national: true
   transferable_location: true
 rights:
   license_id: null

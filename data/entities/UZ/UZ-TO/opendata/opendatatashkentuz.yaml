@@ -1,0 +1,77 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Open data portal
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: UZ
+      name: Uzbekistan
+    level: 30
+    macroregion:
+      id: '143'
+      name: Central Asia
+    subregion:
+      id: UZ-TO
+      name: Toshkent
+description: Open data portal of the city of Tashkent operated under the Tashkent City
+  Administration (Hokimiyat). Publishes more than 200 machine-readable datasets on
+  transport, the social sector, advertising, housing and communal services and other
+  city topics, with attribution required for reuse. Runs on a custom web application;
+  access is geo-restricted to selected countries.
+id: opendatatashkentuz
+langs:
+- id: UZ
+  name: Uzbek
+- id: RU
+  name: Russian
+link: https://opendata.tashkent.uz
+name: Open Data Tashkent
+owner:
+  link: https://tashkent.uz
+  location:
+    country:
+      id: UZ
+      name: Uzbekistan
+    level: 30
+    subregion:
+      id: UZ-TO
+      name: Toshkent
+  name: Tashkent City Administration
+  type: Regional government
+properties:
+  has_doi: false
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- government
+- open data
+- Uzbekistan
+- Tashkent
+topics:
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
+- id: TRAN
+  name: Transport
+  type: eudatatheme
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013853

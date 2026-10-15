@@ -1,0 +1,60 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    macroregion:
+      id: '021'
+      name: Northern America
+    level: 30
+    subregion:
+      id: US-AL
+      name: Alabama
+description: 'Alabama Department of Labor LMI portal: unemployment and labor force by county (LAUS), industry
+  employment (CES), occupational projections and workforce data with query pages.'
+id: www2laboralabamagov
+langs:
+- id: EN
+  name: English
+link: https://www2.labor.alabama.gov/
+name: Alabama Labor Market Information
+owner:
+  link: https://labor.alabama.gov/
+  location:
+    country:
+      id: US
+      name: United States
+    level: 30
+    subregion:
+      id: US-AL
+      name: Alabama
+  name: Alabama Department of Labor
+  type: Regional government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- labor market
+- employment
+- statistics
+- Alabama
+- indicators
+topics:
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: ECON
+  name: Economy and finance
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013928

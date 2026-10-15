@@ -1,0 +1,61 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    macroregion:
+      id: '021'
+      name: Northern America
+    level: 30
+    subregion:
+      id: US-PA
+      name: Pennsylvania
+description: 'Pennsylvania Department of Health Enterprise Data Dissemination Informatics Exchange: interactive
+  health statistics tool building customized tables for behavioral health, diseases, demographics, maternal
+  health and cancer at state, county and municipal levels.'
+id: phaimhealthpagov
+langs:
+- id: EN
+  name: English
+link: https://www.phaim.health.pa.gov/EDD/
+name: EDDIE (Pennsylvania Health Statistics)
+owner:
+  link: https://www.pa.gov/agencies/health.html
+  location:
+    country:
+      id: US
+      name: United States
+    level: 30
+    subregion:
+      id: US-PA
+      name: Pennsylvania
+  name: Pennsylvania Department of Health
+  type: Regional government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- health
+- statistics
+- Pennsylvania
+- indicators
+topics:
+- id: HEAL
+  name: Health
+  type: eudatatheme
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013945

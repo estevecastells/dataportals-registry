@@ -1,0 +1,40 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: NL
+      name: Netherlands
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 20
+description: 'SCP livability monitor: Leefbaarometer scores and filterable tables
+  for neighbourhoods, districts and municipalities in the Netherlands.'
+id: leefbaarometernl
+langs:
+- id: NL
+  name: Dutch
+link: https://www.leefbaarometer.nl/
+name: Leefbaarometer
+owner:
+  link: https://www.scp.nl/
+  location:
+    country:
+      id: NL
+      name: Netherlands
+    level: 20
+  name: The Netherlands Institute for Social Research (SCP)
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013900

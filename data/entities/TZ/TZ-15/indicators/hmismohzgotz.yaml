@@ -1,0 +1,66 @@
+access_mode:
+- restricted
+api: true
+api_status: active
+catalog_type: Indicators catalog
+content_types:
+- indicator
+- dataset
+coverage:
+- location:
+    country:
+      id: TZ
+      name: Tanzania
+    level: 30
+    macroregion:
+      id: '014'
+      name: Eastern Africa
+    subregion:
+      id: TZ-15
+      name: Zanzibar West
+description: DHIS2 health management information system of the Zanzibar Ministry of
+  Health; login rights issued by the HMIS unit.
+id: hmismohzgotz
+langs:
+- id: EN
+  name: English
+link: https://hmis.mohz.go.tz
+name: Zanzibar Health Management Information System
+owner:
+  link: https://mohz.go.tz
+  location:
+    country:
+      id: TZ
+      name: Tanzania
+    level: 30
+    subregion:
+      id: TZ-15
+      name: Zanzibar West
+  name: Ministry of Health (Zanzibar)
+  type: Regional government
+software:
+  id: dhis2
+  name: DHIS2
+status: active
+tags:
+- government
+- health
+- HMIS
+- DHIS2
+- restricted
+- Zanzibar
+- Tanzania
+topics:
+- id: HEAL
+  name: Health
+  type: eudatatheme
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: Health
+  name: Health
+  type: iso19115
+uid: cdi00013892
+endpoints:
+- type: dhis2:catalog
+  url: https://hmis.mohz.go.tz

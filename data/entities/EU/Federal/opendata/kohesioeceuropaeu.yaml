@@ -1,0 +1,62 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Datasets list
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: EU
+      name: European Union
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+description: Kohesio, the European Commission's knowledge graph of projects funded
+  by EU cohesion and regional policy. Browseable database aggregating project,
+  beneficiary and funding data from Member State open data sources for EU regional
+  policy 2014-2020 and 2021-2027.
+id: kohesioeceuropaeu
+langs:
+- id: EN
+  name: English
+link: https://kohesio.ec.europa.eu/
+name: Kohesio - EU-funded projects knowledge graph
+owner:
+  link: https://commission.europa.eu/
+  location:
+    country:
+      id: EU
+      name: European Union
+    level: 20
+  name: European Commission
+  type: Central government
+properties:
+  has_doi: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- cohesion policy
+- regional policy
+- EU funding
+- knowledge graph
+- linked data
+topics:
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
+- id: REGI
+  name: Regions and cities
+  type: eudatatheme
+uid: cdi00013877

@@ -48,7 +48,7 @@ owner:
 properties:
   dataset_count_reported: 13
   has_doi: false
-  is_national: false
+  is_national: true
 rights:
   license_id: null
   license_name: null

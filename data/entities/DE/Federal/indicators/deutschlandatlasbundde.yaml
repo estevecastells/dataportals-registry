@@ -1,0 +1,41 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+coverage:
+- location:
+    country:
+      id: DE
+      name: Germany
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 20
+description: Deutschlandatlas presenting regional differences in equal living conditions on 84 interactive
+  indicator maps covering crime, rents, population density, renewable energy, education, health and mobility,
+  jointly operated with BBSR, BKG, Destatis and Thünen Institute, with map views and data download.
+id: deutschlandatlasbundde
+langs:
+- id: DE
+  name: German
+link: https://deutschlandatlas.bund.de/
+name: Deutschlandatlas
+owner:
+  link: https://www.bmwsb.bund.de
+  location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+  name: Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen
+  type: Central government
+software:
+  id: governmentsitebuilder
+  name: Government Site Builder
+status: active
+tags: []
+topics: []
+uid: cdi00013989

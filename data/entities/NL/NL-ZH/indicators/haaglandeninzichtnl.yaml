@@ -1,0 +1,46 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: NL
+      name: Netherlands
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 30
+    subregion:
+      id: NL-ZH
+      name: Zuid-Holland
+description: Swing labour-market indicators portal for the Haaglanden region, an initiative
+  of RPA Haaglanden.
+id: haaglandeninzichtnl
+langs:
+- id: NL
+  name: Dutch
+link: https://haaglandeninzicht.nl/
+name: HaaglandenInZicht
+owner:
+  link: null
+  location:
+    country:
+      id: NL
+      name: Netherlands
+    level: 30
+    subregion:
+      id: NL-ZH
+      name: Zuid-Holland
+  name: RPA Haaglanden
+  type: Regional government
+software:
+  id: swing
+  name: Swing
+status: active
+tags: []
+topics: []
+uid: cdi00013917

@@ -1,0 +1,60 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    macroregion:
+      id: '021'
+      name: Northern America
+    level: 30
+    subregion:
+      id: US-MA
+      name: Massachusetts
+description: 'Massachusetts EOLWD/DUA labor market information site: interactive tools for unemployment,
+  labor force and employment data for the state, cities and towns.'
+id: lmiduaeolmassgov
+langs:
+- id: EN
+  name: English
+link: https://lmi.dua.eol.mass.gov/lmi
+name: Massachusetts Labor Market Information
+owner:
+  link: https://www.mass.gov/orgs/executive-office-of-labor-and-workforce-development
+  location:
+    country:
+      id: US
+      name: United States
+    level: 30
+    subregion:
+      id: US-MA
+      name: Massachusetts
+  name: Massachusetts Executive Office of Labor and Workforce Development
+  type: Regional government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- labor market
+- statistics
+- Massachusetts
+- indicators
+topics:
+- id: ECON
+  name: Economy and finance
+  type: eudatatheme
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013960

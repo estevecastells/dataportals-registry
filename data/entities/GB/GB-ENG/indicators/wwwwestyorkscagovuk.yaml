@@ -1,0 +1,46 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: GB
+      name: United Kingdom
+    macroregion:
+      id: '154'
+      name: Northern Europe
+    level: 30
+    subregion:
+      id: GB-ENG
+      name: England
+description: State of the Region data dashboards with economic and social indicators
+  for West Yorkshire.
+id: wwwwestyorkscagovuk
+langs:
+- id: EN
+  name: English
+link: https://www.westyorks-ca.gov.uk/data/dashboards
+name: West Yorkshire Data Dashboards
+owner:
+  link: null
+  location:
+    country:
+      id: GB
+      name: United Kingdom
+    level: 30
+    subregion:
+      id: GB-ENG
+      name: England
+  name: West Yorkshire Combined Authority
+  type: Regional government
+software:
+  id: powerbi
+  name: Microsoft Power BI
+status: active
+tags: []
+topics: []
+uid: cdi00014030

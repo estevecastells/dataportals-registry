@@ -1,9 +1,9 @@
 DATA QUALITY REPORT - COUNTRY: CZ
 ================================================================================
-Generated: 2026-10-06 16:36:15
+Generated: 2026-10-15 13:36:04
 Country Code: CZ
-Total Records with Issues: 1
-Total Issues Found: 3
+Total Records with Issues: 2
+Total Issues Found: 5
 
 === ISSUES BY TYPE ===
 
@@ -40,12 +40,31 @@ Field: topics
 Current Value: []
 Suggested Action: Add relevant topics based on catalog_type and description
 
+[PLACEHOLDER_TITLE]
+Count: 2
+Priority: MEDIUM
+
+File: CZ/Federal/indicators/platycz.yaml
+Record ID: platycz
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: Platy.cz
+Suggested Action: Use a human-readable portal title instead of a URL/domain string.
+
+File: CZ/Federal/indicators/platycz.yaml
+Record ID: platycz
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: Platy.cz
+Suggested Action: Replace domain/path-based title with a descriptive portal name.
+
 
 === SUMMARY BY ISSUE TYPE ===
 
 MISSING_OWNER_LINK: 1 issue
 MISSING_TAGS: 1 issue
 MISSING_TOPICS: 1 issue
+PLACEHOLDER_TITLE: 2 issues
 
 === RECORDS WITH MULTIPLE ISSUES (3+) ===
 

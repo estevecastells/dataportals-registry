@@ -1,0 +1,60 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    macroregion:
+      id: '021'
+      name: Northern America
+    level: 30
+    subregion:
+      id: US-AK
+      name: Alaska
+description: 'Alaska Department of Labor and Workforce Development Research and Analysis portal: labor
+  force, employment, wages, projections and Census data for Alaska with interactive queries and CSV downloads.'
+id: livelaborstatsalaskagov
+langs:
+- id: EN
+  name: English
+link: https://live.laborstats.alaska.gov/
+name: Alaska LaborStats (Research and Analysis)
+owner:
+  link: https://labor.alaska.gov/
+  location:
+    country:
+      id: US
+      name: United States
+    level: 30
+    subregion:
+      id: US-AK
+      name: Alaska
+  name: Alaska Department of Labor and Workforce Development, Research and Analysis
+  type: Regional government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- labor market
+- employment
+- statistics
+- Alaska
+- indicators
+topics:
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: ECON
+  name: Economy and finance
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013926

@@ -1,0 +1,49 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: ES
+      name: Spain
+    macroregion:
+      id: '039'
+      name: Southern Europe
+    level: 30
+    subregion:
+      id: ES-VC
+      name: Valenciana, Comunidad
+description: 'City statistics service of Valencia: municipal indicators, statistical
+  yearbook and district data; distinct from the VLCi open-data portal and the ODS-valencia
+  GitHub site.'
+id: wwwvalenciaescasestadicainicio
+langs:
+- id: ES
+  name: Spanish
+- id: CA
+  name: Catalan
+link: https://www.valencia.es/cas/estadistica/inicio
+name: Estadistica Valencia
+owner:
+  link: https://www.valencia.es
+  location:
+    country:
+      id: ES
+      name: Spain
+    level: 30
+    subregion:
+      id: ES-VC
+      name: Valenciana, Comunidad
+  name: Ajuntament de Valencia
+  type: Local government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00014014

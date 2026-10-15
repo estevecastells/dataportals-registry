@@ -1,0 +1,48 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: IT
+      name: Italy
+    macroregion:
+      id: '039'
+      name: Southern Europe
+    level: 30
+    subregion:
+      id: IT-45
+      name: Emilia-Romagna
+description: Interactive cancer-registry indicator portal of the Emilia-Romagna regional
+  health system covering incidence and survival for the registries of Piacenza, Parma,
+  Reggio Emilia, Modena, Bologna, Ferrara and Romagna, with filters by territorial
+  unit and tumour site.
+id: datiregistrotumoriemiliaromagnait
+langs:
+- id: IT
+  name: Italian
+link: https://www.datiregistrotumori-emilia-romagna.it/
+name: Sistema Informativo Registro Tumori Emilia-Romagna
+owner:
+  link: https://salute.regione.emilia-romagna.it
+  location:
+    country:
+      id: IT
+      name: Italy
+    level: 30
+    subregion:
+      id: IT-45
+      name: Emilia-Romagna
+  name: Regione Emilia-Romagna (Salute)
+  type: Regional government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013880

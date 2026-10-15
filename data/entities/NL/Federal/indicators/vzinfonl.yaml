@@ -1,0 +1,40 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: NL
+      name: Netherlands
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 20
+description: 'National health and care indicators portal by RIVM: dashboards, ECHI
+  indicators, cost of illness, mortality and theme monitors.'
+id: vzinfonl
+langs:
+- id: NL
+  name: Dutch
+link: https://www.vzinfo.nl/
+name: VZinfo
+owner:
+  link: https://www.rivm.nl/
+  location:
+    country:
+      id: NL
+      name: Netherlands
+    level: 20
+  name: RIVM (National Institute for Public Health and the Environment)
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013904

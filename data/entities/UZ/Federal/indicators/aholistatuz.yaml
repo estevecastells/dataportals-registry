@@ -1,0 +1,69 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+- publication
+coverage:
+- location:
+    country:
+      id: UZ
+      name: Uzbekistan
+    level: 20
+    macroregion:
+      id: '143'
+      name: Central Asia
+description: Official portal of Uzbekistan's 2026 population and agricultural census
+  of the National Statistics Committee. Publishes preliminary census results, statistical
+  collections and infographics, census methodology and official documents, with materials
+  in Uzbek, Russian and English.
+id: aholistatuz
+langs:
+- id: UZ
+  name: Uzbek
+- id: RU
+  name: Russian
+- id: EN
+  name: English
+link: https://aholi.stat.uz
+name: Uzbekistan Population and Agricultural Census 2026
+owner:
+  link: https://stat.uz
+  location:
+    country:
+      id: UZ
+      name: Uzbekistan
+    level: 20
+  name: National Statistics Committee of the Republic of Uzbekistan
+  type: Central government
+properties:
+  has_doi: false
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: joomla
+  name: Joomla
+status: active
+tags:
+- statistics
+- census
+- population
+- Uzbekistan
+- government
+- indicators
+topics:
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013829

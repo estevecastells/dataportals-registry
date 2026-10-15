@@ -1,0 +1,63 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+- dataset
+coverage:
+- location:
+    country:
+      id: KE
+      name: Kenya
+    macroregion:
+      id: '014'
+      name: Eastern Africa
+    level: 20
+description: 'NIPFN Kenya is a joint KNBS-KIPPRA platform for food security and nutrition: multisectoral
+  nutrition dashboards, a harmonized indicators repository by sector, county profiles, SMART surveys and
+  a policy questions library, with dedicated county sub-platforms.'
+id: nipfnknbsorke
+langs:
+- id: EN
+  name: English
+link: https://nipfn.knbs.or.ke
+name: National Information Platform for Food Security and Nutrition (NIPFN) Kenya
+owner:
+  link: https://www.knbs.or.ke
+  location:
+    country:
+      id: KE
+      name: Kenya
+    level: 20
+  name: Kenya National Bureau of Statistics (KNBS) and KIPPRA
+  type: Central government
+properties:
+  has_doi: false
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- food security
+- nutrition
+- agriculture
+- health
+- county profiles
+- Kenya
+topics:
+- id: AGRI
+  name: Agriculture, fisheries, forestry and food
+  type: eudatatheme
+- id: HEAL
+  name: Health
+  type: eudatatheme
+- id: Farming
+  name: Farming
+  type: iso19115
+- id: Health
+  name: Health
+  type: iso19115
+uid: cdi00013977

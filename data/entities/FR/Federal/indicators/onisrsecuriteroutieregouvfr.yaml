@@ -1,0 +1,41 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+coverage:
+- location:
+    country:
+      id: FR
+      name: France
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 20
+description: Recherche statistique des accidents is the ONISR custom-table builder
+  querying the national road-accident statistics (BAAC) by territory, year and characteristics.
+id: onisrsecuriteroutieregouvfr
+langs:
+- id: FR
+  name: French
+link: https://www.onisr.securite-routiere.gouv.fr/recherche-statistique-des-accidents
+name: Je crée mon tableau | Observatoire national interministériel de la sécurité
+  routière
+owner:
+  link: https://www.onisr.securite-routiere.gouv.fr
+  location:
+    country:
+      id: FR
+      name: France
+    level: 20
+  name: Observatoire national interministériel de la sécurité routière
+  type: Central government
+software:
+  id: drupal
+  name: Drupal
+status: active
+tags: []
+topics: []
+uid: cdi00014003

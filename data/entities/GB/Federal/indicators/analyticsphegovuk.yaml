@@ -1,0 +1,40 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: GB
+      name: United Kingdom
+    macroregion:
+      id: '154'
+      name: Northern Europe
+    level: 20
+description: Interactive indicators of the wider impacts of COVID-19 on health, care
+  and inequalities for local authorities in England.
+id: analyticsphegovuk
+langs:
+- id: EN
+  name: English
+link: https://analytics.phe.gov.uk/apps/covid-19-indirect-effects/
+name: Wider Impacts of COVID-19 on Health
+owner:
+  link: https://www.gov.uk/government/organisations/uk-health-security-agency
+  location:
+    country:
+      id: GB
+      name: United Kingdom
+    level: 20
+  name: UK Health Security Agency
+  type: Central government
+software:
+  id: shiny
+  name: R Shiny
+status: active
+tags: []
+topics: []
+uid: cdi00014021

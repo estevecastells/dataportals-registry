@@ -1,11 +1,181 @@
 DATA QUALITY REPORT - COUNTRY: IN
 ================================================================================
-Generated: 2026-10-06 16:36:15
+Generated: 2026-10-15 13:36:04
 Country Code: IN
-Total Records with Issues: 3
-Total Issues Found: 3
+Total Records with Issues: 13
+Total Issues Found: 25
 
 === ISSUES BY TYPE ===
+
+[MISSING_OWNER_LINK]
+Count: 1
+Priority: LOW
+
+File: IN/Federal/scientific/vizieriucaain.yaml
+Record ID: vizieriucaain
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+[MISSING_TAGS]
+Count: 10
+Priority: LOW
+
+File: IN/IN-PB/indicators/esopbgovin.yaml
+Record ID: esopbgovin
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IN/IN-WB/indicators/baeswbgovin.yaml
+Record ID: baeswbgovin
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IN/IN-OD/indicators/desodishagovin.yaml
+Record ID: desodishagovin
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IN/IN-CG/indicators/descggovin.yaml
+Record ID: descggovin
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IN/IN-UK/indicators/desdataukgovin.yaml
+Record ID: desdataukgovin
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IN/IN-UK/indicators/districtepatrikaukgovin.yaml
+Record ID: districtepatrikaukgovin
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IN/Federal/scientific/vizieriucaain.yaml
+Record ID: vizieriucaain
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IN/IN-RJ/indicators/iiprajasthangovin.yaml
+Record ID: iiprajasthangovin
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IN/IN-RJ/indicators/psrrajasthangovin.yaml
+Record ID: psrrajasthangovin
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IN/IN-RJ/indicators/saarrajasthangovin.yaml
+Record ID: saarrajasthangovin
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+[MISSING_TOPICS]
+Count: 10
+Priority: LOW
+
+File: IN/IN-PB/indicators/esopbgovin.yaml
+Record ID: esopbgovin
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: IN/IN-WB/indicators/baeswbgovin.yaml
+Record ID: baeswbgovin
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: IN/IN-OD/indicators/desodishagovin.yaml
+Record ID: desodishagovin
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: IN/IN-CG/indicators/descggovin.yaml
+Record ID: descggovin
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: IN/IN-UK/indicators/desdataukgovin.yaml
+Record ID: desdataukgovin
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: IN/IN-UK/indicators/districtepatrikaukgovin.yaml
+Record ID: districtepatrikaukgovin
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: IN/Federal/scientific/vizieriucaain.yaml
+Record ID: vizieriucaain
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: IN/IN-RJ/indicators/iiprajasthangovin.yaml
+Record ID: iiprajasthangovin
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: IN/IN-RJ/indicators/psrrajasthangovin.yaml
+Record ID: psrrajasthangovin
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: IN/IN-RJ/indicators/saarrajasthangovin.yaml
+Record ID: saarrajasthangovin
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+[PLACEHOLDER_TITLE]
+Count: 1
+Priority: MEDIUM
+
+File: IN/IN-WB/indicators/baeswbgovin.yaml
+Record ID: baeswbgovin
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: BAES
+Suggested Action: Expand the portal title to be more descriptive than a few characters.
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DKAN]
 Count: 2
@@ -39,5 +209,27 @@ Suggested Action: Add at least one endpoint because software.id='wordpress' is m
 
 === SUMMARY BY ISSUE TYPE ===
 
+MISSING_OWNER_LINK: 1 issue
+MISSING_TAGS: 10 issues
+MISSING_TOPICS: 10 issues
+PLACEHOLDER_TITLE: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DKAN: 2 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS: 1 issue
+
+=== RECORDS WITH MULTIPLE ISSUES (3+) ===
+
+Record ID: baeswbgovin
+File: IN/IN-WB/indicators/baeswbgovin.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - PLACEHOLDER_TITLE: name
+
+Record ID: vizieriucaain
+File: IN/Federal/scientific/vizieriucaain.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link

@@ -1,0 +1,51 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    level: 20
+    macroregion:
+      id: '001'
+      name: World
+description: 'Projections Central from the Projections Managing Partnership (state LMI offices funded
+  by U.S. DOL ETA): long-term industry and occupational employment projections by state with downloadable
+  tables.'
+id: projectionscentralorg
+langs:
+- id: EN
+  name: English
+link: https://projectionscentral.org/
+name: ProjectionsCentralSite
+owner:
+  link: https://projectionscentral.org/
+  location:
+    country:
+      id: US
+      name: United States
+    level: 20
+  name: Projections Managing Partnership (U.S. Department of Labor ETA)
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- government
+- indicators
+- statistics
+- united-states
+topics:
+- id: ECON
+  name: Economy and finance
+  type: eudatatheme
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+uid: cdi00013891

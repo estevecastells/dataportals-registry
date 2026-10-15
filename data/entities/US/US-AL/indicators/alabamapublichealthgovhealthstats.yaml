@@ -1,0 +1,62 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    macroregion:
+      id: '021'
+      name: Northern America
+    level: 30
+    subregion:
+      id: US-AL
+      name: Alabama
+description: 'Alabama Department of Public Health interactive vital statistics queries: custom tables
+  of Alabama resident births (natality) and deaths (mortality) from 1990 forward by county, race, sex,
+  age group and cause.'
+id: alabamapublichealthgovhealthstats
+langs:
+- id: EN
+  name: English
+link: https://www.alabamapublichealth.gov/healthstats/statistical-query.html
+name: ADPH Statistical Query System
+owner:
+  link: https://www.alabamapublichealth.gov/healthstats/
+  location:
+    country:
+      id: US
+      name: United States
+    level: 30
+    subregion:
+      id: US-AL
+      name: Alabama
+  name: Alabama Department of Public Health, Center for Health Statistics
+  type: Regional government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- health
+- vital statistics
+- statistics
+- Alabama
+- indicators
+topics:
+- id: HEAL
+  name: Health
+  type: eudatatheme
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013951

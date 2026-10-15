@@ -24,7 +24,7 @@ identifiers:
 langs:
 - id: EN
   name: English
-link: https://www.auhana.com/wedding-events
+link: https://undatacatalog.org
 name: UN Data Catalog
 owner:
   link: https://www.unsystem.org/
@@ -38,7 +38,7 @@ owner:
 software:
   id: custom
   name: Custom software
-status: active
+status: inactive
 tags:
 - scientific
 - research data

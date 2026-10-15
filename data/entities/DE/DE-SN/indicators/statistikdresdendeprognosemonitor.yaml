@@ -1,0 +1,47 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: DE
+      name: Germany
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 30
+    subregion:
+      id: DE-SN
+      name: Sachsen
+description: Public interactive monitor of the city of Dresden population forecast,
+  recalculated about every two years from resident registration data and presented
+  per city district by the Kommunale Statistikstelle.
+id: statistikdresdendeprognosemonitor
+langs:
+- id: DE
+  name: German
+link: https://statistik.dresden.de/apps/prognosemonitor/
+name: Prognosemonitor Dresden
+owner:
+  link: https://www.dresden.de
+  location:
+    country:
+      id: DE
+      name: Germany
+    level: 30
+    subregion:
+      id: DE-SN
+      name: Sachsen
+  name: Landeshauptstadt Dresden
+  type: Local government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013987

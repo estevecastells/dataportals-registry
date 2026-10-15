@@ -1,0 +1,42 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: IT
+      name: Italy
+    macroregion:
+      id: '039'
+      name: Southern Europe
+    level: 20
+description: 'Open BDAP, the public-finance exploration portal of the Banca Dati Amministrazioni
+  Pubbliche: interactive Analizza sections for SSN health finance and local-authority
+  finance (FET). Distinct from the registered bdap-opendata.rgs.mef.gov.it open-data
+  catalog.'
+id: openbdaprgsmefgovit
+langs:
+- id: IT
+  name: Italian
+link: https://openbdap.rgs.mef.gov.it/
+name: OpenBDAP
+owner:
+  link: https://www.rgs.mef.gov.it
+  location:
+    country:
+      id: IT
+      name: Italy
+    level: 20
+  name: Ragioneria Generale dello Stato (MEF)
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013883

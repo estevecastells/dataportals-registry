@@ -1,0 +1,46 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: NL
+      name: Netherlands
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 30
+    subregion:
+      id: NL-NH
+      name: Noord-Holland
+description: 'Interactive key-figures dashboard of Amsterdam O&S (Onderzoek en Statistiek):
+  themes from population and housing to work, care and safety at district level.'
+id: dashboardkerncijfersamsterdam
+langs:
+- id: NL
+  name: Dutch
+link: https://onderzoek.amsterdam.nl/interactief/dashboard-kerncijfers
+name: Dashboard kerncijfers Amsterdam
+owner:
+  link: https://onderzoek.amsterdam.nl/
+  location:
+    country:
+      id: NL
+      name: Netherlands
+    level: 30
+    subregion:
+      id: NL-NH
+      name: Noord-Holland
+  name: Gemeente Amsterdam (Onderzoek en Statistiek)
+  type: Local government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013925

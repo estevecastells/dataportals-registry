@@ -1,9 +1,9 @@
 DATA QUALITY REPORT - COUNTRY: World
 ================================================================================
-Generated: 2026-10-06 16:36:15
+Generated: 2026-10-15 13:36:04
 Country Code: World
-Total Records with Issues: 14
-Total Issues Found: 17
+Total Records with Issues: 16
+Total Issues Found: 23
 
 === ISSUES BY TYPE ===
 
@@ -18,9 +18,41 @@ Field: description
 Current Value: None
 Suggested Action: Add meaningful description based on portal content and purpose
 
-[MISSING_TAGS]
-Count: 1
+[MISSING_OWNER_LINK]
+Count: 2
 Priority: LOW
+
+File: World/Federal/indicators/data360worldbankorg.yaml
+Record ID: data360worldbankorg
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: World/Federal/indicators/goingdigitaloecdorg.yaml
+Record ID: goingdigitaloecdorg
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+[MISSING_TAGS]
+Count: 3
+Priority: LOW
+
+File: World/Federal/indicators/data360worldbankorg.yaml
+Record ID: data360worldbankorg
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: World/Federal/indicators/goingdigitaloecdorg.yaml
+Record ID: goingdigitaloecdorg
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
 
 File: World/Federal/indicators/internationalbudgetorg.yaml
 Record ID: internationalbudgetorg
@@ -30,8 +62,22 @@ Current Value: []
 Suggested Action: Extract tags from description and catalog_type
 
 [MISSING_TOPICS]
-Count: 1
+Count: 3
 Priority: LOW
+
+File: World/Federal/indicators/data360worldbankorg.yaml
+Record ID: data360worldbankorg
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: World/Federal/indicators/goingdigitaloecdorg.yaml
+Record ID: goingdigitaloecdorg
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
 
 File: World/Federal/indicators/internationalbudgetorg.yaml
 Record ID: internationalbudgetorg
@@ -162,8 +208,9 @@ Suggested Action: Tag is too short (less than 3 characters), consider removing o
 === SUMMARY BY ISSUE TYPE ===
 
 MISSING_DESCRIPTION: 1 issue
-MISSING_TAGS: 1 issue
-MISSING_TOPICS: 1 issue
+MISSING_OWNER_LINK: 2 issues
+MISSING_TAGS: 3 issues
+MISSING_TOPICS: 3 issues
 PLACEHOLDER_TITLE: 3 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL: 5 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_INVENIO: 1 issue
@@ -171,6 +218,22 @@ SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS: 4 issues
 TAG_HYGIENE: 1 issue
 
 === RECORDS WITH MULTIPLE ISSUES (3+) ===
+
+Record ID: data360worldbankorg
+File: World/Federal/indicators/data360worldbankorg.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: goingdigitaloecdorg
+File: World/Federal/indicators/goingdigitaloecdorg.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
 
 Record ID: internationalbudgetorg
 File: World/Federal/indicators/internationalbudgetorg.yaml

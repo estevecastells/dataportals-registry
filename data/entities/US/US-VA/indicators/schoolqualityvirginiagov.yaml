@@ -1,0 +1,60 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    macroregion:
+      id: '021'
+      name: Northern America
+    level: 30
+    subregion:
+      id: US-VA
+      name: Virginia
+description: 'Virginia Department of Education School Quality Profiles: achievement, growth, readiness
+  and climate indicators for every Virginia public school and division.'
+id: schoolqualityvirginiagov
+langs:
+- id: EN
+  name: English
+link: https://schoolquality.virginia.gov/
+name: Virginia School Quality Profiles
+owner:
+  link: https://www.doe.virginia.gov/
+  location:
+    country:
+      id: US
+      name: United States
+    level: 30
+    subregion:
+      id: US-VA
+      name: Virginia
+  name: Virginia Department of Education
+  type: Regional government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- education
+- statistics
+- Virginia
+- indicators
+topics:
+- id: EDUC
+  name: Education, culture and sport
+  type: eudatatheme
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013967

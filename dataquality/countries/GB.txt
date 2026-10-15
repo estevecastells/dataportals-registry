@@ -1,11 +1,657 @@
 DATA QUALITY REPORT - COUNTRY: GB
 ================================================================================
-Generated: 2026-10-06 16:36:15
+Generated: 2026-10-15 13:36:04
 Country Code: GB
-Total Records with Issues: 4
-Total Issues Found: 4
+Total Records with Issues: 36
+Total Issues Found: 94
 
 === ISSUES BY TYPE ===
+
+[MISSING_OWNER_LINK]
+Count: 24
+Priority: LOW
+
+File: GB/GB-ENG/indicators/wwwnottinghamshireinsightorguk.yaml
+Record ID: wwwnottinghamshireinsightorguk
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/indicators/wwwnottinghaminsightorguk.yaml
+Record ID: wwwnottinghaminsightorguk
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/indicators/wwwwestyorkscagovuk.yaml
+Record ID: wwwwestyorkscagovuk
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/indicators/midlandsengineobservatoryorg.yaml
+Record ID: midlandsengineobservatoryorg
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/indicators/wwwlsronlineorg.yaml
+Record ID: wwwlsronlineorg
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/wwwdatawandinfo.yaml
+Record ID: wwwdatawandinfo
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/wwwcumbriaobservatoryorguk.yaml
+Record ID: wwwcumbriaobservatoryorguk
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/bexleyjsnainfo.yaml
+Record ID: bexleyjsnainfo
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/wwwdurhaminsightinfo.yaml
+Record ID: wwwdurhaminsightinfo
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/intelhubeastridinggovuk.yaml
+Record ID: intelhubeastridinggovuk
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/wwweconomyhubcornwallgovuk.yaml
+Record ID: wwweconomyhubcornwallgovuk
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/wwwhertfordshiregovuk.yaml
+Record ID: wwwhertfordshiregovuk
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/wwwobservatorylewishamgovuk.yaml
+Record ID: wwwobservatorylewishamgovuk
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/wwwnorfolkinsightorguk.yaml
+Record ID: wwwnorfolkinsightorguk
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/wwwdatarichinfo.yaml
+Record ID: wwwdatarichinfo
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/wwwnewhaminfo.yaml
+Record ID: wwwnewhaminfo
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/wwwhaveringdatanet.yaml
+Record ID: wwwhaveringdatanet
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/datamertongovuk.yaml
+Record ID: datamertongovuk
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/observatorykirkleesgovuk.yaml
+Record ID: observatorykirkleesgovuk
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/cambridgeshireinsightorguk.yaml
+Record ID: cambridgeshireinsightorguk
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/insightsworcestershiregovuk.yaml
+Record ID: insightsworcestershiregovuk
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/datahubhillingdongovuk.yaml
+Record ID: datahubhillingdongovuk
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/opendata/observatoryderbyshiregovuk.yaml
+Record ID: observatoryderbyshiregovuk
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: GB/GB-ENG/geo/datawarwickshiregovuk.yaml
+Record ID: datawarwickshiregovuk
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+[MISSING_TAGS]
+Count: 32
+Priority: LOW
+
+File: GB/GB-WLS/indicators/wwwhealthmapswaleswalesnhsuk.yaml
+Record ID: wwwhealthmapswaleswalesnhsuk
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-WLS/indicators/datamapcymru.yaml
+Record ID: datamapcymru
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/Federal/indicators/wwwcentreforcitiesorg.yaml
+Record ID: wwwcentreforcitiesorg
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/Federal/indicators/wwwdomesticenergymapuk.yaml
+Record ID: wwwdomesticenergymapuk
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/Federal/indicators/analyticsphegovuk.yaml
+Record ID: analyticsphegovuk
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/Federal/indicators/dataportalorrgovuk.yaml
+Record ID: dataportalorrgovuk
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/Federal/indicators/datacvdpreventnhsuk.yaml
+Record ID: datacvdpreventnhsuk
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/indicators/wwwnottinghamshireinsightorguk.yaml
+Record ID: wwwnottinghamshireinsightorguk
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/indicators/wwwnottinghaminsightorguk.yaml
+Record ID: wwwnottinghaminsightorguk
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/indicators/wwwwestyorkscagovuk.yaml
+Record ID: wwwwestyorkscagovuk
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/indicators/midlandsengineobservatoryorg.yaml
+Record ID: midlandsengineobservatoryorg
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/indicators/trustforlondonorguk.yaml
+Record ID: trustforlondonorguk
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/indicators/wwwlsronlineorg.yaml
+Record ID: wwwlsronlineorg
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/opendata/wwwdatawandinfo.yaml
+Record ID: wwwdatawandinfo
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/opendata/wwwcumbriaobservatoryorguk.yaml
+Record ID: wwwcumbriaobservatoryorguk
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/opendata/bexleyjsnainfo.yaml
+Record ID: bexleyjsnainfo
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/opendata/wwwdurhaminsightinfo.yaml
+Record ID: wwwdurhaminsightinfo
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/opendata/intelhubeastridinggovuk.yaml
+Record ID: intelhubeastridinggovuk
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/opendata/wwweconomyhubcornwallgovuk.yaml
+Record ID: wwweconomyhubcornwallgovuk
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/opendata/wwwhertfordshiregovuk.yaml
+Record ID: wwwhertfordshiregovuk
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/opendata/wwwobservatorylewishamgovuk.yaml
+Record ID: wwwobservatorylewishamgovuk
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/opendata/wwwnorfolkinsightorguk.yaml
+Record ID: wwwnorfolkinsightorguk
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/opendata/wwwdatarichinfo.yaml
+Record ID: wwwdatarichinfo
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/opendata/wwwnewhaminfo.yaml
+Record ID: wwwnewhaminfo
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/opendata/wwwhaveringdatanet.yaml
+Record ID: wwwhaveringdatanet
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/opendata/datamertongovuk.yaml
+Record ID: datamertongovuk
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/opendata/observatorykirkleesgovuk.yaml
+Record ID: observatorykirkleesgovuk
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/opendata/cambridgeshireinsightorguk.yaml
+Record ID: cambridgeshireinsightorguk
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/opendata/insightsworcestershiregovuk.yaml
+Record ID: insightsworcestershiregovuk
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/opendata/datahubhillingdongovuk.yaml
+Record ID: datahubhillingdongovuk
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/opendata/observatoryderbyshiregovuk.yaml
+Record ID: observatoryderbyshiregovuk
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/geo/datawarwickshiregovuk.yaml
+Record ID: datawarwickshiregovuk
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+[MISSING_TOPICS]
+Count: 32
+Priority: LOW
+
+File: GB/GB-WLS/indicators/wwwhealthmapswaleswalesnhsuk.yaml
+Record ID: wwwhealthmapswaleswalesnhsuk
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: GB/GB-WLS/indicators/datamapcymru.yaml
+Record ID: datamapcymru
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: GB/Federal/indicators/wwwcentreforcitiesorg.yaml
+Record ID: wwwcentreforcitiesorg
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: GB/Federal/indicators/wwwdomesticenergymapuk.yaml
+Record ID: wwwdomesticenergymapuk
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: GB/Federal/indicators/analyticsphegovuk.yaml
+Record ID: analyticsphegovuk
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: GB/Federal/indicators/dataportalorrgovuk.yaml
+Record ID: dataportalorrgovuk
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: GB/Federal/indicators/datacvdpreventnhsuk.yaml
+Record ID: datacvdpreventnhsuk
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: GB/GB-ENG/indicators/wwwnottinghamshireinsightorguk.yaml
+Record ID: wwwnottinghamshireinsightorguk
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: GB/GB-ENG/indicators/wwwnottinghaminsightorguk.yaml
+Record ID: wwwnottinghaminsightorguk
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: GB/GB-ENG/indicators/wwwwestyorkscagovuk.yaml
+Record ID: wwwwestyorkscagovuk
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: GB/GB-ENG/indicators/midlandsengineobservatoryorg.yaml
+Record ID: midlandsengineobservatoryorg
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: GB/GB-ENG/indicators/trustforlondonorguk.yaml
+Record ID: trustforlondonorguk
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: GB/GB-ENG/indicators/wwwlsronlineorg.yaml
+Record ID: wwwlsronlineorg
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: GB/GB-ENG/opendata/wwwdatawandinfo.yaml
+Record ID: wwwdatawandinfo
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: GB/GB-ENG/opendata/wwwcumbriaobservatoryorguk.yaml
+Record ID: wwwcumbriaobservatoryorguk
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: GB/GB-ENG/opendata/bexleyjsnainfo.yaml
+Record ID: bexleyjsnainfo
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: GB/GB-ENG/opendata/wwwdurhaminsightinfo.yaml
+Record ID: wwwdurhaminsightinfo
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: GB/GB-ENG/opendata/intelhubeastridinggovuk.yaml
+Record ID: intelhubeastridinggovuk
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: GB/GB-ENG/opendata/wwweconomyhubcornwallgovuk.yaml
+Record ID: wwweconomyhubcornwallgovuk
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: GB/GB-ENG/opendata/wwwhertfordshiregovuk.yaml
+Record ID: wwwhertfordshiregovuk
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: GB/GB-ENG/opendata/wwwobservatorylewishamgovuk.yaml
+Record ID: wwwobservatorylewishamgovuk
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: GB/GB-ENG/opendata/wwwnorfolkinsightorguk.yaml
+Record ID: wwwnorfolkinsightorguk
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: GB/GB-ENG/opendata/wwwdatarichinfo.yaml
+Record ID: wwwdatarichinfo
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: GB/GB-ENG/opendata/wwwnewhaminfo.yaml
+Record ID: wwwnewhaminfo
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: GB/GB-ENG/opendata/wwwhaveringdatanet.yaml
+Record ID: wwwhaveringdatanet
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: GB/GB-ENG/opendata/datamertongovuk.yaml
+Record ID: datamertongovuk
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: GB/GB-ENG/opendata/observatorykirkleesgovuk.yaml
+Record ID: observatorykirkleesgovuk
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: GB/GB-ENG/opendata/cambridgeshireinsightorguk.yaml
+Record ID: cambridgeshireinsightorguk
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: GB/GB-ENG/opendata/insightsworcestershiregovuk.yaml
+Record ID: insightsworcestershiregovuk
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: GB/GB-ENG/opendata/datahubhillingdongovuk.yaml
+Record ID: datahubhillingdongovuk
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: GB/GB-ENG/opendata/observatoryderbyshiregovuk.yaml
+Record ID: observatoryderbyshiregovuk
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: GB/GB-ENG/geo/datawarwickshiregovuk.yaml
+Record ID: datawarwickshiregovuk
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+[PLACEHOLDER_TITLE]
+Count: 2
+Priority: MEDIUM
+
+File: GB/GB-WLS/indicators/datamapcymru.yaml
+Record ID: datamapcymru
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: datamap.cymru
+Suggested Action: Use a human-readable portal title instead of a URL/domain string.
+
+File: GB/GB-WLS/indicators/datamapcymru.yaml
+Record ID: datamapcymru
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: datamap.cymru
+Suggested Action: Replace domain/path-based title with a descriptive portal name.
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN]
 Count: 1
@@ -54,7 +700,214 @@ Suggested Action: Add at least one endpoint because software.id='opendatasoft' i
 
 === SUMMARY BY ISSUE TYPE ===
 
+MISSING_OWNER_LINK: 24 issues
+MISSING_TAGS: 32 issues
+MISSING_TOPICS: 32 issues
+PLACEHOLDER_TITLE: 2 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_EPRINTS: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_FIGSHARE: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_OPENDATASOFT: 1 issue
+
+=== RECORDS WITH MULTIPLE ISSUES (3+) ===
+
+Record ID: datamapcymru
+File: GB/GB-WLS/indicators/datamapcymru.yaml
+Issue Count: 4
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - PLACEHOLDER_TITLE: name
+  - PLACEHOLDER_TITLE: name
+
+Record ID: wwwnottinghamshireinsightorguk
+File: GB/GB-ENG/indicators/wwwnottinghamshireinsightorguk.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: wwwnottinghaminsightorguk
+File: GB/GB-ENG/indicators/wwwnottinghaminsightorguk.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: wwwwestyorkscagovuk
+File: GB/GB-ENG/indicators/wwwwestyorkscagovuk.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: midlandsengineobservatoryorg
+File: GB/GB-ENG/indicators/midlandsengineobservatoryorg.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: wwwlsronlineorg
+File: GB/GB-ENG/indicators/wwwlsronlineorg.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: wwwdatawandinfo
+File: GB/GB-ENG/opendata/wwwdatawandinfo.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: wwwcumbriaobservatoryorguk
+File: GB/GB-ENG/opendata/wwwcumbriaobservatoryorguk.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: bexleyjsnainfo
+File: GB/GB-ENG/opendata/bexleyjsnainfo.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: wwwdurhaminsightinfo
+File: GB/GB-ENG/opendata/wwwdurhaminsightinfo.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: intelhubeastridinggovuk
+File: GB/GB-ENG/opendata/intelhubeastridinggovuk.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: wwweconomyhubcornwallgovuk
+File: GB/GB-ENG/opendata/wwweconomyhubcornwallgovuk.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: wwwhertfordshiregovuk
+File: GB/GB-ENG/opendata/wwwhertfordshiregovuk.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: wwwobservatorylewishamgovuk
+File: GB/GB-ENG/opendata/wwwobservatorylewishamgovuk.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: wwwnorfolkinsightorguk
+File: GB/GB-ENG/opendata/wwwnorfolkinsightorguk.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: wwwdatarichinfo
+File: GB/GB-ENG/opendata/wwwdatarichinfo.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: wwwnewhaminfo
+File: GB/GB-ENG/opendata/wwwnewhaminfo.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: wwwhaveringdatanet
+File: GB/GB-ENG/opendata/wwwhaveringdatanet.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: datamertongovuk
+File: GB/GB-ENG/opendata/datamertongovuk.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: observatorykirkleesgovuk
+File: GB/GB-ENG/opendata/observatorykirkleesgovuk.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: cambridgeshireinsightorguk
+File: GB/GB-ENG/opendata/cambridgeshireinsightorguk.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: insightsworcestershiregovuk
+File: GB/GB-ENG/opendata/insightsworcestershiregovuk.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: datahubhillingdongovuk
+File: GB/GB-ENG/opendata/datahubhillingdongovuk.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: observatoryderbyshiregovuk
+File: GB/GB-ENG/opendata/observatoryderbyshiregovuk.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: datawarwickshiregovuk
+File: GB/GB-ENG/geo/datawarwickshiregovuk.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link

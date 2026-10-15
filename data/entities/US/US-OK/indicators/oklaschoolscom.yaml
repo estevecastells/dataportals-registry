@@ -1,0 +1,61 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    macroregion:
+      id: '021'
+      name: Northern America
+    level: 30
+    subregion:
+      id: US-OK
+      name: Oklahoma
+description: 'Oklahoma State Department of Education report card portal: state, district and school performance
+  data and accountability indicators for Oklahoma public schools.'
+id: oklaschoolscom
+langs:
+- id: EN
+  name: English
+link: https://oklaschools.com/
+name: Oklahoma School Report Cards
+owner:
+  link: https://sde.ok.gov/
+  location:
+    country:
+      id: US
+      name: United States
+    level: 30
+    subregion:
+      id: US-OK
+      name: Oklahoma
+  name: Oklahoma State Department of Education
+  type: Regional government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- education
+- schools
+- report cards
+- Oklahoma
+- statistics
+topics:
+- id: EDUC
+  name: Education, culture and sport
+  type: eudatatheme
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013937

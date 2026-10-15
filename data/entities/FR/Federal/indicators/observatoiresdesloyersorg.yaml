@@ -1,0 +1,41 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+coverage:
+- location:
+    country:
+      id: FR
+      name: France
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 20
+description: Observatoires des loyers is the ANIL portal of the national network of
+  local rent observatories, with an interactive map of private rent levels in covered
+  areas.
+id: observatoiresdesloyersorg
+langs:
+- id: FR
+  name: French
+link: https://www.observatoires-des-loyers.org/
+name: Accueil - Observatoires des loyers
+owner:
+  link: https://www.anil.org
+  location:
+    country:
+      id: FR
+      name: France
+    level: 20
+  name: Agence nationale pour l'information sur le logement (ANIL)
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00014001

@@ -1,0 +1,42 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+coverage:
+- location:
+    country:
+      id: DE
+      name: Germany
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 20
+description: 'Free public web app of the KOSIS community of German city statistics offices presenting
+  small-area statistics for about 55 German cities: residents by age, marital status and migration background,
+  households, dwellings, unemployment and federal election second-vote shares, selectable by city, sub-district
+  and topic with map and chart views.'
+id: statistikappkosisde
+langs:
+- id: DE
+  name: German
+link: https://www.statistikapp-kosis.de/
+name: Statistikapp KOSIS
+owner:
+  link: https://www.staedtestatistik.de/arbeitsgemeinschaften/kosis-app
+  location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+  name: KOSIS-Gemeinschaft Statistik-App
+  type: Other
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013990

@@ -1,24 +1,44 @@
 DATA QUALITY REPORT - RULE: IS_NATIONAL_AGENCY_OR_TOPIC
 ================================================================================
-Generated: 2026-10-06 16:36:15
+Generated: 2026-10-15 13:36:04
 Issue Type: IS_NATIONAL_AGENCY_OR_TOPIC
 Priority: MEDIUM
-Total Issues Found: 4
+Total Issues Found: 14
 
 Rule: properties.is_national is true on a catalog that is not the country's official catalog of that type. Keep the flag only for the national open-data portal, NSDI/national geoportal/INSPIRE node, or NSO statistical product. Agency, thematic, scientific, and subnational catalogs must use is_national: false even when the owner is a central/federal body. Do not bulk-set the flag from a Federal/ path or a .gov/.mil hostname.
 
 === SUMMARY BY COUNTRY ===
 
+AE: 1 issue
+AT: 1 issue
+CA: 1 issue
+CO: 1 issue
+CR: 1 issue
+EE: 1 issue
+FI: 1 issue
+IT: 1 issue
 JP: 1 issue
 KE: 1 issue
+NO: 1 issue
+NZ: 1 issue
 PF: 1 issue
 TM: 1 issue
 
 === SUMMARY BY RECORD ===
 
 opendatagoke: 1 issue
+cataloguedatagovtnz: 1 issue
+datanorgeno: 1 issue
+databayanatae: 1 issue
+avaandmedeestiee: 1 issue
+datosgocr: 1 issue
+datagovco: 1 issue
+datigovit: 1 issue
+opencanadaca: 1 issue
 wwwstatgovtm: 1 issue
 chiffresdetaillesispfpf: 1 issue
+datagvat: 1 issue
+avoindatafi: 1 issue
 dataegogovjp: 1 issue
 
 === ISSUES ===
@@ -29,6 +49,70 @@ Country: KE
 Issue: IS_NATIONAL_AGENCY_OR_TOPIC
 Field: properties.is_national
 Current Value: {"is_national": true, "reason": "federal_opendata_not_national", "name": "Kenya Open Data", "catalog_type": "Open data portal", "owner": "Kenya ICT Authority"}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
+
+File: NZ/Federal/opendata/cataloguedatagovtnz.yaml
+Record ID: cataloguedatagovtnz
+Country: NZ
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {"is_national": true, "reason": "federal_opendata_not_national", "name": "Data.gov.nz - New Zealand open data portal", "catalog_type": "Open data portal", "owner": "Government of New Zealand"}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
+
+File: NO/Federal/opendata/datanorgeno.yaml
+Record ID: datanorgeno
+Country: NO
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {"is_national": true, "reason": "federal_opendata_not_national", "name": "Felles datakatalog (Norway)", "catalog_type": "Open data portal", "owner": "Norwegian Digitalisation Agency"}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
+
+File: AE/Federal/opendata/databayanatae.yaml
+Record ID: databayanatae
+Country: AE
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {"is_national": true, "reason": "federal_opendata_not_national", "name": "UAE Open Data Portal", "catalog_type": "Open data portal", "owner": "Government of UAE"}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
+
+File: EE/Federal/opendata/avaandmedeestiee.yaml
+Record ID: avaandmedeestiee
+Country: EE
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {"is_national": true, "reason": "federal_opendata_not_national", "name": "Andmete teabevärav", "catalog_type": "Open data portal", "owner": "Information System Authority (RIA)"}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
+
+File: CR/Federal/opendata/datosgocr.yaml
+Record ID: datosgocr
+Country: CR
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {"is_national": true, "reason": "federal_opendata_not_national", "name": "Portal de Datos Abiertos de Costa Rica", "catalog_type": "Open data portal", "owner": "Ministerio de la Presidencia"}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
+
+File: CO/Federal/opendata/datagovco.yaml
+Record ID: datagovco
+Country: CO
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {"is_national": true, "reason": "federal_opendata_not_national", "name": "Datos Abiertos Colombia", "catalog_type": "Open data portal", "owner": "Ministerio de Tecnologías de la Información y las Comunicaciones"}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
+
+File: IT/Federal/opendata/datigovit.yaml
+Record ID: datigovit
+Country: IT
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {"is_national": true, "reason": "federal_opendata_not_national", "name": "dati.gov.it i dati aperti della pubblica amministrazione", "catalog_type": "Open data portal", "owner": "Agenzia per l Italia digitale"}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
+
+File: CA/Federal/opendata/opencanadaca.yaml
+Record ID: opencanadaca
+Country: CA
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {"is_national": true, "reason": "federal_opendata_not_national", "name": "Open Government Portal - Canada.ca", "catalog_type": "Open data portal", "owner": "Government of Canada"}
 Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
 
 File: TM/Federal/indicators/wwwstatgovtm.yaml
@@ -46,6 +130,22 @@ Issue: IS_NATIONAL_AGENCY_OR_TOPIC
 Field: properties.is_national
 Current Value: {"is_national": true, "reason": "indicators_not_nso", "name": "ISPF Chiffres détaillés (Polynésie française)", "catalog_type": "Indicators catalog", "owner": "Institut de la statistique de la Polynésie française (ISPF)"}
 Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (indicators_not_nso).
+
+File: AT/Federal/opendata/datagvat.yaml
+Record ID: datagvat
+Country: AT
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {"is_national": true, "reason": "federal_opendata_not_national", "name": "Offene Daten Österreich | data.gv.at", "catalog_type": "Open data portal", "owner": "Government of Austria"}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
+
+File: FI/Federal/opendata/avoindatafi.yaml
+Record ID: avoindatafi
+Country: FI
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {"is_national": true, "reason": "federal_opendata_not_national", "name": "Avoindata.fi Data Catalog", "catalog_type": "Open data portal", "owner": "Verkkopalvelun kehittämisestä vastaa"}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
 
 File: JP/Federal/opendata/dataegogovjp.yaml
 Record ID: dataegogovjp

@@ -1,0 +1,46 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+coverage:
+- location:
+    country:
+      id: FR
+      name: France
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 30
+    subregion:
+      id: FR-CVL
+      name: Centre-Val de Loire
+description: Plateforme de santé Centre-Val de Loire is the ORS Centre indicator platform
+  offering 2,500+ territorialised health indicators and territory profile reports.
+id: plateformedesanteorscentreorg
+langs:
+- id: FR
+  name: French
+link: https://plateformedesante.orscentre.org/
+name: Plateforme de santé - Centre-Val de Loire
+owner:
+  link: https://orscentre.org
+  location:
+    country:
+      id: FR
+      name: France
+    level: 30
+    subregion:
+      id: FR-CVL
+      name: Centre-Val de Loire
+  name: Observatoire régional de la santé Centre-Val de Loire
+  type: Civil society
+software:
+  id: joomla
+  name: Joomla
+status: active
+tags: []
+topics: []
+uid: cdi00013992

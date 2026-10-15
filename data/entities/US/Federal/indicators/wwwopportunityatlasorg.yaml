@@ -1,0 +1,47 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    level: 20
+    macroregion:
+      id: '001'
+      name: World
+description: 'The Opportunity Atlas (Opportunity Insights, Harvard University, with U.S. Census Bureau
+  data): interactive census-tract atlas of children''s outcomes in adulthood by income, race and parental
+  income.'
+id: wwwopportunityatlasorg
+langs:
+- id: EN
+  name: English
+link: https://www.opportunityatlas.org/
+name: The Opportunity Atlas
+owner:
+  link: https://opportunityinsights.org/
+  location:
+    country:
+      id: US
+      name: United States
+    level: 20
+  name: Opportunity Insights, Harvard University
+  type: Academy
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- indicators
+- statistics
+- united-states
+topics:
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+uid: cdi00013895

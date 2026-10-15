@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+- dataset
+coverage:
+- location:
+    country:
+      id: ZM
+      name: Zambia
+    level: 20
+    macroregion:
+      id: '014'
+      name: Eastern Africa
+description: 'Lusaka Securities Exchange daily market data: LASI index summary, equity
+  trade summaries, daily stock data for listed securities, and corporate bond issue
+  tables.'
+id: wwwlusecozmmarketdata
+langs:
+- id: EN
+  name: English
+link: https://www.luse.co.zm/market-data/
+name: Lusaka Securities Exchange Market Data
+owner:
+  link: https://www.luse.co.zm/
+  location:
+    country:
+      id: ZM
+      name: Zambia
+    level: 20
+  name: Lusaka Securities Exchange
+  type: Business
+properties:
+  has_doi: false
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- market data
+- securities
+- stock exchange
+- indicators
+- finance
+topics:
+- id: ECON
+  name: Economy and finance
+  type: eudatatheme
+- id: Economy
+  name: Economy
+  type: iso19115
+uid: cdi00013883

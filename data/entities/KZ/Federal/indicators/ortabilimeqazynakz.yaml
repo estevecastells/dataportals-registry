@@ -1,0 +1,75 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+- dataset
+coverage:
+- location:
+    country:
+      id: KZ
+      name: Kazakhstan
+    level: 20
+    macroregion:
+      id: '143'
+      name: Central Asia
+description: Reference and analytics portal of the state educational order service
+  for secondary education in Kazakhstan. Contains registries of education organizations,
+  licenses, funding applications and contracts, budget statistics, an interactive
+  map and document verification. Operated by Financial Center JSC.
+id: ortabilimeqazynakz
+langs:
+- id: KZ
+  name: Kazakh
+- id: RU
+  name: Russian
+- id: EN
+  name: English
+link: https://orta-bilim.e-qazyna.kz/ru/
+name: State educational order portal (Orta Bilim)
+owner:
+  link: https://fincenter.kz
+  location:
+    country:
+      id: KZ
+      name: Kazakhstan
+    level: 20
+  name: Financial Center JSC
+  type: Central government
+properties:
+  has_doi: false
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- education
+- statistics
+- registries
+- schools
+- Kazakhstan
+- indicators
+topics:
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: ECON
+  name: Economy and finance
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+- id: Economy
+  name: Economy
+  type: iso19115
+uid: cdi00013808

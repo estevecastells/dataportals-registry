@@ -1,0 +1,46 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: FI
+      name: Finland
+    macroregion:
+      id: '154'
+      name: Northern Europe
+    level: 30
+    subregion:
+      id: FI-14
+      name: Pohjois-Pohjanmaa
+description: City of Oulu statistics page with interactive Power BI reports of municipal
+  key indicators, including population development and other city-level figures.
+id: wwwoukafi
+langs:
+- id: FI
+  name: Finnish
+link: https://www.ouka.fi/tietoja-ja-tilastoja/kaupungin-tunnusluvut
+name: City of Oulu key figures (Kaupungin tunnusluvut)
+owner:
+  link: https://www.ouka.fi
+  location:
+    country:
+      id: FI
+      name: Finland
+    level: 30
+    subregion:
+      id: FI-14
+      name: Pohjois-Pohjanmaa
+  name: City of Oulu
+  type: Local government
+software:
+  id: powerbi
+  name: Microsoft Power BI
+status: active
+tags: []
+topics: []
+uid: cdi00014064

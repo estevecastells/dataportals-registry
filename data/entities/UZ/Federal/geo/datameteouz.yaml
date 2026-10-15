@@ -1,0 +1,75 @@
+access_mode:
+- open
+- restricted
+api: false
+api_status: uncertain
+catalog_type: Geoportal
+content_types:
+- map_layer
+- dataset
+coverage:
+- location:
+    country:
+      id: UZ
+      name: Uzbekistan
+    level: 20
+    macroregion:
+      id: '143'
+      name: Central Asia
+description: Meteo Monitoring (METEO MONITORING) unified portal of meteorological observations
+  of the Hydrometeorological Service Agency of Uzbekistan (Uzhydromet). Interactive maps and
+  data for weather stations, air pollution with PM2.5 interpolation, solar radiation,
+  aerometeorological observations, snow cover, satellite data, agro-meteorological indicators,
+  and water cadastre. The documented Meteo API web service is provided after a written request
+  to info@mtb.uz; api.meteo.uz was not reachable without credentials on 7 October 2026.
+id: datameteouz
+langs:
+- id: UZ
+  name: Uzbek
+- id: RU
+  name: Russian
+- id: EN
+  name: English
+link: https://data.meteo.uz
+name: Meteo Monitoring portal of Uzhydromet
+owner:
+  link: https://hydromet.uz
+  location:
+    country:
+      id: UZ
+      name: Uzbekistan
+    level: 20
+  name: Hydrometeorological Service Agency of Uzbekistan (Uzhydromet)
+  type: Central government
+properties:
+  has_doi: false
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- meteorology
+- weather
+- air quality
+- hydrology
+- government
+- has_api
+topics:
+- id: ENVI
+  name: Environment
+  type: eudatatheme
+- id: Climatology / Meteorology / Atmosphere
+  name: Climatology / Meteorology / Atmosphere
+  type: iso19115
+- id: Inland Waters
+  name: Inland Waters
+  type: iso19115
+uid: cdi00013849

@@ -1,0 +1,46 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    level: 20
+    macroregion:
+      id: '001'
+      name: World
+description: 'KFF State Health Facts: more than 800 up-to-date health policy indicators (coverage, Medicaid,
+  Medicare, health status and more) for all 50 states, D.C. and the U.S., mappable, rankable and downloadable.'
+id: kffstatehealthfacts
+langs:
+- id: EN
+  name: English
+link: https://www.kff.org/state-health-facts
+name: State Health Facts | KFF
+owner:
+  link: https://www.kff.org/
+  location:
+    country:
+      id: US
+      name: United States
+    level: 20
+  name: KFF
+  type: Civil society
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- indicators
+- statistics
+- united-states
+topics:
+- id: HEAL
+  name: Health
+  type: eudatatheme
+uid: cdi00013883

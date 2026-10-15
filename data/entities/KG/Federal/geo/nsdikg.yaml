@@ -1,7 +1,7 @@
 access_mode:
 - open
 api: true
-api_status: active
+api_status: inactive
 catalog_type: Geoportal
 content_types:
 - dataset
@@ -17,7 +17,9 @@ coverage:
       name: Central Asia
 description: GeoNetwork metadata catalogue of the geoinformation and climate data
   portal of the Kyrgyz Republic (NSDI), operated by the State Agency for Land
-  Resources. Provides CSW, OAI-PMH, and OpenSearch access to geospatial metadata.
+  Resources. Provided CSW, OAI-PMH, and OpenSearch access to geospatial metadata.
+  Offline - host nsdi.kg:8070 no longer responds and www.nsdi.kg now serves unrelated
+  third-party content.
 endpoints:
 - type: geonetwork:query
   url: http://nsdi.kg:8070/geonetwork/srv/eng/q
@@ -70,7 +72,7 @@ rights:
 software:
   id: geonetwork
   name: GeoNetwork
-status: active
+status: inactive
 tags:
 - geospatial
 - government

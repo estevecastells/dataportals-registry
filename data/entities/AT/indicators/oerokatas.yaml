@@ -1,0 +1,42 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: AT
+      name: Austria
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 20
+description: 'ÖROK-Atlas of the Austrian Conference on Spatial Planning (ÖROK): interactive
+  indicator explorer and regional monitoring system covering population, households,
+  construction and housing, land use, climate, natural hazards, energy, transport,
+  labour market and economy for Austria, its Bundesländer, regions and municipalities.'
+id: oerokatas
+langs:
+- id: DE
+  name: German
+link: https://www.oerok-atlas.at
+name: ÖROK-Atlas
+owner:
+  link: https://www.oerok.gv.at
+  location:
+    country:
+      id: AT
+      name: Austria
+    level: 20
+  name: Österreichische Raumordnungskonferenz (ÖROK)
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013880

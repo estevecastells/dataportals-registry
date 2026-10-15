@@ -1,0 +1,42 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: DK
+      name: Denmark
+    macroregion:
+      id: '154'
+      name: Northern Europe
+    level: 20
+description: 'De Kommunale Nøgletal: comparable structural and economic key figures
+  for all Danish municipalities, 1993-present, with table and visualization views.'
+id: wwwnoegletaldk
+langs:
+- id: DA
+  name: Danish
+- id: EN
+  name: English
+link: https://www.noegletal.dk/
+name: De Kommunale Nøgletal
+owner:
+  link: null
+  location:
+    country:
+      id: DK
+      name: Denmark
+    level: 20
+  name: Indenrigs- og Sundhedsministeriet
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013886

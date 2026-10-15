@@ -1,0 +1,62 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+- dataset
+coverage:
+- location:
+    country:
+      id: KE
+      name: Kenya
+    macroregion:
+      id: '014'
+      name: Eastern Africa
+    level: 20
+description: 'Open County is the Council of Governors county data platform, built by the Open Institute
+  with World Bank KADP support: devolution indicators, county factsheets, county comparisons and infographics
+  for all 47 Kenyan counties, including budget, revenue and expenditure data.'
+id: opencountyorg
+langs:
+- id: EN
+  name: English
+link: https://opencounty.org
+name: Open County Kenya
+owner:
+  link: https://www.cog.go.ke
+  location:
+    country:
+      id: KE
+      name: Kenya
+  name: Council of Governors (Kenya)
+  type: Other
+properties:
+  has_doi: false
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- county
+- devolution
+- budget
+- indicators
+- open data
+- Kenya
+topics:
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
+- id: ECON
+  name: Economy and finance
+  type: eudatatheme
+- id: Economy
+  name: Economy
+  type: iso19115
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013978

@@ -1,13 +1,13 @@
 DATA QUALITY REPORT - PRIORITY: MEDIUM
 ================================================================================
-Generated: 2026-10-06 16:36:15
+Generated: 2026-10-15 13:36:04
 Priority Level: MEDIUM
-Total Issues Found: 234
+Total Issues Found: 273
 
 === ISSUES BY TYPE ===
 
 [IS_NATIONAL_AGENCY_OR_TOPIC]
-Count: 4
+Count: 14
 
 File: KE/Federal/opendata/opendatagoke.yaml
 Record ID: opendatagoke
@@ -15,6 +15,70 @@ Country: KE
 Issue: IS_NATIONAL_AGENCY_OR_TOPIC
 Field: properties.is_national
 Current Value: {'is_national': True, 'reason': 'federal_opendata_not_national', 'name': 'Kenya Open Data', 'catalog_type': 'Open data portal', 'owner': 'Kenya ICT Authority'}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
+
+File: NZ/Federal/opendata/cataloguedatagovtnz.yaml
+Record ID: cataloguedatagovtnz
+Country: NZ
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {'is_national': True, 'reason': 'federal_opendata_not_national', 'name': 'Data.gov.nz - New Zealand open data portal', 'catalog_type': 'Open data portal', 'owner': 'Government of New Zealand'}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
+
+File: NO/Federal/opendata/datanorgeno.yaml
+Record ID: datanorgeno
+Country: NO
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {'is_national': True, 'reason': 'federal_opendata_not_national', 'name': 'Felles datakatalog (Norway)', 'catalog_type': 'Open data portal', 'owner': 'Norwegian Digitalisation Agency'}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
+
+File: AE/Federal/opendata/databayanatae.yaml
+Record ID: databayanatae
+Country: AE
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {'is_national': True, 'reason': 'federal_opendata_not_national', 'name': 'UAE Open Data Portal', 'catalog_type': 'Open data portal', 'owner': 'Government of UAE'}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
+
+File: EE/Federal/opendata/avaandmedeestiee.yaml
+Record ID: avaandmedeestiee
+Country: EE
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {'is_national': True, 'reason': 'federal_opendata_not_national', 'name': 'Andmete teabevärav', 'catalog_type': 'Open data portal', 'owner': 'Information System Authority (RIA)'}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
+
+File: CR/Federal/opendata/datosgocr.yaml
+Record ID: datosgocr
+Country: CR
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {'is_national': True, 'reason': 'federal_opendata_not_national', 'name': 'Portal de Datos Abiertos de Costa Rica', 'catalog_type': 'Open data portal', 'owner': 'Ministerio de la Presidencia'}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
+
+File: CO/Federal/opendata/datagovco.yaml
+Record ID: datagovco
+Country: CO
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {'is_national': True, 'reason': 'federal_opendata_not_national', 'name': 'Datos Abiertos Colombia', 'catalog_type': 'Open data portal', 'owner': 'Ministerio de Tecnologías de la Información y las Comunicaciones'}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
+
+File: IT/Federal/opendata/datigovit.yaml
+Record ID: datigovit
+Country: IT
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {'is_national': True, 'reason': 'federal_opendata_not_national', 'name': 'dati.gov.it i dati aperti della pubblica amministrazione', 'catalog_type': 'Open data portal', 'owner': 'Agenzia per l Italia digitale'}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
+
+File: CA/Federal/opendata/opencanadaca.yaml
+Record ID: opencanadaca
+Country: CA
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {'is_national': True, 'reason': 'federal_opendata_not_national', 'name': 'Open Government Portal - Canada.ca', 'catalog_type': 'Open data portal', 'owner': 'Government of Canada'}
 Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
 
 File: TM/Federal/indicators/wwwstatgovtm.yaml
@@ -32,6 +96,22 @@ Issue: IS_NATIONAL_AGENCY_OR_TOPIC
 Field: properties.is_national
 Current Value: {'is_national': True, 'reason': 'indicators_not_nso', 'name': 'ISPF Chiffres détaillés (Polynésie française)', 'catalog_type': 'Indicators catalog', 'owner': 'Institut de la statistique de la Polynésie française (ISPF)'}
 Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (indicators_not_nso).
+
+File: AT/Federal/opendata/datagvat.yaml
+Record ID: datagvat
+Country: AT
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {'is_national': True, 'reason': 'federal_opendata_not_national', 'name': 'Offene Daten Österreich | data.gv.at', 'catalog_type': 'Open data portal', 'owner': 'Government of Austria'}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
+
+File: FI/Federal/opendata/avoindatafi.yaml
+Record ID: avoindatafi
+Country: FI
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {'is_national': True, 'reason': 'federal_opendata_not_national', 'name': 'Avoindata.fi Data Catalog', 'catalog_type': 'Open data portal', 'owner': 'Verkkopalvelun kehittämisestä vastaa'}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
 
 File: JP/Federal/opendata/dataegogovjp.yaml
 Record ID: dataegogovjp
@@ -61,7 +141,79 @@ Current Value: None
 Suggested Action: Add meaningful description based on portal content and purpose
 
 [PLACEHOLDER_TITLE]
-Count: 3
+Count: 16
+
+File: SK/Federal/indicators/platysk.yaml
+Record ID: platysk
+Country: SK
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: Platy.sk
+Suggested Action: Use a human-readable portal title instead of a URL/domain string.
+
+File: SK/Federal/indicators/platysk.yaml
+Record ID: platysk
+Country: SK
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: Platy.sk
+Suggested Action: Replace domain/path-based title with a descriptive portal name.
+
+File: PL/Federal/indicators/wynagrodzeniapl.yaml
+Record ID: wynagrodzeniapl
+Country: PL
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: Wynagrodzenia.pl
+Suggested Action: Use a human-readable portal title instead of a URL/domain string.
+
+File: PL/Federal/indicators/wynagrodzeniapl.yaml
+Record ID: wynagrodzeniapl
+Country: PL
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: Wynagrodzenia.pl
+Suggested Action: Replace domain/path-based title with a descriptive portal name.
+
+File: IN/IN-WB/indicators/baeswbgovin.yaml
+Record ID: baeswbgovin
+Country: IN
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: BAES
+Suggested Action: Expand the portal title to be more descriptive than a few characters.
+
+File: IS/Federal/api/apisis.yaml
+Record ID: apisis
+Country: IS
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: apis.is
+Suggested Action: Use a human-readable portal title instead of a URL/domain string.
+
+File: IS/Federal/api/apisis.yaml
+Record ID: apisis
+Country: IS
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: apis.is
+Suggested Action: Replace domain/path-based title with a descriptive portal name.
+
+File: CZ/Federal/indicators/platycz.yaml
+Record ID: platycz
+Country: CZ
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: Platy.cz
+Suggested Action: Use a human-readable portal title instead of a URL/domain string.
+
+File: CZ/Federal/indicators/platycz.yaml
+Record ID: platycz
+Country: CZ
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: Platy.cz
+Suggested Action: Replace domain/path-based title with a descriptive portal name.
 
 File: World/api/apisguru.yaml
 Record ID: apisguru
@@ -79,6 +231,22 @@ Field: name
 Current Value: APIs.guru
 Suggested Action: Replace domain/path-based title with a descriptive portal name.
 
+File: GB/GB-WLS/indicators/datamapcymru.yaml
+Record ID: datamapcymru
+Country: GB
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: datamap.cymru
+Suggested Action: Use a human-readable portal title instead of a URL/domain string.
+
+File: GB/GB-WLS/indicators/datamapcymru.yaml
+Record ID: datamapcymru
+Country: GB
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: datamap.cymru
+Suggested Action: Replace domain/path-based title with a descriptive portal name.
+
 File: DE/Federal/marketplace/up42com.yaml
 Record ID: up42com
 Country: DE
@@ -86,6 +254,22 @@ Issue: PLACEHOLDER_TITLE
 Field: name
 Current Value: UP42
 Suggested Action: Expand the portal title to be more descriptive than a few characters.
+
+File: DK/Federal/indicators/jobindsatsdk.yaml
+Record ID: jobindsatsdk
+Country: DK
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: Jobindsats.dk
+Suggested Action: Use a human-readable portal title instead of a URL/domain string.
+
+File: DK/Federal/indicators/jobindsatsdk.yaml
+Record ID: jobindsatsdk
+Country: DK
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: Jobindsats.dk
+Suggested Action: Replace domain/path-based title with a descriptive portal name.
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISHUB]
 Count: 9
@@ -372,7 +556,7 @@ Current Value: {'software_id': 'bitrix', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='bitrix' is marked as API-capable in software definitions
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN]
-Count: 8
+Count: 12
 
 File: US/US-TX/opendata/txwaterdatahuborg.yaml
 Record ID: txwaterdatahuborg
@@ -406,6 +590,22 @@ Field: endpoints
 Current Value: {'software_id': 'ckan', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='ckan' is marked as API-capable in software definitions
 
+File: ES/ES-AN/opendata/transparenciaalhaurindelatorreesdataset.yaml
+Record ID: transparenciaalhaurindelatorreesdataset
+Country: ES
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN
+Field: endpoints
+Current Value: {'software_id': 'ckan', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='ckan' is marked as API-capable in software definitions
+
+File: ES/ES-MD/opendata/datosalcobendasorgdataset.yaml
+Record ID: datosalcobendasorgdataset
+Country: ES
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN
+Field: endpoints
+Current Value: {'software_id': 'ckan', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='ckan' is marked as API-capable in software definitions
+
 File: ES/ES-VC/opendata/datosabiertostorrentesesdataset.yaml
 Record ID: datosabiertostorrentesesdataset
 Country: ES
@@ -414,8 +614,24 @@ Field: endpoints
 Current Value: {'software_id': 'ckan', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='ckan' is marked as API-capable in software definitions
 
+File: ES/ES-CN/opendata/datostenerifeesesdatosconjuntosdedatoscatalogodeco.yaml
+Record ID: datostenerifeesesdatosconjuntosdedatoscatalogodeco
+Country: ES
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN
+Field: endpoints
+Current Value: {'software_id': 'ckan', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='ckan' is marked as API-capable in software definitions
+
 File: ES/ES-CT/opendata/opendatamanresacatdataset.yaml
 Record ID: opendatamanresacatdataset
+Country: ES
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN
+Field: endpoints
+Current Value: {'software_id': 'ckan', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='ckan' is marked as API-capable in software definitions
+
+File: ES/ES-CT/opendata/opendataajuntamentbarcelonacatdataesdataset.yaml
+Record ID: opendataajuntamentbarcelonacatdataesdataset
 Country: ES
 Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN
 Field: endpoints
@@ -469,7 +685,7 @@ Current Value: {'software_id': 'dkan', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='dkan' is marked as API-capable in software definitions
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL]
-Count: 72
+Count: 78
 
 File: SE/Federal/scientific/kibkise.yaml
 Record ID: kibkise
@@ -711,6 +927,14 @@ Field: endpoints
 Current Value: {'software_id': 'drupal', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='drupal' is marked as API-capable in software definitions
 
+File: LV/Federal/microdata/statgovlvresearchdata.yaml
+Record ID: statgovlvresearchdata
+Country: LV
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL
+Field: endpoints
+Current Value: {'software_id': 'drupal', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='drupal' is marked as API-capable in software definitions
+
 File: IT/Federal/indicators/indicatoriambientaliisprambienteit.yaml
 Record ID: indicatoriambientaliisprambienteit
 Country: IT
@@ -927,6 +1151,38 @@ Field: endpoints
 Current Value: {'software_id': 'drupal', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='drupal' is marked as API-capable in software definitions
 
+File: FR/FR-OCC/indicators/observatoireemploioccitaniefr.yaml
+Record ID: observatoireemploioccitaniefr
+Country: FR
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL
+Field: endpoints
+Current Value: {'software_id': 'drupal', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='drupal' is marked as API-capable in software definitions
+
+File: FR/FR-NAQ/indicators/observatoireemploinouvelleaquitainefr.yaml
+Record ID: observatoireemploinouvelleaquitainefr
+Country: FR
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL
+Field: endpoints
+Current Value: {'software_id': 'drupal', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='drupal' is marked as API-capable in software definitions
+
+File: FR/FR-IDF/indicators/observatoireemploiiledefrancefr.yaml
+Record ID: observatoireemploiiledefrancefr
+Country: FR
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL
+Field: endpoints
+Current Value: {'software_id': 'drupal', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='drupal' is marked as API-capable in software definitions
+
+File: FR/Federal/indicators/onisrsecuriteroutieregouvfr.yaml
+Record ID: onisrsecuriteroutieregouvfr
+Country: FR
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL
+Field: endpoints
+Current Value: {'software_id': 'drupal', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='drupal' is marked as API-capable in software definitions
+
 File: FR/Federal/geo/limitesmaritimesgouvfr.yaml
 Record ID: limitesmaritimesgouvfr
 Country: FR
@@ -993,6 +1249,14 @@ Suggested Action: Add at least one endpoint because software.id='drupal' is mark
 
 File: ES/ES-CT/opendata/dodibacat.yaml
 Record ID: dodibacat
+Country: ES
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL
+Field: endpoints
+Current Value: {'software_id': 'drupal', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='drupal' is marked as API-capable in software definitions
+
+File: ES/Federal/indicators/otletransportesgobes.yaml
+Record ID: otletransportesgobes
 Country: ES
 Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL
 Field: endpoints
@@ -1227,11 +1491,19 @@ Current Value: {'software_id': 'gravitee', 'has_api': 'Yes', 'endpoints_count': 
 Suggested Action: Add at least one endpoint because software.id='gravitee' is marked as API-capable in software definitions
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_INVENIO]
-Count: 1
+Count: 2
 
 File: CH/Federal/scientific/inspirehepnet.yaml
 Record ID: inspirehepnet
 Country: CH
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_INVENIO
+Field: endpoints
+Current Value: {'software_id': 'invenio', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='invenio' is marked as API-capable in software definitions
+
+File: ES/ES-AR/scientific/zaguanunizarescollectionopendatalnesas1.yaml
+Record ID: zaguanunizarescollectionopendatalnesas1
+Country: ES
 Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_INVENIO
 Field: endpoints
 Current Value: {'software_id': 'invenio', 'has_api': 'Yes', 'endpoints_count': 0}
@@ -1476,6 +1748,25 @@ Field: endpoints
 Current Value: {'software_id': 'phaidra', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='phaidra' is marked as API-capable in software definitions
 
+[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PXWEB]
+Count: 2
+
+File: DK/DK-84/indicators/kkstatistikbankdk.yaml
+Record ID: kkstatistikbankdk
+Country: DK
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PXWEB
+Field: endpoints
+Current Value: {'software_id': 'pxweb', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='pxweb' is marked as API-capable in software definitions
+
+File: DK/Federal/indicators/smvstatistikstatistikbankdk.yaml
+Record ID: smvstatistikstatistikbankdk
+Country: DK
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PXWEB
+Field: endpoints
+Current Value: {'software_id': 'pxweb', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='pxweb' is marked as API-capable in software definitions
+
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_SKOSMOS]
 Count: 1
 
@@ -1577,11 +1868,19 @@ Current Value: {'software_id': 'tripal', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='tripal' is marked as API-capable in software definitions
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS]
-Count: 50
+Count: 53
 
 File: SE/Federal/indicators/statistiketikprovningsansokanse.yaml
 Record ID: statistiketikprovningsansokanse
 Country: SE
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS
+Field: endpoints
+Current Value: {'software_id': 'wordpress', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='wordpress' is marked as API-capable in software definitions
+
+File: ZM/Federal/indicators/wwwzraorgzmstatistics.yaml
+Record ID: wwwzraorgzmstatistics
+Country: ZM
 Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS
 Field: endpoints
 Current Value: {'software_id': 'wordpress', 'has_api': 'Yes', 'endpoints_count': 0}
@@ -1851,6 +2150,14 @@ Field: endpoints
 Current Value: {'software_id': 'wordpress', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='wordpress' is marked as API-capable in software definitions
 
+File: TJ/Federal/geo/geoportaltjorg.yaml
+Record ID: geoportaltjorg
+Country: TJ
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS
+Field: endpoints
+Current Value: {'software_id': 'wordpress', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='wordpress' is marked as API-capable in software definitions
+
 File: PH/Federal/geo/mapsdswdgovph.yaml
 Record ID: mapsdswdgovph
 Country: PH
@@ -1963,6 +2270,14 @@ Field: endpoints
 Current Value: {'software_id': 'wordpress', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='wordpress' is marked as API-capable in software definitions
 
+File: ES/Federal/indicators/wwwdataestures.yaml
+Record ID: wwwdataestures
+Country: ES
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS
+Field: endpoints
+Current Value: {'software_id': 'wordpress', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='wordpress' is marked as API-capable in software definitions
+
 File: ES/Federal/scientific/evolclustdborg.yaml
 Record ID: evolclustdborg
 Country: ES
@@ -2004,17 +2319,17 @@ Suggested Action: Tag is too short (less than 3 characters), consider removing o
 
 === SUMMARY BY ISSUE TYPE ===
 
-IS_NATIONAL_AGENCY_OR_TOPIC: 4 issues
+IS_NATIONAL_AGENCY_OR_TOPIC: 14 issues
 MISSING_DESCRIPTION: 2 issues
-PLACEHOLDER_TITLE: 3 issues
+PLACEHOLDER_TITLE: 16 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISHUB: 9 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISSERVER: 4 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_BENTO: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_BITRIX: 20 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN: 8 issues
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN: 12 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DATAVERSE: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DKAN: 2 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL: 72 issues
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL: 78 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DSPACE: 6 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DSPACECRIS: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_EPRINTS: 1 issue
@@ -2024,7 +2339,7 @@ SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GBIFPLATFORM: 2 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GEOCORTEX: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GEONETWORK: 2 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GRAVITEE: 1 issue
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_INVENIO: 1 issue
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_INVENIO: 2 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ISLANDORA: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_KADI4MAT: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_KNOEMA: 6 issues
@@ -2038,18 +2353,20 @@ SOFTWARE_EXPECTED_ENDPOINTS_MISSING_OPENSCIENCESI: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_OPUS: 3 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PALAPA: 3 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PHAIDRA: 1 issue
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PXWEB: 2 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_SKOSMOS: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_STRAPI: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_SUPERSET: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_TRIPAL: 8 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS: 50 issues
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS: 53 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_XNAT: 1 issue
 TAG_HYGIENE: 1 issue
 
 === SUMMARY BY COUNTRY ===
 
+AE: 1 issue
 ASEAN: 1 issue
-AT: 1 issue
+AT: 2 issues
 AU: 4 issues
 AW: 1 issue
 BE: 1 issue
@@ -2057,37 +2374,43 @@ BF: 1 issue
 BR: 1 issue
 BW: 1 issue
 BY: 1 issue
-CA: 6 issues
+CA: 7 issues
 CD: 1 issue
 CH: 2 issues
 CN: 4 issues
-CO: 1 issue
+CO: 2 issues
+CR: 1 issue
+CZ: 2 issues
 DE: 19 issues
-DK: 1 issue
-EE: 2 issues
-ES: 14 issues
+DK: 5 issues
+EE: 3 issues
+ES: 21 issues
 EU: 1 issue
-FR: 8 issues
-GB: 4 issues
+FI: 1 issue
+FR: 12 issues
+GB: 6 issues
 GR: 1 issue
 HK: 1 issue
 ID: 3 issues
 IE: 1 issue
 IL: 2 issues
-IN: 3 issues
-IT: 4 issues
+IN: 4 issues
+IS: 2 issues
+IT: 5 issues
 JP: 4 issues
 KE: 2 issues
 KZ: 2 issues
+LV: 1 issue
 MX: 3 issues
 MY: 2 issues
 NG: 1 issue
 NL: 3 issues
-NO: 1 issue
+NO: 2 issues
+NZ: 1 issue
 PF: 2 issues
 PH: 1 issue
 PK: 4 issues
-PL: 1 issue
+PL: 3 issues
 PT: 2 issues
 QA: 1 issue
 RS: 2 issues
@@ -2095,10 +2418,11 @@ RU: 40 issues
 SA: 1 issue
 SE: 4 issues
 SI: 1 issue
-SK: 1 issue
+SK: 3 issues
 SM: 1 issue
 SN: 3 issues
 SV: 1 issue
+TJ: 1 issue
 TM: 1 issue
 TR: 1 issue
 TZ: 1 issue
@@ -2106,4 +2430,4 @@ UG: 1 issue
 US: 46 issues
 World: 9 issues
 ZA: 1 issue
-ZM: 1 issue
+ZM: 2 issues

@@ -1,16 +1,16 @@
 DATA QUALITY REPORT - RULE: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN
 ================================================================================
-Generated: 2026-10-06 16:36:15
+Generated: 2026-10-15 13:36:04
 Issue Type: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN
 Priority: MEDIUM
-Total Issues Found: 8
+Total Issues Found: 12
 
 Rule: Identifies records using software.id='ckan' (API-capable per software definitions) that have no endpoints listed. Add at least one API endpoint for discovery and integration.
 
 === SUMMARY BY COUNTRY ===
 
 AU: 1 issue
-ES: 4 issues
+ES: 8 issues
 GB: 1 issue
 IT: 1 issue
 US: 1 issue
@@ -21,8 +21,12 @@ txwaterdatahuborg: 1 issue
 opendatavigilfuocoit: 1 issue
 datarothamstedacuk: 1 issue
 dataenvironmentnswgovau: 1 issue
+transparenciaalhaurindelatorreesdataset: 1 issue
+datosalcobendasorgdataset: 1 issue
 datosabiertostorrentesesdataset: 1 issue
+datostenerifeesesdatosconjuntosdedatoscatalogodeco: 1 issue
 opendatamanresacatdataset: 1 issue
+opendataajuntamentbarcelonacatdataesdataset: 1 issue
 datosabiertosbneescatalogodataset: 1 issue
 wwwopendatabizkaiaeus: 1 issue
 
@@ -60,6 +64,22 @@ Field: endpoints
 Current Value: {"software_id": "ckan", "has_api": "Yes", "endpoints_count": 0}
 Suggested Action: Add at least one endpoint because software.id='ckan' is marked as API-capable in software definitions
 
+File: ES/ES-AN/opendata/transparenciaalhaurindelatorreesdataset.yaml
+Record ID: transparenciaalhaurindelatorreesdataset
+Country: ES
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN
+Field: endpoints
+Current Value: {"software_id": "ckan", "has_api": "Yes", "endpoints_count": 0}
+Suggested Action: Add at least one endpoint because software.id='ckan' is marked as API-capable in software definitions
+
+File: ES/ES-MD/opendata/datosalcobendasorgdataset.yaml
+Record ID: datosalcobendasorgdataset
+Country: ES
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN
+Field: endpoints
+Current Value: {"software_id": "ckan", "has_api": "Yes", "endpoints_count": 0}
+Suggested Action: Add at least one endpoint because software.id='ckan' is marked as API-capable in software definitions
+
 File: ES/ES-VC/opendata/datosabiertostorrentesesdataset.yaml
 Record ID: datosabiertostorrentesesdataset
 Country: ES
@@ -68,8 +88,24 @@ Field: endpoints
 Current Value: {"software_id": "ckan", "has_api": "Yes", "endpoints_count": 0}
 Suggested Action: Add at least one endpoint because software.id='ckan' is marked as API-capable in software definitions
 
+File: ES/ES-CN/opendata/datostenerifeesesdatosconjuntosdedatoscatalogodeco.yaml
+Record ID: datostenerifeesesdatosconjuntosdedatoscatalogodeco
+Country: ES
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN
+Field: endpoints
+Current Value: {"software_id": "ckan", "has_api": "Yes", "endpoints_count": 0}
+Suggested Action: Add at least one endpoint because software.id='ckan' is marked as API-capable in software definitions
+
 File: ES/ES-CT/opendata/opendatamanresacatdataset.yaml
 Record ID: opendatamanresacatdataset
+Country: ES
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN
+Field: endpoints
+Current Value: {"software_id": "ckan", "has_api": "Yes", "endpoints_count": 0}
+Suggested Action: Add at least one endpoint because software.id='ckan' is marked as API-capable in software definitions
+
+File: ES/ES-CT/opendata/opendataajuntamentbarcelonacatdataesdataset.yaml
+Record ID: opendataajuntamentbarcelonacatdataesdataset
 Country: ES
 Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN
 Field: endpoints

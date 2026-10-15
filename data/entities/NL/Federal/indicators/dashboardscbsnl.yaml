@@ -1,0 +1,40 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: NL
+      name: Netherlands
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 20
+description: 'CBS dashboard portal with dozens of interactive statistical dashboards:
+  WMO monitor, poverty scan, labour force, population forecast and regional statistics.'
+id: dashboardscbsnl
+langs:
+- id: NL
+  name: Dutch
+link: https://dashboards.cbs.nl/
+name: CBS Dashboards
+owner:
+  link: https://www.cbs.nl/
+  location:
+    country:
+      id: NL
+      name: Netherlands
+    level: 20
+  name: Statistics Netherlands (CBS)
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013898

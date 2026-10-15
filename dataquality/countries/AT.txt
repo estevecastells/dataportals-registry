@@ -1,11 +1,164 @@
 DATA QUALITY REPORT - COUNTRY: AT
 ================================================================================
-Generated: 2026-10-06 16:36:15
+Generated: 2026-10-15 13:36:04
 Country Code: AT
-Total Records with Issues: 1
-Total Issues Found: 1
+Total Records with Issues: 9
+Total Issues Found: 20
 
 === ISSUES BY TYPE ===
+
+[IS_NATIONAL_AGENCY_OR_TOPIC]
+Count: 1
+Priority: MEDIUM
+
+File: AT/Federal/opendata/datagvat.yaml
+Record ID: datagvat
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {'is_national': True, 'reason': 'federal_opendata_not_national', 'name': 'Offene Daten Österreich | data.gv.at', 'catalog_type': 'Open data portal', 'owner': 'Government of Austria'}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
+
+[MISSING_OWNER_LINK]
+Count: 3
+Priority: LOW
+
+File: AT/AT-5/indicators/datenstadtsalzburgat.yaml
+Record ID: datenstadtsalzburgat
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: AT/AT-4/indicators/linzzahlen.yaml
+Record ID: linzzahlen
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: AT/AT-4/indicators/statistikreportingooegvat.yaml
+Record ID: statistikreportingooegvat
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+[MISSING_RIGHTS]
+Count: 1
+Priority: LOW
+
+File: AT/Federal/opendata/datagvat.yaml
+Record ID: datagvat
+Issue: MISSING_RIGHTS
+Field: rights
+Current Value: {'license_id': None, 'license_name': None, 'license_url': None, 'privacy_policy_url': None, 'rights_type': 'granular', 'tos_url': None}
+Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
+
+[MISSING_TAGS]
+Count: 7
+Priority: LOW
+
+File: AT/indicators/oerokatas.yaml
+Record ID: oerokatas
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: AT/indicators/energiestatistikecontrolat.yaml
+Record ID: energiestatistikecontrolat
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: AT/indicators/umweltdashboards.yaml
+Record ID: umweltdashboards
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: AT/AT-9/indicators/statistikwiengvat.yaml
+Record ID: statistikwiengvat
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: AT/AT-5/indicators/datenstadtsalzburgat.yaml
+Record ID: datenstadtsalzburgat
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: AT/AT-4/indicators/linzzahlen.yaml
+Record ID: linzzahlen
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: AT/AT-4/indicators/statistikreportingooegvat.yaml
+Record ID: statistikreportingooegvat
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+[MISSING_TOPICS]
+Count: 7
+Priority: LOW
+
+File: AT/indicators/oerokatas.yaml
+Record ID: oerokatas
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: AT/indicators/energiestatistikecontrolat.yaml
+Record ID: energiestatistikecontrolat
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: AT/indicators/umweltdashboards.yaml
+Record ID: umweltdashboards
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: AT/AT-9/indicators/statistikwiengvat.yaml
+Record ID: statistikwiengvat
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: AT/AT-5/indicators/datenstadtsalzburgat.yaml
+Record ID: datenstadtsalzburgat
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: AT/AT-4/indicators/linzzahlen.yaml
+Record ID: linzzahlen
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: AT/AT-4/indicators/statistikreportingooegvat.yaml
+Record ID: statistikreportingooegvat
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PHAIDRA]
 Count: 1
@@ -21,4 +174,35 @@ Suggested Action: Add at least one endpoint because software.id='phaidra' is mar
 
 === SUMMARY BY ISSUE TYPE ===
 
+IS_NATIONAL_AGENCY_OR_TOPIC: 1 issue
+MISSING_OWNER_LINK: 3 issues
+MISSING_RIGHTS: 1 issue
+MISSING_TAGS: 7 issues
+MISSING_TOPICS: 7 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_PHAIDRA: 1 issue
+
+=== RECORDS WITH MULTIPLE ISSUES (3+) ===
+
+Record ID: datenstadtsalzburgat
+File: AT/AT-5/indicators/datenstadtsalzburgat.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: linzzahlen
+File: AT/AT-4/indicators/linzzahlen.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: statistikreportingooegvat
+File: AT/AT-4/indicators/statistikreportingooegvat.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link

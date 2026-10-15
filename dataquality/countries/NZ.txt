@@ -1,0 +1,36 @@
+DATA QUALITY REPORT - COUNTRY: NZ
+================================================================================
+Generated: 2026-10-15 13:36:04
+Country Code: NZ
+Total Records with Issues: 1
+Total Issues Found: 2
+
+=== ISSUES BY TYPE ===
+
+[IS_NATIONAL_AGENCY_OR_TOPIC]
+Count: 1
+Priority: MEDIUM
+
+File: NZ/Federal/opendata/cataloguedatagovtnz.yaml
+Record ID: cataloguedatagovtnz
+Issue: IS_NATIONAL_AGENCY_OR_TOPIC
+Field: properties.is_national
+Current Value: {'is_national': True, 'reason': 'federal_opendata_not_national', 'name': 'Data.gov.nz - New Zealand open data portal', 'catalog_type': 'Open data portal', 'owner': 'Government of New Zealand'}
+Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
+
+[MISSING_RIGHTS]
+Count: 1
+Priority: LOW
+
+File: NZ/Federal/opendata/cataloguedatagovtnz.yaml
+Record ID: cataloguedatagovtnz
+Issue: MISSING_RIGHTS
+Field: rights
+Current Value: {'license_id': None, 'license_name': None, 'license_url': None, 'privacy_policy_url': None, 'rights_type': 'granular', 'tos_url': None}
+Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
+
+
+=== SUMMARY BY ISSUE TYPE ===
+
+IS_NATIONAL_AGENCY_OR_TOPIC: 1 issue
+MISSING_RIGHTS: 1 issue

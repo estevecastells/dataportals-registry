@@ -1,0 +1,43 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: DK
+      name: Denmark
+    macroregion:
+      id: '154'
+      name: Northern Europe
+    level: 20
+description: Register-based export statistics for Danish SMEs (goods export and exporting
+  companies by country, region, SITC group and company size, 2015-2025) on the StatBank
+  platform.
+id: smvstatistikstatistikbankdk
+langs:
+- id: DA
+  name: Danish
+- id: EN
+  name: English
+link: https://smvstatistik.statistikbank.dk/
+name: SMV Statistik
+owner:
+  link: null
+  location:
+    country:
+      id: DK
+      name: Denmark
+    level: 20
+  name: Udenrigsministeriet (The Trade Council)
+  type: Central government
+software:
+  id: pxweb
+  name: PxWeb
+status: active
+tags: []
+topics: []
+uid: cdi00013884

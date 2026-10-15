@@ -1,0 +1,45 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: GB
+      name: United Kingdom
+    macroregion:
+      id: '154'
+      name: Northern Europe
+    level: 30
+    subregion:
+      id: GB-ENG
+      name: England
+description: Local information system with data, reports and area profiles for Nottingham.
+id: wwwnottinghaminsightorguk
+langs:
+- id: EN
+  name: English
+link: https://www.nottinghaminsight.org.uk/
+name: Nottingham Insight
+owner:
+  link: null
+  location:
+    country:
+      id: GB
+      name: United Kingdom
+    level: 30
+    subregion:
+      id: GB-ENG
+      name: England
+  name: Nottingham City Council
+  type: Local government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00014028

@@ -1,0 +1,42 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: AT
+      name: Austria
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 20
+description: 'Energy statistics portal of the Austrian regulatory authority E-Control:
+  interactive charts and downloadable tables for electricity statistics (balance,
+  generation by source, cross-border exchange, market and supplier-switching statistics),
+  gas statistics and green-electricity statistics for Austria.'
+id: energiestatistikecontrolat
+langs:
+- id: DE
+  name: German
+link: https://www.e-control.at/statistik
+name: E-Control Energiestatistik
+owner:
+  link: https://www.e-control.at
+  location:
+    country:
+      id: AT
+      name: Austria
+    level: 20
+  name: Energie-Control Austria
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013892

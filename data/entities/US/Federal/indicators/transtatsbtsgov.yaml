@@ -1,0 +1,48 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    level: 20
+    macroregion:
+      id: '001'
+      name: World
+description: 'TranStats from the Bureau of Transportation Statistics: one-stop interactive portal for
+  National Transportation Statistics and thematic transportation databases (aviation, maritime, highway,
+  freight, border) with queryable tables and downloads.'
+id: transtatsbtsgov
+langs:
+- id: EN
+  name: English
+link: https://transtats.bts.gov/
+name: OST_R | BTS | Transtats Homepage
+owner:
+  link: https://www.bts.gov/
+  location:
+    country:
+      id: US
+      name: United States
+    level: 20
+  name: Bureau of Transportation Statistics, U.S. Department of Transportation
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- government
+- indicators
+- statistics
+- united-states
+topics:
+- id: TRAN
+  name: Transportation
+  type: eudatatheme
+uid: cdi00013892

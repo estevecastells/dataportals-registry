@@ -1,0 +1,46 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: NL
+      name: Netherlands
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 30
+    subregion:
+      id: NL-ZH
+      name: Zuid-Holland
+description: 'Swing labour-market indicators portal for the province of Zuid-Holland:
+  employment, unemployment, vacancies, commuting and economy.'
+id: zuidhollandinzichtnl
+langs:
+- id: NL
+  name: Dutch
+link: https://zuid-hollandinzicht.nl/
+name: Zuid-HollandInZicht
+owner:
+  link: null
+  location:
+    country:
+      id: NL
+      name: Netherlands
+    level: 30
+    subregion:
+      id: NL-ZH
+      name: Zuid-Holland
+  name: Provincie Zuid-Holland en Economic Board Zuid-Holland
+  type: Regional government
+software:
+  id: swing
+  name: Swing
+status: active
+tags: []
+topics: []
+uid: cdi00013920

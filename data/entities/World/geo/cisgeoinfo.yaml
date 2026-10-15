@@ -1,0 +1,80 @@
+access_mode:
+- open
+api_status: active
+catalog_type: Geoportal
+content_types:
+- map_layer
+- dataset
+coverage:
+- location:
+    country:
+      id: World
+      name: World
+    level: 20
+    macroregion:
+      id: '001'
+      name: World
+description: CIS Geoportal, a unified geoinformation platform of the Commonwealth
+  of Independent States for discovering, sharing and standardizing spatial data and
+  services. Created under the 2023 interstate cooperation program in geodesy, cartography,
+  spatial data and cadastre for Armenia, Belarus, Kazakhstan, Kyrgyzstan, Russia,
+  Tajikistan and Uzbekistan.
+id: cisgeoinfo
+langs:
+- id: RU
+  name: Russian
+link: https://cisgeo.info
+name: CIS Geoportal (Геопортал СНГ)
+owner:
+  link: https://cis.minsk.by
+  location:
+    country:
+      id: World
+      name: World
+    level: 20
+  name: Commonwealth of Independent States
+  type: International
+properties:
+  has_doi: false
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: nspdplatform
+  name: NSPD Platform
+status: active
+tags:
+- CIS
+- Commonwealth of Independent States
+- geospatial
+- NSDI
+- spatial data
+- cadastre
+topics:
+- id: REGI
+  name: Regions and cities
+  type: eudatatheme
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
+- id: INTR
+  name: International issues
+  type: eudatatheme
+- id: Boundaries
+  name: Boundaries
+  type: iso19115
+- id: Location
+  name: Location
+  type: iso19115
+uid: cdi00013856
+endpoints:
+- type: nspdplatform
+  url: https://cisgeo.info/api/geoportal/v1/baselayers
+- type: nspd:search
+  url: https://cisgeo.info/api/geoportal/v2/search/geoportal?query=test
+api: true

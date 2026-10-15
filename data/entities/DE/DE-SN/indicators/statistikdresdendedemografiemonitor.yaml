@@ -1,0 +1,48 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: DE
+      name: Germany
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 30
+    subregion:
+      id: DE-SN
+      name: Sachsen
+description: 'Public interactive dashboard of demographic indicators for Dresden city
+  districts: population, density, average age, dependency ratios, foreign resident
+  share, births, deaths and migration, with map, trend and table views maintained
+  by the Kommunale Statistikstelle.'
+id: statistikdresdendedemografiemonitor
+langs:
+- id: DE
+  name: German
+link: https://statistik.dresden.de/apps/demografiemonitor/
+name: Demografiemonitor Dresden
+owner:
+  link: https://www.dresden.de
+  location:
+    country:
+      id: DE
+      name: Germany
+    level: 30
+    subregion:
+      id: DE-SN
+      name: Sachsen
+  name: Landeshauptstadt Dresden
+  type: Local government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013986
