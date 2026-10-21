@@ -1,0 +1,46 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: GB
+      name: United Kingdom
+    macroregion:
+      id: '154'
+      name: Northern Europe
+    level: 30
+    subregion:
+      id: GB-ENG
+      name: England
+description: Regional research and evidence observatory with economic data, dashboards
+  and publications for the Midlands.
+id: midlandsengineobservatoryorg
+langs:
+- id: EN
+  name: English
+link: https://midlandsengineobservatory.org/
+name: Midlands Engine Observatory
+owner:
+  link: null
+  location:
+    country:
+      id: GB
+      name: United Kingdom
+    level: 30
+    subregion:
+      id: GB-ENG
+      name: England
+  name: Midlands Engine Partnership
+  type: Regional government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00014025

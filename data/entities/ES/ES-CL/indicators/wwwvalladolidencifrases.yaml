@@ -1,0 +1,47 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: ES
+      name: Spain
+    macroregion:
+      id: '039'
+      name: Southern Europe
+    level: 30
+    subregion:
+      id: ES-CL
+      name: Castilla y León
+description: 'Municipal statistical observatory of Valladolid: numeric and graphic
+  statistics on demography, housing, economy and tourism for the city and its surrounding
+  urban community.'
+id: wwwvalladolidencifrases
+langs:
+- id: ES
+  name: Spanish
+link: https://www.valladolidencifras.es/
+name: Observatorio urbano de Valladolid
+owner:
+  link: https://www.valladolid.es
+  location:
+    country:
+      id: ES
+      name: Spain
+    level: 30
+    subregion:
+      id: ES-CL
+      name: Castilla y León
+  name: Ayuntamiento de Valladolid
+  type: Local government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00014004

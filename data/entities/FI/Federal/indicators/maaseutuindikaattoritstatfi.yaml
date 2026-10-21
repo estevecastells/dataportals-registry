@@ -1,0 +1,46 @@
+access_mode:
+- open
+api: true
+api_status: active
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: FI
+      name: Finland
+    macroregion:
+      id: '154'
+      name: Northern Europe
+    level: 20
+description: PxWeb database of rural indicators covering population and migration,
+  economic structure and activity, living conditions and welfare, and the environment.
+  Annual time series mostly from 1988, with breakdowns by urban-rural classification,
+  municipality, sub-region, region, ELY area, AVI area, and wellbeing services county.
+id: maaseutuindikaattoritstatfi
+langs:
+- id: FI
+  name: Finnish
+link: https://maaseutuindikaattorit.stat.fi/PXWeb
+name: Maaseutuindikaattorit (Rural Indicators)
+owner:
+  link: https://maaseutuverkosto.fi
+  location:
+    country:
+      id: FI
+      name: Finland
+    level: 20
+  name: Finnish Rural Network (Maaseutuverkosto)
+  type: Central government
+software:
+  id: pxweb
+  name: PxWeb
+status: active
+tags: []
+topics: []
+uid: cdi00014065
+endpoints:
+- type: pxwebapi
+  url: https://maaseutuindikaattorit.stat.fi/PXWeb/api/v1/fi/
+  version: '1'

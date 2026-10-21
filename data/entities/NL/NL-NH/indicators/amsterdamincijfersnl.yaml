@@ -1,0 +1,46 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: NL
+      name: Netherlands
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 30
+    subregion:
+      id: NL-NH
+      name: Noord-Holland
+description: 'Swing databank of the city of Amsterdam: key figures and dashboards
+  on population, housing, work, safety and liveability.'
+id: amsterdamincijfersnl
+langs:
+- id: NL
+  name: Dutch
+link: https://amsterdam.incijfers.nl/
+name: Amsterdam in Cijfers
+owner:
+  link: https://www.amsterdam.nl/
+  location:
+    country:
+      id: NL
+      name: Netherlands
+    level: 30
+    subregion:
+      id: NL-NH
+      name: Noord-Holland
+  name: Gemeente Amsterdam
+  type: Local government
+software:
+  id: swing
+  name: Swing
+status: active
+tags: []
+topics: []
+uid: cdi00013924

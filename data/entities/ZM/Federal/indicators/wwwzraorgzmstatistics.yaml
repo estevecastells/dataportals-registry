@@ -1,0 +1,59 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+- dataset
+coverage:
+- location:
+    country:
+      id: ZM
+      name: Zambia
+    level: 20
+    macroregion:
+      id: '014'
+      name: Eastern Africa
+description: Zambia Revenue Authority statistics hub with monthly tax revenue collections,
+  tax registrations, compliance, and refund statistics, plus annual statistics bulletins
+  in PDF and Excel.
+id: wwwzraorgzmstatistics
+langs:
+- id: EN
+  name: English
+link: https://www.zra.org.zm/download-category/statistics/
+name: Zambia Revenue Authority Statistics
+owner:
+  link: https://www.zra.org.zm/
+  location:
+    country:
+      id: ZM
+      name: Zambia
+    level: 20
+  name: Zambia Revenue Authority
+  type: Central government
+properties:
+  has_doi: false
+  is_national: false
+software:
+  id: wordpress
+  name: WordPress
+status: active
+tags:
+- statistics
+- government
+- tax
+- revenue
+- official statistics
+topics:
+- id: ECON
+  name: Economy and finance
+  type: eudatatheme
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
+- id: Economy
+  name: Economy
+  type: iso19115
+uid: cdi00013880

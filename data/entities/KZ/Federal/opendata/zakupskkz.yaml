@@ -1,0 +1,68 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Open data portal
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: KZ
+      name: Kazakhstan
+    level: 20
+    macroregion:
+      id: '143'
+      name: Central Asia
+description: Electronic procurement portal of the Samruk-Kazyna National Welfare
+  Fund. Publishes tenders, lots, suppliers and concluded contracts of the sovereign
+  wealth fund group companies, including framework agreements and competitive
+  procedures.
+id: zakupskkz
+langs:
+- id: RU
+  name: Russian
+- id: KZ
+  name: Kazakh
+link: https://zakup.sk.kz/
+name: Samruk-Kazyna procurement portal
+owner:
+  link: https://www.sk.kz
+  location:
+    country:
+      id: KZ
+      name: Kazakhstan
+    level: 20
+  name: JSC Sovereign Wealth Fund Samruk-Kazyna
+  type: Business
+properties:
+  has_doi: false
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- public procurement
+- tenders
+- state companies
+- contracts
+- Kazakhstan
+topics:
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
+- id: ECON
+  name: Economy and finance
+  type: eudatatheme
+- id: Economy
+  name: Economy
+  type: iso19115
+uid: cdi00013827

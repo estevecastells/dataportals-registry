@@ -543,6 +543,7 @@ Adding a software definition: [software-taxonomy.md](software-taxonomy.md). Agen
 | `nomad` | scientific | [discovery-scientific](discovery-scientific.md#nomad) | [harvest-scientific](harvest-scientific.md#nomad) | yes |
 | `nomis` | indicators | [discovery-indicators](discovery-indicators.md#nomis) | [harvest-indicators](harvest-indicators.md#nomis) | — |
 | `nosketch` | scientific | [discovery-scientific-domain](discovery-scientific-domain.md#nosketch) | [harvest-scientific-domain](harvest-scientific-domain.md#nosketch) | — |
+| `nspdplatform` | geo | [discovery-geoportals-sdi](discovery-geoportals-sdi.md#nspdplatform) | [harvest-geoportals](harvest-geoportals.md#nspdplatform) | yes |
 | `nyudatacatalog` | scientific | [discovery-scientific](discovery-scientific.md#nyudatacatalog) | [harvest-scientific](harvest-scientific.md#nyudatacatalog) | yes |
 | `obibamica` | microdata | [discovery-indicators](discovery-indicators.md#obibamica) | [harvest-indicators](harvest-indicators.md#obibamica) | yes |
 | `oceanatlas` | scientific | [discovery-scientific-domain](discovery-scientific-domain.md#oceanatlas) | [harvest-scientific-domain](harvest-scientific-domain.md#oceanatlas) | — |

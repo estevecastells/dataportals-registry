@@ -1,0 +1,66 @@
+access_mode:
+- open
+api: true
+api_status: active
+catalog_type: Indicators catalog
+content_types:
+- indicator
+- dataset
+coverage:
+- location:
+    country:
+      id: EU
+      name: European Union
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+description: Statistics and data hub of the European Insurance and Occupational
+  Pensions Authority (EIOPA). Hub for downloadable insurance and occupational
+  pensions statistics (XLSX/CSV), Solvency II reporting packages, insurance risk
+  dashboards and catastrophe data tools for the European supervisory community.
+id: wwweiopaeuropaeu
+endpoints:
+- type: docs
+  url: https://www.eiopa.europa.eu/tools-and-data/insurance-statistics_en
+langs:
+- id: EN
+  name: English
+link: https://www.eiopa.europa.eu/tools-and-data_en
+name: EIOPA Statistics and Data
+owner:
+  link: https://www.eiopa.europa.eu/
+  location:
+    country:
+      id: EU
+      name: European Union
+    level: 20
+  name: European Insurance and Occupational Pensions Authority
+  type: International
+properties:
+  has_doi: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- insurance
+- pensions
+- statistics
+- finance
+- europe
+topics:
+- id: ECON
+  name: Economy and finance
+  type: eudatatheme
+- id: Economy
+  name: Economy
+  type: iso19115
+uid: cdi00013870

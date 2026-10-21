@@ -1,0 +1,49 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: BD
+      name: Bangladesh
+    macroregion:
+      id: '034'
+      name: Southern Asia
+    level: 30
+    subregion:
+      id: BD-C
+      name: Dhaka
+description: Dhaka North City Corporation dengue situation dashboard with daily, weekly,
+  monthly and yearly hospital-admission and death figures sourced live from DGHS daily
+  reports.
+id: dnccinnovationlabgithubiodenguedashboard
+langs:
+- id: BN
+  name: Bengali
+- id: EN
+  name: English
+link: https://dnccinnovationlab.github.io/dengue-dashboard/
+name: DNCC Dengue Watch
+owner:
+  link: https://www.dncc.gov.bd
+  location:
+    country:
+      id: BD
+      name: Bangladesh
+    level: 30
+    subregion:
+      id: BD-C
+      name: Dhaka
+  name: Dhaka North City Corporation
+  type: Local government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013970

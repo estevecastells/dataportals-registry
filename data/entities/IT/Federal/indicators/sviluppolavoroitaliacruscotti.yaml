@@ -1,0 +1,41 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: IT
+      name: Italy
+    macroregion:
+      id: '039'
+      name: Southern Europe
+    level: 20
+description: 'Public Tableau dashboards of the ANPAL in-house Sviluppo Lavoro Italia:
+  active labour-market policies monitoring, foreign workers in the Italian labour
+  market, and subordinate-work contract types.'
+id: sviluppolavoroitaliacruscotti
+langs:
+- id: IT
+  name: Italian
+link: https://www.sviluppolavoroitalia.it/cruscotti
+name: Sviluppo Lavoro Italia - Cruscotti
+owner:
+  link: https://www.sviluppolavoroitalia.it
+  location:
+    country:
+      id: IT
+      name: Italy
+    level: 20
+  name: Sviluppo Lavoro Italia (ANPAL)
+  type: Central government
+software:
+  id: tableau
+  name: Tableau
+status: active
+tags: []
+topics: []
+uid: cdi00013891

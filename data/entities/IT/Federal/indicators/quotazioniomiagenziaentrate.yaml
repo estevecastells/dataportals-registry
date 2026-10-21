@@ -1,0 +1,41 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: IT
+      name: Italy
+    macroregion:
+      id: '039'
+      name: Southern Europe
+    level: 20
+description: 'Public query interface of the OMI real-estate market observatory: semester
+  quotazioni (min/max/mean per property type and zone) searchable by province and
+  municipality for all cadastrally surveyed comuni.'
+id: quotazioniomiagenziaentrate
+langs:
+- id: IT
+  name: Italian
+link: https://www1.agenziaentrate.gov.it/servizi/Consultazione/ricerca.htm
+name: Banca dati delle quotazioni immobiliari (OMI)
+owner:
+  link: https://www.agenziaentrate.gov.it
+  location:
+    country:
+      id: IT
+      name: Italy
+    level: 20
+  name: Agenzia delle Entrate
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013884

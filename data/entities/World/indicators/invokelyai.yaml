@@ -18,10 +18,10 @@ description: >-
   Public catalog of official-statistics indicators with definitions, units and rankings.
   Values are available through a hosted REST API for US states and counties, EU regions,
   Spanish municipalities, and country and world indicators from the World Bank. Each value
-  includes its publisher and a citation. The catalog is browsable without an account; API
-  access requires a free account and key. The free plan includes 500 calls per month and the
-  latest 60 points per series. Full history and CSV export require a paid plan. Original
-  publishers' licenses govern reuse.
+  includes its publisher and a citation. The catalog is browsable without an account.
+  The free plan includes 500 MCP calls per month; REST data queries require Builder, Pro
+  or prepaid credits. Full history and CSV export are included on every plan, with up to
+  5,000 series points per call. Original publishers' licenses govern reuse.
 endpoints:
 - type: openapi
   url: https://invokely.ai/openapi.json
@@ -57,4 +57,4 @@ tags:
 - official statistics
 - indicators
 - REST API
-uid: cdi00013795
+uid: cdi00013864

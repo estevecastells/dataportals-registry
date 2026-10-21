@@ -1,0 +1,39 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: GB
+      name: United Kingdom
+    macroregion:
+      id: '154'
+      name: Northern Europe
+    level: 20
+description: 'Interactive data tool with UK city indicators from Cities Outlook: population,
+  economy, housing, employment and connectivity for British cities.'
+id: wwwcentreforcitiesorg
+langs:
+- id: EN
+  name: English
+link: https://www.centreforcities.org/data/data-tool/
+name: Centre for Cities Data Tool
+owner:
+  link: https://www.centreforcities.org
+  location:
+    country:
+      id: GB
+      name: United Kingdom
+  name: Centre for Cities
+  type: Academy
+software:
+  id: tableau
+  name: Tableau
+status: active
+tags: []
+topics: []
+uid: cdi00014020

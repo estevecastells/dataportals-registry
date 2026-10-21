@@ -1,9 +1,9 @@
 DATA QUALITY REPORT - COUNTRY: KE
 ================================================================================
-Generated: 2026-10-06 09:14:05
+Generated: 2026-10-15 13:36:04
 Country Code: KE
-Total Records with Issues: 1
-Total Issues Found: 3
+Total Records with Issues: 3
+Total Issues Found: 5
 
 === ISSUES BY TYPE ===
 
@@ -17,6 +17,24 @@ Issue: IS_NATIONAL_AGENCY_OR_TOPIC
 Field: properties.is_national
 Current Value: {'is_national': True, 'reason': 'federal_opendata_not_national', 'name': 'Kenya Open Data', 'catalog_type': 'Open data portal', 'owner': 'Kenya ICT Authority'}
 Suggested Action: Set properties.is_national to false. This flag is only for the country's official catalog of that type (national open-data portal, NSDI/geoportal, or NSO statistical product), not for agency, thematic, scientific, or subnational catalogs (federal_opendata_not_national).
+
+[MISSING_OWNER_LINK]
+Count: 2
+Priority: LOW
+
+File: KE/Federal/indicators/statushealthgoke.yaml
+Record ID: statushealthgoke
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: KE/Federal/indicators/labourmarketgoke.yaml
+Record ID: labourmarketgoke
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
 
 [MISSING_RIGHTS]
 Count: 1
@@ -44,6 +62,7 @@ Suggested Action: Add at least one endpoint because software.id='arcgishub' is m
 === SUMMARY BY ISSUE TYPE ===
 
 IS_NATIONAL_AGENCY_OR_TOPIC: 1 issue
+MISSING_OWNER_LINK: 2 issues
 MISSING_RIGHTS: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISHUB: 1 issue
 

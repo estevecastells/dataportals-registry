@@ -1,0 +1,46 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+coverage:
+- location:
+    country:
+      id: FR
+      name: France
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 30
+    subregion:
+      id: FR-NOR
+      name: Normandie
+description: Statoscope is the Carif-Oref de Normandie datavisualisation site for
+  employment, occupation and training statistics across Normandy territories.
+id: statoscopecariforefnormandiefr
+langs:
+- id: FR
+  name: French
+link: https://statoscope.cariforefnormandie.fr/
+name: Bot Detection
+owner:
+  link: https://www.cariforefnormandie.fr
+  location:
+    country:
+      id: FR
+      name: France
+    level: 30
+    subregion:
+      id: FR-NOR
+      name: Normandie
+  name: Carif-Oref de Normandie
+  type: Regional government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013997

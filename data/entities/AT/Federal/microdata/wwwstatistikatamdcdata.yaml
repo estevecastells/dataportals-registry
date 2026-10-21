@@ -51,8 +51,8 @@ rights:
   rights_type: granular
   tos_url: https://www.statistik.at/fileadmin/pages/1805/Nutzungsbedingungen_Registrierungs-und_Antragsapplikationen_AMDC.pdf
 software:
-  id: custom
-  name: Custom software
+  id: typo3
+  name: TYPO3
 status: active
 tags:
 - government

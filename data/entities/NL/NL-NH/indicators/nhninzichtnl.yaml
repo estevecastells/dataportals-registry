@@ -1,0 +1,45 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: NL
+      name: Netherlands
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 30
+    subregion:
+      id: NL-NH
+      name: Noord-Holland
+description: Swing labour-market indicators portal for the Noord-Holland Noord region.
+id: nhninzichtnl
+langs:
+- id: NL
+  name: Dutch
+link: https://nhninzicht.nl/
+name: Noord-Holland Noord InZicht
+owner:
+  link: null
+  location:
+    country:
+      id: NL
+      name: Netherlands
+    level: 30
+    subregion:
+      id: NL-NH
+      name: Noord-Holland
+  name: Arbeidsmarktregio Noord-Holland Noord
+  type: Regional government
+software:
+  id: swing
+  name: Swing
+status: active
+tags: []
+topics: []
+uid: cdi00013914

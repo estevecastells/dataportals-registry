@@ -1,0 +1,43 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Geoportal
+content_types:
+- dataset
+- map_layer
+coverage:
+- location:
+    country:
+      id: UZ
+      name: Uzbekistan
+    macroregion:
+      id: '143'
+      name: Central Asia
+    level: 20
+description: 'Interactive map of the unified geoinformation database of the state
+  environmental monitoring system of Uzbekistan, operated by the ecology committee
+  (formerly Ministry of Ecology): monitoring posts and measurement data on air, water
+  and land.'
+id: gisuznatureuz
+langs:
+- id: RU
+  name: Russian
+link: https://gis.uznature.uz
+name: Unified Geoinformation Database of the Environmental Monitoring System of Uzbekistan
+owner:
+  link: https://gov.uz/en/eco
+  location:
+    country:
+      id: UZ
+      name: Uzbekistan
+    level: 20
+  name: National Committee on Ecology and Climate Change of the Republic of Uzbekistan
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013852

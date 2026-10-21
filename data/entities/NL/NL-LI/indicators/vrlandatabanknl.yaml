@@ -1,0 +1,46 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: NL
+      name: Netherlands
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 30
+    subregion:
+      id: NL-LI
+      name: Limburg
+description: 'Swing kennisplein and databank of GGD Limburg-Noord: health and lifestyle
+  figures for the Limburg-Noord region, with health monitor dashboards per age group.'
+id: vrlandatabanknl
+langs:
+- id: NL
+  name: Dutch
+link: https://vrln.databank.nl/
+name: Kennisplein VRLN - GGD Limburg-Noord
+owner:
+  link: https://www.ggdlimburgnoord.nl/
+  location:
+    country:
+      id: NL
+      name: Netherlands
+    level: 30
+    subregion:
+      id: NL-LI
+      name: Limburg
+  name: GGD Limburg-Noord
+  type: Regional government
+software:
+  id: swing
+  name: Swing
+status: active
+tags: []
+topics: []
+uid: cdi00013923

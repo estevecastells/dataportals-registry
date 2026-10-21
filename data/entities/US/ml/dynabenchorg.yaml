@@ -1,0 +1,47 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Machine learning catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    level: 20
+    macroregion:
+      id: '021'
+      name: Northern America
+description: Dynamic benchmarking platform collecting human-and-model-in-the-loop
+  datasets for NLP and speech; datasets are distributed for download.
+id: dynabenchorg
+langs:
+- id: EN
+  name: English
+link: https://dynabench.org
+name: Dynabench
+owner:
+  link: https://ai.meta.com
+  location:
+    country:
+      id: US
+      name: United States
+  name: Meta AI
+  type: Business
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- machine learning
+- benchmarks
+- datasets
+- natural language processing
+- research data
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+uid: cdi00013798

@@ -1,0 +1,46 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Open data portal
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: GB
+      name: United Kingdom
+    macroregion:
+      id: '154'
+      name: Northern Europe
+    level: 30
+    subregion:
+      id: GB-ENG
+      name: England
+description: Borough data observatory with local statistics and interactive area profiles
+  for the London Borough of Merton.
+id: datamertongovuk
+langs:
+- id: EN
+  name: English
+link: https://data.merton.gov.uk/
+name: Merton Data
+owner:
+  link: null
+  location:
+    country:
+      id: GB
+      name: United Kingdom
+    level: 30
+    subregion:
+      id: GB-ENG
+      name: England
+  name: London Borough of Merton
+  type: Local government
+software:
+  id: esridataobservatory
+  name: Esri UK Data Observatory
+status: active
+tags: []
+topics: []
+uid: cdi00014034

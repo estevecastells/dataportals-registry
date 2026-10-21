@@ -1,0 +1,48 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Geoportal
+content_types:
+- dataset
+- map_layer
+coverage:
+- location:
+    country:
+      id: UZ
+      name: Uzbekistan
+    macroregion:
+      id: '143'
+      name: Central Asia
+    level: 20
+description: 'Official geological geoportal of Uzbekistan created by presidential
+  decree UP-116 (2023): geological and mineral-resource maps, mineragenic zoning,
+  mineral reserves and resources, geotourism and investment materials in Uzbek, Russian
+  and English. Part of the Central Asian geoportal network supported by the Geological
+  Survey of Finland.'
+id: geoportaluzorg
+langs:
+- id: EN
+  name: English
+- id: RU
+  name: Russian
+- id: UZ
+  name: Uzbek
+link: https://www.geoportal-uz.org
+name: Uzbekistan Geoportal of the Ministry of Mining Industry and Geology
+owner:
+  link: null
+  location:
+    country:
+      id: UZ
+      name: Uzbekistan
+    level: 20
+  name: Ministry of Mining Industry and Geology of the Republic of Uzbekistan
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013851

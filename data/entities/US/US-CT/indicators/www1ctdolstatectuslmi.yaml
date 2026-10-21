@@ -1,0 +1,60 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    macroregion:
+      id: '021'
+      name: Northern America
+    level: 30
+    subregion:
+      id: US-CT
+      name: Connecticut
+description: 'Connecticut Department of Labor Office of Research LMI portal: interactive data tools for
+  employment, unemployment rates, labor force, hours and earnings for Connecticut and its metros.'
+id: www1ctdolstatectuslmi
+langs:
+- id: EN
+  name: English
+link: https://www1.ctdol.state.ct.us/lmi/
+name: Connecticut Department of Labor LMI
+owner:
+  link: https://portal.ct.gov/dol
+  location:
+    country:
+      id: US
+      name: United States
+    level: 30
+    subregion:
+      id: US-CT
+      name: Connecticut
+  name: Connecticut Department of Labor, Office of Research
+  type: Regional government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- labor market
+- statistics
+- Connecticut
+- indicators
+topics:
+- id: ECON
+  name: Economy and finance
+  type: eudatatheme
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013956

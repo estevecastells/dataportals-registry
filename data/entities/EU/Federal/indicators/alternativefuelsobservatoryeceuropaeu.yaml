@@ -1,0 +1,64 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+- dataset
+coverage:
+- location:
+    country:
+      id: EU
+      name: European Union
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+description: European Alternative Fuels Observatory (EAFO) of the European
+  Commission. Country-level data and indicators on alternative fuels infrastructure
+  (recharging and refuelling points), alternative fuel vehicle fleets and related
+  policies across EU Member States, with regular data updates including heavy-duty
+  vehicle charging data.
+id: alternativefuelsobservatoryeceuropaeu
+langs:
+- id: EN
+  name: English
+link: https://alternative-fuels-observatory.ec.europa.eu/
+name: European Alternative Fuels Observatory
+owner:
+  link: https://transport.ec.europa.eu/
+  location:
+    country:
+      id: EU
+      name: European Union
+    level: 20
+  name: European Commission
+  type: Central government
+properties:
+  has_doi: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- alternative fuels
+- electric vehicles
+- charging infrastructure
+- transport
+- europe
+topics:
+- id: TRAN
+  name: Transport
+  type: eudatatheme
+- id: ENER
+  name: Energy
+  type: eudatatheme
+uid: cdi00013867

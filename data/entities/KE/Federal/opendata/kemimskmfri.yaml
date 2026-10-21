@@ -1,0 +1,69 @@
+access_mode:
+- open
+api: true
+api_status: active
+catalog_type: Open data portal
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: KE
+      name: Kenya
+    macroregion:
+      id: '014'
+      name: Eastern Africa
+    level: 20
+description: KeMIMS is KMFRI's CKAN catalog to discover, access and share marine, fisheries, aquaculture,
+  freshwater and blue-economy research datasets, including catch assessment surveys and lake and river
+  station observations.
+endpoints:
+- type: ckan
+  url: http://102.210.149.64:8081/api/3
+  version: '3'
+- type: ckan:package-search
+  url: http://102.210.149.64:8081/api/3/action/package_search
+  version: '3'
+- type: ckan:package-list
+  url: http://102.210.149.64:8081/api/3/action/package_list
+  version: '3'
+id: kemimskmfri
+langs:
+- id: EN
+  name: English
+link: http://102.210.149.64:8081
+name: 'KeMIMS: Kenya Marine Information & Metadata System'
+owner:
+  link: https://www.kmfri.go.ke
+  location:
+    country:
+      id: KE
+      name: Kenya
+    level: 20
+  name: Kenya Marine and Fisheries Research Institute (KMFRI)
+  type: Central government
+properties:
+  has_doi: false
+  is_national: false
+software:
+  id: ckan
+  name: CKAN
+status: active
+tags:
+- marine
+- fisheries
+- oceanography
+- blue economy
+- CKAN
+- Kenya
+topics:
+- id: AGRI
+  name: Agriculture, fisheries, forestry and food
+  type: eudatatheme
+- id: ENVI
+  name: Environment
+  type: eudatatheme
+- id: Oceans
+  name: Oceans
+  type: iso19115
+uid: cdi00013980

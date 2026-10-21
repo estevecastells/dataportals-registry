@@ -1,0 +1,43 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+coverage:
+- location:
+    country:
+      id: DE
+      name: Germany
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 20
+description: German Accident Atlas, a public map application of accidents with personal injury compiled
+  from official road accident statistics, filterable by year, accident type, road type and severity with
+  location-level maps and aggregated counts for municipalities.
+id: unfallatlasstatistikportalde
+langs:
+- id: DE
+  name: German
+- id: EN
+  name: English
+link: https://unfallatlas.statistikportal.de/
+name: Verkehrsunfallatlas Deutschland
+owner:
+  link: https://www.destatis.de
+  location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+  name: Statistisches Bundesamt
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013991

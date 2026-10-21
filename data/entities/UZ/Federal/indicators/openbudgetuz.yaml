@@ -1,0 +1,68 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+coverage:
+- location:
+    country:
+      id: UZ
+      name: Uzbekistan
+    level: 20
+    macroregion:
+      id: '143'
+      name: Central Asia
+description: Open budget portal of the Ministry of Finance of the Republic of Uzbekistan,
+  launched in 2019 and renewed in 2021. Presents state budget revenues and expenditures,
+  budget execution, public debt, and the budgets of regions, districts and mahallas
+  in visual form, including citizen budget materials.
+id: openbudgetuz
+langs:
+- id: UZ
+  name: Uzbek
+- id: RU
+  name: Russian
+link: https://openbudget.uz
+name: Open Budget of Uzbekistan
+owner:
+  link: https://gov.uz/ru/minfinance
+  location:
+    country:
+      id: UZ
+      name: Uzbekistan
+    level: 20
+  name: Ministry of Finance of the Republic of Uzbekistan
+  type: Central government
+properties:
+  has_doi: false
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- budget
+- finance
+- government
+- Uzbekistan
+- indicators
+topics:
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
+- id: ECON
+  name: Economy and finance
+  type: eudatatheme
+- id: Economy
+  name: Economy
+  type: iso19115
+uid: cdi00013834

@@ -1,0 +1,92 @@
+DATA QUALITY REPORT - COUNTRY: BD
+================================================================================
+Generated: 2026-10-15 13:36:04
+Country Code: BD
+Total Records with Issues: 5
+Total Issues Found: 10
+
+=== ISSUES BY TYPE ===
+
+[MISSING_TAGS]
+Count: 5
+Priority: LOW
+
+File: BD/BD-C/indicators/dnccinnovationlabgithubiodenguedashboard.yaml
+Record ID: dnccinnovationlabgithubiodenguedashboard
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: BD/Federal/indicators/aimserdgovbd.yaml
+Record ID: aimserdgovbd
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: BD/Federal/indicators/dashboarddghsgovbd.yaml
+Record ID: dashboarddghsgovbd
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: BD/Federal/indicators/esgbgmeacombd.yaml
+Record ID: esgbgmeacombd
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: BD/Federal/indicators/solarsredagovbd.yaml
+Record ID: solarsredagovbd
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+[MISSING_TOPICS]
+Count: 5
+Priority: LOW
+
+File: BD/BD-C/indicators/dnccinnovationlabgithubiodenguedashboard.yaml
+Record ID: dnccinnovationlabgithubiodenguedashboard
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: BD/Federal/indicators/aimserdgovbd.yaml
+Record ID: aimserdgovbd
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: BD/Federal/indicators/dashboarddghsgovbd.yaml
+Record ID: dashboarddghsgovbd
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: BD/Federal/indicators/esgbgmeacombd.yaml
+Record ID: esgbgmeacombd
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: BD/Federal/indicators/solarsredagovbd.yaml
+Record ID: solarsredagovbd
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+
+=== SUMMARY BY ISSUE TYPE ===
+
+MISSING_TAGS: 5 issues
+MISSING_TOPICS: 5 issues

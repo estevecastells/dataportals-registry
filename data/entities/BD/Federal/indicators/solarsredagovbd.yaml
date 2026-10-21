@@ -1,0 +1,44 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: BD
+      name: Bangladesh
+    macroregion:
+      id: '034'
+      name: Southern Asia
+    level: 20
+description: Statistics of installed net-metering rooftop solar systems by distribution
+  utility (BPDB, BREB, DPDC, DESCO, WZPDCL, NESCO) with installed capacity and system
+  counts, on SREDA's net-metering portal that also hosts renewable-energy stakeholder
+  and installed-system statistics. The host geo-blocks foreign IP addresses with HTTP
+  403; public tables verified via the official sreda.gov.bd menu link and the Internet
+  Archive snapshot.
+id: solarsredagovbd
+langs:
+- id: EN
+  name: English
+link: https://solar.sreda.gov.bd/nem/nemstatistics.php
+name: SREDA Net Metering Statistics
+owner:
+  link: https://sreda.gov.bd
+  location:
+    country:
+      id: BD
+      name: Bangladesh
+    level: 20
+  name: Sustainable and Renewable Energy Development Authority
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013974

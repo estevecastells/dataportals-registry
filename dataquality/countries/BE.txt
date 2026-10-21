@@ -1,11 +1,75 @@
 DATA QUALITY REPORT - COUNTRY: BE
 ================================================================================
-Generated: 2026-10-06 09:14:05
+Generated: 2026-10-15 13:36:04
 Country Code: BE
-Total Records with Issues: 1
-Total Issues Found: 1
+Total Records with Issues: 5
+Total Issues Found: 9
 
 === ISSUES BY TYPE ===
+
+[MISSING_TAGS]
+Count: 4
+Priority: LOW
+
+File: BE/BE-WAL/indicators/indicateursoddiwepsbe.yaml
+Record ID: indicateursoddiwepsbe
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: BE/BE-WAL/indicators/icpibiwepsbe.yaml
+Record ID: icpibiwepsbe
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: BE/BE-BRU/indicators/ibsabrussels.yaml
+Record ID: ibsabrussels
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: BE/BE-BRU/indicators/monitoringdesquartiersbrussels.yaml
+Record ID: monitoringdesquartiersbrussels
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+[MISSING_TOPICS]
+Count: 4
+Priority: LOW
+
+File: BE/BE-WAL/indicators/indicateursoddiwepsbe.yaml
+Record ID: indicateursoddiwepsbe
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: BE/BE-WAL/indicators/icpibiwepsbe.yaml
+Record ID: icpibiwepsbe
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: BE/BE-BRU/indicators/ibsabrussels.yaml
+Record ID: ibsabrussels
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: BE/BE-BRU/indicators/monitoringdesquartiersbrussels.yaml
+Record ID: monitoringdesquartiersbrussels
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL]
 Count: 1
@@ -21,4 +85,6 @@ Suggested Action: Add at least one endpoint because software.id='drupal' is mark
 
 === SUMMARY BY ISSUE TYPE ===
 
+MISSING_TAGS: 4 issues
+MISSING_TOPICS: 4 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL: 1 issue

@@ -1,25 +1,35 @@
 DATA QUALITY REPORT - RULE: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_INVENIO
 ================================================================================
-Generated: 2026-10-06 09:14:05
+Generated: 2026-10-15 13:36:04
 Issue Type: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_INVENIO
 Priority: MEDIUM
-Total Issues Found: 1
+Total Issues Found: 2
 
 Rule: Identifies records using software.id='invenio' (API-capable per software definitions) that have no endpoints listed. Add at least one API endpoint for discovery and integration.
 
 === SUMMARY BY COUNTRY ===
 
 CH: 1 issue
+ES: 1 issue
 
 === SUMMARY BY RECORD ===
 
 inspirehepnet: 1 issue
+zaguanunizarescollectionopendatalnesas1: 1 issue
 
 === ISSUES ===
 
 File: CH/Federal/scientific/inspirehepnet.yaml
 Record ID: inspirehepnet
 Country: CH
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_INVENIO
+Field: endpoints
+Current Value: {"software_id": "invenio", "has_api": "Yes", "endpoints_count": 0}
+Suggested Action: Add at least one endpoint because software.id='invenio' is marked as API-capable in software definitions
+
+File: ES/ES-AR/scientific/zaguanunizarescollectionopendatalnesas1.yaml
+Record ID: zaguanunizarescollectionopendatalnesas1
+Country: ES
 Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_INVENIO
 Field: endpoints
 Current Value: {"software_id": "invenio", "has_api": "Yes", "endpoints_count": 0}

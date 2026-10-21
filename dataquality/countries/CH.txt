@@ -1,11 +1,57 @@
 DATA QUALITY REPORT - COUNTRY: CH
 ================================================================================
-Generated: 2026-10-06 09:14:05
+Generated: 2026-10-15 13:36:04
 Country Code: CH
-Total Records with Issues: 2
-Total Issues Found: 2
+Total Records with Issues: 8
+Total Issues Found: 8
 
 === ISSUES BY TYPE ===
+
+[MISSING_TOPICS]
+Count: 6
+Priority: LOW
+
+File: CH/CH-BE/indicators/wwwbernchbernzahlen.yaml
+Record ID: wwwbernchbernzahlen
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: CH/CH-JU/indicators/statjurach.yaml
+Record ID: statjurach
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: CH/CH-VD/indicators/wwwlausannechstatistique.yaml
+Record ID: wwwlausannechstatistique
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: CH/Federal/indicators/wwwobsanch.yaml
+Record ID: wwwobsanch
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: CH/Federal/indicators/wwwamstatch.yaml
+Record ID: wwwamstatch
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: CH/Federal/geo/wwwastraadminchdashboard.yaml
+Record ID: wwwastraadminchdashboard
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GBIFPLATFORM]
 Count: 1
@@ -32,5 +78,6 @@ Suggested Action: Add at least one endpoint because software.id='invenio' is mar
 
 === SUMMARY BY ISSUE TYPE ===
 
+MISSING_TOPICS: 6 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_GBIFPLATFORM: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_INVENIO: 1 issue

@@ -1,0 +1,46 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: GB
+      name: United Kingdom
+    macroregion:
+      id: '154'
+      name: Northern Europe
+    level: 30
+    subregion:
+      id: GB-WLS
+      name: Wales [Cymru GB-CYM]
+description: Interactive map with data on housing, health, education and the economy
+  for all 22 Welsh local authorities and over 1,900 neighbourhoods.
+id: datamapcymru
+langs:
+- id: EN
+  name: English
+link: https://datamap.cymru/
+name: datamap.cymru
+owner:
+  link: https://www.data.cymru
+  location:
+    country:
+      id: GB
+      name: United Kingdom
+    level: 30
+    subregion:
+      id: GB-WLS
+      name: Wales [Cymru GB-CYM]
+  name: Data Cymru
+  type: Local government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00014052

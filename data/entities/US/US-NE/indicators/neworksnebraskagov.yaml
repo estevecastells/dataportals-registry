@@ -1,0 +1,60 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    macroregion:
+      id: '021'
+      name: Northern America
+    level: 30
+    subregion:
+      id: US-NE
+      name: Nebraska
+description: 'Nebraska Department of Labor labor market analysis on the NEworks (Geographic Solutions
+  Virtual OneStop) platform: employment, unemployment, wages and occupational projections.'
+id: neworksnebraskagov
+langs:
+- id: EN
+  name: English
+link: https://neworks.nebraska.gov/
+name: NEworks Labor Market Analysis (Nebraska)
+owner:
+  link: https://dol.nebraska.gov/
+  location:
+    country:
+      id: US
+      name: United States
+    level: 30
+    subregion:
+      id: US-NE
+      name: Nebraska
+  name: Nebraska Department of Labor, Office of Labor Market Information
+  type: Regional government
+software:
+  id: virtuallmi
+  name: Virtual LMI
+status: active
+tags:
+- labor market
+- statistics
+- Nebraska
+- indicators
+topics:
+- id: ECON
+  name: Economy and finance
+  type: eudatatheme
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013962

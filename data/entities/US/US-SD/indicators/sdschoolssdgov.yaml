@@ -1,0 +1,61 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    macroregion:
+      id: '021'
+      name: Northern America
+    level: 30
+    subregion:
+      id: US-SD
+      name: South Dakota
+description: 'South Dakota Department of Education School Finder: searchable report card data for South
+  Dakota public schools, including School Performance Index scores and student indicators.'
+id: sdschoolssdgov
+langs:
+- id: EN
+  name: English
+link: https://sdschools.sd.gov/
+name: SD School Finder
+owner:
+  link: https://doe.sd.gov/
+  location:
+    country:
+      id: US
+      name: United States
+    level: 30
+    subregion:
+      id: US-SD
+      name: South Dakota
+  name: South Dakota Department of Education
+  type: Regional government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- education
+- schools
+- report cards
+- South Dakota
+- statistics
+topics:
+- id: EDUC
+  name: Education, culture and sport
+  type: eudatatheme
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013939

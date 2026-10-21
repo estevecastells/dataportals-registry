@@ -1,11 +1,29 @@
 DATA QUALITY REPORT - COUNTRY: UZ
 ================================================================================
-Generated: 2026-10-06 09:14:05
+Generated: 2026-10-15 13:36:04
 Country Code: UZ
-Total Records with Issues: 1
-Total Issues Found: 1
+Total Records with Issues: 4
+Total Issues Found: 9
 
 === ISSUES BY TYPE ===
+
+[MISSING_OWNER_LINK]
+Count: 2
+Priority: LOW
+
+File: UZ/Federal/geo/dshkshaffofqurilishuz.yaml
+Record ID: dshkshaffofqurilishuz
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: UZ/Federal/geo/geoportaluzorg.yaml
+Record ID: geoportaluzorg
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
 
 [MISSING_RIGHTS]
 Count: 1
@@ -18,7 +36,78 @@ Field: rights
 Current Value: {'license_id': None, 'license_name': None, 'license_url': None, 'privacy_policy_url': None, 'rights_type': 'unknown', 'tos_url': None}
 Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
 
+[MISSING_TAGS]
+Count: 3
+Priority: LOW
+
+File: UZ/Federal/geo/gisuznatureuz.yaml
+Record ID: gisuznatureuz
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: UZ/Federal/geo/dshkshaffofqurilishuz.yaml
+Record ID: dshkshaffofqurilishuz
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: UZ/Federal/geo/geoportaluzorg.yaml
+Record ID: geoportaluzorg
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+[MISSING_TOPICS]
+Count: 3
+Priority: LOW
+
+File: UZ/Federal/geo/gisuznatureuz.yaml
+Record ID: gisuznatureuz
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: UZ/Federal/geo/dshkshaffofqurilishuz.yaml
+Record ID: dshkshaffofqurilishuz
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: UZ/Federal/geo/geoportaluzorg.yaml
+Record ID: geoportaluzorg
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
 
 === SUMMARY BY ISSUE TYPE ===
 
+MISSING_OWNER_LINK: 2 issues
 MISSING_RIGHTS: 1 issue
+MISSING_TAGS: 3 issues
+MISSING_TOPICS: 3 issues
+
+=== RECORDS WITH MULTIPLE ISSUES (3+) ===
+
+Record ID: dshkshaffofqurilishuz
+File: UZ/Federal/geo/dshkshaffofqurilishuz.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: geoportaluzorg
+File: UZ/Federal/geo/geoportaluzorg.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link

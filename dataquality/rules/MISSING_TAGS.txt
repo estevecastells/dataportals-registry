@@ -1,42 +1,291 @@
 DATA QUALITY REPORT - RULE: MISSING_TAGS
 ================================================================================
-Generated: 2026-10-06 09:14:05
+Generated: 2026-10-15 13:36:04
 Issue Type: MISSING_TAGS
 Priority: LOW
-Total Issues Found: 13
+Total Issues Found: 173
 
 === SUMMARY BY COUNTRY ===
 
+AT: 7 issues
+BD: 5 issues
+BE: 4 issues
+BJ: 1 issue
+BR: 1 issue
+CN: 1 issue
 CZ: 1 issue
-DE: 1 issue
-FR: 5 issues
-NG: 1 issue
-PK: 1 issue
-RU: 1 issue
+DE: 7 issues
+DK: 7 issues
+ES: 10 issues
+FI: 2 issues
+FR: 15 issues
+GB: 32 issues
+IN: 10 issues
+IS: 1 issue
+IT: 7 issues
+NG: 2 issues
+NL: 28 issues
+PK: 7 issues
+RU: 14 issues
+SN: 2 issues
 US: 2 issues
-World: 1 issue
+UZ: 3 issues
+World: 3 issues
+ZA: 1 issue
 
 === SUMMARY BY RECORD ===
 
+bemissedgobpk: 1 issue
 sedgobpk: 1 issue
+sdgsupportunitkpgovpk: 1 issue
+semissindheducationgovpk: 1 issue
+pdmapunjabgovpk: 1 issue
+mapportalpulsegoppk: 1 issue
+gislabpwlgoppk: 1 issue
+gisuznatureuz: 1 issue
+dshkshaffofqurilishuz: 1 issue
+geoportaluzorg: 1 issue
 opendatavectorsurvorg: 1 issue
 mapsvectorsurvorg: 1 issue
 ghskdbsng: 1 issue
+nccgovng: 1 issue
+indicateursoddiwepsbe: 1 issue
+icpibiwepsbe: 1 issue
+ibsabrussels: 1 issue
+monitoringdesquartiersbrussels: 1 issue
+dnccinnovationlabgithubiodenguedashboard: 1 issue
+aimserdgovbd: 1 issue
+dashboarddghsgovbd: 1 issue
+esgbgmeacombd: 1 issue
+solarsredagovbd: 1 issue
+tradeportalbj: 1 issue
+wwwlhzwfwgovcn: 1 issue
+esopbgovin: 1 issue
+baeswbgovin: 1 issue
+desodishagovin: 1 issue
+descggovin: 1 issue
+desdataukgovin: 1 issue
+districtepatrikaukgovin: 1 issue
+vizieriucaain: 1 issue
+iiprajasthangovin: 1 issue
+psrrajasthangovin: 1 issue
+saarrajasthangovin: 1 issue
+ottoscanapromozionedatiindicatori: 1 issue
+datiregistrotumoriemiliaromagnait: 1 issue
+quotazioniomiagenziaentrate: 1 issue
+wwweduscopioit: 1 issue
+openbdaprgsmefgovit: 1 issue
+sviluppolavoroitaliacruscotti: 1 issue
+pneagenasit: 1 issue
+apisis: 1 issue
 hrbitovtstreboncz: 1 issue
+budgetorbru: 1 issue
+mfnnovru: 1 issue
 budgetnnru: 1 issue
+monitoringlenregru: 1 issue
+budgetkareliaru: 1 issue
+maristatmarirumunstinet: 1 issue
+budgetbashkortostanru: 1 issue
+openbudgetgovrbru: 1 issue
+admrkurskruopendata: 1 issue
+geoportalrkurskru: 1 issue
+wwwbudgetgovru: 1 issue
+vizierinasanru: 1 issue
+monitoringadmhmaoru: 1 issue
+openbudget49govru: 1 issue
+data360worldbankorg: 1 issue
+goingdigitaloecdorg: 1 issue
 internationalbudgetorg: 1 issue
+vizieridiaacza: 1 issue
+artpsn: 1 issue
+obfiloccom: 1 issue
+wwwhealthmapswaleswalesnhsuk: 1 issue
+datamapcymru: 1 issue
+wwwcentreforcitiesorg: 1 issue
+wwwdomesticenergymapuk: 1 issue
+analyticsphegovuk: 1 issue
+dataportalorrgovuk: 1 issue
+datacvdpreventnhsuk: 1 issue
+wwwnottinghamshireinsightorguk: 1 issue
+wwwnottinghaminsightorguk: 1 issue
+wwwwestyorkscagovuk: 1 issue
+midlandsengineobservatoryorg: 1 issue
+trustforlondonorguk: 1 issue
+wwwlsronlineorg: 1 issue
+wwwdatawandinfo: 1 issue
+wwwcumbriaobservatoryorguk: 1 issue
+bexleyjsnainfo: 1 issue
+wwwdurhaminsightinfo: 1 issue
+intelhubeastridinggovuk: 1 issue
+wwweconomyhubcornwallgovuk: 1 issue
+wwwhertfordshiregovuk: 1 issue
+wwwobservatorylewishamgovuk: 1 issue
+wwwnorfolkinsightorguk: 1 issue
+wwwdatarichinfo: 1 issue
+wwwnewhaminfo: 1 issue
+wwwhaveringdatanet: 1 issue
+datamertongovuk: 1 issue
+observatorykirkleesgovuk: 1 issue
+cambridgeshireinsightorguk: 1 issue
+insightsworcestershiregovuk: 1 issue
+datahubhillingdongovuk: 1 issue
+observatoryderbyshiregovuk: 1 issue
+datawarwickshiregovuk: 1 issue
+planbureaufrl: 1 issue
+vrlandatabanknl: 1 issue
+bbmdatabanknl: 1 issue
+drechtstedeninzichtnl: 1 issue
+rijnmondinzichtnl: 1 issue
+haaglandeninzichtnl: 1 issue
+monitorleefomgevingzuidhollandnl: 1 issue
+dataportaalklimaatenergiepzhdatabanknl: 1 issue
+zuidhollandinzichtnl: 1 issue
+ocwincijfersnl: 1 issue
+arbeidsmarktinzichtnl: 1 issue
+wmogemeentevergelijkerwaarstaatjegemeentenl: 1 issue
+leefbaarometernl: 1 issue
+vzinfonl: 1 issue
+zorgcijfersdatabanknl: 1 issue
+uwvarbeidsmarktdashboards: 1 issue
+staatvenznl: 1 issue
+dashboardscbsnl: 1 issue
+clonl: 1 issue
+trendbureaudrenthenl: 1 issue
+drentheincijfersnl: 1 issue
+nhninzichtnl: 1 issue
+dashboardkerncijfersamsterdam: 1 issue
+nhinzichtnl: 1 issue
+amsterdamincijfersnl: 1 issue
+dashboardgroningennl: 1 issue
+basismonitorgroningennl: 1 issue
+destaatvangroningennl: 1 issue
+oerokatas: 1 issue
+energiestatistikecontrolat: 1 issue
+umweltdashboards: 1 issue
+statistikwiengvat: 1 issue
+datenstadtsalzburgat: 1 issue
+linzzahlen: 1 issue
+statistikreportingooegvat: 1 issue
+statistikdresdendedemografiemonitor: 1 issue
+statistikdresdendeprognosemonitor: 1 issue
+deutschlandatlasbundde: 1 issue
 odlinfobfsde: 1 issue
+statistikappkosisde: 1 issue
+unfallatlasstatistikportalde: 1 issue
+bbsrnahversorgungsindikatoren: 1 issue
+kkstatistikbankdk: 1 issue
+gisportalenaarhusdknoegletal: 1 issue
+vej08vddkkomse: 1 issue
+jobindsatsdk: 1 issue
+uddannelsesstatistikdk: 1 issue
+wwwnoegletaldk: 1 issue
+smvstatistikstatistikbankdk: 1 issue
+painelticceticbr: 1 issue
+maaseutuindikaattoritstatfi: 1 issue
+wwwoukafi: 1 issue
+observatoireemploioccitaniefr: 1 issue
+observatoireemploipaysdelaloirefr: 1 issue
+observatoireemploinouvelleaquitainefr: 1 issue
+observatoireemploiiledefrancefr: 1 issue
+observatoirenumeriquegouvfr: 1 issue
+onisrsecuriteroutieregouvfr: 1 issue
+octopilotpro: 1 issue
+observatoiresdesloyersorg: 1 issue
 wwwcatdsfr: 1 issue
 campagnesflotteoceanographiquefr: 1 issue
 envlitifremerfr: 1 issue
 sihifremerfr: 1 issue
 quadrigeeaufrancefr: 1 issue
+plateformedesanteorscentreorg: 1 issue
+statoscopecariforefnormandiefr: 1 issue
+wwwvalladolidencifrases: 1 issue
+wwwvalenciaescasestadicainicio: 1 issue
+wwwalicanteencifrascom: 1 issue
+oicitccanariasorg: 1 issue
+wwwobidices: 1 issue
+indicadoresfecytes: 1 issue
+wwwdataestures: 1 issue
+atlasedificacionmitmaes: 1 issue
+otletransportesgobes: 1 issue
+murciaencifrases: 1 issue
 
 === ISSUES ===
+
+File: PK/PK-BA/indicators/bemissedgobpk.yaml
+Record ID: bemissedgobpk
+Country: PK
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
 
 File: PK/PK-BA/opendata/sedgobpk.yaml
 Record ID: sedgobpk
 Country: PK
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: PK/PK-KP/indicators/sdgsupportunitkpgovpk.yaml
+Record ID: sdgsupportunitkpgovpk
+Country: PK
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: PK/PK-SD/indicators/semissindheducationgovpk.yaml
+Record ID: semissindheducationgovpk
+Country: PK
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: PK/PK-PB/indicators/pdmapunjabgovpk.yaml
+Record ID: pdmapunjabgovpk
+Country: PK
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: PK/PK-PB/geo/mapportalpulsegoppk.yaml
+Record ID: mapportalpulsegoppk
+Country: PK
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: PK/PK-PB/geo/gislabpwlgoppk.yaml
+Record ID: gislabpwlgoppk
+Country: PK
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: UZ/Federal/geo/gisuznatureuz.yaml
+Record ID: gisuznatureuz
+Country: UZ
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: UZ/Federal/geo/dshkshaffofqurilishuz.yaml
+Record ID: dshkshaffofqurilishuz
+Country: UZ
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: UZ/Federal/geo/geoportaluzorg.yaml
+Record ID: geoportaluzorg
+Country: UZ
 Issue: MISSING_TAGS
 Field: tags
 Current Value: []
@@ -66,9 +315,265 @@ Field: tags
 Current Value: []
 Suggested Action: Extract tags from description and catalog_type
 
+File: NG/Federal/indicators/nccgovng.yaml
+Record ID: nccgovng
+Country: NG
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: BE/BE-WAL/indicators/indicateursoddiwepsbe.yaml
+Record ID: indicateursoddiwepsbe
+Country: BE
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: BE/BE-WAL/indicators/icpibiwepsbe.yaml
+Record ID: icpibiwepsbe
+Country: BE
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: BE/BE-BRU/indicators/ibsabrussels.yaml
+Record ID: ibsabrussels
+Country: BE
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: BE/BE-BRU/indicators/monitoringdesquartiersbrussels.yaml
+Record ID: monitoringdesquartiersbrussels
+Country: BE
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: BD/BD-C/indicators/dnccinnovationlabgithubiodenguedashboard.yaml
+Record ID: dnccinnovationlabgithubiodenguedashboard
+Country: BD
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: BD/Federal/indicators/aimserdgovbd.yaml
+Record ID: aimserdgovbd
+Country: BD
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: BD/Federal/indicators/dashboarddghsgovbd.yaml
+Record ID: dashboarddghsgovbd
+Country: BD
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: BD/Federal/indicators/esgbgmeacombd.yaml
+Record ID: esgbgmeacombd
+Country: BD
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: BD/Federal/indicators/solarsredagovbd.yaml
+Record ID: solarsredagovbd
+Country: BD
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: BJ/Federal/other/tradeportalbj.yaml
+Record ID: tradeportalbj
+Country: BJ
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: CN/CN-HA/opendata/wwwlhzwfwgovcn.yaml
+Record ID: wwwlhzwfwgovcn
+Country: CN
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IN/IN-PB/indicators/esopbgovin.yaml
+Record ID: esopbgovin
+Country: IN
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IN/IN-WB/indicators/baeswbgovin.yaml
+Record ID: baeswbgovin
+Country: IN
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IN/IN-OD/indicators/desodishagovin.yaml
+Record ID: desodishagovin
+Country: IN
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IN/IN-CG/indicators/descggovin.yaml
+Record ID: descggovin
+Country: IN
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IN/IN-UK/indicators/desdataukgovin.yaml
+Record ID: desdataukgovin
+Country: IN
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IN/IN-UK/indicators/districtepatrikaukgovin.yaml
+Record ID: districtepatrikaukgovin
+Country: IN
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IN/Federal/scientific/vizieriucaain.yaml
+Record ID: vizieriucaain
+Country: IN
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IN/IN-RJ/indicators/iiprajasthangovin.yaml
+Record ID: iiprajasthangovin
+Country: IN
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IN/IN-RJ/indicators/psrrajasthangovin.yaml
+Record ID: psrrajasthangovin
+Country: IN
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IN/IN-RJ/indicators/saarrajasthangovin.yaml
+Record ID: saarrajasthangovin
+Country: IN
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IT/IT-52/indicators/ottoscanapromozionedatiindicatori.yaml
+Record ID: ottoscanapromozionedatiindicatori
+Country: IT
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IT/IT-45/indicators/datiregistrotumoriemiliaromagnait.yaml
+Record ID: datiregistrotumoriemiliaromagnait
+Country: IT
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IT/Federal/indicators/quotazioniomiagenziaentrate.yaml
+Record ID: quotazioniomiagenziaentrate
+Country: IT
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IT/Federal/indicators/wwweduscopioit.yaml
+Record ID: wwweduscopioit
+Country: IT
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IT/Federal/indicators/openbdaprgsmefgovit.yaml
+Record ID: openbdaprgsmefgovit
+Country: IT
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IT/Federal/indicators/sviluppolavoroitaliacruscotti.yaml
+Record ID: sviluppolavoroitaliacruscotti
+Country: IT
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IT/Federal/indicators/pneagenasit.yaml
+Record ID: pneagenasit
+Country: IT
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: IS/Federal/api/apisis.yaml
+Record ID: apisis
+Country: IS
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
 File: CZ/CZ-31/geo/hrbitovtstreboncz.yaml
 Record ID: hrbitovtstreboncz
 Country: CZ
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: RU/RU-ORE/indicators/budgetorbru.yaml
+Record ID: budgetorbru
+Country: RU
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: RU/RU-NIZ/indicators/mfnnovru.yaml
+Record ID: mfnnovru
+Country: RU
 Issue: MISSING_TAGS
 Field: tags
 Current Value: []
@@ -82,6 +587,110 @@ Field: tags
 Current Value: []
 Suggested Action: Extract tags from description and catalog_type
 
+File: RU/RU-LEN/indicators/monitoringlenregru.yaml
+Record ID: monitoringlenregru
+Country: RU
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: RU/RU-KR/indicators/budgetkareliaru.yaml
+Record ID: budgetkareliaru
+Country: RU
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: RU/RU-ME/indicators/maristatmarirumunstinet.yaml
+Record ID: maristatmarirumunstinet
+Country: RU
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: RU/RU-BA/indicators/budgetbashkortostanru.yaml
+Record ID: budgetbashkortostanru
+Country: RU
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: RU/RU-BU/indicators/openbudgetgovrbru.yaml
+Record ID: openbudgetgovrbru
+Country: RU
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: RU/RU-KRS/opendata/admrkurskruopendata.yaml
+Record ID: admrkurskruopendata
+Country: RU
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: RU/RU-KRS/geo/geoportalrkurskru.yaml
+Record ID: geoportalrkurskru
+Country: RU
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: RU/Federal/indicators/wwwbudgetgovru.yaml
+Record ID: wwwbudgetgovru
+Country: RU
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: RU/Federal/scientific/vizierinasanru.yaml
+Record ID: vizierinasanru
+Country: RU
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: RU/RU-KHM/indicators/monitoringadmhmaoru.yaml
+Record ID: monitoringadmhmaoru
+Country: RU
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: RU/RU-MAG/indicators/openbudget49govru.yaml
+Record ID: openbudget49govru
+Country: RU
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: World/Federal/indicators/data360worldbankorg.yaml
+Record ID: data360worldbankorg
+Country: World
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: World/Federal/indicators/goingdigitaloecdorg.yaml
+Record ID: goingdigitaloecdorg
+Country: World
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
 File: World/Federal/indicators/internationalbudgetorg.yaml
 Record ID: internationalbudgetorg
 Country: World
@@ -90,9 +699,761 @@ Field: tags
 Current Value: []
 Suggested Action: Extract tags from description and catalog_type
 
+File: ZA/Federal/scientific/vizieridiaacza.yaml
+Record ID: vizieridiaacza
+Country: ZA
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: SN/Federal/indicators/artpsn.yaml
+Record ID: artpsn
+Country: SN
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: SN/Federal/indicators/obfiloccom.yaml
+Record ID: obfiloccom
+Country: SN
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-WLS/indicators/wwwhealthmapswaleswalesnhsuk.yaml
+Record ID: wwwhealthmapswaleswalesnhsuk
+Country: GB
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-WLS/indicators/datamapcymru.yaml
+Record ID: datamapcymru
+Country: GB
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/Federal/indicators/wwwcentreforcitiesorg.yaml
+Record ID: wwwcentreforcitiesorg
+Country: GB
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/Federal/indicators/wwwdomesticenergymapuk.yaml
+Record ID: wwwdomesticenergymapuk
+Country: GB
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/Federal/indicators/analyticsphegovuk.yaml
+Record ID: analyticsphegovuk
+Country: GB
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/Federal/indicators/dataportalorrgovuk.yaml
+Record ID: dataportalorrgovuk
+Country: GB
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/Federal/indicators/datacvdpreventnhsuk.yaml
+Record ID: datacvdpreventnhsuk
+Country: GB
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/indicators/wwwnottinghamshireinsightorguk.yaml
+Record ID: wwwnottinghamshireinsightorguk
+Country: GB
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/indicators/wwwnottinghaminsightorguk.yaml
+Record ID: wwwnottinghaminsightorguk
+Country: GB
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/indicators/wwwwestyorkscagovuk.yaml
+Record ID: wwwwestyorkscagovuk
+Country: GB
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/indicators/midlandsengineobservatoryorg.yaml
+Record ID: midlandsengineobservatoryorg
+Country: GB
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/indicators/trustforlondonorguk.yaml
+Record ID: trustforlondonorguk
+Country: GB
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/indicators/wwwlsronlineorg.yaml
+Record ID: wwwlsronlineorg
+Country: GB
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/opendata/wwwdatawandinfo.yaml
+Record ID: wwwdatawandinfo
+Country: GB
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/opendata/wwwcumbriaobservatoryorguk.yaml
+Record ID: wwwcumbriaobservatoryorguk
+Country: GB
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/opendata/bexleyjsnainfo.yaml
+Record ID: bexleyjsnainfo
+Country: GB
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/opendata/wwwdurhaminsightinfo.yaml
+Record ID: wwwdurhaminsightinfo
+Country: GB
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/opendata/intelhubeastridinggovuk.yaml
+Record ID: intelhubeastridinggovuk
+Country: GB
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/opendata/wwweconomyhubcornwallgovuk.yaml
+Record ID: wwweconomyhubcornwallgovuk
+Country: GB
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/opendata/wwwhertfordshiregovuk.yaml
+Record ID: wwwhertfordshiregovuk
+Country: GB
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/opendata/wwwobservatorylewishamgovuk.yaml
+Record ID: wwwobservatorylewishamgovuk
+Country: GB
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/opendata/wwwnorfolkinsightorguk.yaml
+Record ID: wwwnorfolkinsightorguk
+Country: GB
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/opendata/wwwdatarichinfo.yaml
+Record ID: wwwdatarichinfo
+Country: GB
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/opendata/wwwnewhaminfo.yaml
+Record ID: wwwnewhaminfo
+Country: GB
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/opendata/wwwhaveringdatanet.yaml
+Record ID: wwwhaveringdatanet
+Country: GB
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/opendata/datamertongovuk.yaml
+Record ID: datamertongovuk
+Country: GB
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/opendata/observatorykirkleesgovuk.yaml
+Record ID: observatorykirkleesgovuk
+Country: GB
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/opendata/cambridgeshireinsightorguk.yaml
+Record ID: cambridgeshireinsightorguk
+Country: GB
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/opendata/insightsworcestershiregovuk.yaml
+Record ID: insightsworcestershiregovuk
+Country: GB
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/opendata/datahubhillingdongovuk.yaml
+Record ID: datahubhillingdongovuk
+Country: GB
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/opendata/observatoryderbyshiregovuk.yaml
+Record ID: observatoryderbyshiregovuk
+Country: GB
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: GB/GB-ENG/geo/datawarwickshiregovuk.yaml
+Record ID: datawarwickshiregovuk
+Country: GB
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: NL/NL-FR/indicators/planbureaufrl.yaml
+Record ID: planbureaufrl
+Country: NL
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: NL/NL-LI/indicators/vrlandatabanknl.yaml
+Record ID: vrlandatabanknl
+Country: NL
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: NL/NL-LI/indicators/bbmdatabanknl.yaml
+Record ID: bbmdatabanknl
+Country: NL
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: NL/NL-ZH/indicators/drechtstedeninzichtnl.yaml
+Record ID: drechtstedeninzichtnl
+Country: NL
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: NL/NL-ZH/indicators/rijnmondinzichtnl.yaml
+Record ID: rijnmondinzichtnl
+Country: NL
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: NL/NL-ZH/indicators/haaglandeninzichtnl.yaml
+Record ID: haaglandeninzichtnl
+Country: NL
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: NL/NL-ZH/indicators/monitorleefomgevingzuidhollandnl.yaml
+Record ID: monitorleefomgevingzuidhollandnl
+Country: NL
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: NL/NL-ZH/indicators/dataportaalklimaatenergiepzhdatabanknl.yaml
+Record ID: dataportaalklimaatenergiepzhdatabanknl
+Country: NL
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: NL/NL-ZH/indicators/zuidhollandinzichtnl.yaml
+Record ID: zuidhollandinzichtnl
+Country: NL
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: NL/Federal/indicators/ocwincijfersnl.yaml
+Record ID: ocwincijfersnl
+Country: NL
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: NL/Federal/indicators/arbeidsmarktinzichtnl.yaml
+Record ID: arbeidsmarktinzichtnl
+Country: NL
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: NL/Federal/indicators/wmogemeentevergelijkerwaarstaatjegemeentenl.yaml
+Record ID: wmogemeentevergelijkerwaarstaatjegemeentenl
+Country: NL
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: NL/Federal/indicators/leefbaarometernl.yaml
+Record ID: leefbaarometernl
+Country: NL
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: NL/Federal/indicators/vzinfonl.yaml
+Record ID: vzinfonl
+Country: NL
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: NL/Federal/indicators/zorgcijfersdatabanknl.yaml
+Record ID: zorgcijfersdatabanknl
+Country: NL
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: NL/Federal/indicators/uwvarbeidsmarktdashboards.yaml
+Record ID: uwvarbeidsmarktdashboards
+Country: NL
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: NL/Federal/indicators/staatvenznl.yaml
+Record ID: staatvenznl
+Country: NL
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: NL/Federal/indicators/dashboardscbsnl.yaml
+Record ID: dashboardscbsnl
+Country: NL
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: NL/Federal/indicators/clonl.yaml
+Record ID: clonl
+Country: NL
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: NL/NL-DR/indicators/trendbureaudrenthenl.yaml
+Record ID: trendbureaudrenthenl
+Country: NL
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: NL/NL-DR/indicators/drentheincijfersnl.yaml
+Record ID: drentheincijfersnl
+Country: NL
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: NL/NL-NH/indicators/nhninzichtnl.yaml
+Record ID: nhninzichtnl
+Country: NL
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: NL/NL-NH/indicators/dashboardkerncijfersamsterdam.yaml
+Record ID: dashboardkerncijfersamsterdam
+Country: NL
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: NL/NL-NH/indicators/nhinzichtnl.yaml
+Record ID: nhinzichtnl
+Country: NL
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: NL/NL-NH/indicators/amsterdamincijfersnl.yaml
+Record ID: amsterdamincijfersnl
+Country: NL
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: NL/NL-GR/indicators/dashboardgroningennl.yaml
+Record ID: dashboardgroningennl
+Country: NL
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: NL/NL-GR/indicators/basismonitorgroningennl.yaml
+Record ID: basismonitorgroningennl
+Country: NL
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: NL/NL-GR/indicators/destaatvangroningennl.yaml
+Record ID: destaatvangroningennl
+Country: NL
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: AT/indicators/oerokatas.yaml
+Record ID: oerokatas
+Country: AT
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: AT/indicators/energiestatistikecontrolat.yaml
+Record ID: energiestatistikecontrolat
+Country: AT
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: AT/indicators/umweltdashboards.yaml
+Record ID: umweltdashboards
+Country: AT
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: AT/AT-9/indicators/statistikwiengvat.yaml
+Record ID: statistikwiengvat
+Country: AT
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: AT/AT-5/indicators/datenstadtsalzburgat.yaml
+Record ID: datenstadtsalzburgat
+Country: AT
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: AT/AT-4/indicators/linzzahlen.yaml
+Record ID: linzzahlen
+Country: AT
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: AT/AT-4/indicators/statistikreportingooegvat.yaml
+Record ID: statistikreportingooegvat
+Country: AT
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: DE/DE-SN/indicators/statistikdresdendedemografiemonitor.yaml
+Record ID: statistikdresdendedemografiemonitor
+Country: DE
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: DE/DE-SN/indicators/statistikdresdendeprognosemonitor.yaml
+Record ID: statistikdresdendeprognosemonitor
+Country: DE
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: DE/Federal/indicators/deutschlandatlasbundde.yaml
+Record ID: deutschlandatlasbundde
+Country: DE
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
 File: DE/Federal/indicators/odlinfobfsde.yaml
 Record ID: odlinfobfsde
 Country: DE
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: DE/Federal/indicators/statistikappkosisde.yaml
+Record ID: statistikappkosisde
+Country: DE
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: DE/Federal/indicators/unfallatlasstatistikportalde.yaml
+Record ID: unfallatlasstatistikportalde
+Country: DE
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: DE/Federal/geo/bbsrnahversorgungsindikatoren.yaml
+Record ID: bbsrnahversorgungsindikatoren
+Country: DE
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: DK/DK-84/indicators/kkstatistikbankdk.yaml
+Record ID: kkstatistikbankdk
+Country: DK
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: DK/DK-82/indicators/gisportalenaarhusdknoegletal.yaml
+Record ID: gisportalenaarhusdknoegletal
+Country: DK
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: DK/Federal/indicators/vej08vddkkomse.yaml
+Record ID: vej08vddkkomse
+Country: DK
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: DK/Federal/indicators/jobindsatsdk.yaml
+Record ID: jobindsatsdk
+Country: DK
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: DK/Federal/indicators/uddannelsesstatistikdk.yaml
+Record ID: uddannelsesstatistikdk
+Country: DK
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: DK/Federal/indicators/wwwnoegletaldk.yaml
+Record ID: wwwnoegletaldk
+Country: DK
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: DK/Federal/indicators/smvstatistikstatistikbankdk.yaml
+Record ID: smvstatistikstatistikbankdk
+Country: DK
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: BR/Federal/indicators/painelticceticbr.yaml
+Record ID: painelticceticbr
+Country: BR
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: FI/Federal/indicators/maaseutuindikaattoritstatfi.yaml
+Record ID: maaseutuindikaattoritstatfi
+Country: FI
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: FI/FI-14/indicators/wwwoukafi.yaml
+Record ID: wwwoukafi
+Country: FI
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: FR/FR-OCC/indicators/observatoireemploioccitaniefr.yaml
+Record ID: observatoireemploioccitaniefr
+Country: FR
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: FR/FR-PDL/indicators/observatoireemploipaysdelaloirefr.yaml
+Record ID: observatoireemploipaysdelaloirefr
+Country: FR
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: FR/FR-NAQ/indicators/observatoireemploinouvelleaquitainefr.yaml
+Record ID: observatoireemploinouvelleaquitainefr
+Country: FR
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: FR/FR-IDF/indicators/observatoireemploiiledefrancefr.yaml
+Record ID: observatoireemploiiledefrancefr
+Country: FR
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: FR/Federal/indicators/observatoirenumeriquegouvfr.yaml
+Record ID: observatoirenumeriquegouvfr
+Country: FR
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: FR/Federal/indicators/onisrsecuriteroutieregouvfr.yaml
+Record ID: onisrsecuriteroutieregouvfr
+Country: FR
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: FR/Federal/indicators/octopilotpro.yaml
+Record ID: octopilotpro
+Country: FR
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: FR/Federal/indicators/observatoiresdesloyersorg.yaml
+Record ID: observatoiresdesloyersorg
+Country: FR
 Issue: MISSING_TAGS
 Field: tags
 Current Value: []
@@ -133,6 +1494,102 @@ Suggested Action: Extract tags from description and catalog_type
 File: FR/Federal/scientific/quadrigeeaufrancefr.yaml
 Record ID: quadrigeeaufrancefr
 Country: FR
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: FR/FR-CVL/indicators/plateformedesanteorscentreorg.yaml
+Record ID: plateformedesanteorscentreorg
+Country: FR
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: FR/FR-NOR/indicators/statoscopecariforefnormandiefr.yaml
+Record ID: statoscopecariforefnormandiefr
+Country: FR
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: ES/ES-CL/indicators/wwwvalladolidencifrases.yaml
+Record ID: wwwvalladolidencifrases
+Country: ES
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: ES/ES-VC/indicators/wwwvalenciaescasestadicainicio.yaml
+Record ID: wwwvalenciaescasestadicainicio
+Country: ES
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: ES/ES-VC/indicators/wwwalicanteencifrascom.yaml
+Record ID: wwwalicanteencifrascom
+Country: ES
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: ES/ES-CN/indicators/oicitccanariasorg.yaml
+Record ID: oicitccanariasorg
+Country: ES
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: ES/ES-CN/indicators/wwwobidices.yaml
+Record ID: wwwobidices
+Country: ES
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: ES/Federal/indicators/indicadoresfecytes.yaml
+Record ID: indicadoresfecytes
+Country: ES
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: ES/Federal/indicators/wwwdataestures.yaml
+Record ID: wwwdataestures
+Country: ES
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: ES/Federal/indicators/atlasedificacionmitmaes.yaml
+Record ID: atlasedificacionmitmaes
+Country: ES
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: ES/Federal/indicators/otletransportesgobes.yaml
+Record ID: otletransportesgobes
+Country: ES
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: ES/ES-MU/indicators/murciaencifrases.yaml
+Record ID: murciaencifrases
+Country: ES
 Issue: MISSING_TAGS
 Field: tags
 Current Value: []

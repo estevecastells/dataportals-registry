@@ -1,0 +1,46 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: GB
+      name: United Kingdom
+    macroregion:
+      id: '154'
+      name: Northern Europe
+    level: 30
+    subregion:
+      id: GB-WLS
+      name: Wales [Cymru GB-CYM]
+description: Interactive health indicators and maps for local authorities and health
+  boards in Wales.
+id: wwwhealthmapswaleswalesnhsuk
+langs:
+- id: EN
+  name: English
+link: https://www.healthmapswales.wales.nhs.uk/
+name: Health Maps Wales
+owner:
+  link: https://dhcw.nhs.wales
+  location:
+    country:
+      id: GB
+      name: United Kingdom
+    level: 30
+    subregion:
+      id: GB-WLS
+      name: Wales [Cymru GB-CYM]
+  name: Digital Health and Care Wales
+  type: Regional government
+software:
+  id: instantatlas
+  name: InstantAtlas
+status: active
+tags: []
+topics: []
+uid: cdi00014053

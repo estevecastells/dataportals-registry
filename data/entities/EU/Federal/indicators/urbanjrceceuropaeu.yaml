@@ -1,0 +1,66 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+- dataset
+coverage:
+- location:
+    country:
+      id: EU
+      name: European Union
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+description: EU Urban Data Platform of the European Commission's Joint Research
+  Centre. Interactive platform to explore, analyse and compare European cities
+  through urban indicators covering demography, economy, mobility, environment
+  and quality of life, combining the Urban Audit and JRC datasets such as the
+  Global Human Settlement Layer.
+id: urbanjrceceuropaeu
+langs:
+- id: EN
+  name: English
+link: https://urban.jrc.ec.europa.eu/
+name: EU Urban Data Platform
+owner:
+  link: https://joint-research-centre.ec.europa.eu/
+  location:
+    country:
+      id: EU
+      name: European Union
+    level: 20
+  name: EU Joint Research Centre
+  type: Central government
+properties:
+  has_doi: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- urban
+- cities
+- indicators
+- europe
+topics:
+- id: REGI
+  name: Regions and cities
+  type: eudatatheme
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013869

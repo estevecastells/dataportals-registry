@@ -1,0 +1,40 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: GB
+      name: United Kingdom
+    macroregion:
+      id: '154'
+      name: Northern Europe
+    level: 20
+description: Interactive map of average domestic electricity and gas consumption and
+  related indicators for local authorities in Great Britain.
+id: wwwdomesticenergymapuk
+langs:
+- id: EN
+  name: English
+link: http://www.domesticenergymap.uk/
+name: Domestic Energy Map
+owner:
+  link: https://www.gov.uk/government/organisations/department-for-energy-security-and-net-zero
+  location:
+    country:
+      id: GB
+      name: United Kingdom
+    level: 20
+  name: Department for Energy Security and Net Zero
+  type: Central government
+software:
+  id: shiny
+  name: R Shiny
+status: active
+tags: []
+topics: []
+uid: cdi00014023

@@ -1,9 +1,9 @@
 DATA QUALITY REPORT - RULE: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL
 ================================================================================
-Generated: 2026-10-06 09:14:05
+Generated: 2026-10-15 13:36:04
 Issue Type: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL
 Priority: MEDIUM
-Total Issues Found: 72
+Total Issues Found: 78
 
 Rule: Identifies records using software.id='drupal' (API-capable per software definitions) that have no endpoints listed. Add at least one API endpoint for discovery and integration.
 
@@ -16,14 +16,15 @@ CA: 2 issues
 CN: 1 issue
 DE: 4 issues
 EE: 2 issues
-ES: 8 issues
+ES: 9 issues
 EU: 1 issue
-FR: 3 issues
+FR: 7 issues
 IE: 1 issue
 IL: 1 issue
 IT: 1 issue
 JP: 1 issue
 KZ: 1 issue
+LV: 1 issue
 MX: 1 issue
 NL: 1 issue
 RU: 11 issues
@@ -64,6 +65,7 @@ marineinfoorg: 1 issue
 wwwlamostorg: 1 issue
 palgadstatee: 1 issue
 wwwtranspordiametee: 1 issue
+statgovlvresearchdata: 1 issue
 indicatoriambientaliisprambienteit: 1 issue
 wwwaceuwaterlooca: 1 issue
 braincodeca: 1 issue
@@ -91,6 +93,10 @@ wwwbielefeldde: 1 issue
 psilacmdcberlinde: 1 issue
 escienceserviceunisiegende: 1 issue
 wwwforschungsdatenzentrumde: 1 issue
+observatoireemploioccitaniefr: 1 issue
+observatoireemploinouvelleaquitainefr: 1 issue
+observatoireemploiiledefrancefr: 1 issue
+onisrsecuriteroutieregouvfr: 1 issue
 limitesmaritimesgouvfr: 1 issue
 wwwgazelinsermfr: 1 issue
 wwwgeodairfr: 1 issue
@@ -100,6 +106,7 @@ wwwjuntadeandaluciaesindea: 1 issue
 wwwjuntadeandaluciaesods: 1 issue
 transparenciamimurciamurciaes: 1 issue
 dodibacat: 1 issue
+otletransportesgobes: 1 issue
 fegaesesdatosabiertos: 1 issue
 datosabiertosmitecogobes: 1 issue
 mhlwgrantsniphgojp: 1 issue
@@ -349,6 +356,14 @@ Field: endpoints
 Current Value: {"software_id": "drupal", "has_api": "Yes", "endpoints_count": 0}
 Suggested Action: Add at least one endpoint because software.id='drupal' is marked as API-capable in software definitions
 
+File: LV/Federal/microdata/statgovlvresearchdata.yaml
+Record ID: statgovlvresearchdata
+Country: LV
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL
+Field: endpoints
+Current Value: {"software_id": "drupal", "has_api": "Yes", "endpoints_count": 0}
+Suggested Action: Add at least one endpoint because software.id='drupal' is marked as API-capable in software definitions
+
 File: IT/Federal/indicators/indicatoriambientaliisprambienteit.yaml
 Record ID: indicatoriambientaliisprambienteit
 Country: IT
@@ -565,6 +580,38 @@ Field: endpoints
 Current Value: {"software_id": "drupal", "has_api": "Yes", "endpoints_count": 0}
 Suggested Action: Add at least one endpoint because software.id='drupal' is marked as API-capable in software definitions
 
+File: FR/FR-OCC/indicators/observatoireemploioccitaniefr.yaml
+Record ID: observatoireemploioccitaniefr
+Country: FR
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL
+Field: endpoints
+Current Value: {"software_id": "drupal", "has_api": "Yes", "endpoints_count": 0}
+Suggested Action: Add at least one endpoint because software.id='drupal' is marked as API-capable in software definitions
+
+File: FR/FR-NAQ/indicators/observatoireemploinouvelleaquitainefr.yaml
+Record ID: observatoireemploinouvelleaquitainefr
+Country: FR
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL
+Field: endpoints
+Current Value: {"software_id": "drupal", "has_api": "Yes", "endpoints_count": 0}
+Suggested Action: Add at least one endpoint because software.id='drupal' is marked as API-capable in software definitions
+
+File: FR/FR-IDF/indicators/observatoireemploiiledefrancefr.yaml
+Record ID: observatoireemploiiledefrancefr
+Country: FR
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL
+Field: endpoints
+Current Value: {"software_id": "drupal", "has_api": "Yes", "endpoints_count": 0}
+Suggested Action: Add at least one endpoint because software.id='drupal' is marked as API-capable in software definitions
+
+File: FR/Federal/indicators/onisrsecuriteroutieregouvfr.yaml
+Record ID: onisrsecuriteroutieregouvfr
+Country: FR
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL
+Field: endpoints
+Current Value: {"software_id": "drupal", "has_api": "Yes", "endpoints_count": 0}
+Suggested Action: Add at least one endpoint because software.id='drupal' is marked as API-capable in software definitions
+
 File: FR/Federal/geo/limitesmaritimesgouvfr.yaml
 Record ID: limitesmaritimesgouvfr
 Country: FR
@@ -631,6 +678,14 @@ Suggested Action: Add at least one endpoint because software.id='drupal' is mark
 
 File: ES/ES-CT/opendata/dodibacat.yaml
 Record ID: dodibacat
+Country: ES
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL
+Field: endpoints
+Current Value: {"software_id": "drupal", "has_api": "Yes", "endpoints_count": 0}
+Suggested Action: Add at least one endpoint because software.id='drupal' is marked as API-capable in software definitions
+
+File: ES/Federal/indicators/otletransportesgobes.yaml
+Record ID: otletransportesgobes
 Country: ES
 Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL
 Field: endpoints

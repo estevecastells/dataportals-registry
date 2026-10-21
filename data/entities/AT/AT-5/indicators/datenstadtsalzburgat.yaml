@@ -1,0 +1,48 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: AT
+      name: Austria
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 30
+    subregion:
+      id: AT-5
+      name: Salzburg
+description: 'stadt:daten, the digital statistics platform of the City of Salzburg
+  launched in 2026: hierarchical inventory of statistical tables organised by topic
+  groups, themes and statistics, with search, documentation and map views covering
+  population, transport, labour market, tourism and other city indicators.'
+id: datenstadtsalzburgat
+langs:
+- id: DE
+  name: German
+link: https://daten.stadt-salzburg.at/
+name: stadt:daten – Die Stadt Salzburg in Zahlen
+owner:
+  link: null
+  location:
+    country:
+      id: AT
+      name: Austria
+    level: 30
+    subregion:
+      id: AT-5
+      name: Salzburg
+  name: Stadt Salzburg
+  type: Local government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013884

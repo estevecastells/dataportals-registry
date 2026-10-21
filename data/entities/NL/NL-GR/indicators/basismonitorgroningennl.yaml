@@ -1,0 +1,47 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: NL
+      name: Netherlands
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 30
+    subregion:
+      id: NL-GR
+      name: Groningen
+description: Central information point of the municipality of Groningen (OIS) with
+  figures and trends for the municipality, districts and neighbourhoods (Kompas van
+  Groningen).
+id: basismonitorgroningennl
+langs:
+- id: NL
+  name: Dutch
+link: https://basismonitor-groningen.nl/
+name: Basismonitor Groningen
+owner:
+  link: https://gemeente.groningen.nl/
+  location:
+    country:
+      id: NL
+      name: Netherlands
+    level: 30
+    subregion:
+      id: NL-GR
+      name: Groningen
+  name: Gemeente Groningen
+  type: Local government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013909

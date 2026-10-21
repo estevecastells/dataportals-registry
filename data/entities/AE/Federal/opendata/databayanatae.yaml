@@ -41,7 +41,7 @@ owner:
   name: Government of UAE
   type: Central government
 properties:
-  is_national: false
+  is_national: true
 rights:
   license_id: null
   license_name: null

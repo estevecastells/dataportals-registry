@@ -1,0 +1,46 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: NL
+      name: Netherlands
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 30
+    subregion:
+      id: NL-LI
+      name: Limburg
+description: Swing databank presenting the themes of the provincial environmental
+  vision (omgevingsvisie) of Provincie Limburg with regional indicators.
+id: bbmdatabanknl
+langs:
+- id: NL
+  name: Dutch
+link: https://bbm.databank.nl/
+name: Brede Basismonitor Provincie Limburg
+owner:
+  link: https://www.limburg.nl/
+  location:
+    country:
+      id: NL
+      name: Netherlands
+    level: 30
+    subregion:
+      id: NL-LI
+      name: Limburg
+  name: Provincie Limburg
+  type: Regional government
+software:
+  id: swing
+  name: Swing
+status: active
+tags: []
+topics: []
+uid: cdi00013912

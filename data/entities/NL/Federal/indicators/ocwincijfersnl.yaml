@@ -1,0 +1,40 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: NL
+      name: Netherlands
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 20
+description: 'Education, culture and science indicators portal of the Dutch Ministry
+  of OCW: key figures per sector on pupils, students, staff and participation.'
+id: ocwincijfersnl
+langs:
+- id: NL
+  name: Dutch
+link: https://www.ocwincijfers.nl/
+name: OCW in cijfers
+owner:
+  link: https://www.rijksoverheid.nl/ministeries/ocw
+  location:
+    country:
+      id: NL
+      name: Netherlands
+    level: 20
+  name: Ministry of Education, Culture and Science (OCW)
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013902

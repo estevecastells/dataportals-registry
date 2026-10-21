@@ -1,0 +1,41 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: NL
+      name: Netherlands
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 20
+description: 'Interactive public dashboards platform of Zorginstituut Nederland (merged
+  with the GIPdatabank): Wlz waiting lists, Zvw care costs and users, and medicine/medical
+  aids figures.'
+id: zorgcijfersdatabanknl
+langs:
+- id: NL
+  name: Dutch
+link: https://www.zorgcijfersdatabank.nl/
+name: Zorgcijfersdatabank
+owner:
+  link: https://www.zorginstituutnederland.nl/
+  location:
+    country:
+      id: NL
+      name: Netherlands
+    level: 20
+  name: Zorginstituut Nederland
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013922

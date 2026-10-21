@@ -1,0 +1,41 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: ES
+      name: Spain
+    macroregion:
+      id: '039'
+      name: Southern Europe
+    level: 20
+description: 'Interactive indicator platform of the Spanish science and innovation
+  system: bibliometric production, R&D expenditure and resources, built by FECYT with
+  the Ministry of Science.'
+id: indicadoresfecytes
+langs:
+- id: ES
+  name: Spanish
+link: https://indicadores.fecyt.es/
+name: FECYT - Plataforma de indicadores
+owner:
+  link: https://www.fecyt.es
+  location:
+    country:
+      id: ES
+      name: Spain
+    level: 20
+  name: Fundacion Espanola para la Ciencia y la Tecnologia (FECYT)
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00014016

@@ -1,0 +1,40 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: GB
+      name: United Kingdom
+    macroregion:
+      id: '154'
+      name: Northern Europe
+    level: 20
+description: Official rail and road statistics portal with interactive dashboards
+  and data on passenger usage, station usage, performance, finance and infrastructure.
+id: dataportalorrgovuk
+langs:
+- id: EN
+  name: English
+link: https://dataportal.orr.gov.uk/
+name: ORR Data Portal
+owner:
+  link: https://www.orr.gov.uk
+  location:
+    country:
+      id: GB
+      name: United Kingdom
+    level: 20
+  name: Office of Rail and Road
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00014019

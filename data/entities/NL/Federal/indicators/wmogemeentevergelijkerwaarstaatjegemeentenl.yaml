@@ -1,0 +1,39 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: NL
+      name: Netherlands
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 20
+description: 'VNG comparison tool for WMO (Social Support Act) figures: find comparable
+  municipalities with indicators on services, purchasing and funding.'
+id: wmogemeentevergelijkerwaarstaatjegemeentenl
+langs:
+- id: NL
+  name: Dutch
+link: https://wmo-gemeentevergelijker.waarstaatjegemeente.nl/
+name: WMO Gemeentevergelijker
+owner:
+  link: https://vng.nl/
+  location:
+    country:
+      id: NL
+      name: Netherlands
+  name: VNG Realisatie
+  type: Civil society
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013905

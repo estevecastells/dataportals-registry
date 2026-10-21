@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+coverage:
+- location:
+    country:
+      id: CH
+      name: Switzerland
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 30
+    subregion:
+      id: CH-BE
+      name: Berne
+description: 'Bern in Zahlen, the statistics portal of the City of Bern: catalogue
+  of statistical tables by public-statistics category (population, space and environment,
+  society and more) with Excel downloads and current reports.'
+id: wwwbernchbernzahlen
+langs:
+- id: DE
+  name: German
+link: https://www.bern.ch/themen/stadt-recht-und-politik/bern-in-zahlen
+name: Bern in Zahlen – Stadt Bern
+owner:
+  link: https://www.bern.ch
+  location:
+    country:
+      id: CH
+      name: Switzerland
+    level: 30
+    subregion:
+      id: CH-BE
+      name: Berne
+  name: Stadt Bern
+  type: Local government
+properties:
+  has_doi: false
+  is_national: false
+software:
+  id: plone
+  name: Plone
+status: active
+tags:
+- statistics
+- government
+- official statistics
+- Switzerland
+- Bern
+- indicators
+topics: []
+uid: cdi00014054

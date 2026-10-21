@@ -1,11 +1,65 @@
 DATA QUALITY REPORT - COUNTRY: SN
 ================================================================================
-Generated: 2026-10-06 09:14:05
+Generated: 2026-10-15 13:36:04
 Country Code: SN
-Total Records with Issues: 3
-Total Issues Found: 3
+Total Records with Issues: 5
+Total Issues Found: 9
 
 === ISSUES BY TYPE ===
+
+[MISSING_OWNER_LINK]
+Count: 2
+Priority: LOW
+
+File: SN/Federal/indicators/artpsn.yaml
+Record ID: artpsn
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: SN/Federal/indicators/obfiloccom.yaml
+Record ID: obfiloccom
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+[MISSING_TAGS]
+Count: 2
+Priority: LOW
+
+File: SN/Federal/indicators/artpsn.yaml
+Record ID: artpsn
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: SN/Federal/indicators/obfiloccom.yaml
+Record ID: obfiloccom
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+[MISSING_TOPICS]
+Count: 2
+Priority: LOW
+
+File: SN/Federal/indicators/artpsn.yaml
+Record ID: artpsn
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: SN/Federal/indicators/obfiloccom.yaml
+Record ID: obfiloccom
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_KNOEMA]
 Count: 3
@@ -35,4 +89,25 @@ Suggested Action: Add at least one endpoint because software.id='knoema' is mark
 
 === SUMMARY BY ISSUE TYPE ===
 
+MISSING_OWNER_LINK: 2 issues
+MISSING_TAGS: 2 issues
+MISSING_TOPICS: 2 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_KNOEMA: 3 issues
+
+=== RECORDS WITH MULTIPLE ISSUES (3+) ===
+
+Record ID: artpsn
+File: SN/Federal/indicators/artpsn.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: obfiloccom
+File: SN/Federal/indicators/obfiloccom.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link

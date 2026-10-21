@@ -1,15 +1,177 @@
 DATA QUALITY REPORT - COUNTRY: ES
 ================================================================================
-Generated: 2026-10-06 09:14:05
+Generated: 2026-10-15 13:36:04
 Country Code: ES
-Total Records with Issues: 14
-Total Issues Found: 14
+Total Records with Issues: 29
+Total Issues Found: 41
 
 === ISSUES BY TYPE ===
 
+[MISSING_TAGS]
+Count: 10
+Priority: LOW
+
+File: ES/ES-CL/indicators/wwwvalladolidencifrases.yaml
+Record ID: wwwvalladolidencifrases
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: ES/ES-VC/indicators/wwwvalenciaescasestadicainicio.yaml
+Record ID: wwwvalenciaescasestadicainicio
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: ES/ES-VC/indicators/wwwalicanteencifrascom.yaml
+Record ID: wwwalicanteencifrascom
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: ES/ES-CN/indicators/oicitccanariasorg.yaml
+Record ID: oicitccanariasorg
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: ES/ES-CN/indicators/wwwobidices.yaml
+Record ID: wwwobidices
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: ES/Federal/indicators/indicadoresfecytes.yaml
+Record ID: indicadoresfecytes
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: ES/Federal/indicators/wwwdataestures.yaml
+Record ID: wwwdataestures
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: ES/Federal/indicators/atlasedificacionmitmaes.yaml
+Record ID: atlasedificacionmitmaes
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: ES/Federal/indicators/otletransportesgobes.yaml
+Record ID: otletransportesgobes
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: ES/ES-MU/indicators/murciaencifrases.yaml
+Record ID: murciaencifrases
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+[MISSING_TOPICS]
+Count: 10
+Priority: LOW
+
+File: ES/ES-CL/indicators/wwwvalladolidencifrases.yaml
+Record ID: wwwvalladolidencifrases
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: ES/ES-VC/indicators/wwwvalenciaescasestadicainicio.yaml
+Record ID: wwwvalenciaescasestadicainicio
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: ES/ES-VC/indicators/wwwalicanteencifrascom.yaml
+Record ID: wwwalicanteencifrascom
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: ES/ES-CN/indicators/oicitccanariasorg.yaml
+Record ID: oicitccanariasorg
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: ES/ES-CN/indicators/wwwobidices.yaml
+Record ID: wwwobidices
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: ES/Federal/indicators/indicadoresfecytes.yaml
+Record ID: indicadoresfecytes
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: ES/Federal/indicators/wwwdataestures.yaml
+Record ID: wwwdataestures
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: ES/Federal/indicators/atlasedificacionmitmaes.yaml
+Record ID: atlasedificacionmitmaes
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: ES/Federal/indicators/otletransportesgobes.yaml
+Record ID: otletransportesgobes
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: ES/ES-MU/indicators/murciaencifrases.yaml
+Record ID: murciaencifrases
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN]
-Count: 4
+Count: 8
 Priority: MEDIUM
+
+File: ES/ES-AN/opendata/transparenciaalhaurindelatorreesdataset.yaml
+Record ID: transparenciaalhaurindelatorreesdataset
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN
+Field: endpoints
+Current Value: {'software_id': 'ckan', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='ckan' is marked as API-capable in software definitions
+
+File: ES/ES-MD/opendata/datosalcobendasorgdataset.yaml
+Record ID: datosalcobendasorgdataset
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN
+Field: endpoints
+Current Value: {'software_id': 'ckan', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='ckan' is marked as API-capable in software definitions
 
 File: ES/ES-VC/opendata/datosabiertostorrentesesdataset.yaml
 Record ID: datosabiertostorrentesesdataset
@@ -18,8 +180,22 @@ Field: endpoints
 Current Value: {'software_id': 'ckan', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='ckan' is marked as API-capable in software definitions
 
+File: ES/ES-CN/opendata/datostenerifeesesdatosconjuntosdedatoscatalogodeco.yaml
+Record ID: datostenerifeesesdatosconjuntosdedatoscatalogodeco
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN
+Field: endpoints
+Current Value: {'software_id': 'ckan', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='ckan' is marked as API-capable in software definitions
+
 File: ES/ES-CT/opendata/opendatamanresacatdataset.yaml
 Record ID: opendatamanresacatdataset
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN
+Field: endpoints
+Current Value: {'software_id': 'ckan', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='ckan' is marked as API-capable in software definitions
+
+File: ES/ES-CT/opendata/opendataajuntamentbarcelonacatdataesdataset.yaml
+Record ID: opendataajuntamentbarcelonacatdataesdataset
 Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN
 Field: endpoints
 Current Value: {'software_id': 'ckan', 'has_api': 'Yes', 'endpoints_count': 0}
@@ -40,7 +216,7 @@ Current Value: {'software_id': 'ckan', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='ckan' is marked as API-capable in software definitions
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL]
-Count: 8
+Count: 9
 Priority: MEDIUM
 
 File: ES/ES-CL/opendata/datospfcyles.yaml
@@ -85,6 +261,13 @@ Field: endpoints
 Current Value: {'software_id': 'drupal', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='drupal' is marked as API-capable in software definitions
 
+File: ES/Federal/indicators/otletransportesgobes.yaml
+Record ID: otletransportesgobes
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL
+Field: endpoints
+Current Value: {'software_id': 'drupal', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='drupal' is marked as API-capable in software definitions
+
 File: ES/Federal/opendata/fegaesesdatosabiertos.yaml
 Record ID: fegaesesdatosabiertos
 Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL
@@ -99,12 +282,30 @@ Field: endpoints
 Current Value: {'software_id': 'drupal', 'has_api': 'Yes', 'endpoints_count': 0}
 Suggested Action: Add at least one endpoint because software.id='drupal' is marked as API-capable in software definitions
 
+[SOFTWARE_EXPECTED_ENDPOINTS_MISSING_INVENIO]
+Count: 1
+Priority: MEDIUM
+
+File: ES/ES-AR/scientific/zaguanunizarescollectionopendatalnesas1.yaml
+Record ID: zaguanunizarescollectionopendatalnesas1
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_INVENIO
+Field: endpoints
+Current Value: {'software_id': 'invenio', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='invenio' is marked as API-capable in software definitions
+
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS]
-Count: 2
+Count: 3
 Priority: MEDIUM
 
 File: ES/ES-AR/opendata/236wsdpteruelestransparenciadpteruelopendatabuscad.yaml
 Record ID: 236wsdpteruelestransparenciadpteruelopendatabuscad
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS
+Field: endpoints
+Current Value: {'software_id': 'wordpress', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='wordpress' is marked as API-capable in software definitions
+
+File: ES/Federal/indicators/wwwdataestures.yaml
+Record ID: wwwdataestures
 Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS
 Field: endpoints
 Current Value: {'software_id': 'wordpress', 'has_api': 'Yes', 'endpoints_count': 0}
@@ -120,6 +321,27 @@ Suggested Action: Add at least one endpoint because software.id='wordpress' is m
 
 === SUMMARY BY ISSUE TYPE ===
 
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN: 4 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL: 8 issues
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS: 2 issues
+MISSING_TAGS: 10 issues
+MISSING_TOPICS: 10 issues
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_CKAN: 8 issues
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL: 9 issues
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_INVENIO: 1 issue
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS: 3 issues
+
+=== RECORDS WITH MULTIPLE ISSUES (3+) ===
+
+Record ID: wwwdataestures
+File: ES/Federal/indicators/wwwdataestures.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS: endpoints
+
+Record ID: otletransportesgobes
+File: ES/Federal/indicators/otletransportesgobes.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL: endpoints

@@ -5,6 +5,52 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.27.0] - 2026-10-15
+
+**GitHub Release**: [v1.27.0](https://github.com/datenoio/dataportals-registry/releases/tag/v1.27.0) - Published October 15, 2026
+
+### Added
+
+- **290 net new catalog entries** since v1.26.0; registry source now **43,614** entities (**0** scheduled) across **225** country/territory folders. Software now **790** platforms. Of the 290, **257** are new discoveries and **33** are promotions out of the scheduled queue (the queue is now empty).
+- **Indicators coverage program: 211 newly discovered indicator catalogs** (plus **23** promoted). Largest passes: United States (**50** — state school report cards and labor-market systems, plus County Health Rankings, America's Health Rankings, KFF State Health Facts, Opportunity Atlas, Eviction Lab, USAFacts, Census Business Builder, NCES DataLab, BTS TranStats, KIDS COUNT, Neighborhood Atlas, SHADAC State Health Compare, Mapping America, and Projections Central, including Guam Economic Indicators and a US Virgin Islands indicators record), Netherlands (**28**, In Zicht labour family and national sectoral dashboards), Uzbekistan (**16** regional statistics departments, the 2026 population and agricultural census, and Open Budget), Great Britain (**13** indicator-typed records inside a **32**-record sectoral pass), Spain and France (**10** each), Tanzania (**9**), Austria, Denmark, and Italy (**7** each), Kenya and Kazakhstan (**6** each), Germany, Switzerland, and Bangladesh (**5** each), Belgium and the European Union (**4** each), World (**3**: World Bank Data360 Digital, OECD Going Digital Toolkit, EFSD Sovereign Financing Database), Zambia (**3**), Finland, Cambodia, and Senegal (**2** each), and single catalogs in Brazil (Cetic.br Painel TIC), Belarus, Czechia, Nigeria (NCC Industry Statistics), Poland, Slovakia, and Ukraine.
+- **European institutional catalogs** beyond the four EU indicator sites: EUIPO API Portal, WISE, ESMA Data Portal, European Industrial Emissions Portal, CORDIS, EU Financial Transparency System, ERATV, keep.eu, and Kohesio.
+- **Geoportals and other catalog types** from the same coverage wave: Uzbekistan (mining, ecology, Shaffof Qurilish, Uzhydromet) plus Open Data Tashkent; Kyrgyz public cadastral map and address register; Tajikistan Geoportal; CIS Geoportal; Switzerland ASTRA road-accident dashboard; the BBSR proximity atlas; Warwickshire geoportal and **18** British local observatories stored as open-data portals where the software map assigns Esri or Experience Builder; VXSIDA public data portal (Azerbaijan; `opendata.gov.az` redirects here); Kenya marine metadata (KeMIMS) and the national wildlife database; Kazakhstan procurement and state-property registries (Goszakup, Samruk-Kazyna, Esepte, SGP).
+- **NSPD Platform** (`nspdplatform`) software definition for the Rosreestr unified digital platform, with discovery and harvest fingerprints. Public instances: `nspd.gov.ru` (replacing the public cadastral map) and `cisgeo.info`.
+- **33 scheduled records promoted** to verified entities: nine Indian state statistical portals and VizieR IUCAA; four Pakistan indicator portals and two Punjab geoportals; nine Russian regional budget and statistics portals, the Kursk geoportal and open-data portal, federal `budget.gov.ru`, and VizieR INASAN; Benin trade portal; Luohe municipal open data (Henan, China); APIs.is (Iceland); SAAO VizieR (South Africa).
+
+### Changed
+
+- Restored `properties.is_national: true` on **12** national open-data portals that a flag script had unset: Italy, Canada, Norway, Austria, Finland, Colombia, Tunisia, Estonia, New Zealand, Honduras, United Arab Emirates, and Costa Rica.
+- Retagged records onto the software they run where the software map allows that catalog type: four Spanish CKAN `/dataset` sections, Latvia CSB research data (Drupal), Austria AMDC microdata (TYPO3; `Microdata catalog` added to the TYPO3 allowed types), and the Zaguan open-data collection (Invenio, retyped to Scientific data repository). e-Stat GIS and the HRB drug-treatment tables stay `custom` so they remain a geoportal and an indicators catalog. The BBSR proximity atlas is an ArcGIS Experience Builder geoportal.
+- Moved EDGAR, ODIN, and EFSA from `IT/Federal/scientific/` to `EU/Federal/scientific/` and set owner and coverage to the European Union.
+- Strasbourg open data now uses the canonical host `data.strasbourg.eu` (link, API, sitemap, and rights URLs). The IMA-AIM indicators record now points at the IMA Atlas databank (`ima.incijfers.be`).
+- UN Data Catalog link restored to `https://undatacatalog.org` after a spam hijack, with status **inactive**. Kyrgyz NSDI (`nsdi.kg`) set **inactive**: the catalog host no longer responds and the public site serves unrelated content.
+- Custom-software audit (9 October, `devdocs/custom-software-audit-2026-10.md`): `custom` is still mostly bespoke institutional apps. The note estimates 500–700 rows could be retagged onto existing software ids; this release applies only the retags named above.
+- ASEAN bloc gap check and the CIS interstate-catalog review closed with no missing public catalogs.
+- Dropped two duplicates found while checking the new records: a second ASEAN Centre for Biodiversity IPT (same host as the Philippines record `bkmdaseanbiodiversityorg`) and a second European Industrial Emissions Portal file (the open-data record is the keeper).
+- Rebuild dataset exports to match source YAML: **43,614** catalogs, **0** scheduled, **790** software (`full.jsonl`, `full.parquet`, and the DuckDB `catalogs` table: **43,614** rows).
+- Quality gate: **0** CRITICAL and **0** IMPORTANT across **43,614** records; **273** MEDIUM and **448** LOW findings (expected-endpoint probe gaps, missing tags and topics, plus title and `is_national` heuristic noise).
+
+## [1.26.0] - 2026-10-06
+
+**GitHub Release**: [v1.26.0](https://github.com/datenoio/dataportals-registry/releases/tag/v1.26.0) - Published October 6, 2026
+
+### Added
+
+- **11 net new catalog entries** since v1.25.0; registry source now **43,324** entities (**33** scheduled) across **225** country/territory folders. Software stays **789** platforms.
+- **9 machine learning catalogs** from the ML coverage-gap program; the ML catalog type now has **100** records (was 90 at v1.25.0). Global platforms: LAION (DE, open web-scale multimodal datasets), DataComp (US, dataset benchmark program), Dynabench (US, Meta AI dynamic benchmarking), PyTorch Hub (US), ONNX Model Zoo (US), OpenVINO Model Zoo (US, Intel), Replicate (US, public model catalog). National AI registry: YZE Veri Platformu (TR, TÜBİTAK BİLGEM AI Institute open AI data platform — TCP-blocked from non-TR egress, verified via alternate fetch channel). Instance hunt: CodaLab LISN (FR, Université Paris-Saclay) — EvalAI/Codabench candidate lists probed to exhaustion (dead hosts, demo tenants, project landing pages rejected); grand-challenge hunt logged blocked pending FOFA/Censys keys.
+- **1 metadata registry**: NSW Government Metadata Registry (`metadata.nsw.gov.au`, AU-NSW, Aristotle Metadata Registry with live `/api/v4/` endpoint) from the Aristotle vendor case-studies pass; the case-study list is exhausted (Potential(x) already registered, no Ireland DHLGH URL published).
+- **1 open data portal**: Open Data Blend (GB, Nimble Learn) — analysis-ready UK datasets with OData API, found while sweeping GB/CA/AU for ML geography gaps (no dedicated ML catalogs exist there; UK Data Service and data.csiro.au already registered).
+
+### Changed
+
+- **European Language Grid Catalogue** re-typed from Data search engine to **Machine learning catalog** and moved into `EU/Federal/ml/` (it hosts language data, models and tools rather than searching external catalogs).
+- Skipped as already covered: TensorFlow Hub (redirects to kaggle.com/models — Kaggle entry), Google Cloud Public Datasets (same host as the Google Cloud Marketplace Datasets record). Rejected: Cisco LRAC Codabench (demo/test tenant), codalab.org (project landing page), Graviti OpenDatasets (unreachable), OpenBayes (compute platform, no public catalog), kms.metadata.works (search behind auth redirect).
+- Thin-type triage: IHSN/nada vendor list, FAIR Data Point index, api.gov.{tld} sweep, skosmos, and vocabulary-registry hunts all completed within the prior 14-day window (`hunt.py prior` blocks reruns); mwmb (MetadataWorks) tenant enumeration logged blocked — crt.sh and Cert Spotter rejected requests and the federated exchange exposes no public tenant list.
+- Quality fixes on the new records: endpoints/API consistency on PyTorch Hub, YZE Veri Platformu and Open Data Blend; owner location level on YZE; coverage macroregion, Aristotle v4 API endpoint and a descriptive title on the NSW registry record.
+- Rebuild dataset exports to match source YAML: **43,324** catalogs, **33** scheduled, **789** software (`full.jsonl`, `full.parquet`, and the DuckDB `catalogs` table: **43,357** rows incl. scheduled).
+- Quality gate: **0** CRITICAL and **0** IMPORTANT across **43,324** records; **234** MEDIUM and **41** LOW findings (expected-endpoint probe gaps plus title/is_national heuristic noise).
+
 ## [1.25.0] - 2026-10-06
 
 **GitHub Release**: [v1.25.0](https://github.com/datenoio/dataportals-registry/releases/tag/v1.25.0) - Published October 6, 2026

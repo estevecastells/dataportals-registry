@@ -1,0 +1,47 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: BE
+      name: Belgium
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 30
+    subregion:
+      id: BE-WAL
+      name: wallonne, Région
+description: 'Beyond-GDP composite indicators for Wallonie: social situation index
+  (ISS), well-being conditions index (ICBE), ecological footprint and governance index
+  with per-indicator trends.'
+id: icpibiwepsbe
+langs:
+- id: FR
+  name: French
+link: https://icpib.iweps.be/
+name: Les indicateurs complémentaires au PIB en Wallonie
+owner:
+  link: https://www.iweps.be
+  location:
+    country:
+      id: BE
+      name: Belgium
+    level: 30
+    subregion:
+      id: BE-WAL
+      name: wallonne, Région
+  name: Institut wallon de l'évaluation, de la prospective et de la statistique (IWEPS)
+  type: Regional government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013884

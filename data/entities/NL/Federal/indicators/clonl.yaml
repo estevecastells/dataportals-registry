@@ -1,0 +1,40 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: NL
+      name: Netherlands
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 20
+description: 'Environmental Data Compendium: about 600 national indicators on nature,
+  environment and space, jointly maintained by CBS, PBL, RIVM and WUR.'
+id: clonl
+langs:
+- id: NL
+  name: Dutch
+link: https://www.clo.nl/
+name: Compendium voor de Leefomgeving
+owner:
+  link: https://www.clo.nl/
+  location:
+    country:
+      id: NL
+      name: Netherlands
+    level: 20
+  name: Compendium voor de Leefomgeving (CBS, PBL, RIVM, WUR)
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013897

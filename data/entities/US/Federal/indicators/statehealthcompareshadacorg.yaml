@@ -1,0 +1,53 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    macroregion:
+      id: '021'
+      name: Northern America
+    level: 20
+description: 'University of Minnesota SHADAC State Health Compare: interactive state-level health indicator
+  explorer covering coverage, access, spending, workforce and health outcomes with rankings and downloads.'
+id: statehealthcompareshadacorg
+langs:
+- id: EN
+  name: English
+link: https://statehealthcompare.shadac.org/
+name: SHADAC State Health Compare
+owner:
+  link: https://www.shadac.org/
+  location:
+    country:
+      id: US
+      name: United States
+  name: State Health Access Data Assistance Center, University of Minnesota
+  type: Academy
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- health
+- statistics
+- indicators
+- united-states
+topics:
+- id: HEAL
+  name: Health
+  type: eudatatheme
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013948

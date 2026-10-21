@@ -1,0 +1,48 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: BE
+      name: Belgium
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 30
+    subregion:
+      id: BE-BRU
+      name: Bruxelles-Capitale, Région de
+description: 'IBSA neighbourhood monitoring of the Brussels-Capital Region: interactive
+  indicators, tables and maps per statistical quarter and commune.'
+id: monitoringdesquartiersbrussels
+langs:
+- id: FR
+  name: French
+- id: NL
+  name: Dutch
+link: https://monitoringdesquartiers.brussels
+name: Monitoring des Quartiers
+owner:
+  link: https://ibsa.brussels
+  location:
+    country:
+      id: BE
+      name: Belgium
+    level: 30
+    subregion:
+      id: BE-BRU
+      name: Bruxelles-Capitale, Région de
+  name: Institut Bruxellois de Statistique et d'Analyse (IBSA)
+  type: Regional government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013881

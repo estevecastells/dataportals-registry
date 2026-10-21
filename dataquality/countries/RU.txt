@@ -1,18 +1,95 @@
 DATA QUALITY REPORT - COUNTRY: RU
 ================================================================================
-Generated: 2026-10-06 09:14:05
+Generated: 2026-10-15 13:36:04
 Country Code: RU
-Total Records with Issues: 42
-Total Issues Found: 44
+Total Records with Issues: 55
+Total Issues Found: 81
 
 === ISSUES BY TYPE ===
 
 [MISSING_OWNER_LINK]
-Count: 1
+Count: 12
 Priority: LOW
+
+File: RU/RU-ORE/indicators/budgetorbru.yaml
+Record ID: budgetorbru
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: RU/RU-NIZ/indicators/mfnnovru.yaml
+Record ID: mfnnovru
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
 
 File: RU/RU-NIZ/indicators/budgetnnru.yaml
 Record ID: budgetnnru
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: RU/RU-LEN/indicators/monitoringlenregru.yaml
+Record ID: monitoringlenregru
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: RU/RU-KR/indicators/budgetkareliaru.yaml
+Record ID: budgetkareliaru
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: RU/RU-ME/indicators/maristatmarirumunstinet.yaml
+Record ID: maristatmarirumunstinet
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: RU/RU-BA/indicators/budgetbashkortostanru.yaml
+Record ID: budgetbashkortostanru
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: RU/RU-BU/indicators/openbudgetgovrbru.yaml
+Record ID: openbudgetgovrbru
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: RU/Federal/indicators/wwwbudgetgovru.yaml
+Record ID: wwwbudgetgovru
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: RU/Federal/scientific/vizierinasanru.yaml
+Record ID: vizierinasanru
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: RU/RU-KHM/indicators/monitoringadmhmaoru.yaml
+Record ID: monitoringadmhmaoru
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+File: RU/RU-MAG/indicators/openbudget49govru.yaml
+Record ID: openbudget49govru
 Issue: MISSING_OWNER_LINK
 Field: owner.link
 Current Value: None
@@ -30,8 +107,22 @@ Current Value: {'license_id': None, 'license_name': None, 'license_url': None, '
 Suggested Action: Add rights.license_id, license_name, and license_url for this official national open-data portal.
 
 [MISSING_TAGS]
-Count: 1
+Count: 14
 Priority: LOW
+
+File: RU/RU-ORE/indicators/budgetorbru.yaml
+Record ID: budgetorbru
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: RU/RU-NIZ/indicators/mfnnovru.yaml
+Record ID: mfnnovru
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
 
 File: RU/RU-NIZ/indicators/budgetnnru.yaml
 Record ID: budgetnnru
@@ -40,12 +131,180 @@ Field: tags
 Current Value: []
 Suggested Action: Extract tags from description and catalog_type
 
+File: RU/RU-LEN/indicators/monitoringlenregru.yaml
+Record ID: monitoringlenregru
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: RU/RU-KR/indicators/budgetkareliaru.yaml
+Record ID: budgetkareliaru
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: RU/RU-ME/indicators/maristatmarirumunstinet.yaml
+Record ID: maristatmarirumunstinet
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: RU/RU-BA/indicators/budgetbashkortostanru.yaml
+Record ID: budgetbashkortostanru
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: RU/RU-BU/indicators/openbudgetgovrbru.yaml
+Record ID: openbudgetgovrbru
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: RU/RU-KRS/opendata/admrkurskruopendata.yaml
+Record ID: admrkurskruopendata
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: RU/RU-KRS/geo/geoportalrkurskru.yaml
+Record ID: geoportalrkurskru
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: RU/Federal/indicators/wwwbudgetgovru.yaml
+Record ID: wwwbudgetgovru
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: RU/Federal/scientific/vizierinasanru.yaml
+Record ID: vizierinasanru
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: RU/RU-KHM/indicators/monitoringadmhmaoru.yaml
+Record ID: monitoringadmhmaoru
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: RU/RU-MAG/indicators/openbudget49govru.yaml
+Record ID: openbudget49govru
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
 [MISSING_TOPICS]
-Count: 1
+Count: 14
 Priority: LOW
+
+File: RU/RU-ORE/indicators/budgetorbru.yaml
+Record ID: budgetorbru
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: RU/RU-NIZ/indicators/mfnnovru.yaml
+Record ID: mfnnovru
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
 
 File: RU/RU-NIZ/indicators/budgetnnru.yaml
 Record ID: budgetnnru
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: RU/RU-LEN/indicators/monitoringlenregru.yaml
+Record ID: monitoringlenregru
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: RU/RU-KR/indicators/budgetkareliaru.yaml
+Record ID: budgetkareliaru
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: RU/RU-ME/indicators/maristatmarirumunstinet.yaml
+Record ID: maristatmarirumunstinet
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: RU/RU-BA/indicators/budgetbashkortostanru.yaml
+Record ID: budgetbashkortostanru
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: RU/RU-BU/indicators/openbudgetgovrbru.yaml
+Record ID: openbudgetgovrbru
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: RU/RU-KRS/opendata/admrkurskruopendata.yaml
+Record ID: admrkurskruopendata
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: RU/RU-KRS/geo/geoportalrkurskru.yaml
+Record ID: geoportalrkurskru
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: RU/Federal/indicators/wwwbudgetgovru.yaml
+Record ID: wwwbudgetgovru
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: RU/Federal/scientific/vizierinasanru.yaml
+Record ID: vizierinasanru
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: RU/RU-KHM/indicators/monitoringadmhmaoru.yaml
+Record ID: monitoringadmhmaoru
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: RU/RU-MAG/indicators/openbudget49govru.yaml
+Record ID: openbudget49govru
 Issue: MISSING_TOPICS
 Field: topics
 Current Value: []
@@ -350,10 +609,10 @@ Suggested Action: Add at least one endpoint because software.id='wordpress' is m
 
 === SUMMARY BY ISSUE TYPE ===
 
-MISSING_OWNER_LINK: 1 issue
+MISSING_OWNER_LINK: 12 issues
 MISSING_RIGHTS: 1 issue
-MISSING_TAGS: 1 issue
-MISSING_TOPICS: 1 issue
+MISSING_TAGS: 14 issues
+MISSING_TOPICS: 14 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_BITRIX: 18 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL: 11 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_NEXTGISWEB: 1 issue
@@ -361,8 +620,96 @@ SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS: 10 issues
 
 === RECORDS WITH MULTIPLE ISSUES (3+) ===
 
+Record ID: budgetorbru
+File: RU/RU-ORE/indicators/budgetorbru.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: mfnnovru
+File: RU/RU-NIZ/indicators/mfnnovru.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
 Record ID: budgetnnru
 File: RU/RU-NIZ/indicators/budgetnnru.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: monitoringlenregru
+File: RU/RU-LEN/indicators/monitoringlenregru.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: budgetkareliaru
+File: RU/RU-KR/indicators/budgetkareliaru.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: maristatmarirumunstinet
+File: RU/RU-ME/indicators/maristatmarirumunstinet.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: budgetbashkortostanru
+File: RU/RU-BA/indicators/budgetbashkortostanru.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: openbudgetgovrbru
+File: RU/RU-BU/indicators/openbudgetgovrbru.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: wwwbudgetgovru
+File: RU/Federal/indicators/wwwbudgetgovru.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: vizierinasanru
+File: RU/Federal/scientific/vizierinasanru.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: monitoringadmhmaoru
+File: RU/RU-KHM/indicators/monitoringadmhmaoru.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: openbudget49govru
+File: RU/RU-MAG/indicators/openbudget49govru.yaml
 Issue Count: 3
 Issues:
   - MISSING_TOPICS: topics

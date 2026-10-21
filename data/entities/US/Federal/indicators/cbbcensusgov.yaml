@@ -1,0 +1,55 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    macroregion:
+      id: '021'
+      name: Northern America
+    level: 20
+description: U.S. Census Bureau interactive tool combining business data with demographic and economic
+  indicators, letting users build maps and reports by county, metro and ZIP for small business and entrepreneurs.
+id: cbbcensusgov
+langs:
+- id: EN
+  name: English
+link: https://cbb.census.gov/
+name: Census Business Builder
+owner:
+  link: https://www.census.gov/
+  location:
+    country:
+      id: US
+      name: United States
+    level: 20
+  name: U.S. Census Bureau
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- business
+- statistics
+- indicators
+- united-states
+- census
+topics:
+- id: ECON
+  name: Economy and finance
+  type: eudatatheme
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013946

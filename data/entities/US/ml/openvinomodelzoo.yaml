@@ -1,0 +1,47 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Machine learning catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    level: 20
+    macroregion:
+      id: '021'
+      name: Northern America
+description: Collection of pre-trained deep learning models and demos optimized for
+  Intel architectures in the OpenVINO Intermediate Representation format, with downloadable
+  weights.
+id: openvinomodelzoo
+langs:
+- id: EN
+  name: English
+link: https://github.com/openvinotoolkit/open_model_zoo
+name: OpenVINO Model Zoo
+owner:
+  link: https://docs.openvino.ai
+  location:
+    country:
+      id: US
+      name: United States
+  name: Intel Corporation (OpenVINO)
+  type: Business
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- machine learning
+- models
+- deep learning
+- pre-trained models
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+uid: cdi00013806

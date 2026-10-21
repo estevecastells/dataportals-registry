@@ -1,0 +1,57 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+coverage:
+- location:
+    country:
+      id: CH
+      name: Switzerland
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 30
+    subregion:
+      id: CH-JU
+      name: Jura
+description: 'Online statistical portal of the Canton of Jura, produced with the Service
+  neuchâtelois de statistique: thematic indicator tables, communal energy indicators
+  and population data with XLSX downloads.'
+id: statjurach
+langs:
+- id: FR
+  name: French
+link: https://stat.jura.ch/
+name: Statistique publique jurassienne
+owner:
+  link: https://www.jura.ch
+  location:
+    country:
+      id: CH
+      name: Switzerland
+    level: 30
+    subregion:
+      id: CH-JU
+      name: Jura
+  name: Statistique publique jurassienne (République et Canton du Jura)
+  type: Regional government
+properties:
+  has_doi: false
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- statistics
+- government
+- official statistics
+- Switzerland
+- Jura
+- cantonal
+- indicators
+topics: []
+uid: cdi00014055

@@ -1,0 +1,40 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: NL
+      name: Netherlands
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 20
+description: National Swing labour-market databank platform covering 8 provinces and
+  10 arbeidsmarktregio regions with indicators on employment, vacancies, education
+  and economy.
+id: arbeidsmarktinzichtnl
+langs:
+- id: NL
+  name: Dutch
+link: https://arbeidsmarktinzicht.nl/
+name: ArbeidsmarktInZicht
+owner:
+  link: https://arbeidsmarktinzicht.nl/
+  location:
+    country:
+      id: NL
+      name: Netherlands
+  name: ArbeidsmarktInZicht (Brainport Network)
+  type: Other
+software:
+  id: swing
+  name: Swing
+status: active
+tags: []
+topics: []
+uid: cdi00013896

@@ -39,8 +39,8 @@ owner:
   name: Ayuntamiento de Alcobendas
   type: Local government
 software:
-  id: custom
-  name: Custom software
+  id: ckan
+  name: CKAN
 rights:
   license_id: null
   license_name: null

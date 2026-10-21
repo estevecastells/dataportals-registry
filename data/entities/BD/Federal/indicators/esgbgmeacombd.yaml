@@ -1,0 +1,40 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: BD
+      name: Bangladesh
+    macroregion:
+      id: '034'
+      name: Southern Asia
+    level: 20
+description: 'Public ESG performance platform for the Bangladesh RMG sector (survey
+  wave 2025-2026): 326 reporting factories and 584,371 workers covered, with environmental,
+  social and governance indicators, charts, maps and a data explorer.'
+id: esgbgmeacombd
+langs:
+- id: EN
+  name: English
+link: https://esg.bgmea.com.bd/
+name: BGMEA ESG Data Disclosure Platform
+owner:
+  link: https://www.bgmea.com.bd
+  location:
+    country:
+      id: BD
+      name: Bangladesh
+  name: Bangladesh Garment Manufacturers and Exporters Association
+  type: Business
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013973

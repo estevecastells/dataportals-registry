@@ -1,0 +1,53 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    macroregion:
+      id: '021'
+      name: Northern America
+    level: 20
+description: 'University of Wisconsin Neighborhood Atlas: census-block-group Area Deprivation Index rankings
+  with interactive maps and downloadable data on neighborhood socioeconomic disadvantage.'
+id: neighborhoodatlasmedicinewiscedu
+langs:
+- id: EN
+  name: English
+link: https://www.neighborhoodatlas.medicine.wisc.edu/
+name: Neighborhood Atlas (Area Deprivation Index)
+owner:
+  link: https://www.neighborhoodatlas.medicine.wisc.edu/
+  location:
+    country:
+      id: US
+      name: United States
+  name: University of Wisconsin School of Medicine and Public Health
+  type: Academy
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- health
+- indicators
+- statistics
+- united-states
+topics:
+- id: HEAL
+  name: Health
+  type: eudatatheme
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013947

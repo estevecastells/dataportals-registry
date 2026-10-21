@@ -1,0 +1,61 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    macroregion:
+      id: '021'
+      name: Northern America
+    level: 30
+    subregion:
+      id: US-DC
+      name: District of Columbia
+description: 'Office of the State Superintendent of Education''s one-stop report card for all DC public
+  schools: enrollment, assessment, attendance and school-spending indicators.'
+id: schoolreportcarddcgov
+langs:
+- id: EN
+  name: English
+link: https://schoolreportcard.dc.gov/
+name: DC School Report Card
+owner:
+  link: https://osse.dc.gov/
+  location:
+    country:
+      id: US
+      name: United States
+    level: 30
+    subregion:
+      id: US-DC
+      name: District of Columbia
+  name: Office of the State Superintendent of Education, District of Columbia
+  type: Local government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- education
+- schools
+- report cards
+- District of Columbia
+- statistics
+topics:
+- id: EDUC
+  name: Education, culture and sport
+  type: eudatatheme
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013930

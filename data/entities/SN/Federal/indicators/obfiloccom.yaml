@@ -1,0 +1,42 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: SN
+      name: Senegal
+    macroregion:
+      id: '011'
+      name: Western Africa
+    level: 20
+description: 'OBFiLOC, l''observatoire des finances locales du Sénégal: exploration,
+  analyse et comparaison des comptes administratifs des 601 collectivités territoriales
+  (recettes, dépenses, ratios, agrégats) de 2018 à 2024, avec appui de la Banque mondiale.'
+id: obfiloccom
+langs:
+- id: FR
+  name: French
+link: https://obfiloc.com/
+name: OBFiLOC – Observatoire des finances locales du Sénégal
+owner:
+  link: null
+  location:
+    country:
+      id: SN
+      name: Senegal
+    level: 20
+  name: Direction Générale de la Comptabilité Publique et du Trésor (DGCPT), Ministère
+    des Finances
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013985

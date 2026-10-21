@@ -1,0 +1,40 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: NL
+      name: Netherlands
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 20
+description: 'UWV interactive labour-market dashboards: WW benefits, registered jobseekers,
+  online vacancies and Regio in Beeld per region and municipality.'
+id: uwvarbeidsmarktdashboards
+langs:
+- id: NL
+  name: Dutch
+link: https://www.uwv.nl/nl/arbeidsmarktinformatie/dashboards
+name: UWV Arbeidsmarkt Dashboards
+owner:
+  link: https://www.uwv.nl/
+  location:
+    country:
+      id: NL
+      name: Netherlands
+    level: 20
+  name: UWV (Employee Insurance Agency)
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013903

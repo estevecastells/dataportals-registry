@@ -1,0 +1,40 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: DK
+      name: Denmark
+    macroregion:
+      id: '154'
+      name: Northern Europe
+    level: 20
+description: 'Danish Road Directorate interactive map of traffic counts at measurement
+  stations: daily traffic volumes and speeds by vehicle type, year and road.'
+id: vej08vddkkomse
+langs:
+- id: DA
+  name: Danish
+link: https://vej08.vd.dk/komse/nytui/komseVD/KomSeVD.html
+name: KomSe - Trafik på målestationer
+owner:
+  link: null
+  location:
+    country:
+      id: DK
+      name: Denmark
+    level: 20
+  name: Vejdirektoratet
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013883

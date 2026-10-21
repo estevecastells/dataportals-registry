@@ -1,0 +1,63 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+- dataset
+coverage:
+- location:
+    country:
+      id: KE
+      name: Kenya
+    macroregion:
+      id: '014'
+      name: Eastern Africa
+    level: 20
+description: 'KAOP AgData Hub is KALRO''s agricultural observatory: county-level weather and agronomic
+  advisories, rainfall observations, satellite imagery, soils, market information and county risk profiles,
+  selectable by county, sub-county and ward and publicly viewable.'
+id: kenyaagdatahubilriorg
+langs:
+- id: EN
+  name: English
+link: https://kenya.agdatahub.ilri.org
+name: Kenya Agricultural Observatory Platform (KAOP)
+owner:
+  link: https://www.kalro.org
+  location:
+    country:
+      id: KE
+      name: Kenya
+    level: 20
+  name: Kenya Agricultural and Livestock Research Organization (KALRO)
+  type: Central government
+properties:
+  has_doi: false
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- agriculture
+- weather
+- climate
+- advisories
+- rainfall
+- Kenya
+topics:
+- id: AGRI
+  name: Agriculture, fisheries, forestry and food
+  type: eudatatheme
+- id: ENVI
+  name: Environment
+  type: eudatatheme
+- id: Farming
+  name: Farming
+  type: iso19115
+- id: Climatology / Meteorology / Atmosphere
+  name: Climatology / Meteorology / Atmosphere
+  type: iso19115
+uid: cdi00013975

@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Scientific data repository
+content_types:
+- dataset
+- indicator
+coverage:
+- location:
+    country:
+      id: KE
+      name: Kenya
+    macroregion:
+      id: '014'
+      name: Eastern Africa
+    level: 20
+description: 'WRTI National Wildlife Database: open-access biodiversity clearing-house for Kenya with
+  conservation-area, species and ecosystem indicators, an Explore Data catalog, interactive ecosystem
+  maps and downloadable data.'
+id: databasewrtigoke
+langs:
+- id: EN
+  name: English
+link: https://database.wrti.go.ke
+name: Kenya National Wildlife Database (WRTI)
+owner:
+  link: https://wrti.go.ke
+  location:
+    country:
+      id: KE
+      name: Kenya
+    level: 20
+  name: Wildlife Research and Training Institute (WRTI)
+  type: Central government
+properties:
+  has_doi: false
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- biodiversity
+- wildlife
+- conservation
+- protected areas
+- Kenya
+topics:
+- id: ENVI
+  name: Environment
+  type: eudatatheme
+- id: Biota
+  name: Biota
+  type: iso19115
+uid: cdi00013981

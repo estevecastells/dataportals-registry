@@ -1,0 +1,46 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Open data portal
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: GB
+      name: United Kingdom
+    macroregion:
+      id: '154'
+      name: Northern Europe
+    level: 30
+    subregion:
+      id: GB-ENG
+      name: England
+description: Council intelligence hub with local data, dashboards and area profiles
+  for the East Riding of Yorkshire.
+id: intelhubeastridinggovuk
+langs:
+- id: EN
+  name: English
+link: https://intel-hub.eastriding.gov.uk/
+name: East Riding Intelligence Hub
+owner:
+  link: null
+  location:
+    country:
+      id: GB
+      name: United Kingdom
+    level: 30
+    subregion:
+      id: GB-ENG
+      name: England
+  name: East Riding of Yorkshire Council
+  type: Local government
+software:
+  id: esridataobservatory
+  name: Esri UK Data Observatory
+status: active
+tags: []
+topics: []
+uid: cdi00014037

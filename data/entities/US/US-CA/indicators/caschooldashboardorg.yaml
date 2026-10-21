@@ -1,0 +1,61 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    macroregion:
+      id: '021'
+      name: Northern America
+    level: 30
+    subregion:
+      id: US-CA
+      name: California
+description: 'California Department of Education accountability dashboard: state and local performance
+  indicators for California schools and districts, including chronic absenteeism, suspension, graduation,
+  college/career and English learner progress.'
+id: caschooldashboardorg
+langs:
+- id: EN
+  name: English
+link: https://www.caschooldashboard.org/
+name: California School Dashboard
+owner:
+  link: https://www.cde.ca.gov/
+  location:
+    country:
+      id: US
+      name: United States
+    level: 30
+    subregion:
+      id: US-CA
+      name: California
+  name: California Department of Education
+  type: Regional government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- education
+- statistics
+- California
+- indicators
+topics:
+- id: EDUC
+  name: Education, culture and sport
+  type: eudatatheme
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013954

@@ -1,0 +1,66 @@
+DATA QUALITY REPORT - COUNTRY: IS
+================================================================================
+Generated: 2026-10-15 13:36:04
+Country Code: IS
+Total Records with Issues: 1
+Total Issues Found: 4
+
+=== ISSUES BY TYPE ===
+
+[MISSING_TAGS]
+Count: 1
+Priority: LOW
+
+File: IS/Federal/api/apisis.yaml
+Record ID: apisis
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+[MISSING_TOPICS]
+Count: 1
+Priority: LOW
+
+File: IS/Federal/api/apisis.yaml
+Record ID: apisis
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+[PLACEHOLDER_TITLE]
+Count: 2
+Priority: MEDIUM
+
+File: IS/Federal/api/apisis.yaml
+Record ID: apisis
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: apis.is
+Suggested Action: Use a human-readable portal title instead of a URL/domain string.
+
+File: IS/Federal/api/apisis.yaml
+Record ID: apisis
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: apis.is
+Suggested Action: Replace domain/path-based title with a descriptive portal name.
+
+
+=== SUMMARY BY ISSUE TYPE ===
+
+MISSING_TAGS: 1 issue
+MISSING_TOPICS: 1 issue
+PLACEHOLDER_TITLE: 2 issues
+
+=== RECORDS WITH MULTIPLE ISSUES (3+) ===
+
+Record ID: apisis
+File: IS/Federal/api/apisis.yaml
+Issue Count: 4
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - PLACEHOLDER_TITLE: name
+  - PLACEHOLDER_TITLE: name

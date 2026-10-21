@@ -1,0 +1,50 @@
+access_mode:
+- open
+api: true
+api_status: active
+catalog_type: Machine learning catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    level: 20
+    macroregion:
+      id: '021'
+      name: Northern America
+description: Public catalog of community-published open-source AI models (text-to-image,
+  LLMs, vision, audio) with browsable versions and a hosted prediction API; model
+  weights are openly downloadable.
+endpoints:
+- type: index
+  url: https://replicate.com/explore
+id: replicatecom
+langs:
+- id: EN
+  name: English
+link: https://replicate.com/explore
+name: Replicate
+owner:
+  link: https://replicate.com
+  location:
+    country:
+      id: US
+      name: United States
+  name: Replicate, Inc.
+  type: Business
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- machine learning
+- models
+- foundation models
+- inference API
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+uid: cdi00013803

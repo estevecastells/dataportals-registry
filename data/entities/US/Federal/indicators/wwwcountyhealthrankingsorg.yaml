@@ -1,0 +1,47 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    level: 20
+    macroregion:
+      id: '001'
+      name: World
+description: 'County Health Rankings & Roadmaps from the University of Wisconsin Population Health Institute:
+  annual county-level health factor and outcome rankings and indicator tables for every U.S. state and
+  county, with downloadable data.'
+id: wwwcountyhealthrankingsorg
+langs:
+- id: EN
+  name: English
+link: https://www.countyhealthrankings.org/
+name: County Health Rankings & Roadmaps
+owner:
+  link: https://uwphi.pophealth.wisc.edu/
+  location:
+    country:
+      id: US
+      name: United States
+    level: 20
+  name: University of Wisconsin Population Health Institute
+  type: Academy
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- indicators
+- statistics
+- united-states
+topics:
+- id: HEAL
+  name: Health
+  type: eudatatheme
+uid: cdi00013894

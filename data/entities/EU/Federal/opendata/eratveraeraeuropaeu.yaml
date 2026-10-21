@@ -1,0 +1,61 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Datasets list
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: EU
+      name: European Union
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+description: European Register of Authorised Types of Vehicles (ERATV) of the
+  European Union Agency for Railways. Searchable register of authorised railway
+  vehicle types in the EU with detailed technical data per type and record export;
+  the agency also publishes public extracts of the register data.
+id: eratveraeraeuropaeu
+langs:
+- id: EN
+  name: English
+link: https://eratv.era.europa.eu/
+name: ERATV - European Register of Authorised Types of Vehicles
+owner:
+  link: https://www.era.europa.eu/
+  location:
+    country:
+      id: EU
+      name: European Union
+    level: 20
+  name: European Union Agency for Railways
+  type: International
+properties:
+  has_doi: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- railways
+- transport
+- vehicle register
+- europe
+topics:
+- id: TRAN
+  name: Transport
+  type: eudatatheme
+- id: Transportation
+  name: Transportation
+  type: iso19115
+uid: cdi00013875

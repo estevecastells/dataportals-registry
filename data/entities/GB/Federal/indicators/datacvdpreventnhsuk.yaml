@@ -1,0 +1,40 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: GB
+      name: United Kingdom
+    macroregion:
+      id: '154'
+      name: Northern Europe
+    level: 20
+description: 'Public data explorer for the CVDPREVENT primary care audit: cardiovascular
+  disease prevention indicators by GP practice, network and integrated care board.'
+id: datacvdpreventnhsuk
+langs:
+- id: EN
+  name: English
+link: https://data.cvdprevent.nhs.uk/
+name: CVDPREVENT Data Tool
+owner:
+  link: https://www.england.nhs.uk
+  location:
+    country:
+      id: GB
+      name: United Kingdom
+    level: 20
+  name: NHS England
+  type: Central government
+software:
+  id: shiny
+  name: R Shiny
+status: active
+tags: []
+topics: []
+uid: cdi00014022

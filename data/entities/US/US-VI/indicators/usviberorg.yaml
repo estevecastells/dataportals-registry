@@ -1,0 +1,59 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    macroregion:
+      id: '021'
+      name: Northern America
+    level: 30
+    subregion:
+      id: US-VI
+      name: Virgin Islands, U.S.
+description: 'U.S. Virgin Islands Bureau of Economic Research: territorial economic indicators including
+  tourism arrivals, hotel occupancy, building permits, employment and prices.'
+id: usviberorg
+langs:
+- id: EN
+  name: English
+link: https://usviber.org/
+name: USVI Bureau of Economic Research
+owner:
+  link: https://usviber.org/
+  location:
+    country:
+      id: US
+      name: United States
+    level: 30
+    subregion:
+      id: US-VI
+      name: Virgin Islands, U.S.
+  name: U.S. Virgin Islands Bureau of Economic Research
+  type: Local government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- economy
+- statistics
+- U.S. Virgin Islands
+- indicators
+topics:
+- id: ECON
+  name: Economy and finance
+  type: eudatatheme
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013942

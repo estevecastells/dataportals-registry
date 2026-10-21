@@ -1,6 +1,6 @@
 DATA QUALITY REPORT - COUNTRY: PT
 ================================================================================
-Generated: 2026-10-06 09:14:05
+Generated: 2026-10-15 13:36:04
 Country Code: PT
 Total Records with Issues: 2
 Total Issues Found: 2

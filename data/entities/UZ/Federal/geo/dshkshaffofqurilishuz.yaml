@@ -1,0 +1,46 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Geoportal
+content_types:
+- dataset
+- map_layer
+coverage:
+- location:
+    country:
+      id: UZ
+      name: Uzbekistan
+    macroregion:
+      id: '143'
+      name: Central Asia
+    level: 20
+description: 'Interactive map of construction objects under the Shaffof Qurilish (transparent
+  construction) program, launched in December 2025: building status colour coding
+  (active, suspended, frozen), QR passports with permits and contractor details, and
+  red-line (demolition zone) checks by cadastral number. Covers 567 settlements.'
+id: dshkshaffofqurilishuz
+langs:
+- id: UZ
+  name: Uzbek
+- id: RU
+  name: Russian
+link: https://dshk.shaffofqurilish.uz
+name: Shaffof Qurilish Construction Objects Map of Uzbekistan
+owner:
+  link: null
+  location:
+    country:
+      id: UZ
+      name: Uzbekistan
+    level: 20
+  name: Ministry of Construction and Housing and Communal Services of the Republic
+    of Uzbekistan
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013850

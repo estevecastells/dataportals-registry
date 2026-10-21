@@ -1,0 +1,41 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Geoportal
+content_types:
+- indicator
+coverage:
+- location:
+    country:
+      id: DE
+      name: Germany
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 20
+description: Public ArcGIS Experience Builder atlas of the ten BBSR proximity indicators (Nahversorgung)
+  such as resident shares within walking distance of supermarkets, general practitioners, pharmacies,
+  primary schools and public transport, covering Germany at municipality and district level.
+id: bbsrnahversorgungsindikatoren
+langs:
+- id: DE
+  name: German
+link: https://experience.arcgis.com/experience/739279c980dd49bc96f65c7d0440a23b/
+name: BBSR Indikatoren zur Nahversorgung
+owner:
+  link: https://www.bbsr.bund.de
+  location:
+    country:
+      id: DE
+      name: Germany
+    level: 20
+  name: Bundesinstitut für Bau-, Stadt- und Raumforschung
+  type: Central government
+software:
+  id: experiencebuilder
+  name: ArcGIS Experience Builder
+status: active
+tags: []
+topics: []
+uid: cdi00013988

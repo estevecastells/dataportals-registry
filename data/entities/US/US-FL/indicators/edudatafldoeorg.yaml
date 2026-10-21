@@ -1,0 +1,60 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    macroregion:
+      id: '021'
+      name: Northern America
+    level: 30
+    subregion:
+      id: US-FL
+      name: Florida
+description: 'Florida Department of Education Know Your Schools portal (formerly EDStats): Florida report
+  cards and ESSA information for schools, districts and the state.'
+id: edudatafldoeorg
+langs:
+- id: EN
+  name: English
+link: https://edudata.fldoe.org/
+name: Know Your Schools (Florida Report Cards)
+owner:
+  link: https://www.fldoe.org/
+  location:
+    country:
+      id: US
+      name: United States
+    level: 30
+    subregion:
+      id: US-FL
+      name: Florida
+  name: Florida Department of Education
+  type: Regional government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- education
+- statistics
+- Florida
+- indicators
+topics:
+- id: EDUC
+  name: Education, culture and sport
+  type: eudatatheme
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013957

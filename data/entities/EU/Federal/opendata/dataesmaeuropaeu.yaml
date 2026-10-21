@@ -1,0 +1,62 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Open data portal
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: EU
+      name: European Union
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+description: ESMA Data Portal of the European Securities and Markets Authority.
+  Downloadable datasets on EU securities markets, including money market statistical
+  reporting, double volume cap data under the share trading regulation, bond market
+  transparency data and other supervisory data collections.
+id: dataesmaeuropaeu
+langs:
+- id: EN
+  name: English
+link: https://data.esma.europa.eu/
+name: ESMA Data Portal
+owner:
+  link: https://www.esma.europa.eu/
+  location:
+    country:
+      id: EU
+      name: European Union
+    level: 20
+  name: European Securities and Markets Authority
+  type: International
+properties:
+  has_doi: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- finance
+- securities
+- financial markets
+- europe
+- open data
+topics:
+- id: ECON
+  name: Economy and finance
+  type: eudatatheme
+- id: Economy
+  name: Economy
+  type: iso19115
+uid: cdi00013871

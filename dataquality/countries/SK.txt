@@ -1,11 +1,29 @@
 DATA QUALITY REPORT - COUNTRY: SK
 ================================================================================
-Generated: 2026-10-06 09:14:05
+Generated: 2026-10-15 13:36:04
 Country Code: SK
-Total Records with Issues: 1
-Total Issues Found: 1
+Total Records with Issues: 2
+Total Issues Found: 3
 
 === ISSUES BY TYPE ===
+
+[PLACEHOLDER_TITLE]
+Count: 2
+Priority: MEDIUM
+
+File: SK/Federal/indicators/platysk.yaml
+Record ID: platysk
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: Platy.sk
+Suggested Action: Use a human-readable portal title instead of a URL/domain string.
+
+File: SK/Federal/indicators/platysk.yaml
+Record ID: platysk
+Issue: PLACEHOLDER_TITLE
+Field: name
+Current Value: Platy.sk
+Suggested Action: Replace domain/path-based title with a descriptive portal name.
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISSERVER]
 Count: 1
@@ -21,4 +39,5 @@ Suggested Action: Add at least one endpoint because software.id='arcgisserver' i
 
 === SUMMARY BY ISSUE TYPE ===
 
+PLACEHOLDER_TITLE: 2 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_ARCGISSERVER: 1 issue

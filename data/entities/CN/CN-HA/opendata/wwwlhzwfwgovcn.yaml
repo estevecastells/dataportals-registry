@@ -1,0 +1,46 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Open data portal
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: CN
+      name: China
+    macroregion:
+      id: '030'
+      name: Eastern Asia
+    level: 30
+    subregion:
+      id: CN-HA
+      name: Henan Sheng
+description: Open-data section of the Luohe government services portal, publishing
+  municipal public datasets through the openportal catalog.
+id: wwwlhzwfwgovcn
+langs:
+- id: ZH
+  name: Chinese
+link: http://www.lhzwfw.gov.cn/extranet/openportal/pages/default/index.html
+name: Luohe Public Data Open Platform
+owner:
+  link: http://www.lhzwfw.gov.cn/
+  location:
+    country:
+      id: CN
+      name: China
+    level: 30
+    subregion:
+      id: CN-HA
+      name: Henan Sheng
+  name: Luohe Municipal People's Government
+  type: Local government
+software:
+  id: openportal
+  name: openportal
+status: active
+tags: []
+topics: []
+uid: cdi00014063

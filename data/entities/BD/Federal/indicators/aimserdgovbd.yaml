@@ -1,0 +1,41 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: BD
+      name: Bangladesh
+    macroregion:
+      id: '034'
+      name: Southern Asia
+    level: 20
+description: Web-based Aid Information Management System of the Economic Relations
+  Division recording development activities and aid flows across sectors, projects
+  and donors, with public dashboards, charts and dynamic reports.
+id: aimserdgovbd
+langs:
+- id: EN
+  name: English
+link: http://aims.erd.gov.bd/
+name: Bangladesh Aid Information Management System (AIMS)
+owner:
+  link: http://www.erd.gov.bd
+  location:
+    country:
+      id: BD
+      name: Bangladesh
+    level: 20
+  name: Economic Relations Division
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013971

@@ -1,0 +1,39 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: World
+      name: World
+    level: 20
+    macroregion:
+      id: '001'
+      name: World
+description: Interactive indicators, notes and publications measuring digital transformation
+  across OECD and partner economies.
+id: goingdigitaloecdorg
+langs:
+- id: EN
+  name: English
+link: https://goingdigital.oecd.org/
+name: OECD Going Digital Toolkit
+owner:
+  link: null
+  location:
+    country:
+      id: World
+      name: World
+  name: Organisation for Economic Co-operation and Development
+  type: International
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00014101

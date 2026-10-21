@@ -1,0 +1,47 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+coverage:
+- location:
+    country:
+      id: FR
+      name: France
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 30
+    subregion:
+      id: FR-PDL
+      name: Pays-de-la-Loire
+description: Observatoire régional de l'emploi des Pays de la Loire publishes France
+  Travail Pays de la Loire labour-market indicators, documents and key figures for
+  regions, departments, employment basins and inter-municipal areas.
+id: observatoireemploipaysdelaloirefr
+langs:
+- id: FR
+  name: French
+link: https://observatoire-emploi-paysdelaloire.fr/
+name: Accueil par l'Observatoire régional de l'emploi des Pays de la Loire
+owner:
+  link: https://www.francetravail.fr
+  location:
+    country:
+      id: FR
+      name: France
+    level: 30
+    subregion:
+      id: FR-PDL
+      name: Pays-de-la-Loire
+  name: France Travail Pays de la Loire
+  type: Regional government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013999

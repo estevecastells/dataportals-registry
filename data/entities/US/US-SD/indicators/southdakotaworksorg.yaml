@@ -1,0 +1,60 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    macroregion:
+      id: '021'
+      name: Northern America
+    level: 30
+    subregion:
+      id: US-SD
+      name: South Dakota
+description: 'South Dakota Department of Labor and Regulation labor market information workspace on the
+  Geographic Solutions Virtual OneStop stack: employment, wage and industry data queries.'
+id: southdakotaworksorg
+langs:
+- id: EN
+  name: English
+link: https://www.southdakotaworks.org/vosnet/guest.aspx?action=lmiguest
+name: SDWorks Analyst Workspace (South Dakota LMI)
+owner:
+  link: https://dlr.sd.gov/lmic/
+  location:
+    country:
+      id: US
+      name: United States
+    level: 30
+    subregion:
+      id: US-SD
+      name: South Dakota
+  name: South Dakota Department of Labor and Regulation
+  type: Regional government
+software:
+  id: virtuallmi
+  name: Virtual LMI
+status: active
+tags:
+- labor market
+- employment
+- statistics
+- South Dakota
+- indicators
+topics:
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: ECON
+  name: Economy and finance
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013940

@@ -1,0 +1,40 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: IT
+      name: Italy
+    macroregion:
+      id: '039'
+      name: Southern Europe
+    level: 20
+description: 'Education-outcomes explorer comparing upper-secondary schools on graduate
+  results: university performance and employment two years after diploma, searchable
+  by region, province and study track.'
+id: wwweduscopioit
+langs:
+- id: IT
+  name: Italian
+link: https://www.eduscopio.it/
+name: Eduscopio
+owner:
+  link: https://www.fondazioneagnelli.it
+  location:
+    country:
+      id: IT
+      name: Italy
+  name: Fondazione Giovanni Agnelli
+  type: Civil society
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013886

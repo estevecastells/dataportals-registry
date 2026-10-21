@@ -1,15 +1,82 @@
 DATA QUALITY REPORT - COUNTRY: FR
 ================================================================================
-Generated: 2026-10-06 09:14:05
+Generated: 2026-10-15 13:36:04
 Country Code: FR
-Total Records with Issues: 13
-Total Issues Found: 18
+Total Records with Issues: 23
+Total Issues Found: 43
 
 === ISSUES BY TYPE ===
 
-[MISSING_TAGS]
-Count: 5
+[MISSING_OWNER_LINK]
+Count: 1
 Priority: LOW
+
+File: FR/Federal/indicators/observatoirenumeriquegouvfr.yaml
+Record ID: observatoirenumeriquegouvfr
+Issue: MISSING_OWNER_LINK
+Field: owner.link
+Current Value: None
+Suggested Action: Add owner organization website URL
+
+[MISSING_TAGS]
+Count: 15
+Priority: LOW
+
+File: FR/FR-OCC/indicators/observatoireemploioccitaniefr.yaml
+Record ID: observatoireemploioccitaniefr
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: FR/FR-PDL/indicators/observatoireemploipaysdelaloirefr.yaml
+Record ID: observatoireemploipaysdelaloirefr
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: FR/FR-NAQ/indicators/observatoireemploinouvelleaquitainefr.yaml
+Record ID: observatoireemploinouvelleaquitainefr
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: FR/FR-IDF/indicators/observatoireemploiiledefrancefr.yaml
+Record ID: observatoireemploiiledefrancefr
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: FR/Federal/indicators/observatoirenumeriquegouvfr.yaml
+Record ID: observatoirenumeriquegouvfr
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: FR/Federal/indicators/onisrsecuriteroutieregouvfr.yaml
+Record ID: onisrsecuriteroutieregouvfr
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: FR/Federal/indicators/octopilotpro.yaml
+Record ID: octopilotpro
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: FR/Federal/indicators/observatoiresdesloyersorg.yaml
+Record ID: observatoiresdesloyersorg
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
 
 File: FR/Federal/scientific/wwwcatdsfr.yaml
 Record ID: wwwcatdsfr
@@ -41,14 +108,84 @@ Suggested Action: Extract tags from description and catalog_type
 
 File: FR/Federal/scientific/quadrigeeaufrancefr.yaml
 Record ID: quadrigeeaufrancefr
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: FR/FR-CVL/indicators/plateformedesanteorscentreorg.yaml
+Record ID: plateformedesanteorscentreorg
+Issue: MISSING_TAGS
+Field: tags
+Current Value: []
+Suggested Action: Extract tags from description and catalog_type
+
+File: FR/FR-NOR/indicators/statoscopecariforefnormandiefr.yaml
+Record ID: statoscopecariforefnormandiefr
 Issue: MISSING_TAGS
 Field: tags
 Current Value: []
 Suggested Action: Extract tags from description and catalog_type
 
 [MISSING_TOPICS]
-Count: 5
+Count: 15
 Priority: LOW
+
+File: FR/FR-OCC/indicators/observatoireemploioccitaniefr.yaml
+Record ID: observatoireemploioccitaniefr
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: FR/FR-PDL/indicators/observatoireemploipaysdelaloirefr.yaml
+Record ID: observatoireemploipaysdelaloirefr
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: FR/FR-NAQ/indicators/observatoireemploinouvelleaquitainefr.yaml
+Record ID: observatoireemploinouvelleaquitainefr
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: FR/FR-IDF/indicators/observatoireemploiiledefrancefr.yaml
+Record ID: observatoireemploiiledefrancefr
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: FR/Federal/indicators/observatoirenumeriquegouvfr.yaml
+Record ID: observatoirenumeriquegouvfr
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: FR/Federal/indicators/onisrsecuriteroutieregouvfr.yaml
+Record ID: onisrsecuriteroutieregouvfr
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: FR/Federal/indicators/octopilotpro.yaml
+Record ID: octopilotpro
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: FR/Federal/indicators/observatoiresdesloyersorg.yaml
+Record ID: observatoiresdesloyersorg
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
 
 File: FR/Federal/scientific/wwwcatdsfr.yaml
 Record ID: wwwcatdsfr
@@ -80,6 +217,20 @@ Suggested Action: Add relevant topics based on catalog_type and description
 
 File: FR/Federal/scientific/quadrigeeaufrancefr.yaml
 Record ID: quadrigeeaufrancefr
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: FR/FR-CVL/indicators/plateformedesanteorscentreorg.yaml
+Record ID: plateformedesanteorscentreorg
+Issue: MISSING_TOPICS
+Field: topics
+Current Value: []
+Suggested Action: Add relevant topics based on catalog_type and description
+
+File: FR/FR-NOR/indicators/statoscopecariforefnormandiefr.yaml
+Record ID: statoscopecariforefnormandiefr
 Issue: MISSING_TOPICS
 Field: topics
 Current Value: []
@@ -97,8 +248,36 @@ Current Value: {'software_id': 'dataverse', 'has_api': 'Yes', 'endpoints_count':
 Suggested Action: Add at least one endpoint because software.id='dataverse' is marked as API-capable in software definitions
 
 [SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL]
-Count: 3
+Count: 7
 Priority: MEDIUM
+
+File: FR/FR-OCC/indicators/observatoireemploioccitaniefr.yaml
+Record ID: observatoireemploioccitaniefr
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL
+Field: endpoints
+Current Value: {'software_id': 'drupal', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='drupal' is marked as API-capable in software definitions
+
+File: FR/FR-NAQ/indicators/observatoireemploinouvelleaquitainefr.yaml
+Record ID: observatoireemploinouvelleaquitainefr
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL
+Field: endpoints
+Current Value: {'software_id': 'drupal', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='drupal' is marked as API-capable in software definitions
+
+File: FR/FR-IDF/indicators/observatoireemploiiledefrancefr.yaml
+Record ID: observatoireemploiiledefrancefr
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL
+Field: endpoints
+Current Value: {'software_id': 'drupal', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='drupal' is marked as API-capable in software definitions
+
+File: FR/Federal/indicators/onisrsecuriteroutieregouvfr.yaml
+Record ID: onisrsecuriteroutieregouvfr
+Issue: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL
+Field: endpoints
+Current Value: {'software_id': 'drupal', 'has_api': 'Yes', 'endpoints_count': 0}
+Suggested Action: Add at least one endpoint because software.id='drupal' is marked as API-capable in software definitions
 
 File: FR/Federal/geo/limitesmaritimesgouvfr.yaml
 Record ID: limitesmaritimesgouvfr
@@ -164,10 +343,53 @@ Suggested Action: Add at least one endpoint because software.id='wordpress' is m
 
 === SUMMARY BY ISSUE TYPE ===
 
-MISSING_TAGS: 5 issues
-MISSING_TOPICS: 5 issues
+MISSING_OWNER_LINK: 1 issue
+MISSING_TAGS: 15 issues
+MISSING_TOPICS: 15 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DATAVERSE: 1 issue
-SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL: 3 issues
+SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL: 7 issues
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_LIZMAP: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_MAPSTORE: 1 issue
 SOFTWARE_EXPECTED_ENDPOINTS_MISSING_WORDPRESS: 2 issues
+
+=== RECORDS WITH MULTIPLE ISSUES (3+) ===
+
+Record ID: observatoireemploioccitaniefr
+File: FR/FR-OCC/indicators/observatoireemploioccitaniefr.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL: endpoints
+
+Record ID: observatoireemploinouvelleaquitainefr
+File: FR/FR-NAQ/indicators/observatoireemploinouvelleaquitainefr.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL: endpoints
+
+Record ID: observatoireemploiiledefrancefr
+File: FR/FR-IDF/indicators/observatoireemploiiledefrancefr.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL: endpoints
+
+Record ID: observatoirenumeriquegouvfr
+File: FR/Federal/indicators/observatoirenumeriquegouvfr.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - MISSING_OWNER_LINK: owner.link
+
+Record ID: onisrsecuriteroutieregouvfr
+File: FR/Federal/indicators/onisrsecuriteroutieregouvfr.yaml
+Issue Count: 3
+Issues:
+  - MISSING_TOPICS: topics
+  - MISSING_TAGS: tags
+  - SOFTWARE_EXPECTED_ENDPOINTS_MISSING_DRUPAL: endpoints

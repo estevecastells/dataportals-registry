@@ -1,6 +1,6 @@
 DATA QUALITY REPORT - RULE: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_OPENSCIENCESI
 ================================================================================
-Generated: 2026-10-06 09:14:05
+Generated: 2026-10-15 13:36:04
 Issue Type: SOFTWARE_EXPECTED_ENDPOINTS_MISSING_OPENSCIENCESI
 Priority: MEDIUM
 Total Issues Found: 1

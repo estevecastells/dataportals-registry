@@ -1,0 +1,126 @@
+access_mode:
+- restricted
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+coverage:
+- location:
+    country:
+      id: AM
+      name: Armenia
+    level: 20
+    macroregion:
+      id: '145'
+      name: Western Asia
+- location:
+    country:
+      id: BY
+      name: Belarus
+    level: 20
+    macroregion:
+      id: '151'
+      name: Eastern Europe
+- location:
+    country:
+      id: KZ
+      name: Kazakhstan
+    level: 20
+    macroregion:
+      id: '143'
+      name: Central Asia
+- location:
+    country:
+      id: KG
+      name: Kyrgyzstan
+    level: 20
+    macroregion:
+      id: '143'
+      name: Central Asia
+- location:
+    country:
+      id: RU
+      name: Russian Federation
+    level: 20
+    macroregion:
+      id: '151'
+      name: Eastern Europe
+- location:
+    country:
+      id: TJ
+      name: Tajikistan
+    level: 20
+    macroregion:
+      id: '143'
+      name: Central Asia
+- location:
+    country:
+      id: AF
+      name: Afghanistan
+    level: 20
+    macroregion:
+      id: '034'
+      name: Southern Asia
+- location:
+    country:
+      id: PK
+      name: Pakistan
+    level: 20
+    macroregion:
+      id: '034'
+      name: Southern Asia
+description: EFSD analytical database aggregating sovereign financing operations by
+  international financial institutions for the fund's member states (Armenia, Belarus,
+  Kazakhstan, Kyrgyzstan, Russia, Tajikistan), extended with Afghanistan and Pakistan
+  under the CAREC Program. Data is updated quarterly; methodology is documented in
+  EFSD Working Paper WP/23/1. Full database is provided upon request via sfd@efsd.org.
+id: efsdorgsfdstatistics
+langs:
+- id: EN
+  name: English
+- id: RU
+  name: Russian
+link: https://efsd.org/en/sfd/statistics
+name: EFSD Sovereign Financing Database (SFD)
+owner:
+  link: https://efsd.org
+  location:
+    country:
+      id: World
+      name: World
+    level: 20
+  name: Eurasian Fund for Stabilization and Development
+  type: International
+properties:
+  has_doi: false
+  is_national: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: https://efsd.org/agreement
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- sovereign financing
+- statistics
+- international financial institutions
+- debt
+- EFSD
+- CAREC
+topics:
+- id: ECON
+  name: Economy and finance
+  type: eudatatheme
+- id: INTR
+  name: International issues
+  type: eudatatheme
+- id: Economy
+  name: Economy
+  type: iso19115
+uid: cdi00013857

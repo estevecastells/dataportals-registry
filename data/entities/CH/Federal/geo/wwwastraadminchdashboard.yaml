@@ -1,0 +1,54 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Geoportal
+content_types:
+- dataset
+- map_layer
+coverage:
+- location:
+    country:
+      id: CH
+      name: Switzerland
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 20
+description: 'Interactive road-accident dashboard of the Swiss Federal Roads Office
+  (ASTRA): road traffic accident statistics by theme, severity, year and region with
+  interactive maps and charts.'
+id: wwwastraadminchdashboard
+langs:
+- id: DE
+  name: German
+- id: FR
+  name: French
+link: https://www.astra.admin.ch/de/dashboard-de
+name: Unfall-Dashboard – Bundesamt für Strassen ASTRA
+owner:
+  link: https://www.astra.admin.ch
+  location:
+    country:
+      id: CH
+      name: Switzerland
+    level: 20
+  name: Bundesamt für Strassen (ASTRA)
+  type: Central government
+properties:
+  has_doi: false
+  is_national: false
+software:
+  id: experiencebuilder
+  name: ArcGIS Experience Builder
+status: active
+tags:
+- statistics
+- government
+- Switzerland
+- transport
+- road safety
+- indicators
+- accidents
+topics: []
+uid: cdi00014058

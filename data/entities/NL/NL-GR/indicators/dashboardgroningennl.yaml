@@ -1,0 +1,47 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: NL
+      name: Netherlands
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 30
+    subregion:
+      id: NL-GR
+      name: Groningen
+description: 'National government dashboard on the state of Groningen and Noord-Drenthe:
+  figures on gas-extraction damage handling, building reinforcement, earthquakes and
+  gas production.'
+id: dashboardgroningennl
+langs:
+- id: NL
+  name: Dutch
+link: https://dashboardgroningen.nl/
+name: Dashboard Groningen
+owner:
+  link: https://www.rijksoverheid.nl/
+  location:
+    country:
+      id: NL
+      name: Netherlands
+    level: 30
+    subregion:
+      id: NL-GR
+      name: Groningen
+  name: Government of the Netherlands (Rijksoverheid)
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013910

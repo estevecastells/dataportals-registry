@@ -1,0 +1,61 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    macroregion:
+      id: '021'
+      name: Northern America
+    level: 30
+    subregion:
+      id: US-NV
+      name: Nevada
+description: 'Nevada Department of Education accountability portal: customizable reports with state, district
+  and school-level data including NSPF star ratings, enrollment and assessment results.'
+id: nevadareportcardnvgov
+langs:
+- id: EN
+  name: English
+link: https://nevadareportcard.nv.gov/
+name: Nevada Report Card
+owner:
+  link: https://www.doe.nv.gov/
+  location:
+    country:
+      id: US
+      name: United States
+    level: 30
+    subregion:
+      id: US-NV
+      name: Nevada
+  name: Nevada Department of Education
+  type: Regional government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- education
+- schools
+- report cards
+- Nevada
+- statistics
+topics:
+- id: EDUC
+  name: Education, culture and sport
+  type: eudatatheme
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013936

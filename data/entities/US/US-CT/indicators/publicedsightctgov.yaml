@@ -1,0 +1,61 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    macroregion:
+      id: '021'
+      name: Northern America
+    level: 30
+    subregion:
+      id: US-CT
+      name: Connecticut
+description: 'Connecticut State Department of Education interactive data portal: enrollment, attendance,
+  assessment and accountability indicators for Connecticut public districts and schools.'
+id: publicedsightctgov
+langs:
+- id: EN
+  name: English
+link: https://public-edsight.ct.gov/
+name: Public EdSight
+owner:
+  link: https://portal.ct.gov/sde
+  location:
+    country:
+      id: US
+      name: United States
+    level: 30
+    subregion:
+      id: US-CT
+      name: Connecticut
+  name: Connecticut State Department of Education
+  type: Regional government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- education
+- schools
+- statistics
+- Connecticut
+- indicators
+topics:
+- id: EDUC
+  name: Education, culture and sport
+  type: eudatatheme
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013929

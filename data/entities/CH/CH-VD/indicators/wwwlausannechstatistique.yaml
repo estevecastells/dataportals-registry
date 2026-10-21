@@ -1,0 +1,56 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+coverage:
+- location:
+    country:
+      id: CH
+      name: Switzerland
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 30
+    subregion:
+      id: CH-VD
+      name: Vaud
+description: 'Statistical portal of the City of Lausanne: 21 themes of numbered statistical
+  tables (population, work, housing and more) with monthly-updated data, XLSX downloads,
+  district statistics and thematic maps.'
+id: wwwlausannechstatistique
+langs:
+- id: FR
+  name: French
+link: https://www.lausanne.ch/officiel/statistique.html
+name: Statistique – Ville de Lausanne
+owner:
+  link: https://www.lausanne.ch
+  location:
+    country:
+      id: CH
+      name: Switzerland
+    level: 30
+    subregion:
+      id: CH-VD
+      name: Vaud
+  name: Ville de Lausanne (Office d'appui économique et statistique)
+  type: Local government
+properties:
+  has_doi: false
+  is_national: false
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- statistics
+- government
+- official statistics
+- Switzerland
+- Lausanne
+- indicators
+topics: []
+uid: cdi00014056

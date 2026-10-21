@@ -1,0 +1,43 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: ES
+      name: Spain
+    macroregion:
+      id: '039'
+      name: Southern Europe
+    level: 20
+description: 'Tourism statistics dashboards of the Spanish State Secretariat for Tourism:
+  FRONTUR/EGATUR trips and spending, hotel and apartment occupancy, and monthly tourism
+  indicators with charts and downloadable series.'
+id: wwwdataestures
+langs:
+- id: ES
+  name: Spanish
+- id: EN
+  name: English
+link: https://www.dataestur.es/
+name: Dataestur
+owner:
+  link: https://www.mintur.gob.es
+  location:
+    country:
+      id: ES
+      name: Spain
+    level: 20
+  name: Ministerio de Industria y Turismo
+  type: Central government
+software:
+  id: wordpress
+  name: WordPress
+status: active
+tags: []
+topics: []
+uid: cdi00014018

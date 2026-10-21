@@ -1,0 +1,46 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: NL
+      name: Netherlands
+    macroregion:
+      id: '155'
+      name: Western Europe
+    level: 30
+    subregion:
+      id: NL-GR
+      name: Groningen
+description: 'Provincial indicators site of Groningen with theme monitors: sustainability,
+  economy, landscape, nature, environment, mobility, safety and key figures.'
+id: destaatvangroningennl
+langs:
+- id: NL
+  name: Dutch
+link: https://destaatvangroningen.nl/
+name: De Staat van Groningen
+owner:
+  link: https://www.provinciegroningen.nl/
+  location:
+    country:
+      id: NL
+      name: Netherlands
+    level: 30
+    subregion:
+      id: NL-GR
+      name: Groningen
+  name: Provincie Groningen
+  type: Regional government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013911

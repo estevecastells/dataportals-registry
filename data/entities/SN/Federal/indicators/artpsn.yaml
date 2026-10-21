@@ -1,0 +1,42 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: SN
+      name: Senegal
+    macroregion:
+      id: '011'
+      name: Western Africa
+    level: 20
+description: 'Observatoire des marchés des communications électroniques et des postes:
+  tableaux de bord trimestriels avec graphiques interactifs (parc d''abonnés, taux
+  de pénétration, parts de marché, revenus) et indicateurs de qualité de service par
+  opérateur.'
+id: artpsn
+langs:
+- id: FR
+  name: French
+link: https://artp.sn/observatoire
+name: ARTP – Observatoire des marchés
+owner:
+  link: null
+  location:
+    country:
+      id: SN
+      name: Senegal
+    level: 20
+  name: Autorité de Régulation des Télécommunications et des Postes (ARTP)
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013984

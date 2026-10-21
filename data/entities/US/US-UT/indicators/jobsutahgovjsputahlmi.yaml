@@ -1,0 +1,60 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    macroregion:
+      id: '021'
+      name: Northern America
+    level: 30
+    subregion:
+      id: US-UT
+      name: Utah
+description: 'Utah Department of Workforce Services LMI data tool: occupation, industry, wage and employment
+  data with query builders for Utah and its regions.'
+id: jobsutahgovjsputahlmi
+langs:
+- id: EN
+  name: English
+link: https://jobs.utah.gov/jsp/utahlmi/
+name: Utah Labor Market Information
+owner:
+  link: https://jobs.utah.gov/
+  location:
+    country:
+      id: US
+      name: United States
+    level: 30
+    subregion:
+      id: US-UT
+      name: Utah
+  name: Utah Department of Workforce Services
+  type: Regional government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- labor market
+- statistics
+- Utah
+- indicators
+topics:
+- id: ECON
+  name: Economy and finance
+  type: eudatatheme
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013965

@@ -1,0 +1,47 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    level: 20
+    macroregion:
+      id: '001'
+      name: World
+description: 'NCES DataLab Tables Library from the National Center for Education Statistics: browsable
+  library of published education statistics tables plus PowerStats online analysis over NCES survey datasets.'
+id: ncesedgovdatalab
+langs:
+- id: EN
+  name: English
+link: https://nces.ed.gov/datalab
+name: DataLab
+owner:
+  link: https://nces.ed.gov/
+  location:
+    country:
+      id: US
+      name: United States
+    level: 20
+  name: National Center for Education Statistics
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- government
+- indicators
+- statistics
+- united-states
+topics:
+- id: EDUC
+  name: Education, culture and sport
+  type: eudatatheme
+uid: cdi00013886

@@ -1,0 +1,46 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Open data portal
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: GB
+      name: United Kingdom
+    macroregion:
+      id: '154'
+      name: Northern Europe
+    level: 30
+    subregion:
+      id: GB-ENG
+      name: England
+description: Local data and intelligence partnership hub with area profiles, dashboards
+  and reports for Cambridgeshire and Peterborough.
+id: cambridgeshireinsightorguk
+langs:
+- id: EN
+  name: English
+link: https://cambridgeshireinsight.org.uk/
+name: Cambridgeshire & Peterborough Insight
+owner:
+  link: null
+  location:
+    country:
+      id: GB
+      name: United Kingdom
+    level: 30
+    subregion:
+      id: GB-ENG
+      name: England
+  name: Cambridgeshire Insight Partnership
+  type: Local government
+software:
+  id: esridataobservatory
+  name: Esri UK Data Observatory
+status: active
+tags: []
+topics: []
+uid: cdi00014032

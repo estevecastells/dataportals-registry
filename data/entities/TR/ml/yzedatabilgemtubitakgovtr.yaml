@@ -1,0 +1,48 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Machine learning catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: TR
+      name: Turkey
+    level: 20
+    macroregion:
+      id: '145'
+      name: Western Asia
+description: 'National AI open-data platform of the AI Institute (Yapay Zeka Enstitüsü)
+  at TÜBİTAK BİLGEM: public institutions share non-confidential AI datasets from the
+  YZE big-data environment as open data, with preview, download and API query.'
+id: yzedatabilgemtubitakgovtr
+langs:
+- id: TR
+  name: Turkish
+link: https://yzedata.bilgem.tubitak.gov.tr/
+name: YZE Veri Platformu
+owner:
+  link: https://www.bilgem.tubitak.gov.tr
+  location:
+    country:
+      id: TR
+      name: Turkey
+    level: 20
+  name: TÜBİTAK BİLGEM Yapay Zeka Enstitüsü
+  type: Central government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- machine learning
+- datasets
+- national AI registry
+- open data
+topics:
+- id: TECH
+  name: Science and technology
+  type: eudatatheme
+uid: cdi00013802

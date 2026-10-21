@@ -1,0 +1,61 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Datasets list
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: EU
+      name: European Union
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+description: keep.eu, the database of Interreg and pre-accession cross-border
+  cooperation projects. Covers projects, partners and programmes of EU Interreg
+  cooperation since 1990, with financial data per project and programme and
+  extracts of the underlying data.
+id: keepeu
+langs:
+- id: EN
+  name: English
+link: https://keep.eu/
+name: keep.eu - Interreg project database
+owner:
+  link: https://interact.eu/
+  location:
+    country:
+      id: EU
+      name: European Union
+    level: 20
+  name: Interreg Interact Programme
+  type: International
+properties:
+  has_doi: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- Interreg
+- cross-border cooperation
+- EU funding
+- regional policy
+topics:
+- id: REGI
+  name: Regions and cities
+  type: eudatatheme
+- id: GOVE
+  name: Government and public sector
+  type: eudatatheme
+uid: cdi00013876

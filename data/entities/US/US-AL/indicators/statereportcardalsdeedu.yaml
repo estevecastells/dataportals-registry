@@ -1,0 +1,60 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- indicator
+- dataset
+coverage:
+- location:
+    country:
+      id: US
+      name: United States
+    macroregion:
+      id: '021'
+      name: Northern America
+    level: 30
+    subregion:
+      id: US-AL
+      name: Alabama
+description: 'Alabama State Department of Education state report card portal: school and district scores
+  with supporting data and exports; companion federal report card at reportcard.alsde.edu.'
+id: statereportcardalsdeedu
+langs:
+- id: EN
+  name: English
+link: https://statereportcard.alsde.edu/
+name: Alabama State Report Card
+owner:
+  link: https://www.alabamaachieves.org/
+  location:
+    country:
+      id: US
+      name: United States
+    level: 30
+    subregion:
+      id: US-AL
+      name: Alabama
+  name: Alabama State Department of Education
+  type: Regional government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- education
+- statistics
+- Alabama
+- indicators
+topics:
+- id: EDUC
+  name: Education, culture and sport
+  type: eudatatheme
+- id: SOCI
+  name: Population and society
+  type: eudatatheme
+- id: Society
+  name: Society
+  type: iso19115
+uid: cdi00013953

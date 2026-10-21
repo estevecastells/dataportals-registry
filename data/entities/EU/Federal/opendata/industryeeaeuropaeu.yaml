@@ -1,0 +1,64 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Open data portal
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: EU
+      name: European Union
+    level: 20
+    macroregion:
+      id: '155'
+      name: Western Europe
+description: European Industrial Emissions Portal of the European Environment Agency,
+  successor of the European Pollutant Release and Transfer Register (E-PRTR) under
+  the Industrial Emissions Portal Regulation. Searchable facility-level data on
+  pollutant releases to air, water and land and waste transfers for around 33,000
+  active industrial installations in EU Member States plus Iceland, Liechtenstein,
+  Norway, Serbia and Switzerland, with data download options.
+id: industryeeaeuropaeu
+langs:
+- id: EN
+  name: English
+link: https://industry.eea.europa.eu/
+name: European Industrial Emissions Portal
+owner:
+  link: https://www.eea.europa.eu/
+  location:
+    country:
+      id: EU
+      name: European Union
+    level: 20
+  name: European Environment Agency
+  type: International
+properties:
+  has_doi: false
+rights:
+  license_id: null
+  license_name: null
+  license_url: null
+  privacy_policy_url: null
+  rights_type: unknown
+  tos_url: null
+software:
+  id: custom
+  name: Custom software
+status: active
+tags:
+- environment
+- industrial emissions
+- pollution
+- europe
+- open data
+topics:
+- id: ENVI
+  name: Environment
+  type: eudatatheme
+- id: Environment
+  name: Environment
+  type: iso19115
+uid: cdi00013872

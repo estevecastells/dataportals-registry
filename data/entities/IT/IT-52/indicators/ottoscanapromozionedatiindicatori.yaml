@@ -1,0 +1,47 @@
+access_mode:
+- open
+api: false
+api_status: uncertain
+catalog_type: Indicators catalog
+content_types:
+- dataset
+coverage:
+- location:
+    country:
+      id: IT
+      name: Italy
+    macroregion:
+      id: '039'
+      name: Southern Europe
+    level: 30
+    subregion:
+      id: IT-52
+      name: Toscana
+description: 'Tourism observatory data portal of Regione Toscana''s in-house agency:
+  interactive Redash dashboard (bi.smartregion.toscana.it) of arrivals and presences
+  by accommodation structure and territory, with downloadable CSV/XLSX series.'
+id: ottoscanapromozionedatiindicatori
+langs:
+- id: IT
+  name: Italian
+link: https://ot.toscanapromozione.it/dati-e-indicatori/
+name: Osservatorio del Turismo - Dati e indicatori
+owner:
+  link: https://www.toscanapromozione.it
+  location:
+    country:
+      id: IT
+      name: Italy
+    level: 30
+    subregion:
+      id: IT-52
+      name: Toscana
+  name: Toscana Promozione Turistica
+  type: Regional government
+software:
+  id: custom
+  name: Custom software
+status: active
+tags: []
+topics: []
+uid: cdi00013892
